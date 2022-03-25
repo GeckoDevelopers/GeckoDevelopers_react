@@ -1,0 +1,7 @@
+per creare il progetto react:
+- npx create-react-app nome-repo
+- cd nome-repo
+- npm start
+
+in caso di errore a npm start si fa:
+- npm update

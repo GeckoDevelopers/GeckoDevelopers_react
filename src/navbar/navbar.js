@@ -16,11 +16,11 @@ function Navbar() {
           <div className="right-side flex">
             <div className="nav-dropdown">
               <ul>
-                <li>/ Brune<a href="#home"></a></li>
-                <li>/ Bionde<a href="#about_us-link"></a></li>
-                <li>/ More<a href="#services-link"></a></li>
-                <li>/ Rosse<a href="#projects-link"></a></li>
-                <li>/ Castane<a href="#contacts"></a></li>
+                <li><a href="#home">/ HOME</a></li>
+                <li><a href="#about_us-link">/ ABOUT US</a></li>
+                <li><a href="#services-link">/ SERVICES</a></li>
+                <li><a href="#projects-link">/ PORTFOLIO</a></li>
+                <li><a href="#contacts">/ CONTACTS</a></li>
               </ul>
             </div>
             <div class="hamburger flex" onClick="openDropdown">

@@ -1,7 +1,9 @@
-import React from "react";
 import './navbar.scss';
+import { getEngb_text } from "../lingue/inglese";
+
 
 function Navbar() {
+  var engb_text = getEngb_text();
   return (
     <nav>
       <div className="container-custom-nav">
@@ -16,11 +18,11 @@ function Navbar() {
           <div className="right-side flex">
             <div className="nav-dropdown">
               <ul>
-                <li><a href="#home">/ HOME</a></li>
-                <li><a href="#about_us-link">/ ABOUT US</a></li>
-                <li><a href="#services-link">/ SERVICES</a></li>
-                <li><a href="#projects-link">/ PORTFOLIO</a></li>
-                <li><a href="#contacts">/ CONTACTS</a></li>
+                <li><a href="#home">{engb_text.navbar.home}</a></li>
+                <li><a href="#about_us-link">{engb_text.navbar.about_us}</a></li>
+                <li><a href="#services-link">{engb_text.navbar.services}</a></li>
+                <li><a href="#projects-link">{engb_text.navbar.portfolio}</a></li>
+                <li><a href="#contacts">{engb_text.navbar.contacts}</a></li>
               </ul>
             </div>
             <div class="hamburger flex" onClick="openDropdown">

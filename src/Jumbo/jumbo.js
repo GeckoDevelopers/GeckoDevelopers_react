@@ -1,10 +1,9 @@
-import React from "react";
 import './jumbo.scss';
 import { getEngb_text } from "../lingue/inglese";
 
 
 function Jumbo() {
-  var testo_inglese = getEngb_text();
+  var engb_text = getEngb_text();
   return (
     <section id="home" class="jumbo">
             
@@ -12,7 +11,7 @@ function Jumbo() {
         <div class="container-custom flex">
             
           <div class="jumbo-title">
-            <h1> <br/> </h1>
+            <h1>{engb_text.jumbo.title1}<br/>{engb_text.jumbo.title2}</h1>
           </div>
 
           <div class="divider">
@@ -27,7 +26,7 @@ function Jumbo() {
           </div>
 
           <div class="jumbo-subtitle">
-              <h3></h3>
+              <h3>{engb_text.jumbo.subtitle}</h3>
           </div>
         </div>
       </div>

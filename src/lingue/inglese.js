@@ -1,10 +1,10 @@
-var engb_text = {
+let engb_text = {
   navbar: {
-    home: "Home",
-    about_us: "About us",
-    services: "Services",
-    portfolio: "Projects",
-    contacts: "Contacts",
+    home: "/ home",
+    about_us: "/ about us",
+    services: "/ services",
+    portfolio: "/ projects",
+    contacts: "/ contacts",
   },
   jumbo: {
     title1: "A COMPANY FOR ALL YOUR NEEDS",

@@ -1,3 +1,10 @@
+
+
+
+
+
+/*
+
 import React from "react";
 import './nomeparte.scss';
 
@@ -8,3 +15,5 @@ function nomeparte() {
 };
 
 export default nomeparte;
+
+*/

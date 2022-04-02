@@ -1,15 +1,18 @@
 import React from "react";
-import './nomeparte.scss';
+import './jumbo.scss';
+import { getEngb_text } from "../lingue/inglese";
 
-function nomeparte() {
+
+function Jumbo() {
+  var testo_inglese = getEngb_text();
   return (
     <section id="home" class="jumbo">
             
       <div class="jumbo flex">
-        <div class="container-custom flex"><!-- css in _common.scss -->
+        <div class="container-custom flex">
             
           <div class="jumbo-title">
-            <h1>{{__('home.jumbo.title')}}<br>{{__('home.jumbo.title2')}}</h1>
+            <h1> <br/> </h1>
           </div>
 
           <div class="divider">
@@ -24,7 +27,7 @@ function nomeparte() {
           </div>
 
           <div class="jumbo-subtitle">
-              <h3>{{__('home.jumbo.subtitle')}}</h3>
+              <h3></h3>
           </div>
         </div>
       </div>
@@ -32,4 +35,4 @@ function nomeparte() {
   );
 };
 
-export default nomeparte;
+export default Jumbo;

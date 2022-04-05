@@ -1,5 +1,7 @@
 import './navbar.scss';
 import { getEngb_text } from "../lingue/inglese";
+import { Link } from "react-router-dom";
+import Home from '../home/home';
 
 
 export default function Navbar() {
@@ -10,9 +12,9 @@ export default function Navbar() {
         <div className="nav-content">
           <div className="left-side">
             <div className="logo">
-              <a href="homepage">
+              <Link to="/" component={Home} class="carta">
                 <img src="img/gecko-nav-v2.png" alt="" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="right-side flex">

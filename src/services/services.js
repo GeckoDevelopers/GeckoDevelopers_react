@@ -1,8 +1,9 @@
 import './services.scss';
 import { getEngb_text } from "../lingue/inglese";
+import { Link } from "react-router-dom";
+import Full from "../full_services/full"
 
-
-function About_us() {
+export default function About_us() {
   var engb_text = getEngb_text();
   return (
     <section id="services">
@@ -28,14 +29,22 @@ function About_us() {
 
           <div class="trasparente full_gray">
             <div class="carta_container">
-              <a class="carta" href="{{route('services', ['service' => 'full'])}}">
+              {/* <a class="carta" href="{{route('services', ['service' => 'full'])}}">
                 <div class="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
                 <p>{engb_text.services.title}</p>
                 <span>View more...</span>
-              </a>
+              </a> */}
+              <Link to="/full" component={Full} class="carta">
+                <div class="flex">
+                  <img src="" alt="" />
+                  <h3>{engb_text.services.title}</h3>
+                </div>
+                <p>{engb_text.services.title}</p>
+                <span>View more...</span>
+              </Link>
             </div>
           </div>
 
@@ -133,7 +142,3 @@ function About_us() {
     </section>
   );
 };
-
-export default About_us;
-
-{/* <h3>{engb_text.jumbo.subtitle}</h3> */}

@@ -2,7 +2,7 @@ import './navbar.scss';
 import { getEngb_text } from "../lingue/inglese";
 
 
-function Navbar() {
+export default function Navbar() {
   var engb_text = getEngb_text();
   return (
     <nav>
@@ -36,5 +36,3 @@ function Navbar() {
     </nav>
   );
 };
-
-export default Navbar;

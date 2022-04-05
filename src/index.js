@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import Navbar from './navbar/navbar';
-import Jumbo from './Jumbo/jumbo';
-import About_us from './about_us/about_us';
-import Services from './services/services';
+import Home from './home/home';
+
 
 // import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
@@ -14,9 +13,7 @@ import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
     <Navbar />
-    <Jumbo />
-    <About_us />
-    <Services />
+    <Home />
   </BrowserRouter>,
   document.getElementById('root')
 );

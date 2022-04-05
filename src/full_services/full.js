@@ -1,8 +1,8 @@
-import './about_us.scss';
+import './full.scss';
 import { getEngb_text } from "../lingue/inglese";
 
 
-function Jumbo() {
+export default function FullServices () {
   var engb_text = getEngb_text();
   return (
     <section class="container-services full_gray">
@@ -35,14 +35,10 @@ function Jumbo() {
           </ul>
           <p>For more information, <a id="get-touch" class="full_gray" href="./#contacts">get in touch</a> with us!</p>
         </div>
-        @for($i = 0; $i < 500; $i++)
+        {/* @for($i = 0; $i < 500; $i++)
         <div class="ombra full_gray"></div>
-        @endfor
+        @endfor */}
       </div>
     </section>
   );
 };
-
-export default Jumbo;
-
-{/* <h3>{engb_text.jumbo.subtitle}</h3> */}

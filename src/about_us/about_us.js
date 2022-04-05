@@ -33,5 +33,3 @@ function Jumbo() {
 };
 
 export default Jumbo;
-
-{/* <h3>{engb_text.jumbo.subtitle}</h3> */}

@@ -1,0 +1,71 @@
+@import './src/variabili.scss';
+
+.verdastro {
+    background-color: $green;
+}
+.grigiastro {
+    background-color: $gray;
+}
+footer {
+    color: $white;
+    text-align: center;
+    .container-custom {
+        padding: 20px 18px; /*fix*/
+        justify-content: center;
+        h2 {
+            font-family: $font-titolo;
+            font-size: 15px; /*fix*/
+            margin-bottom: 15px; /*fix*/
+        }
+        p {
+            font-size: 12px; /*fix*/
+            line-height: 12px; /*fix*/
+            margin: 5px; /*fix*/
+        }
+    }
+    .divider {
+        // palette colori
+        width: 100%;
+        height: 7px; /*fix*/
+        display: flex;
+        div {
+            width: calc(100%/8);
+            height: 100%;
+        }
+        .red {
+            background-color: $red;
+        }
+        .orange {
+            background-color: $orange;
+        }
+        .yellow {
+            background-color: $yellow;
+        }
+        .white {
+            background-color: $white;
+        }
+        .light-green {
+            background-color: $light-green;
+        }
+        .green {
+            background-color: $green;
+        }
+        .dark-green {
+            background-color: $dark-green;
+        }
+        .gray {
+            background-color: $gray;
+        }
+    }
+}
+
+// .social {
+//     a {
+//         i {
+//             font-size: 25px;
+//             margin: 0 15px;
+//             cursor: pointer;
+//             color: #fff;
+//         }
+//     }
+// }

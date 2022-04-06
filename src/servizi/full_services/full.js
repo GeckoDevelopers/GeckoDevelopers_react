@@ -1,9 +1,9 @@
 import './full.scss';
-import { getEngb_text } from "../lingue/inglese";
+/* import { getEngb_text } from "../../lingue/inglese"; */
 
 
 export default function FullServices () {
-  var engb_text = getEngb_text();
+  /* var engb_text = getEngb_text(); */
   return (
     <section class="container-services full_gray">
       <div class="card-mover">

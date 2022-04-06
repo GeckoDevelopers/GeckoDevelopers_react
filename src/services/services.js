@@ -1,7 +1,8 @@
 import './services.scss';
 import { getEngb_text } from "../lingue/inglese";
 import { Link } from "react-router-dom";
-import Full from "../full_services/full"
+import Full from "../servizi/full_services/full"
+import Individuals from '../servizi/individuals/individuals';
 
 export default function About_us() {
   var engb_text = getEngb_text();
@@ -29,14 +30,6 @@ export default function About_us() {
 
           <div class="trasparente full_gray">
             <div class="carta_container">
-              {/* <a class="carta" href="{{route('services', ['service' => 'full'])}}">
-                <div class="flex">
-                  <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
-                </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
-              </a> */}
               <Link to="/full" component={Full} class="carta">
                 <div class="flex">
                   <img src="" alt="" />
@@ -55,14 +48,14 @@ export default function About_us() {
 
           <div class="trasparente individuals_el_green">
             <div class="carta_container">
-              <a class="carta" href="{{route('services', ['service' => 'website-services'])}}">
+              <Link class="carta" to="/individuals" component={Individuals} >
                 <div class="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
                 <p>{engb_text.services.title}</p>
                 <span>View more...</span>
-              </a>
+              </Link>
             </div>
           </div>
 

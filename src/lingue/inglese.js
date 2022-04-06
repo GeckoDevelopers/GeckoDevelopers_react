@@ -17,75 +17,114 @@ let engb_text = {
   },
   services: {
     title: "SERVICES",
+    paragrafo1: "Gecko Developers is able to offer a wide variety of services to help you realize your dream website. From the initial design, to creating content, to your digital presence, Gecko Developers can work with you from the beginning, and continue to work with you along the way to make sure everything is being run smoothly, and the way you desired.",
+    paragrafo2: "You are free to choose any or multiple services from our offerings that better suit your needs.",
+  },
+  card_full: {
+    title: "FULL PACKAGE",
+    paragrafo: "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise.",
+  },
+  card_individuals: {
+    title: "WEBSITE FOR INDIVIDUALS",
+    paragrafo: "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility.",
+  },
+  card_companies: {
+    title: "WEBSITE FOR COMPANIES",
+    paragrafo: "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers.",
+  },
+  card_design: {
+    title: "CREATIVE DESIGN",
+    paragrafo: "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team.",
+  },
+  card_support: {
+    title: "CONTINUOUS SUPPORT",
+    paragrafo: "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly.",
+  },
+  card_content_creation: {
+    title: "CONTENT CREATION",
+    paragrafo: "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts.",
+  },
+  card_marketing: {
+    title: "MARKETING ACTIVITIES AND CONSULTANCY",
+    paragrafo: "Constructing necessary marketing activities, campaigns, both online and offline, to better promote your brand or your business to your audience and customers, help you generate leads and revenue, with the help of our expert marketers and strategists.",
+  },
+  projects: {
+    title: "PROJECTS",
+  },
+  contact: {
+    title: "NEED MORE INFORMATION AND ESTIMATE?",
+  },
+
+/* contenuti delle schede singole dei servizi */
+  full: {
+    title: "FULL PACKAGE",
+    paragrafo1: "When forming a new business or developing your own brand, there are many various aspects and activities to consider. Forming efficient consistency across all channels and all activities is fundamental to boost up your brand, build meaningful relationships with your stakeholders, partners, customers, and your audience.",
+    paragrafo2: "Properly planning and strategizing any activity and asset you create from the start will also help you maintain a stable positive outcome throughout your journey, while also helping you make faster decisions and adapt to difficult situations easier.",
+    paragrafo3: "Our services for Full Package include:",
+    paragrafo4: "", // è una UL e non so come inserirla
+    paragrafo5: "For more information, get in touch with us!", // serve il link su get in touch
+  },
+  full: {
+    title: "FULL PACKAGE",
     paragrafo1: "",
     paragrafo2: "",
-    
-  }
+    paragrafo3: "",
+    paragrafo4: "",
+    paragrafo5: "",
+  },
+  full: {
+    title: "FULL PACKAGE",
+    paragrafo1: "",
+    paragrafo2: "",
+    paragrafo3: "",
+    paragrafo4: "",
+    paragrafo5: "",
+  },
+  full: {
+    title: "FULL PACKAGE",
+    paragrafo1: "",
+    paragrafo2: "",
+    paragrafo3: "",
+    paragrafo4: "",
+    paragrafo5: "",
+  },
+  full: {
+    title: "FULL PACKAGE",
+    paragrafo1: "",
+    paragrafo2: "",
+    paragrafo3: "",
+    paragrafo4: "",
+    paragrafo5: "",
+  },
+  full: {
+    title: "FULL PACKAGE",
+    paragrafo1: "",
+    paragrafo2: "",
+    paragrafo3: "",
+    paragrafo4: "",
+    paragrafo5: "",
+  },
+  full: {
+    title: "FULL PACKAGE",
+    paragrafo1: "",
+    paragrafo2: "",
+    paragrafo3: "",
+    paragrafo4: "",
+    paragrafo5: "",
+  },
 };
 
 export function getEngb_text() {
   return engb_text;
 }
-
-// export function getInvoice(number) {
-//   return invoices.find(
-//     (invoice) => invoice.number === number
-//   );
-// }
-
-
-
 /*
-
-    "services" => [
-        "title" => "SERVICES",
-        "subtitle" =>  "Gecko Developers is able to offer a wide variety of services to help you realize your dream website. From the initial design, to creating content, to your digital presence, Gecko Developers can work with you from the beginning, and continue to work with you along the way to make sure everything is being run smoothly, and the way you desired.",
-        "subtitle2" => "You are free to choose any or multiple services from our offerings that better suit your needs.",
-
-        "full" => "FULL PACKAGE",
-        "content1" => "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise.",
-
-        "individuals" => "WEBSITE FOR INDIVIDUALS",
-        "content2" => "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility.",
-
-        "companies" => "WEBSITE FOR COMPANIES",
-        "content3" => "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers.",
-
-        "design" => "CREATIVE DESIGN",
-        "content4" => "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team.",
-
-        "support" => "CONTINUOUS SUPPORT",
-        "content5" => "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly.",
-
-        "content_creation" => "CONTENT CREATION",
-        "content6" => "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts.",
-
-        "marketing" => "MARKETING ACTIVITIES AND CONSULTANCY",
-        "content7" => "Constructing necessary marketing activities, campaigns, both online and offline, to better promote your brand or your business to your audience and customers, help you generate leads and revenue, with the help of our expert marketers and strategists.",
-    ],
-    "projects" => [
-        "title" => "PROJECTS",
-    ],
-    "contact" => [
-        "title" => "NEED MORE INFORMATION AND ESTIMATE?",
-    ],
-
-// contenuti delle schede singole dei servizi
-    "full" => [
-        "title" => "FULL PACKAGE",
-        "content1" => "When forming a new business or developing your own brand, there are many various aspects and activities to consider. Forming efficient consistency across all channels and all activities is fundamental to boost up your brand, build meaningful relationships with your stakeholders, partners, customers, and your audience.",
-        "content2" => "Properly planning and strategizing any activity and asset you create from the start will also help you maintain a stable positive outcome throughout your journey, while also helping you make faster decisions and adapt to difficult situations easier.",
-        "content3" => "Our services for Full Package include:",
-        "content4" => "", // è una UL e non so come inserirla
-        "content5" => "For more information, get in touch with us!", // serve il link su get in touch
-    ],
     "individuals" => [
         "title" => "WEBSITE FOR INDIVIDUALS",
         "content1" => "Having a website online is becoming one of the most efficient ways to showcase who you are, what you are capable of, as well as can act like your online portfolio. Whether you are a photographer, artist, architect, designer, musician, or a blogger, having your content and your work reached to as many people, in the most clear and well-designed way is crucial for you to increase your personal brand’s image.",
         "content2" => "Showcasing your work and content through a website can also help you increase credibility, while appearing more professional to your audience, fans, followers, even future employers.",
         "content3" => "Through our expert developers, we offer website creation for different levels of interactivity that suits your needs and values.",
         "content4" => "",
-        "content5" => "For more information, get in touch with us!", // serve il link su get in touch
+        "content5" => "For more information, get in touch with us!", 
     ],
     "companies" => [
         "title" => "WEBSITE FOR COMPANIES",

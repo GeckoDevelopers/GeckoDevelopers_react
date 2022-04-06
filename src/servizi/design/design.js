@@ -1,0 +1,39 @@
+import "./design.scss";
+/* import { getEngb_text } from "../../lingue/inglese"; */
+
+export default function Design() {
+  /* var engb_text = getEngb_text(); */
+  
+  return(
+    <section class="container-services  design_dk_green">
+      <div class="card-mover">
+        <div class="card">
+          <div class="flex main-title">
+            <img src="./images/icon_creative.png" alt=""/>
+            <h2>Creative Design</h2>
+          </div>
+          <p class="description">
+            As simple as it may sound, having professionally done visual assets, from your logo to a video or imagery, not only provides consistency and visual appeal, but can also boost up the credibility of your brand, establish meaningful relationships with your customers and target audience, as well as deliver your message across more efficiently.
+          </p>
+          <div class="sidetext flex">
+            <img src="./images/img-services_creative.png" alt=""/>
+          </div>
+          <p>Our services for Creative Design include:</p>
+          <ul>
+            <li><i class="fas fa-caret-right"></i>Logo design</li>
+            <li><i class="fas fa-caret-right"></i>Web design</li>
+            <li><i class="fas fa-caret-right"></i>Sound design</li>
+            <li><i class="fas fa-caret-right"></i>Video creation and editing</li>
+            <li><i class="fas fa-caret-right"></i>Imagery</li>
+            <li><i class="fas fa-caret-right"></i>Motion graphics</li>
+          </ul>
+          <p>For more information, <a id="get-touch" class=" design_dk_green" href="./#contacts">get in touch</a> with us!</p>
+        </div>
+        {/* @for($i = 0; $i < 500; $i++)
+        <div class="ombra  design_dk_green"></div>
+        @endfor */}
+      </div>
+    </section>
+
+  )
+}

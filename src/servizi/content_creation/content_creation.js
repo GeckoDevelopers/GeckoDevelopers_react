@@ -4,19 +4,19 @@ import "./content_creation.scss"
  export default function ContentCreation() {
   /* var engb_text = getEngb_text(); */
   return (
-    <section class="container-services  content_orange">
-      <div class="card-mover">
-        <div class="card">
-          <div class="flex main-title">
+    <section className="container-services  content_orange">
+      <div className="card-mover">
+        <div className="card">
+          <div className="flex main-title">
             <img src="./images/icon_content.png" alt=""/>
               <h2>Content Creation</h2>
           </div>
-            <p class="description">
+            <p className="description">
               Your content is the most crucial asset you have. It identifies your brand, who you are, what you offer or deliver, helps you connect with your audience, fans, customers, future employers, as well as promote you and/or your brand and company.
             </p>
-            <div class="sidetext flex">
+            <div className="sidetext flex">
               <img src="./images/img-services_content.png" alt=""/>
-              <div class="text">
+              <div className="text">
                 <hr/>
                 <h2>PLANS & STRATEGIES</h2>
                 <p>
@@ -26,14 +26,14 @@ import "./content_creation.scss"
             </div>
             <p>Our services for Content Creation include:</p>
             <ul>
-              <li><i class="fas fa-caret-right"></i>Creating content for your website</li>
-              <li><i class="fas fa-caret-right"></i>Developing content for your social media accounts</li>
-              <li><i class="fas fa-caret-right"></i>Content creation consultancy and improvements</li>
+              <li><i className="fas fa-caret-right"></i>Creating content for your website</li>
+              <li><i className="fas fa-caret-right"></i>Developing content for your social media accounts</li>
+              <li><i className="fas fa-caret-right"></i>Content creation consultancy and improvements</li>
             </ul>
-            <p>For more information, <a id="get-touch" class=" content_orange" href="./#contacts">get in touch</a> with us!</p>
+            <p>For more information, <a id="get-touch" className=" content_orange" href="./#contacts">get in touch</a> with us!</p>
           </div>
           {/* @for($i = 0; $i < 500; $i++)
-          <div class="ombra  content_orange"></div>
+          <div className="ombra  content_orange"></div>
           @endfor */}
       </div>
     </section>

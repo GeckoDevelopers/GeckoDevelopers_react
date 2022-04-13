@@ -4,19 +4,19 @@ import './companies.scss';
 export default function Companies() {
   /* var engb_text = getEngb_text(); */
   return (
-    <section class="container-services  companies_green">
-      <div class="card-mover">
-        <div class="card">
-          <div class="flex main-title">
+    <section className="container-services  companies_green">
+      <div className="card-mover">
+        <div className="card">
+          <div className="flex main-title">
             <img src="./images/icon_companies.png" alt=""/>
             <h2>Website for Companies</h2>
           </div>
-          <p class="description">
+          <p className="description">
             If you’re developing a start-up, reaching for your dreams or opening a store, it is crucial to have a website that clearly showcases your identity and connects with your target audience and customers in an in-depth, as well as professional and clear way. Having your own website will help you increase credibility, exchange information, grant 24/7 accessibility, market expansion, advertising, while cutting down your costs.
           </p>
-          <div class="sidetext flex">
+          <div className="sidetext flex">
             <img src="./images/img-services_companies.png" alt=""/>
-            <div class="text">
+            <div className="text">
               <hr/>
               <h2>PLANS & STRATEGIES</h2>
               <p>
@@ -24,13 +24,13 @@ export default function Companies() {
               </p>
             </div>
           </div>
-            <p class="ul">
+            <p className="ul">
                 Through our expert developers, we offer website creation for different levels of interactivity that suits your company’s needs and values.
             </p>
-            <p>For more information, <a id="get-touch" class=" companies_green" href="./#contacts">get in touch</a> with us!</p>
+            <p>For more information, <a id="get-touch" className=" companies_green" href="./#contacts">get in touch</a> with us!</p>
         </div>
           {/* @for($i = 0; $i < 500; $i++)
-          <div class="ombra  companies_green"></div>
+          <div className="ombra  companies_green"></div>
           @endfor */}
       </div>
     </section>

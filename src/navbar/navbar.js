@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="nav-content">
           <div className="left-side">
             <div className="logo">
-              <Link to="/" component={Home} class="carta">
+              <Link to="/" component={Home} className="carta">
                 <img src="img/gecko-nav-v2.png" alt="" />
               </Link>
             </div>
@@ -20,11 +20,11 @@ export default function Navbar() {
           <div className="right-side flex">
             <div className="nav-dropdown">
               <ul>
-                if (path="/full") {
-                  console.log("success")                  
+                {/* if (window.location.href=="address to check") {
+                  console.log("success")
                 } else {
                   console.log("fail")
-                }
+                } */}
                 <li><a href="#home">{engb_text.navbar.home}</a></li>
                 <li><a href="#about_us-link">{engb_text.navbar.about_us}</a></li>
                 <li><a href="#services-link">{engb_text.navbar.services}</a></li>
@@ -32,10 +32,10 @@ export default function Navbar() {
                 <li><a href="#contacts">{engb_text.navbar.contacts}</a></li>
               </ul>
             </div>
-            <div class="hamburger flex" onClick="openDropdown">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
+            <div className="hamburger flex" onClick="openDropdown">
+              <div className="line1"></div>
+              <div className="line2"></div>
+              <div className="line3"></div>
             </div>
           </div>
         </div>

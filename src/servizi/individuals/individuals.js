@@ -5,19 +5,19 @@ import './individuals.scss';
 export default function Individuals() {
  /*  var engb_text = getEngb_text(); */
   return (
-    <section class="container-services  individuals_el_green">
-      <div class="card-mover">
-        <div class="card">
-          <div class="flex main-title">
+    <section className="container-services  individuals_el_green">
+      <div className="card-mover">
+        <div className="card">
+          <div className="flex main-title">
             <img src="./images/icon_individuals.png" alt=""/>
             <h2>Website for Individuals</h2>
           </div>
-          <p class="description">
+          <p className="description">
             Having a website online is becoming one of the most efficient ways to showcase who you are, what you are capable of, as well as can act like your online portfolio. Whether you are a photographer, artist, architect, designer, musician, or a blogger, having your content and your work reached to as many people, in the most clear and well-designed way is crucial for you to increase your personal brand’s image.
           </p>
-          <div class="sidetext flex">
+          <div className="sidetext flex">
             <img src="./images/img-services_individuals.png" alt=""/>
-            <div class="text">
+            <div className="text">
               <hr/>
               <h2>PLANS & STRATEGIES</h2>
               <p>
@@ -26,12 +26,12 @@ export default function Individuals() {
             </div>
           </div>
 
-            <p class="ul">Through our expert developers, we offer website creation for different levels of interactivity that suits your needs and values.</p>
+            <p className="ul">Through our expert developers, we offer website creation for different levels of interactivity that suits your needs and values.</p>
 
-            <p>For more information, <a id="get-touch" class=" individuals_el_green" href="./#contacts">get in touch</a> with us!</p>
+            <p>For more information, <a id="get-touch" className=" individuals_el_green" href="./#contacts">get in touch</a> with us!</p>
         </div>
         {/* @for($i = 0; $i < 500; $i++)
-        <div class="ombra  individuals_el_green"></div>
+        <div className="ombra  individuals_el_green"></div>
         @endfor */}
     </div>
     </section>

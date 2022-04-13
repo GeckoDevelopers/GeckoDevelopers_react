@@ -13,13 +13,13 @@ export default function About_us() {
   var engb_text = getEngb_text();
   return (
     <section id="services">
-      <span class="link" id="services-link"></span>
-      <div class="container-custom">
+      <span className="link" id="services-link"></span>
+      <div className="container-custom">
 
 {/* <!-- ROW COL TESTO --> */}
-        <div class="riga">
-          <div class="col-md-8">
-            <div class="intestazione flex">
+        <div className="riga">
+          <div className="col-md-8">
+            <div className="intestazione flex">
               <h2>{engb_text.services.title}</h2>
               <hr />
               <img src="./images/similmenu-white.svg" alt="" />
@@ -33,10 +33,10 @@ export default function About_us() {
             </p>
           </div>
 
-          <div class="trasparente full_gray">
-            <div class="carta_container">
-              <Link to="/full" component={Full} class="carta">
-                <div class="flex">
+          <div className="trasparente full_gray">
+            <div className="carta_container">
+              <Link to="/full" component={Full} className="carta">
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
@@ -49,12 +49,12 @@ export default function About_us() {
         </div>
 
 {/* <!-- PRIMA ROW --> */}
-        <div class="riga">
+        <div className="riga">
 
-          <div class="trasparente individuals_el_green">
-            <div class="carta_container">
-              <Link class="carta" to="/individuals" component={Individuals} >
-                <div class="flex">
+          <div className="trasparente individuals_el_green">
+            <div className="carta_container">
+              <Link className="carta" to="/individuals" component={Individuals} >
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
@@ -64,10 +64,10 @@ export default function About_us() {
             </div>
           </div>
 
-          <div class="trasparente companies_green">
-            <div class="carta_container">
-              <Link class="carta" to="/companies" component={Companies}>
-                <div class="flex">
+          <div className="trasparente companies_green">
+            <div className="carta_container">
+              <Link className="carta" to="/companies" component={Companies}>
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
@@ -77,10 +77,10 @@ export default function About_us() {
             </div>
           </div>
 
-          <div class="trasparente design_dk_green">
-            <div class="carta_container">
-              <Link class="carta" to="/design" component={Design}>
-                <div class="flex">
+          <div className="trasparente design_dk_green">
+            <div className="carta_container">
+              <Link className="carta" to="/design" component={Design}>
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
@@ -93,12 +93,12 @@ export default function About_us() {
         </div>
 
 {/* <!-- SECONDA ROEW --> */}
-        <div class="riga">
+        <div className="riga">
 
-          <div class="trasparente continuous_yellow">
-            <div class="carta_container">
-              <Link class="carta" to="/support" component={Support}>
-                <div class="flex">
+          <div className="trasparente continuous_yellow">
+            <div className="carta_container">
+              <Link className="carta" to="/support" component={Support}>
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
@@ -108,10 +108,10 @@ export default function About_us() {
             </div>
           </div>
 
-          <div class="trasparente content_orange">
-            <div class="carta_container">
-              <Link class="carta" to="/content-creation" component={ContentCreation}>
-                <div class="flex">
+          <div className="trasparente content_orange">
+            <div className="carta_container">
+              <Link className="carta" to="/content-creation" component={ContentCreation}>
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>
@@ -121,10 +121,10 @@ export default function About_us() {
             </div>
           </div>
 
-          <div class="trasparente marketing_red">
-            <div class="carta_container">
-              <Link class="carta" to="/marketing" component={Marketing}>
-                <div class="flex">
+          <div className="trasparente marketing_red">
+            <div className="carta_container">
+              <Link className="carta" to="/marketing" component={Marketing}>
+                <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.services.title}</h3>
                 </div>

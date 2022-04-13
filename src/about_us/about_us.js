@@ -7,11 +7,11 @@ function Jumbo() {
   return (
     <section id="about_us">
       
-      <span class="link" id="about_us-link"></span>
+      <span className="link" id="about_us-link"></span>
         
-        <div class="container-custom">
+        <div className="container-custom">
           
-          <div class="intestazione flex">
+          <div className="intestazione flex">
             
             <h2>{engb_text.about.title}</h2>
             <hr />
@@ -21,9 +21,9 @@ function Jumbo() {
           
           <p>{engb_text.about.subtitle}</p>
           
-          <div class="cards">
-              <img class="imgdesk" src="./img/img-about_us.png" alt=""/>
-              <img class="imgmobile" src="./img/about_us-large.png" alt=""/>
+          <div className="cards">
+              <img className="imgdesk" src="./img/img-about_us.png" alt=""/>
+              <img className="imgmobile" src="./img/about_us-large.png" alt=""/>
           </div>
         
         </div>

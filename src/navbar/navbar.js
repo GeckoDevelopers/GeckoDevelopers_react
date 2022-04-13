@@ -20,6 +20,11 @@ export default function Navbar() {
           <div className="right-side flex">
             <div className="nav-dropdown">
               <ul>
+                if (path="/full") {
+                  console.log("success")                  
+                } else {
+                  console.log("fail")
+                }
                 <li><a href="#home">{engb_text.navbar.home}</a></li>
                 <li><a href="#about_us-link">{engb_text.navbar.about_us}</a></li>
                 <li><a href="#services-link">{engb_text.navbar.services}</a></li>

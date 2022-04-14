@@ -16,20 +16,21 @@ export default function About_us() {
       <span className="link" id="services-link"></span>
       <div className="container-custom">
 
-{/* <!-- ROW COL TESTO --> */}
+{/* <!-- prima ROW COL TESTO --> */}
         <div className="riga">
+
           <div className="col-md-8">
             <div className="intestazione flex">
               <h2>{engb_text.services.title}</h2>
               <hr />
-              <img src="./images/similmenu-white.svg" alt="" />
+              <img src="./img/similmenu-white.svg" alt="image for style" />
             </div>
        
             <p>
-              {engb_text.services.title}
+              {engb_text.services.paragrafo1}
               <br />
               <br />
-              {engb_text.services.title}
+              {engb_text.services.paragrafo2}
             </p>
           </div>
 
@@ -38,17 +39,17 @@ export default function About_us() {
               <Link to="/full" component={Full} className="carta">
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_full.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_full.paragrafo}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>
 
         </div>
 
-{/* <!-- PRIMA ROW --> */}
+{/* <!-- seconda ROW --> */}
         <div className="riga">
 
           <div className="trasparente individuals_el_green">
@@ -56,10 +57,10 @@ export default function About_us() {
               <Link className="carta" to="/individuals" component={Individuals} >
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_individuals.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_individuals.paragrafo}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>
@@ -69,10 +70,10 @@ export default function About_us() {
               <Link className="carta" to="/companies" component={Companies}>
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_companies.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_companies.paragrafo}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>
@@ -82,17 +83,17 @@ export default function About_us() {
               <Link className="carta" to="/design" component={Design}>
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_design.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_design.title}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>
 
         </div>
 
-{/* <!-- SECONDA ROEW --> */}
+{/* <!-- terza ROEW --> */}
         <div className="riga">
 
           <div className="trasparente continuous_yellow">
@@ -100,10 +101,10 @@ export default function About_us() {
               <Link className="carta" to="/support" component={Support}>
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_support.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_support.paragrafo}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>
@@ -113,10 +114,10 @@ export default function About_us() {
               <Link className="carta" to="/content-creation" component={ContentCreation}>
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_content_creation.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_content_creation.paragrafo}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>
@@ -126,10 +127,10 @@ export default function About_us() {
               <Link className="carta" to="/marketing" component={Marketing}>
                 <div className="flex">
                   <img src="" alt="" />
-                  <h3>{engb_text.services.title}</h3>
+                  <h3>{engb_text.card_marketing.title}</h3>
                 </div>
-                <p>{engb_text.services.title}</p>
-                <span>View more...</span>
+                <p>{engb_text.card_marketing.paragrafo}</p>
+                <span>{engb_text.card_view_more}</span>
               </Link>
             </div>
           </div>

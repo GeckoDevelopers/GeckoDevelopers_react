@@ -5,9 +5,9 @@ let engb_text = {
   navbar: {
     home: "/ home",
     about_us: "/ about us",
-    services: "/ services",
+    services: "/ servizi",
     portfolio: "/ portfolio",
-    contacts: "/ contacts",
+    contacts: "/ contatti",
   },
 
 

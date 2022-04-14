@@ -15,6 +15,7 @@
               // leva padding
               padding-left: 0; /*fix*/
               padding-right: 15px; /*fix*/
+              width: calc(100vw/3*2 - 70px);
               .intestazione {
                   // margini titolo sezione
                   justify-content: space-between;

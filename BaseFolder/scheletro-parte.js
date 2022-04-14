@@ -8,12 +8,10 @@
 import React from "react";
 import './nomeparte.scss';
 
-function nomeparte() {
+export default function Nomeparte() {
     return (
     
     );
 };
-
-export default nomeparte;
 
 */

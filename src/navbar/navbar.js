@@ -12,6 +12,10 @@ export default function Navbar() {
 
 function openServices() {
   console.log("openServices");
+  console.log(this);
+  var element = document.getElementById("servicesMenu");
+  element.classList.add("active");
+  /* element.addClass("active"); */
 /*   this(".nav-dropdown").toggleClass("active");
   this(".line1, .line2, .line3").toggleClass("active");
   this(".dropdown-services").removeClass("servicesMenu");
@@ -84,7 +88,7 @@ class Card extends Component {
                   ?
                   <li><a href="#services-link">{engb_text.navbar.services}</a></li>
                   : 
-                  <li className="nowrap"><span id="servicesMenu" onClick={openMenuServices} /* onClick={openServices} */>{engb_text.navbar.services}<i id="caret" className="fas fa-angle-down"></i></span>
+                  <li className="nowrap"><span id="servicesMenu" /*onClick={openMenuServices}*/ onClick={openServices}>{engb_text.navbar.services}<i id="caret" className="fas fa-angle-down"></i></span>
                     <div className="dropdown-services" onClick={openServices}>
                       <ul>
                         <li>/<a href="./#services-link">All services</a></li><hr/>

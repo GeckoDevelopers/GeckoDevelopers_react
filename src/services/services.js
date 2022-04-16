@@ -23,7 +23,7 @@ export default function About_us() {
             <div className="intestazione flex">
               <h2>{engb_text.services.title}</h2>
               <hr />
-              <img src="./img/similmenu-white.svg" alt="image for style" />
+              <img src="./img/similmenu-white.svg" alt="style" />
             </div>
        
             <p>

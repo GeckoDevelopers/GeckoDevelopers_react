@@ -40,10 +40,10 @@ export default function Carousel() {
   ]
   console.log(arrayImg);
 
-  var ciclo = document.getElementById('ciclo');
+  /* var ciclo = document.getElementById('ciclo');
   for (let i = 0; i < arrayImg.length; i++) {
     ciclo.innerHTML += '<li>FizzBuzz</li>';
-  }
+  } */
 
   return (
     <section>

@@ -1,64 +1,36 @@
 import './navbar.scss';
 import { getEngb_text } from "../lingue/inglese";
 import { Link, useLocation } from "react-router-dom";
-import Home from '../home/home';
 
 
 
 export default function Navbar() {
   var engb_text = getEngb_text();
 
+  // SERVE PER I DISCORSI DI PATH DEI LINK
   const location = useLocation();
 
-function openServices() {
-  console.log("openServices");
-  console.log(this);
-  var element = document.getElementById("servicesMenu");
-  element.classList.add("active");
-  /* element.addClass("active"); */
-/*   this(".nav-dropdown").toggleClass("active");
-  this(".line1, .line2, .line3").toggleClass("active");
-  this(".dropdown-services").removeClass("servicesMenu");
-  this("body").toggleClass("fixed");
-  this("#caret").removeClass("rotate");
-
-  this(".dropdown-services").toggle();
-  this("#caret").toggleClass("rotate"); */
-}
-function openMenuServices() {
-  console.log("openMenuServices");
-/*   this(".nav-dropdown").toggleClass("active");
-  this(".line1, .line2, .line3").toggleClass("active");
-  this(".dropdown-services").removeClass("servicesMenu");
-  this("body").toggleClass("fixed");
-  this("#caret").removeClass("rotate");
-
-  this("#servicesMenu").toggle();
-  this(".dropdown-services").toggleClass("servicesMenu");
-  this("#caret").toggleClass("rotate"); */
-}
-
-/* 
-import React, { Component } from 'react';
-
-class Card extends Component {
-  constructor() {
-    super();
+  function sayHello() {
+    // CARRET DOWN CHE GIRA
+    var freccia = document.getElementById("caret")
+    freccia.classList.toggle("rotate");
     
-    this.state = {
-      showMenu: false,
+    // MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
+    var tendina = document.getElementsByClassName("dropdown-services")
+    tendina[0].classList.toggle("servicesMenu")
+    // come faccio che il menu si chiude a ogni click?
+    /* document.addEventListener('click', function () {
+      if (tendina[0].classList.has("servicesMenu")) {
+        tendina[0].classList.remove("servicesMenu")
+      }
+    }); */
+    
+    // BURGHER MENU CHE FA LA X
+    var xMenu = document.querySelectorAll(".line1, .line2, .line3")
+    for (let i = 0; i < xMenu.length; i++) {
+      xMenu[i].classList.toggle("active")
     }
-    
-    this.showMenu = this.showMenu.bind(this);
   }
-  
-  showMenu(event) {
-    event.preventDefault();
-    
-    this.setState({
-      showMenu: true,
-    });
-  } */
 
   return (
     <nav>
@@ -72,7 +44,7 @@ class Card extends Component {
                   <img src="img/gecko-nav-v2.png" alt="" />
                 </a>
                 :
-                <Link to="/" component={Home} className="carta">
+                <Link to="/" className="carta">
                   <img src="img/gecko-nav-v2.png" alt="" />
                 </Link>
               }
@@ -80,25 +52,28 @@ class Card extends Component {
           </div>
           <div className="right-side flex">
             <div className="nav-dropdown">
-              
               <ul>
-                {location.pathname === "/" ? ""/*<a href="#home">{engb_text.navbar.home}</a>*/ : <li><Link to="/">{engb_text.navbar.home}</Link></li>}
+                {location.pathname === "/" 
+                  ? ""/*<a href="#home">{engb_text.navbar.home}</a>*/ 
+                  : <li><Link to="/">{engb_text.navbar.home}</Link></li>}
                 <li><a href="#about_us-link">{engb_text.navbar.about_us}</a></li>
                 {location.pathname === "/" 
-                  ?
-                  <li><a href="#services-link">{engb_text.navbar.services}</a></li>
+                  ? <li><a href="#services-link">{engb_text.navbar.services}</a></li>
                   : 
-                  <li className="nowrap"><span id="servicesMenu" /*onClick={openMenuServices}*/ onClick={openServices}>{engb_text.navbar.services}<i id="caret" className="fas fa-angle-down"></i></span>
-                    <div className="dropdown-services" onClick={openServices}>
+                  <li className="nowrap">
+                    <span id="servicesMenu" onClick={sayHello}>{engb_text.navbar.services}
+                      <i id="caret" className="fas fa-angle-down"></i>
+                    </span>
+                    <div className="dropdown-services">
                       <ul>
-                        <li>/<a href="./#services-link">All services</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'full'])}}">{engb_text.minimenuservizi.full}</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'website-services'])}}">{engb_text.minimenuservizi.indivisuals}</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'website-company'])}}">{engb_text.minimenuservizi.companies}</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'creative'])}}">{engb_text.minimenuservizi.design}</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'support'])}}">{engb_text.minimenuservizi.support}</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'content-creation'])}}">{engb_text.minimenuservizi.content}</a></li><hr/>
-                        <li>/<a href="{{route('services', ['service' => 'marketing'])}}">{engb_text.minimenuservizi.marketing}</a></li><hr/>
+                        <li>/<Link to="/#services-link">All services</Link></li><hr/>
+                        <li>/<Link to="/full" >{engb_text.minimenuservizi.full}</Link></li><hr/>
+                        <li>/<Link to="/individuals">{engb_text.minimenuservizi.indivisuals}</Link></li><hr/>
+                        <li>/<Link to="/companies">{engb_text.minimenuservizi.companies}</Link></li><hr/>
+                        <li>/<Link to="/design">{engb_text.minimenuservizi.design}</Link></li><hr/>
+                        <li>/<Link to="/support">{engb_text.minimenuservizi.support}</Link></li><hr/>
+                        <li>/<Link to="/content-creation">{engb_text.minimenuservizi.content}</Link></li><hr/>
+                        <li>/<Link to="/marketing">{engb_text.minimenuservizi.marketing}</Link></li><hr/>
                       </ul>
                     </div>
                   </li>
@@ -108,7 +83,7 @@ class Card extends Component {
               </ul>
 
             </div>
-            <div className="hamburger flex" onClick="openDropdown">
+            <div className="hamburger flex" onClick={sayHello}>
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>

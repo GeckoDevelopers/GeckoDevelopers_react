@@ -24,6 +24,12 @@ export default function Navbar() {
         tendina[0].classList.remove("servicesMenu")
       }
     }); */
+    /* document.addEventListener('click', function (event) {
+      const isClickInsideElement = tendina[0].contains(event.target);
+      if (!isClickInsideElement && tendina[0].classList.contains('servicesMenu')) {
+        tendina[0].classList.remove('servicesMenu');
+      }
+    }); */
     
     // BURGHER MENU CHE FA LA X
     var xMenu = document.querySelectorAll(".line1, .line2, .line3")

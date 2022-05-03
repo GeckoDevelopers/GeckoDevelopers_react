@@ -38,6 +38,5 @@ export default function Support() {
           @endfor */}
       </div>
     </section>
-
   )
 }

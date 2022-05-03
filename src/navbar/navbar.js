@@ -72,7 +72,7 @@ export default function Navbar() {
                     </span>
                     <div className="dropdown-services">
                       <ul>
-                        <li>/<Link to="/#services-link">All services</Link></li><hr/>
+                        <li>/<Link to="/#services-link">{engb_text.minimenuservizi.all}</Link></li><hr/>
                         <li>/<Link to="/full" >{engb_text.minimenuservizi.full}</Link></li><hr/>
                         <li>/<Link to="/individuals">{engb_text.minimenuservizi.indivisuals}</Link></li><hr/>
                         <li>/<Link to="/companies">{engb_text.minimenuservizi.companies}</Link></li><hr/>

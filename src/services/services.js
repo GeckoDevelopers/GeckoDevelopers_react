@@ -78,7 +78,7 @@ export default function Services() {
                   <img src="" alt="" />
                   <h3>{engb_text.card_design.title}</h3>
                 </div>
-                <p>{engb_text.card_design.title}</p>
+                <p>{engb_text.card_design.paragrafo}</p>
                 <span>{engb_text.card_view_more}</span>
               </Link>
             </div>

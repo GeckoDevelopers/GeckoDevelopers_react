@@ -5,6 +5,9 @@ import Services from '../services/services';
 import Porfolio from '../portfolio/portfolio'
 
 
+import { PortfolioData } from '../portfolio/portfolioData';
+
+
 
 
 export default function Home() {
@@ -14,7 +17,7 @@ export default function Home() {
       <Jumbo/>
       <AboutUs/>
       <Services/>
-      <Porfolio />
+      <Porfolio slides={PortfolioData} />
     </div>
   );
 };

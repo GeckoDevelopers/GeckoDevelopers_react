@@ -1,14 +1,23 @@
-- il menu a tendina che si chiude a qualsiasi click
-- mettere il carousel
 - fare il form mail
 - creare la pagina about ass
 - creare la pagina portfoli
 - implementare i micro portfoli infondo ai servizi singoli
+- deploy
 
+
+- il menu a tendina che si chiude a qualsiasi click
 - rimettere le ombre ai div dei servizi
 - inserire i link dei social
 - rifinire lo style
+- rifinire pulsanti carousel
+- rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
 
 
+
+
+
+
+
+v mettere il carousel
 v footer che cambia colore
 v linkare e impostare le rotte di ogni linkare

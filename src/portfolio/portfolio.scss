@@ -32,47 +32,44 @@
               margin-left: 40px; /*fix*/
           }
       }
+      
+      
       .slider {
+        display: flex;
+        height: 50vh;
+        /* padding: 0 10vw 0 10vw; */
+        .slide {
           width: 100%;
-          .b-carousel {
-              .image {
-                  img {
-                      height: 55vh;
-                  }
-                  .desc-immagine {
-                      font-size: 1.5rem;
-                      position: absolute;
-                      color: white;
-                      bottom: 10px;
-                      left: 50%;
-                      transform: translate(-50%);
-                      @media all and (max-width: 768px){
-                          font-size: 1rem;
-                      }
-                  }
-              }
-              .carousel-indicator {
-                  // striscia verde più alta
-                  background-color: $green;
-                  padding-top: 10px; /*fix*/
-                  padding-bottom: 10px; /*fix*/
-                  .indicator-item {
-
-                      &.is-active {
-                          .indicator-style {
-                              background-color: $gray;
-                          }
-                      }
-                      .indicator-style {
-                          // striscia verde sotto + bottoni
-                          width: 10px; /*fix*/
-                          height: 20px; /*fix*/
-                          border: 1px solid $gray;
-                      }
-                  }
-              }
+          height: 100%;
+          display: none;
+          overflow: hidden;
+          img {
+            width: 100%;
           }
+        }
+        .active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        .red {
+          height: 100px;
+          width: 100px;
+          background-color: red;
+        }
+      }
+      
+      
+      
+      
+      
+      
+      
+
       .discover {
           hr {
               // margini bottom line

@@ -1,0 +1,128 @@
+@import './src/variabili.scss';
+
+#projects {
+  background-color: $white;
+  color: $green;
+  // margini top bottom intera sezione projects
+  padding: 47px 0 36px 0; /*fix*/
+  position: relative; //per l'anchor link
+  .container-custom {
+      display: flex;
+      flex-direction: column;
+      .intestazione {
+          justify-content: space-between;
+          h2 {
+              // scritta PROJECT e margini
+              min-width: 138px;
+              font-size: $titoli_sezioni; /*fix*/
+              letter-spacing: $letter-spacing;
+              margin-right: 42px; /*fix*/
+              margin-bottom: 44px; /*fix*/
+          }
+          hr {
+              // line
+              width: 100%;
+              background-color: $green;
+              margin: 12px 0; /*fix*/
+          }
+          img {
+              // 5 slash dx
+              height: 21px; /*fix*/
+              margin-top: 3px; /*fix*/
+              margin-left: 40px; /*fix*/
+          }
+      }
+      .slider {
+          width: 100%;
+          .b-carousel {
+              .image {
+                  img {
+                      height: 55vh;
+                  }
+                  .desc-immagine {
+                      font-size: 1.5rem;
+                      position: absolute;
+                      color: white;
+                      bottom: 10px;
+                      left: 50%;
+                      transform: translate(-50%);
+                      @media all and (max-width: 768px){
+                          font-size: 1rem;
+                      }
+                  }
+              }
+              .carousel-indicator {
+                  // striscia verde più alta
+                  background-color: $green;
+                  padding-top: 10px; /*fix*/
+                  padding-bottom: 10px; /*fix*/
+                  .indicator-item {
+
+                      &.is-active {
+                          .indicator-style {
+                              background-color: $gray;
+                          }
+                      }
+                      .indicator-style {
+                          // striscia verde sotto + bottoni
+                          width: 10px; /*fix*/
+                          height: 20px; /*fix*/
+                          border: 1px solid $gray;
+                      }
+                  }
+              }
+          }
+      }
+      .discover {
+          hr {
+              // margini bottom line
+              background-color: $green;
+              width: 100%;
+              margin: 58px 0 0 0; /*fix*/
+          }
+          a {
+              // mod bottom button
+              background-color: $green;
+              color: $white;
+              min-width: 146px; /*fix*/
+              // padding: 10px 14px;
+              padding-top: 12px; /*fix*/
+              padding-right: 11px; /*fix*/
+              padding-bottom: 12px; /*fix*/
+              padding-left: 20px; /*fix*/
+              margin-top: 35px; /*fix*/
+              margin-left: 42px; /*fix*/
+              text-decoration: none;
+              cursor: pointer;
+              &:hover {
+                  // color: $red;
+              }
+          }
+      }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  #projects {
+      .container-custom {
+          .slider {
+              .b-carousel {
+                  .image {
+                      img {
+                          // dimensioni immagine carousel
+                          height: 35vh;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+}

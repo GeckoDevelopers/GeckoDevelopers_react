@@ -2,7 +2,7 @@ import './about_us.scss';
 import { getEngb_text } from "../lingue/inglese";
 
 
-function Jumbo() {
+export default function Jumbo() {
   var engb_text = getEngb_text();
   return (
     <section id="about_us">
@@ -31,5 +31,3 @@ function Jumbo() {
   
   );
 };
-
-export default Jumbo;

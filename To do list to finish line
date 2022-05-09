@@ -1,23 +1,27 @@
+
+// cose grose da fare per la fine del sito
 - fare il form mail
 - creare la pagina about ass
 - creare la pagina portfoli
 - implementare i micro portfoli infondo ai servizi singoli
 - deploy
 
-
-- il menu a tendina che si chiude a qualsiasi click
-- rimettere le ombre ai div dei servizi
-- inserire i link dei social
-- rifinire lo style
-- rifinire pulsanti carousel
+// cose di logica da rifinire
+- risistemare il menu 
+  - il menu a tendina che si chiude a qualsiasi click
+  - il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
+  - il menu in formato mobiele che in home page non si apre affatto
+- aggiungere i pallini al crousel (con la striscia verde)
 - rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
-- aggiungere i pallini al crousel
+- aggiungere lo switch delle lingue
 
+// cose di style e altre piccolezze
+- inserire i link dei social nel footer
+- rifinire lo style
+- rimettere le ombre ai div dei servizi
+- rifinire pulsanti carousel
 
-
-
-
-
+// cose fatte
 v mettere il carousel
 v footer che cambia colore
-v linkare e impostare le rotte di ogni linkare
+v linkare e impostare le rotte di ogni link

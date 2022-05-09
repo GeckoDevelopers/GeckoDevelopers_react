@@ -1,0 +1,12 @@
+// istallazione tailwind
+https://tailwindcss.com/docs/guides/create-react-app
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+o metto la cdn (che è piu leggera)(va messa nell'head)
+https://tailwindcss.com/docs/installation/play-cdn
+<script src="https://cdn.tailwindcss.com/%22%3E</script>
+
+
+// istallazione emailjs
+https://www.youtube.com/watch?v=NgWGllOjkbs (minuto 2.38)
+npm install emailjs-com --save

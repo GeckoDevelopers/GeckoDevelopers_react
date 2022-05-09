@@ -1,4 +1,4 @@
-import '../footer/footer.scss';
+import './footer.scss';
 /* import { getEngb_text } from "../lingue/inglese"; */
 import { Link, useLocation } from "react-router-dom";
 

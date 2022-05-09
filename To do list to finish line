@@ -1,10 +1,9 @@
 
 // cose grose da fare per la fine del sito
-- fare il form mail
-- creare la pagina about ass
+- deploy
 - creare la pagina portfoli
 - implementare i micro portfoli infondo ai servizi singoli
-- deploy
+- creare la pagina about ass
 
 // cose di logica da rifinire
 - risistemare il menu 
@@ -14,14 +13,17 @@
 - aggiungere i pallini al crousel (con la striscia verde)
 - rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
 - aggiungere lo switch delle lingue
+- all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo
 
 // cose di style e altre piccolezze
 - inserire i link dei social nel footer
 - rifinire lo style
 - rimettere le ombre ai div dei servizi
 - rifinire pulsanti carousel
+- rifinire lo style del form
 
 // cose fatte
+v fare il form mail
 v mettere il carousel
 v footer che cambia colore
 v linkare e impostare le rotte di ogni link

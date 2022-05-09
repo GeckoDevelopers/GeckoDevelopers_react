@@ -54,6 +54,14 @@ export default function MailForm() {
 
         <p className="more-contacts">You can also find us here: <span>gecko.devs@gmail.com</span></p>
       </div>
+
+      <div className='overlay'>
+        <div className='success'>
+        </div>
+        <div className='fail'>
+        </div>
+      </div>
+
     </section>
 
   );

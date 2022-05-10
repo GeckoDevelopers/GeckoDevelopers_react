@@ -21,6 +21,8 @@
 - rimettere le ombre ai div dei servizi
 - rifinire pulsanti carousel
 - rifinire lo style del form
+- cambiare font e rifinire i dettagli scss di conseguenza
+- rifare il css con tailwind
 
 // cose fatte
 v fare il form mail

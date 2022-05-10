@@ -1,22 +1,22 @@
-import "./design.scss";
+/* import "./design.scss"; */
 /* import { getEngb_text } from "../../lingue/inglese"; */
 
 export default function Design() {
   /* var engb_text = getEngb_text(); */
   
   return(
-    <section className="container-services  design_dk_green">
-      <div className="card-mover">
+    <section className="container-services">
+      <div className="card-mover design_dk_green">
         <div className="card">
           <div className="flex main-title">
-            <img src="./images/icon_creative.png" alt=""/>
+            <img src="./img/img-pagine-servizi/icon_creative.png" alt=""/>
             <h2>Creative Design</h2>
           </div>
           <p className="description">
             As simple as it may sound, having professionally done visual assets, from your logo to a video or imagery, not only provides consistency and visual appeal, but can also boost up the credibility of your brand, establish meaningful relationships with your customers and target audience, as well as deliver your message across more efficiently.
           </p>
           <div className="sidetext flex">
-            <img src="./images/img-services_creative.png" alt=""/>
+            <img src="./img/img-pagine-servizi/img-services_creative.png" alt=""/>
           </div>
           <p>Our services for Creative Design include:</p>
           <ul>

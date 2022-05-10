@@ -62,7 +62,7 @@ export default function Navbar() {
                 {location.pathname === "/" 
                   ? ""/*<a href="#home">{engb_text.navbar.home}</a>*/ 
                   : <li><Link to="/">{engb_text.navbar.home}</Link></li>}
-                <li><a href="#about_us-link">{engb_text.navbar.about_us}</a></li>
+                <li><a href="./#about_us-link">{engb_text.navbar.about_us}</a></li>
                 {location.pathname === "/" 
                   ? <li><a href="#services-link">{engb_text.navbar.services}</a></li>
                   : 
@@ -72,7 +72,7 @@ export default function Navbar() {
                     </span>
                     <div className="dropdown-services">
                       <ul>
-                        <li>/<Link to="/#services-link">{engb_text.minimenuservizi.all}</Link></li><hr/>
+                        <li>/<a href="/#services-link">{engb_text.minimenuservizi.all}</a></li><hr/>
                         <li>/<Link to="/full" >{engb_text.minimenuservizi.full}</Link></li><hr/>
                         <li>/<Link to="/individuals">{engb_text.minimenuservizi.indivisuals}</Link></li><hr/>
                         <li>/<Link to="/companies">{engb_text.minimenuservizi.companies}</Link></li><hr/>
@@ -84,8 +84,8 @@ export default function Navbar() {
                     </div>
                   </li>
                 }
-                <li><a href="#projects-link">{engb_text.navbar.portfolio}</a></li>
-                <li><a href="#contacts">{engb_text.navbar.contacts}</a></li>
+                <li><a href="./#projects-link">{engb_text.navbar.portfolio}</a></li>
+                <li><a href="./#contacts">{engb_text.navbar.contacts}</a></li>
               </ul>
 
             </div>

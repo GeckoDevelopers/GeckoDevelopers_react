@@ -1,22 +1,22 @@
-import './full.scss';
+/* import './full.scss'; */
 /* import { getEngb_text } from "../../lingue/inglese"; */
 
 
 export default function FullServices () {
   /* var engb_text = getEngb_text(); */
   return (
-    <section className="container-services full_gray">
-      <div className="card-mover">
+    <section className="container-services full_gray ">
+      <div className="card-mover full_gray">
         <div className="card">
           <div className="flex main-title">
-            <img src="./images/icon_full.png" alt="" />
+            <img src="./img/img-pagine-servizi/icon_full.png" alt="" />
             <h2>FULL PACKAGE</h2>
           </div>
           <p className="description">
             When forming a new business or developing your own brand, there are many various aspects and activities to consider. Forming efficient consistency across all channels and all activities is fundamental to boost up your brand, build meaningful relationships with your stakeholders, partners, customers, and your audience.
           </p>
           <div className="sidetext flex">
-            <img src="./images/img-services_full.png" alt="" />
+            <img src="./img/img-pagine-servizi/img-services_full.png" alt="" />
             <div className="text">
               <hr />
               <h2>PLANS & STRATEGIES</h2>

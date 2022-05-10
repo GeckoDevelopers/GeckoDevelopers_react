@@ -1,22 +1,22 @@
-import './individuals.scss';
+/* import './individuals.scss'; */
 /* import { getEngb_text } from "../../lingue/inglese"; */
 
 
 export default function Individuals() {
  /*  var engb_text = getEngb_text(); */
   return (
-    <section className="container-services  individuals_el_green">
-      <div className="card-mover">
+    <section className="container-services  ">
+      <div className="card-mover individuals_el_green">
         <div className="card">
           <div className="flex main-title">
-            <img src="./images/icon_individuals.png" alt=""/>
+            <img src="./img/img-pagine-servizi/icon_individuals.png" alt=""/>
             <h2>Website for Individuals</h2>
           </div>
           <p className="description">
             Having a website online is becoming one of the most efficient ways to showcase who you are, what you are capable of, as well as can act like your online portfolio. Whether you are a photographer, artist, architect, designer, musician, or a blogger, having your content and your work reached to as many people, in the most clear and well-designed way is crucial for you to increase your personal brand’s image.
           </p>
           <div className="sidetext flex">
-            <img src="./images/img-services_individuals.png" alt=""/>
+            <img src="./img/img-pagine-servizi/img-services_individuals.png" alt=""/>
             <div className="text">
               <hr/>
               <h2>PLANS & STRATEGIES</h2>

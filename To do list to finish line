@@ -1,30 +1,33 @@
+// cose da fare nella deadline
+- risistemare il menu 
+  - il menu a tendina che si chiude a qualsiasi click
+  - il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
+  - il menu in formato mobiele che in home page non si apre affatto
+- carousel
+  - aggiungere i pallini al crousel (con la striscia verde)
+  - rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
+  - rifinire pulsanti carousel
+- deploy
+- all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo
+- inserire i link dei social nel footer
+- aggiungere lo switch delle lingue
+
 
 // cose grose da fare per la fine del sito
-- deploy
 - creare la pagina portfoli
 - implementare i micro portfoli infondo ai servizi singoli
 - creare la pagina about ass
 
 // cose di logica da rifinire
-- risistemare il menu 
-  - il menu a tendina che si chiude a qualsiasi click
-  - il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
-  - il menu in formato mobiele che in home page non si apre affatto
-- aggiungere i pallini al crousel (con la striscia verde)
-- rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
-- aggiungere lo switch delle lingue
-- all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo
 
 // cose di style e altre piccolezze
-- inserire i link dei social nel footer
 - rifinire lo style
-- rimettere le ombre ai div dei servizi
-- rifinire pulsanti carousel
-- rifinire lo style del form
-- cambiare font e rifinire i dettagli scss di conseguenza
 - rifare il css con tailwind
 
 // cose fatte
+v rimettere le ombre ai div dei servizi
+v rifinire lo style del form
+v cambiare font e rifinire i dettagli scss di conseguenza
 v fare il form mail
 v mettere il carousel
 v footer che cambia colore

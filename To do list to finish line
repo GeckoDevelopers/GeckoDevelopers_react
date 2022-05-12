@@ -20,11 +20,11 @@
 - rifinire lo style
 - rimettere le ombre ai div dei servizi
 - rifinire pulsanti carousel
-- rifinire lo style del form
 - cambiare font e rifinire i dettagli scss di conseguenza
 - rifare il css con tailwind
 
 // cose fatte
+v rifinire lo style del form
 v fare il form mail
 v mettere il carousel
 v footer che cambia colore

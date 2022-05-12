@@ -11,7 +11,7 @@ footer {
     text-align: center;
     .container-custom {
         padding: 20px 18px; /*fix*/
-        justify-content: center;
+        position: relative;
         h2 {
             font-family: $font-titolo;
             font-size: 15px; /*fix*/
@@ -21,6 +21,17 @@ footer {
             font-size: 12px; /*fix*/
             line-height: 12px; /*fix*/
             margin: 5px; /*fix*/
+        }
+        .social{
+            position: absolute;
+            top: 40%;
+            right: 15%;
+            a{
+                i{
+                    color: $white;
+                    cursor: pointer;
+                }
+            }
         }
     }
     .divider {
@@ -59,13 +70,12 @@ footer {
     }
 }
 
-// .social {
-//     a {
-//         i {
-//             font-size: 25px;
-//             margin: 0 15px;
-//             cursor: pointer;
-//             color: #fff;
-//         }
-//     }
-// }
+@media all and (max-width: 768px) {
+    footer{
+        .container-custom{
+            .social{
+                top: 25%;
+            }
+        }
+    }
+}

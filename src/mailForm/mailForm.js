@@ -31,29 +31,22 @@ export default function MailForm() {
 
         <form ref={form} onSubmit={sendMail}>
           <div className="sinistra">
-            <div className="pippo">
-              <label htmlFor="fname">Name</label>
-              <input type="text" name="nome"/>
-            </div>
-            <div className="pippo">
-              <label htmlFor="email">E-mail</label>
-              <input type="email" name="email"/>
-            </div>
-            <div className="pippo">
-              <label htmlFor="subject" >Subject</label>
-              <input type="text" name="oggetto"/>
-            </div>
+            <label htmlFor="fname">Name</label><br/>
+            <input type="text" name="nome"/><br/>
+            <label htmlFor="email">E-mail</label><br/>
+            <input type="email" name="email"/><br/>
+            <label htmlFor="subject" >Subject</label><br/>
+            <input type="text" name="oggetto"/><br/>
           </div>
 
           <div className="corpo-email">
-            <label htmlFor="subject">Message</label>
+            <label htmlFor="subject">Text</label>
             <textarea rows="12" cols="12" name="message"></textarea>
           </div>
 
           <div className="sotto">
             <div className="privacy">
-                <span>By selecting you accept our Privacy Policy. We  will not save any of your personal details, they will be used only for contact purposes.
-                </span><br/>
+                <span>Informativa sulla privacy: l'email e il nome non verranno salvati, verranno utilizzati al solo scopo di comunicazioni azienda cliente</span><br/>
             </div>
             <input type="submit" value="Send"/>
           </div>

@@ -1,8 +1,8 @@
-import './companies.scss';
-/* import { getEngb_text } from "../../lingue/inglese"; */
+import './servizi.scss';
+import { getEngb_text } from "../lingue/inglese";
 
 export default function Companies() {
-  /* var engb_text = getEngb_text(); */
+  var engb_text = getEngb_text();
   return (
     <section className="container-services ">
       <div className="card-mover companies_green">
@@ -29,9 +29,6 @@ export default function Companies() {
             </p>
             <p>For more information, <a id="get-touch" className=" companies_green" href="./#contacts">get in touch</a> with us!</p>
         </div>
-          {/* @for($i = 0; $i < 500; $i++)
-          <div className="ombra  companies_green"></div>
-          @endfor */}
       </div>
     </section>
   )

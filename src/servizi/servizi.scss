@@ -16,12 +16,32 @@
       color: $gray;
       width: 60%;
       position: relative;
-      .card, .ombra {
-          width: 100%;
-          height: 100%;
-          --notchSize: 30px;                   /* from https://css-tricks.com/notched-boxes/ */
-          clip-path:                              /* Notched Boxes or Notched Module */
-          polygon(
+      &:before {
+        position: absolute;
+        top: 9px;
+        left: 97%;
+        width: 100%;
+        height: 100%;
+        content: '';
+        transform: skewY(45deg);
+        transform-origin: 0 0;
+      }
+      &:after {
+        position: absolute;
+        top: 96%;
+        left: -4px;
+        width: 100%;
+        height: 150%;
+        content: '';
+        transform: skewX(45deg);
+        transform-origin: 0 0;
+      }
+      .card {
+        width: 100%;
+        height: 100%;
+        --notchSize: 30px;                   /* from https://css-tricks.com/notched-boxes/ */
+        clip-path:                              /* Notched Boxes or Notched Module */
+        polygon(
           0% var(--notchSize),                /* top left */
           var(--notchSize) 0%,                /* top left */
           calc(100% - var(--notchSize)) 0%,   /* top right */
@@ -30,13 +50,12 @@
           calc(100% - var(--notchSize)) 100%, /* bottom right */
           var(--notchSize) 100%,              /* bottom left */
           0% calc(100% - var(--notchSize))    /* bottom left */
-          );
-      }
-      .card {
-          background-color: $white;
-          position: relative;
-          z-index: 999;
-          padding: 60px 69px; /*fix*/
+        );
+        background-color: $white;
+        position: relative;
+        z-index: 999;
+        padding: 60px 69px; /*fix*/
+        
           .main-title {
               // blocco top
               margin-bottom: 28px; /*fix*/
@@ -113,132 +132,149 @@
                   }
               }
           }
-      }
-      .ombra {
-          z-index: 1;
-          position: absolute;
-      }
-      @for $i from 2 through 503 {
-          .ombra:nth-child(#{$i}) {
-              top: calc(0px + #{$i}px);
-              left: calc(0px + #{$i}px);
-              z-index: #{$i};
+          p {
+            a {
+              text-decoration: underline;
+            }
+            #get-touch.companies_green {
+              color: $green;
+            }
+            #get-touch.content_orange {
+              color: $orange;
+            }
+            #get-touch.design_dk_green {
+              color: $dark-green;
+            }
+            #get-touch.full_gray {
+              color: $gray;
+            }
+            #get-touch.individuals_el_green {
+              color: $light-green;
+            }
+            #get-touch.marketing_red {
+              color: $red;
+            }
+            #get-touch.continuous_yellow {
+              color: $yellow;
+            }
           }
       }
   }
 }
 
-.card-mover:before, .card-mover:after {
+
+
+.card-mover.companies_green:before, .card-mover.companies_green:after {
   background: $green;
 }
-
-// COMMON & CUSTOMIZE
+.card-mover.content_orange:before, .card-mover.content_orange:after {
+  background: $orange;
+}
+.card-mover.design_dk_green:before, .card-mover.design_dk_green:after {
+  background: $dark-green;
+}
 .container-services.full_gray {
-  background-color: $red;
+  background: $red;
+  .card-mover.full_gray:before, .card-mover.full_gray:after {
+    background: $gray;
+  }
 }
-.ombra.full_gray {
-  background-color: $gray;
+.card-mover.individuals_el_green:before, .card-mover.individuals_el_green:after {
+  background: $light-green;
 }
-#get-touch.full_gray {
-  color: $gray;
-  text-decoration: underline;
+.card-mover.marketing_red:before, .card-mover.marketing_red:after {
+  background: $red;
+}
+.card-mover.continuous_yellow:before, .card-mover.continuous_yellow:after {
+  background: $yellow;
 }
 
-.container-services.individuals_el_green {
-  hr {
-      color: $light-green; /*fix*/
-  }
-  h2 {
-      color: $light-green;
-  }
-}
-.ombra.individuals_el_green {
-  background-color: $light-green;
-}
-#get-touch.individuals_el_green {
-  text-decoration: underline;
-  color: $light-green;
-}
 
-.container-services.companies_green {
-  hr {
-      color: $green; /*fix*/
-  }
-  h2 {
-      color: $green;
-  }
-}
-.ombra.companies_green {
-  background-color: $green;
-}
-#get-touch.companies_green {
-  text-decoration: underline;
-  color: $green;
-}
 
-.container-services.design_dk_green {
-  hr {
-      color: $dark-green; /*fix*/
-  }
-  h2 {
-      color: $dark-green;
-  }
-}
-.ombra.design_dk_green {
-  background-color: $dark-green;
-}
-#get-touch.design_dk_green {
-  text-decoration: underline;
-  color: $dark-green;
-}
 
-.container-services.continuous_yellow {
-  hr {
-      color: $yellow; /*fix*/
-  }
-  h2 {
-      color: $yellow;
-  }
-}
-.ombra.continuous_yellow {
-  background-color: $yellow;
-}
-#get-touch.continuous_yellow {
-  text-decoration: underline;
-  color: $yellow;
-}
+// .container-services.individuals_el_green {
+//   hr {
+//       color: $light-green; /*fix*/
+//   }
+//   h2 {
+//       color: $light-green;
+//   }
+// }
 
-.container-services.content_orange {
-  hr {
-      color: $orange; /*fix*/
-  }
-  h2 {
-      color: $orange;
-  }
-}
-.ombra.content_orange {
-  background-color: $orange;
-}
-#get-touch.content_orange {
-  text-decoration: underline;
-  color: $orange;
-}
+// #get-touch.individuals_el_green {
+//   text-decoration: underline;
+//   color: $light-green;
+// }
 
-.container-services.marketing_red {
-  hr {
-      color: $red; /*fix*/
-  }
-  h2 {
-      color: $red;
-  }
-}
-.ombra.marketing_red {
-  background-color: $red;
-}
-#get-touch.marketing_red {
-  text-decoration: underline;
-  color: $red;
-}
+// .container-services.companies_green {
+//   hr {
+//       color: $green; /*fix*/
+//   }
+//   h2 {
+//       color: $green;
+//   }
+// }
+
+// #get-touch.companies_green {
+//   text-decoration: underline;
+//   color: $green;
+// }
+
+// .container-services.design_dk_green {
+//   hr {
+//       color: $dark-green; /*fix*/
+//   }
+//   h2 {
+//       color: $dark-green;
+//   }
+// }
+
+// #get-touch.design_dk_green {
+//   text-decoration: underline;
+//   color: $dark-green;
+// }
+
+// .container-services.continuous_yellow {
+//   hr {
+//       color: $yellow; /*fix*/
+//   }
+//   h2 {
+//       color: $yellow;
+//   }
+// }
+
+// #get-touch.continuous_yellow {
+//   text-decoration: underline;
+//   color: $yellow;
+// }
+
+// .container-services.content_orange {
+//   hr {
+//       color: $orange; /*fix*/
+//   }
+//   h2 {
+//       color: $orange;
+//   }
+// }
+
+// #get-touch.content_orange {
+//   text-decoration: underline;
+//   color: $orange;
+// }
+
+// .container-services.marketing_red {
+//   hr {
+//       color: $red; /*fix*/
+//   }
+//   h2 {
+//       color: $red;
+//   }
+// }
+
+// #get-touch.marketing_red {
+//   text-decoration: underline;
+//   color: $red;
+// }
 
 @media all and (max-width: 1024px) {
   .container-services {

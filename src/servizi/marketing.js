@@ -1,4 +1,4 @@
-/* import "./marketing.scss" */
+import "./servizi.scss"
 /* import { getEngb_text } from "../../lingue/inglese"; */
 
 export default function Marketing() {
@@ -36,9 +36,6 @@ export default function Marketing() {
           </ul>
           <p>For more information, <a id="get-touch" className=" marketing_red" href="./#contacts">get in touch</a> with us!</p>
         </div>
-        {/* @for($i = 0; $i < 500; $i++)
-        <div className="ombra  marketing_red"></div>
-        @endfor */}
       </div>
     </section>
 

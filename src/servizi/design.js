@@ -1,4 +1,4 @@
-/* import "./design.scss"; */
+import "./servizi.scss";
 /* import { getEngb_text } from "../../lingue/inglese"; */
 
 export default function Design() {

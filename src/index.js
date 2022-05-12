@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import Navbar from './navbar/navbar';
 import Home from './home/home';
-import Full from "./servizi/full_services/full"
-import Individuals from "./servizi/individuals/individuals"
-import Companies from './servizi/companies/companies';
-import Design from './servizi/design/design';
-import Support from './servizi/support/support';
-import ContentCreation from './servizi/content_creation/content_creation';
-import Marketing from './servizi/marketing/marketing';
+import Full from "./servizi/full"
+import Individuals from "./servizi/individuals"
+import Companies from './servizi/companies';
+import Design from './servizi/design';
+import Support from './servizi/support';
+import ContentCreation from './servizi/content_creation';
+import Marketing from './servizi/marketing';
 import Footer from "./footer/footer"
 
 
@@ -40,7 +40,7 @@ ReactDOM.render(
 
 
 
-/* 
+/*  
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';

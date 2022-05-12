@@ -42,19 +42,19 @@ export default function Navbar() {
     var xMenu = document.querySelectorAll(".line1, .line2, .line3")
     for (let i = 0; i < xMenu.length; i++) {
       xMenu[i].classList.toggle("active")
+      console.log(xMenu[i]);
     }
-    
-    /* var pippo = document.getElementsByClassName('nav-dropdown')
+    var pippo = document.getElementsByClassName('nav-dropdown')
     console.log(pippo);
-    pippo.target.classList.toggle("active") */
+    pippo[0].classList.toggle("active")
 
-  }
-  const [isActive, setActive] = useState(false)
-  function tolleg() {
-    setActive(!isActive)
-  }
-/*   {isActive ? "active" : null} */
 
+    // per chiudere il menu dei servizi
+     var freccia = document.getElementById("caret")
+     freccia.classList.remove("rotate");
+     var tendina = document.getElementsByClassName("dropdown-services")
+     tendina[0].classList.remove("servicesMenu")
+  }
 
   return (
     <nav>

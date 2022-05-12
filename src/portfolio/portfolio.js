@@ -47,6 +47,16 @@ export default function Portfolio({ slides }) {
           })}
         </div>
 
+        <div className='dots slider'>
+          {PortfolioData.map(function (slide, index) {
+            return (
+              <div className={index === current ? "slide active" : "slide"} key={index}>
+                {index === current && (<img src={slide.image} alt={slide.alt}/>)}
+              </div>
+            )
+          })}
+        </div>
+
         <div className='row'>
           <div className='red left-arrow' onClick={prevSlide}></div>
           <div className='red right-arrow' onClick={nextSlide}></div>

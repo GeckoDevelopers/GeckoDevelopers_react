@@ -1,8 +1,4 @@
 // cose da fare nella deadline
-- risistemare il menu 
-  - il menu a tendina che si chiude a qualsiasi click
-  - il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
-  - il menu in formato mobiele che in home page non si apre affatto
 - carousel
   - aggiungere i pallini al crousel (con la striscia verde)
   - rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
@@ -19,12 +15,15 @@
 - creare la pagina about ass
 
 // cose di logica da rifinire
+  - il menu a tendina che si chiude a qualsiasi click
 
 // cose di style e altre piccolezze
 - rifinire lo style
 - rifare il css con tailwind
 
 // cose fatte
+v il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
+v il menu in formato mobiele che in home page non si apre affatto
 v rimettere le ombre ai div dei servizi
 v rifinire lo style del form
 v cambiare font e rifinire i dettagli scss di conseguenza

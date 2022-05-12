@@ -3,6 +3,8 @@ import { getEngb_text } from "../lingue/inglese";
 import { Link, useLocation } from "react-router-dom";
 
 
+import { useState } from 'react';
+
 
 export default function Navbar() {
   var engb_text = getEngb_text();
@@ -41,7 +43,18 @@ export default function Navbar() {
     for (let i = 0; i < xMenu.length; i++) {
       xMenu[i].classList.toggle("active")
     }
+    
+    /* var pippo = document.getElementsByClassName('nav-dropdown')
+    console.log(pippo);
+    pippo.target.classList.toggle("active") */
+
   }
+  const [isActive, setActive] = useState(false)
+  function tolleg() {
+    setActive(!isActive)
+  }
+/*   {isActive ? "active" : null} */
+
 
   return (
     <nav>

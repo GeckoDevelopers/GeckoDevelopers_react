@@ -10,7 +10,9 @@ export default function Navbar() {
   // SERVE PER I DISCORSI DI PATH DEI LINK
   const location = useLocation();
 
-  function sayHello() {
+
+
+  function caretdownServizi(params) {
     // CARRET DOWN CHE GIRA
     var freccia = document.getElementById("caret")
     freccia.classList.toggle("rotate");
@@ -30,7 +32,10 @@ export default function Navbar() {
         tendina[0].classList.remove('servicesMenu');
       }
     }); */
-    
+  }
+
+
+  function burgherMenu() {
     // BURGHER MENU CHE FA LA X
     var xMenu = document.querySelectorAll(".line1, .line2, .line3")
     for (let i = 0; i < xMenu.length; i++) {
@@ -67,7 +72,7 @@ export default function Navbar() {
                   ? <li><a href="#services-link">{engb_text.navbar.services}</a></li>
                   : 
                   <li className="nowrap">
-                    <span id="servicesMenu" onClick={sayHello}>{engb_text.navbar.services}
+                    <span id="servicesMenu" onClick={caretdownServizi}>{engb_text.navbar.services}
                       <i id="caret" className="fas fa-angle-down"></i>
                     </span>
                     <div className="dropdown-services">
@@ -89,7 +94,7 @@ export default function Navbar() {
               </ul>
 
             </div>
-            <div className="hamburger flex" onClick={sayHello}>
+            <div className="hamburger flex" onClick={burgherMenu}>
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>

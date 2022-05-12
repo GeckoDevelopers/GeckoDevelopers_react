@@ -12,10 +12,11 @@
           margin-bottom: 44px; /*fix*/
           h2 {
               // scritta NEED MORE... e margini
-              min-width: 625px;
-              font-size: $titoli_sezioni;
-              letter-spacing: $letter-spacing;
-              margin-right: 27px; /*fix*/
+                min-width: 625px;
+                font-size: 23.5px;
+                font-weight: normal;
+                letter-spacing: 0.1em;
+                margin-right: 27px;
           }
           hr {
               // line
@@ -38,7 +39,6 @@
         justify-content: space-between;
         .sinistra {
           width: calc(33.3333333333% - 5px);
-          padding-right: 10px;
           position: relative;
           display: flex;
           flex-direction: column;
@@ -46,23 +46,15 @@
           .pippo{
               position: relative;
               label{
-                position: absolute;
-                top: -30%;
-                left: 1vw;
-                color: $gray;
-                text-transform: uppercase;
-                font-weight: bold;
-                position: absolute;
+                  color: $gray;
+                  text-transform: uppercase;
+                  font-weight: 600;
+                  position: absolute;
+                  top: -30%;
+                  left: 1vw;
+                  font-size: 12px;
               }
               input {
-                  /* width: 100%;
-                  max-width: 400px;
-                  padding: 12px;
-                  border: 1px solid #ccc;
-                  box-sizing: border-box;
-                  margin-top: 6px;
-                  margin-bottom: 16px;
-                  resize: vertical; */
                   display: block;
                   height: 40px;
                   max-width: 100%;
@@ -75,24 +67,17 @@
         }
         .corpo-email {
           width: calc(66.6666666667% - 15px);
-          padding-left: 10px;
           position: relative;
             label{
                 color: $gray;
                 text-transform: uppercase;
-                font-weight: bold;
+                font-weight: 600;
                 position: absolute;
                 top: -5%;
                 left: 2vw;
+                font-size: 12px;
             }
             textarea {
-              /* width: 100%;
-              padding: 12px;
-              border: 1px solid #ccc;
-              box-sizing: border-box;
-              margin-top: 6px;
-              margin-bottom: 16px;
-              resize: vertical; */
                 display: block;
                 max-width: 100%;
                 min-width: 100%;
@@ -182,7 +167,32 @@
               img {
                   width: 0;
               }
-          }
+            }
+            form{
+                flex-direction: column;
+                .sinistra{
+                    width: 100%;
+                    padding-right: 0;
+                    .pippo{
+                        input{
+                            margin: 15px 0;
+                        }
+                        label{
+                            top: 5%;
+                            left: 2vw;
+                        }
+                        
+                    }
+                }
+                .corpo-email{
+                    width: 100%;
+                    margin: 15px 0;
+                    padding-left: 0;
+                }
+                .sotto{
+                    margin-top: 15px;
+                }
+            }
       }
   }
 }

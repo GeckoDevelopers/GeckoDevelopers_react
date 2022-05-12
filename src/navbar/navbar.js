@@ -50,10 +50,10 @@ export default function Navbar() {
 
 
     // per chiudere il menu dei servizi
-     var freccia = document.getElementById("caret")
-     freccia.classList.remove("rotate");
-     var tendina = document.getElementsByClassName("dropdown-services")
-     tendina[0].classList.remove("servicesMenu")
+    var freccia = document.getElementById("caret")
+    freccia.classList.remove("rotate");
+    var tendina = document.getElementsByClassName("dropdown-services")
+    tendina[0].classList.remove("servicesMenu")
   }
 
   return (

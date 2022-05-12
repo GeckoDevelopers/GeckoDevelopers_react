@@ -36,6 +36,7 @@
       
       .slider {
         display: flex;
+        flex-direction: column;
         height: 50vh;
         /* padding: 0 10vw 0 10vw; */
         .slide {
@@ -45,6 +46,15 @@
           overflow: hidden;
           img {
             width: 100%;
+          }
+        }
+        .pallini {
+          height: 12px;
+          width: 12px;
+          border-radius: 50%;
+          background: red;
+          &.color {
+            background: $gray;
           }
         }
         .active {
@@ -98,6 +108,8 @@
       }
   }
 }
+
+
 
 @media all and (max-width: 1024px) {
   #projects {

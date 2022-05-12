@@ -5,7 +5,7 @@ import './servizi.scss';
 export default function FullServices () {
   /* var engb_text = getEngb_text(); */
   return (
-    <section className="container-services full_gray">
+    <section className="container-services full_gray ">
       <div className="card-mover full_gray">
         <div className="card">
           <div className="flex main-title">

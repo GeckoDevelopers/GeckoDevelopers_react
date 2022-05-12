@@ -5,7 +5,7 @@ import './servizi.scss';
 export default function Individuals() {
  /*  var engb_text = getEngb_text(); */
   return (
-    <section className="container-services individuals_el_green">
+    <section className="container-services  ">
       <div className="card-mover individuals_el_green">
         <div className="card">
           <div className="flex main-title">

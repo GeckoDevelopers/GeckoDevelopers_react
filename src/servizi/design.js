@@ -5,7 +5,7 @@ export default function Design() {
   /* var engb_text = getEngb_text(); */
   
   return(
-    <section className="container-services design_dk_green">
+    <section className="container-services">
       <div className="card-mover design_dk_green">
         <div className="card">
           <div className="flex main-title">

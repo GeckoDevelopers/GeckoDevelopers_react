@@ -4,7 +4,7 @@ import { getEngb_text } from "../lingue/inglese";
 export default function Support() {
   var engb_text = getEngb_text();
   return (
-    <section className="container-services continuous_yellow">
+    <section className="container-services  ">
       <div className="card-mover continuous_yellow">
           <div className="card">
             <div className="flex main-title">
@@ -33,6 +33,9 @@ export default function Support() {
             </ul>
             <p>For more information, <a id="get-touch" className=" continuous_yellow" href="./#contacts">get in touch</a> with us!</p>
           </div>
+        {/*  @for($i = 0; $i < 500; $i++)
+          <div className="ombra  continuous_yellow"></div>
+          @endfor */}
       </div>
     </section>
   )

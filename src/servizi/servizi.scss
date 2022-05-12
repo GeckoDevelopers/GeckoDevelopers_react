@@ -18,7 +18,7 @@
       position: relative;
       &:before {
         position: absolute;
-        top: 9px;
+        top: 10px;
         left: 97%;
         width: 100%;
         height: 100%;
@@ -28,8 +28,8 @@
       }
       &:after {
         position: absolute;
-        top: 96%;
-        left: -4px;
+        top: 98%;
+        left: 14px;
         width: 100%;
         height: 150%;
         content: '';
@@ -192,95 +192,85 @@
 
 
 
-// .container-services.individuals_el_green {
-//   hr {
-//       color: $light-green; /*fix*/
-//   }
-//   h2 {
-//       color: $light-green;
-//   }
-// }
+.container-services {
+  hr {
+      color: $light-green; /*fix*/
+  }
+  h2 {
+      color: $light-green;
+  }
+}
 
-// #get-touch.individuals_el_green {
-//   text-decoration: underline;
-//   color: $light-green;
-// }
 
-// .container-services.companies_green {
-//   hr {
-//       color: $green; /*fix*/
-//   }
-//   h2 {
-//       color: $green;
-//   }
-// }
 
-// #get-touch.companies_green {
-//   text-decoration: underline;
-//   color: $green;
-// }
+.container-services.companies_green {
+  hr {
+      color: $green; /*fix*/
+  }
+  h2 {
+      color: $green;
+  }
+}
 
-// .container-services.design_dk_green {
-//   hr {
-//       color: $dark-green; /*fix*/
-//   }
-//   h2 {
-//       color: $dark-green;
-//   }
-// }
 
-// #get-touch.design_dk_green {
-//   text-decoration: underline;
-//   color: $dark-green;
-// }
 
-// .container-services.continuous_yellow {
-//   hr {
-//       color: $yellow; /*fix*/
-//   }
-//   h2 {
-//       color: $yellow;
-//   }
-// }
+.container-services.design_dk_green {
+  hr {
+      color: $dark-green; /*fix*/
+  }
+  h2 {
+      color: $dark-green;
+  }
+}
 
-// #get-touch.continuous_yellow {
-//   text-decoration: underline;
-//   color: $yellow;
-// }
 
-// .container-services.content_orange {
-//   hr {
-//       color: $orange; /*fix*/
-//   }
-//   h2 {
-//       color: $orange;
-//   }
-// }
 
-// #get-touch.content_orange {
-//   text-decoration: underline;
-//   color: $orange;
-// }
+.container-services.continuous_yellow {
+  hr {
+      color: $yellow; /*fix*/
+  }
+  h2 {
+      color: $yellow;
+  }
+}
 
-// .container-services.marketing_red {
-//   hr {
-//       color: $red; /*fix*/
-//   }
-//   h2 {
-//       color: $red;
-//   }
-// }
 
-// #get-touch.marketing_red {
-//   text-decoration: underline;
-//   color: $red;
-// }
 
-@media all and (max-width: 1024px) {
+.container-services.content_orange {
+  hr {
+      color: $orange; /*fix*/
+  }
+  h2 {
+      color: $orange;
+  }
+}
+
+
+
+.container-services.marketing_red {
+  hr {
+      color: $red; /*fix*/
+  }
+  h2 {
+      color: $red;
+  }
+}
+
+
+
+@media all and (max-width: 1100px) {
   .container-services {
       margin-top: 37px; /*fix*/
       .card-mover {
           width: 80%;
+          &::before {
+            top: 11px;
+            left: 97%;
+          }
+          &::after {
+            top: 98%;
+            left: 11px;
+          }
           .card {
               padding: 40px 50px; /*fix*/
               .main-title {
@@ -314,6 +304,14 @@
       margin-top: 30px; /*fix*/
       .card-mover {
           width: 90%;
+          &::before {
+            top: 12px;
+            left: 96%;
+          }
+          &::after {
+            top: 98%;
+            left: 10px;
+          }
           .card {
               padding: 43px 44px; /*fix*/
               .main-title {
@@ -349,6 +347,14 @@
       margin-top: 15px;
       .card-mover {
           width: 90%;
+          &::before {
+            top: 15px;
+            left: 96%;
+          }
+          &::after {
+            top: 98%;
+            left: 13px;
+          }
           .card {
               padding: 33px 23px; /*fix*/
               .main-title {

@@ -144,3 +144,7 @@ let engb_text = {
 export function getEngb_text() {
   return engb_text;
 }
+
+
+
+/* Informativa sulla privacy: l'email e il nome non verranno salvati, verranno utilizzati al solo scopo di comunicazioni azienda cliente */

@@ -48,15 +48,7 @@
             width: 100%;
           }
         }
-        .pallini {
-          height: 12px;
-          width: 12px;
-          border-radius: 50%;
-          background: red;
-          &.color {
-            background: $gray;
-          }
-        }
+        
         .active {
         display: flex;
         justify-content: center;
@@ -109,6 +101,23 @@
   }
 }
 
+.pallini {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: red;
+  &.color {
+    background: $gray;
+  }
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
 
 
 @media all and (max-width: 1024px) {

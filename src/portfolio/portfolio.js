@@ -26,11 +26,6 @@ export default function Portfolio({ slides }) {
     setCurrent(current === 0 ? length -1 : current -1)
   }
 
-  var pallini = []
-  for (let i = 0; i < slides.length; i++) {
-    pallini.push(<div className='pallini'></div>)
-  }
-
   return (
     <section id="projects">
       <span className="link" id="projects-link"></span>
@@ -46,19 +41,28 @@ export default function Portfolio({ slides }) {
           {PortfolioData.map(function (slide, index) {
             return (
               <div>
-                <div className={index === current ? "slide active" : "slide"} key={index}>
-                  {index === current && (<img src={slide.image} alt={slide.alt}/>)}
-                </div>
                 <div>
                   {index === current && (<p>{slide.text}</p>)}
                 </div>
-                <div>
-                  {pallini}
+                <div className={index === current ? "slide active" : "slide"} key={index}>
+                  {index === current && (<img src={slide.image} alt={slide.alt}/>)}
                 </div>
               </div>
             )
           })}
+
+          <div className="dots">
+            {PortfolioData.map(function (slide, index) {
+              return (
+                <div>
+                  <div className={index === current ? "pallini color" : "pallini"} key={index}/>
+                </div>
+              )
+            })}
+          </div>
         </div>
+
+
 
         <div className='row'>
           <div className='red left-arrow' onClick={prevSlide}></div>

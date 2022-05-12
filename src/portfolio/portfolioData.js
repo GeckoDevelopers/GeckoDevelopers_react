@@ -2,17 +2,17 @@ export  const PortfolioData = [
   {
     image: "./img/img_mountains_wide.jpg",
     alt: "viva la fica",
-    text: "msndbv,asdbasjdf"
+    text: "tetteeeeee"
   },
   {
     image: "./img/img_nature_wide.jpg",
     alt: "viva la gnocca",
-    text: "msndbv,asdbasjdf"
+    text: "yeeesssssss"
   },
   {
     image: "./img/img_mountains_wide.jpg",
     alt: "viva la passera",
-    text: "msndbv,asdbasjdf"
+    text: "ok, no."
   },
   {
     image: "./img/img_snow_wide.jpg",

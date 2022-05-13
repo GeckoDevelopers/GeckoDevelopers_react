@@ -37,6 +37,15 @@ export default function Navbar() {
   }
 
 
+  /////// CI SONO RIUSCITO MA VA PERFEZIONATA
+  var closethings = document.querySelectorAll("li")/* .addEventListener("click", burgherMenu); */
+  console.log(closethings[1]);
+  for (let i = 0; i < closethings.length; i++) {
+    closethings[i].addEventListener("click", burgherMenu);
+  }
+
+
+
   function burgherMenu() {
     // BURGHER MENU CHE FA LA X
     var xMenu = document.querySelectorAll(".line1, .line2, .line3")

@@ -1,9 +1,10 @@
-// cose da fare nella deadline
+// cose da fare nella deadline dei 10 giorni
 - carousel
   v aggiungere i pallini al crousel (con la striscia verde)
   - rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
   - rifinire pulsanti carousel
-  se lo schermo è largo overflow in basso
+  - https://glidejs.com/docs/setup/
+  - se lo schermo è largo overflow in basso
 - chiusura dei menu al click su un link
 - deploy
 - all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo

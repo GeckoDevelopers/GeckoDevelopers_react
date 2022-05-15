@@ -39,30 +39,61 @@ export default function Navbar() {
 
   /////// CI SONO RIUSCITO MA VA PERFEZIONATA
   var closethings = document.querySelectorAll("li")/* .addEventListener("click", burgherMenu); */
-  console.log(closethings[1]);
-  for (let i = 0; i < closethings.length; i++) {
-    closethings[i].addEventListener("click", burgherMenu);
+  if (closethings[1] == undefined) {
+    console.log("non funziona il targhettamento per le chiusure del menu a tendina da perfezionare");
+  } else {
+    console.log(closethings[1]);
   }
+  // for (let i = 0; i < closethings.length; i++) {
+  //   closethings[i].addEventListener("click", burgherMenu);
+  // }
 
-
-
+  
   function burgherMenu() {
     // BURGHER MENU CHE FA LA X
     var xMenu = document.querySelectorAll(".line1, .line2, .line3")
     for (let i = 0; i < xMenu.length; i++) {
       xMenu[i].classList.toggle("active")
-      console.log(xMenu[i]);
+      /* console.log(xMenu[i]); */
     }
-    var pippo = document.getElementsByClassName('nav-dropdown')
-    console.log(pippo);
-    pippo[0].classList.toggle("active")
 
-
+    // var pippo = document.getElementsByClassName('nav-dropdown')
+    // /* console.log(pippo); */
+    // pippo[0].classList.toggle("active")
+    
+    
     // per chiudere il menu dei servizi
     var freccia = document.getElementById("caret")
     freccia.classList.remove("rotate");
     var tendina = document.getElementsByClassName("dropdown-services")
     tendina[0].classList.remove("servicesMenu")
+  }
+  
+  
+  
+  
+ /*  var carretDownServizi = document.getElementById("servicesMenu") */
+ /*  console.log(carretDownServizi[0]); */
+
+
+  // TARGHETTAZIONE BURGHER MENU
+  var targhetBurgherMenu = document.getElementsByClassName("hamburger")
+  /* console.log(targhetBurgherMenu); */
+  if (targhetBurgherMenu[0] == undefined) {
+    console.log("non funziona il targhettamento per il burghermenu");
+  } else {
+    /* console.log(targhetBurgherMenu[0]); */
+    targhetBurgherMenu[0].addEventListener("click", animazioneBurgherMenu);  
+  }
+  setTimeout(targhetBurgherMenu[0].addEventListener("click", animazioneBurgherMenu), 5000)
+  function animazioneBurgherMenu() {
+    console.log("targhettazione click avvenuta con successo");
+    // BURGHER MENU ANIMAZIONE X
+    var xMenu = document.querySelectorAll(".line1, .line2, .line3")
+    for (let i = 0; i < xMenu.length; i++) {
+      /* console.log(xMenu[i]); */
+      xMenu[i].classList.toggle("active")
+    }
   }
 
   return (
@@ -94,7 +125,7 @@ export default function Navbar() {
                   ? <li><a href="#services-link">{engb_text.navbar.services}</a></li>
                   : 
                   <li className="nowrap">
-                    <span id="servicesMenu" onClick={caretdownServizi}>{engb_text.navbar.services}
+                    <span id="servicesMenu" /*onClick={caretdownServizi}*/>{engb_text.navbar.services}
                       <i id="caret" className="fas fa-angle-down"></i>
                     </span>
                     <div className="dropdown-services">
@@ -116,7 +147,7 @@ export default function Navbar() {
               </ul>
 
             </div>
-            <div className="hamburger flex" onClick={burgherMenu}>
+            <div className="hamburger flex" /* onClick={animazioneBurgherMenu} *//*onClick={burgherMenu}*/>
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>

@@ -40,10 +40,7 @@ export default function Navbar() {
       xMenu[i].classList.remove("active")
     }
     // CHIUSURA MENU DEL BURGHER MENU
-    var width = window.screen.width
-    if (width <= 1024) {
-      document.querySelectorAll('.nav-dropdown')[0].classList.remove("active")
-    }
+    document.querySelectorAll('.nav-dropdown')[0].classList.remove("active")
   }
 
   // SCROLL UP DEI LINK

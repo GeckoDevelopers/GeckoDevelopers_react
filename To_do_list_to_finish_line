@@ -3,9 +3,8 @@
   v aggiungere i pallini al crousel (con la striscia verde)
   - rifinire carousel in generale (controllando lo swipe sul telefono dopo il deploy)
   - rifinire pulsanti carousel
-  - https://glidejs.com/docs/setup/
   - se lo schermo è largo overflow in basso
-- chiusura dei menu al click su un link
+  - https://glidejs.com/docs/setup/
 - deploy
 - all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo
 - inserire i link dei social nel footer
@@ -25,6 +24,7 @@
 - rifare il css con tailwind
 
 // cose fatte
+v chiusura dei menu al click su un link
 v il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
 v il menu in formato mobiele che in home page non si apre affatto
 v rimettere le ombre ai div dei servizi

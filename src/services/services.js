@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
   var engb_text = getEngb_text();
+
+  // SCROLL UP DEI LINK
+  function scrollUp() {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <section id="services">
       <span className="link" id="services-link"></span>
@@ -29,7 +35,7 @@ export default function Services() {
 
           <div className="trasparente full_gray">
             <div className="carta_container">
-              <Link to="/full" className="carta">
+              <Link onClick={scrollUp} to="/full" className="carta">
                 <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.card_full.title}</h3>
@@ -47,7 +53,7 @@ export default function Services() {
 
           <div className="trasparente individuals_el_green">
             <div className="carta_container">
-              <Link className="carta" to="/individuals">
+              <Link onClick={scrollUp} className="carta" to="/individuals">
                 <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.card_individuals.title}</h3>
@@ -73,7 +79,7 @@ export default function Services() {
 
           <div className="trasparente design_dk_green">
             <div className="carta_container">
-              <Link className="carta" to="/design">
+              <Link onClick={scrollUp} className="carta" to="/design">
                 <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.card_design.title}</h3>
@@ -104,7 +110,7 @@ export default function Services() {
 
           <div className="trasparente content_orange">
             <div className="carta_container">
-              <Link className="carta" to="/content-creation">
+              <Link onClick={scrollUp} className="carta" to="/content-creation">
                 <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.card_content_creation.title}</h3>
@@ -117,7 +123,7 @@ export default function Services() {
 
           <div className="trasparente marketing_red">
             <div className="carta_container">
-              <Link className="carta" to="/marketing">
+              <Link onClick={scrollUp} className="carta" to="/marketing">
                 <div className="flex">
                   <img src="" alt="" />
                   <h3>{engb_text.card_marketing.title}</h3>

@@ -1,10 +1,10 @@
 import "./servizi.scss"
-import { getEngb_text } from "../lingue/inglese";
+/* import { getEngb_text } from "../lingue/inglese"; */
 
 export default function Support() {
-  var engb_text = getEngb_text();
+  /* var engb_text = getEngb_text(); */
   return (
-    <section className="container-services  ">
+    <section className="container-services continuous_yellow">
       <div className="card-mover continuous_yellow">
           <div className="card">
             <div className="flex main-title">

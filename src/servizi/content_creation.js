@@ -4,7 +4,7 @@ import "./servizi.scss"
  export default function ContentCreation() {
   /* var engb_text = getEngb_text(); */
   return (
-    <section className="container-services  ">
+    <section className="container-services content_orange">
       <div className="card-mover content_orange">
         <div className="card">
           <div className="flex main-title">

@@ -1,10 +1,10 @@
 import './servizi.scss';
-import { getEngb_text } from "../lingue/inglese";
+/* import { getEngb_text } from "../lingue/inglese"; */
 
 export default function Companies() {
-  var engb_text = getEngb_text();
+  /* var engb_text = getEngb_text(); */
   return (
-    <section className="container-services ">
+    <section className="container-services companies_green">
       <div className="card-mover companies_green">
         <div className="card">
           <div className="flex main-title">

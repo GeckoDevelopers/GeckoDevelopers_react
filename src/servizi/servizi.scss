@@ -164,95 +164,56 @@
 
 
 
-.card-mover.companies_green:before, .card-mover.companies_green:after {
-  background: $green;
-}
-.card-mover.content_orange:before, .card-mover.content_orange:after {
-  background: $orange;
-}
-.card-mover.design_dk_green:before, .card-mover.design_dk_green:after {
-  background: $dark-green;
-}
 .container-services.full_gray {
   background: $red;
   .card-mover.full_gray:before, .card-mover.full_gray:after {
     background: $gray;
   }
 }
-.card-mover.individuals_el_green:before, .card-mover.individuals_el_green:after {
-  background: $light-green;
-}
-.card-mover.marketing_red:before, .card-mover.marketing_red:after {
-  background: $red;
-}
-.card-mover.continuous_yellow:before, .card-mover.continuous_yellow:after {
-  background: $yellow;
-}
-
-
-
-
-.container-services {
-  hr {
-      color: $light-green; /*fix*/
-  }
-  h2 {
-      color: $light-green;
+.container-services.individuals_el_green {
+  hr {background-color: $light-green;}
+  h2 {color: $light-green;}
+  .card-mover.individuals_el_green:before, .card-mover.individuals_el_green:after {
+    background: $light-green;
   }
 }
-
-
-
 .container-services.companies_green {
-  hr {
-      color: $green; /*fix*/
-  }
-  h2 {
-      color: $green;
+  hr {background-color: $green;}
+  h2 {color: $green;}
+  .card-mover.companies_green:before, .card-mover.companies_green:after {
+    background: $green;
   }
 }
-
-
 
 .container-services.design_dk_green {
-  hr {
-      color: $dark-green; /*fix*/
-  }
-  h2 {
-      color: $dark-green;
+  hr {background-color: $dark-green;}
+  h2 {color: $dark-green;}
+  .card-mover.design_dk_green:before, .card-mover.design_dk_green:after {
+    background: $dark-green;
   }
 }
-
-
 
 .container-services.continuous_yellow {
-  hr {
-      color: $yellow; /*fix*/
-  }
-  h2 {
-      color: $yellow;
+  hr {background-color: $yellow;}
+  h2 {color: $yellow;}
+  .card-mover.continuous_yellow:before, .card-mover.continuous_yellow:after {
+    background: $yellow;
   }
 }
-
-
 
 .container-services.content_orange {
-  hr {
-      color: $orange; /*fix*/
-  }
-  h2 {
-      color: $orange;
+  hr {background-color: $orange;}
+  h2 {color: $orange;}
+  .card-mover.content_orange:before, .card-mover.content_orange:after {
+    background: $orange;
   }
 }
 
-
-
 .container-services.marketing_red {
-  hr {
-      color: $red; /*fix*/
-  }
-  h2 {
-      color: $red;
+  hr {background-color: $red;}
+  h2 {color: $red;}
+  .card-mover.marketing_red:before, .card-mover.marketing_red:after {
+    background: $red;
   }
 }
 

@@ -67,36 +67,40 @@ nav {
                         }
                     }
                     ul {
-                        width: 100%;
-                        display: flex;
-                        // justify-content: space-evenly;
-                        li {
-                            // slash in nav menù
-                            margin-left: 17px; /*fix*/
-                            font-size: 17px; /*fix*/
-                            color: $gray;
-                            #caret {
-                                // freccia dropdown services menù
-                                font-size: 16px; /*fix*/
-                                transition: transform 0.4s;
-                                margin-left: 4px; /*fix*/
-                                cursor: pointer;
-                                &.rotate {
-                                    transform: rotate(180deg);
-                                    transition: transform 0.4s;
-                                }
-                            }
+                      width: 100%;
+                      display: flex;
+                      // justify-content: space-evenly;
+                      li {
+                        // slash in nav menù
+                        margin-left: 17px; /*fix*/
+                        font-size: 17px; /*fix*/
+                        color: $gray;
+                        #caret {
+                          // freccia dropdown services menù
+                          font-size: 16px; /*fix*/
+                          transition: transform 0.4s;
+                          margin-left: 4px; /*fix*/
+                          cursor: pointer;
+                          &.rotate {
+                            transform: rotate(180deg);
+                            transition: transform 0.4s;
+                          }
                         }
+                      }
                     }
                     .dropdown-services {
                         // posizione dropdown-services desktop
                         display: none;
                         position: absolute;
-                        top: 48; /*fix*/
-                        left: -35;
+                        top: 25px; /*fix*/
+                        left: -35px;
                         z-index: 20;
                         &.servicesMenu {
-                            display: block !important;
+                          color: red;
+                          display: block !important; // se no non diventa visibile il menu a tendinda dei servizi. what a fuck
+                        }
+                        li:hover {
+                          text-decoration: underline;
                         }
                         ul {
                             width: 363px;

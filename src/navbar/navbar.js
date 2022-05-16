@@ -12,89 +12,44 @@ export default function Navbar() {
   // SERVE PER I DISCORSI DI PATH DEI LINK
   const location = useLocation();
 
-
-
-  function caretdownServizi(params) {
-    // CARRET DOWN CHE GIRA
-    var freccia = document.getElementById("caret")
-    freccia.classList.toggle("rotate");
-    
-    // MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
-    var tendina = document.getElementsByClassName("dropdown-services")
-    tendina[0].classList.toggle("servicesMenu")
-    // come faccio che il menu si chiude a ogni click?
-    /* document.addEventListener('click', function () {
-      if (tendina[0].classList.has("servicesMenu")) {
-        tendina[0].classList.remove("servicesMenu")
-      }
-    }); */
-    /* document.addEventListener('click', function (event) {
-      const isClickInsideElement = tendina[0].contains(event.target);
-      if (!isClickInsideElement && tendina[0].classList.contains('servicesMenu')) {
-        tendina[0].classList.remove('servicesMenu');
-      }
-    }); */
-  }
-
-
-  /////// CI SONO RIUSCITO MA VA PERFEZIONATA
-  var closethings = document.querySelectorAll("li")/* .addEventListener("click", burgherMenu); */
-  if (closethings[1] == undefined) {
-    console.log("non funziona il targhettamento per le chiusure del menu a tendina da perfezionare");
-  } else {
-    console.log(closethings[1]);
-  }
-  // for (let i = 0; i < closethings.length; i++) {
-  //   closethings[i].addEventListener("click", burgherMenu);
-  // }
-
-  
-  function burgherMenu() {
-    // BURGHER MENU CHE FA LA X
-    var xMenu = document.querySelectorAll(".line1, .line2, .line3")
-    for (let i = 0; i < xMenu.length; i++) {
-      xMenu[i].classList.toggle("active")
-      /* console.log(xMenu[i]); */
-    }
-
-    // var pippo = document.getElementsByClassName('nav-dropdown')
-    // /* console.log(pippo); */
-    // pippo[0].classList.toggle("active")
-    
-    
-    // per chiudere il menu dei servizi
-    var freccia = document.getElementById("caret")
-    freccia.classList.remove("rotate");
-    var tendina = document.getElementsByClassName("dropdown-services")
-    tendina[0].classList.remove("servicesMenu")
-  }
-  
-  
-  
-  
- /*  var carretDownServizi = document.getElementById("servicesMenu") */
- /*  console.log(carretDownServizi[0]); */
-
-
-  // TARGHETTAZIONE BURGHER MENU
-  var targhetBurgherMenu = document.getElementsByClassName("hamburger")
-  /* console.log(targhetBurgherMenu); */
-  if (targhetBurgherMenu[0] == undefined) {
-    console.log("non funziona il targhettamento per il burghermenu");
-  } else {
-    /* console.log(targhetBurgherMenu[0]); */
-    targhetBurgherMenu[0].addEventListener("click", animazioneBurgherMenu);  
-  }
-  setTimeout(targhetBurgherMenu[0].addEventListener("click", animazioneBurgherMenu), 5000)
+  // BURGHER MENU
   function animazioneBurgherMenu() {
-    console.log("targhettazione click avvenuta con successo");
     // BURGHER MENU ANIMAZIONE X
     var xMenu = document.querySelectorAll(".line1, .line2, .line3")
     for (let i = 0; i < xMenu.length; i++) {
-      /* console.log(xMenu[i]); */
       xMenu[i].classList.toggle("active")
     }
+    // APERTURA MENU BURGHER
+    var openBurgher = document.querySelectorAll('.nav-dropdown')
+    openBurgher[0].classList.toggle("active")
   }
+
+  // CARRET DOWN E MENU SERVIZI
+  function animazioneTendina() {
+    // CARRET DOWN CHE GIRA
+    document.getElementById("caret").classList.toggle("rotate");
+    // MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
+    document.getElementsByClassName("dropdown-services")[0].classList.toggle("servicesMenu")
+  }
+  function closeMenu() {
+    // CHIUSURA DEL MENU A TENDINA CON LA X DEL BURGHERMENU
+    document.getElementsByClassName("dropdown-services")[0].classList.remove("servicesMenu")
+  }
+  
+
+ 
+  function closeMenudaiLink() {
+    console.log("merda");
+    var xMenu = document.querySelectorAll(".line1, .line2, .line3")
+    for (let i = 0; i < xMenu.length; i++) {
+      xMenu[i].classList.remove("active")
+    }
+    document.querySelectorAll(".nav-dropdown")[0].classList.remove("active")
+    /* document.getElementById("caret")[0].classList.remove("rotate") */
+    document.getElementsByClassName("dropdown-services")[0].classList.remove("servicesMenu")
+  }
+
+
 
   return (
     <nav>
@@ -116,7 +71,7 @@ export default function Navbar() {
           </div>
           <div className="right-side flex">
             <div className="nav-dropdown">
-              <ul>
+              <ul /* onClick={closeMenudaiLink} */>
                 {location.pathname === "/" 
                   ? ""/*<a href="#home">{engb_text.navbar.home}</a>*/ 
                   : <li><Link to="/">{engb_text.navbar.home}</Link></li>}
@@ -124,12 +79,12 @@ export default function Navbar() {
                 {location.pathname === "/" 
                   ? <li><a href="#services-link">{engb_text.navbar.services}</a></li>
                   : 
-                  <li className="nowrap">
-                    <span id="servicesMenu" /*onClick={caretdownServizi}*/>{engb_text.navbar.services}
+                  <li className="nowrap" onClick={animazioneTendina}>
+                    <span id="servicesMenu">{engb_text.navbar.services}
                       <i id="caret" className="fas fa-angle-down"></i>
                     </span>
                     <div className="dropdown-services">
-                      <ul>
+                      <ul onClick={closeMenudaiLink}>
                         <li>/<a href="/#services-link">{engb_text.minimenuservizi.all}</a></li><hr/>
                         <li>/<Link to="/full" >{engb_text.minimenuservizi.full}</Link></li><hr/>
                         <li>/<Link to="/individuals">{engb_text.minimenuservizi.indivisuals}</Link></li><hr/>
@@ -147,7 +102,7 @@ export default function Navbar() {
               </ul>
 
             </div>
-            <div className="hamburger flex" /* onClick={animazioneBurgherMenu} *//*onClick={burgherMenu}*/>
+            <div className="hamburger flex" onClick={() => {animazioneBurgherMenu();closeMenu();}}>
               <div className="line1"></div>
               <div className="line2"></div>
               <div className="line3"></div>

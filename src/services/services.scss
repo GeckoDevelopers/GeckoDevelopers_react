@@ -222,7 +222,6 @@
               .col-md-8 {
                   // meno padding
                   padding-right: 8px; /*fix*/
-                  width: 100%;
                   p {
                       column-count: 2; /*fix*/
                       column-gap: 25px; /*fix*/
@@ -279,6 +278,7 @@
               .col-md-8 {
                   // leva padding
                   padding-right: 0px; /*fix*/
+                  width: 100%;
                   p {
                       column-count: 1; /*fix*/
                   }

@@ -41,37 +41,41 @@ export default function Portfolio({ slides }) {
           {PortfolioData.map(function (slide, index) {
             return (
               <div>
-                <div>
+                <div className='slider-text'>
                   {index === current && (<p>{slide.text}</p>)}
                 </div>
                 <div className={index === current ? "slide active" : "slide"} key={index}>
                   {index === current && (<img src={slide.image} alt={slide.alt}/>)}
+                  <div className='arrows'>
+                    <div className='arrow left-arrow' onClick={prevSlide}>
+                      <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div className='arrow right-arrow' onClick={nextSlide}>
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
                 </div>
               </div>
             )
           })}
 
-          <div className="dots">
-            {PortfolioData.map(function (slide, index) {
-              return (
-                <div>
-                  <div className={index === current ? "pallini color" : "pallini"} key={index}/>
-                </div>
-              )
-            })}
-          </div>
+        </div>
+        <div className="dots">
+          {PortfolioData.map(function (slide, index) {
+            return (
+              <div>
+                <div className={index === current ? "pallini color" : "pallini"} key={index}/>
+              </div>
+            )
+          })}
         </div>
 
 
 
-        <div className='row'>
-          <div className='red left-arrow' onClick={prevSlide}></div>
-          <div className='red right-arrow' onClick={nextSlide}></div>
-        </div>
 
         <div className="discover flex">
           <hr />
-          <a>Discover more...</a>
+          <a href=''>Discover more...</a>
         </div>
         
       </div>

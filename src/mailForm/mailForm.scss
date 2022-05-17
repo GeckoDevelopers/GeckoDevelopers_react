@@ -5,6 +5,41 @@
   color: $white;
   padding: 47px 0 0px 0; /*fix*/
   position: relative; //per l'anchor link
+  .mailForm_overlay {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.4s ease-in, z-index 0.4s;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.5);
+    &.active {
+      display: flex;
+      opacity: 1;
+      transition: opacity 0.4s ease-out;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      width: 50vw;
+      background-color: $white;
+      border: 5vh solid $green;
+      border-radius: 10%;
+      color: $gray;
+      font-size: 5vw;
+      i {
+        font-size: 10vw;
+        color: $green;
+      }
+    }
+  }
   .container-custom {
       .intestazione {
           justify-content: space-between;
@@ -43,7 +78,7 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          .pippo{
+          .input_label{
               position: relative;
               label{
                   color: $gray;
@@ -173,7 +208,7 @@
                 .sinistra{
                     width: 100%;
                     padding-right: 0;
-                    .pippo{
+                    .input_label{
                         input{
                             margin: 15px 0;
                         }

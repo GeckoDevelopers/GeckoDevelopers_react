@@ -6,15 +6,14 @@
   - se lo schermo è largo overflow in basso
   - https://glidejs.com/docs/setup/
 - deploy
-- all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo
-- inserire i link dei social nel footer
-- aggiungere lo switch delle lingue
+- inserire i link dei social nel footer (e creare il social di conseguenza)
 
 
 // cose grose da fare per la fine del sito
+- aggiungere lo switch delle lingue
 - creare la pagina portfoli
 - implementare i micro portfoli infondo ai servizi singoli
-- creare la pagina about ass
+- creare la pagina about ass?
 
 // cose di logica da rifinire
   - il menu a tendina che si chiude a qualsiasi click
@@ -24,6 +23,7 @@
 - rifare il css con tailwind
 
 // cose fatte
+v all'invio del form emayl messaggio di successo o fallimento chiudibile con la x o che svanisce dopo qualche secondo
 v chiusura dei menu al click su un link
 v il menu in formato mobile che nelle sezioni servizi non apre bene il menu normale e il menu servizi
 v il menu in formato mobiele che in home page non si apre affatto

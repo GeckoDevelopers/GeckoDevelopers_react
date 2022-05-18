@@ -43,6 +43,7 @@
           p{
             font-size: $paragrafi_sezioni;
             text-transform: capitalize;
+            margin-bottom: 5px;
           }
         }
         .slide {
@@ -52,6 +53,7 @@
           overflow: hidden;
           position: relative;
           img {
+            height: 50vh;
             width: 100%;
             object-fit: cover;
           }
@@ -73,8 +75,9 @@
         .arrow {
           background-color: $white;
           i{
-            font-size: 48px;
+            font-size: 65px;
             color: $gray;
+            line-height: 7.5;
           }
         }
       }
@@ -107,9 +110,9 @@
               margin-left: 42px; /*fix*/
               text-decoration: none;
               cursor: pointer;
-              &:hover {
+              /* &:hover {
                   // color: $red;
-              }
+              } */
           }
       }
   }
@@ -138,26 +141,56 @@
 
 
 @media all and (max-width: 1024px) {
-  #projects {
-      .container-custom {
-          .slider {
-              .b-carousel {
-                  .image {
-                      img {
-                          // dimensioni immagine carousel
-                          height: 35vh;
-                      }
-                  }
-              }
-          }
-      }
-  }
 }
 
 @media all and (max-width: 768px) {
+  #projects {
+      .container-custom {
+          .slider {
+            .slide{
+              .arrows{
+                .arrow{
+                  i{
+                    line-height: 6.5;
+                  }
+                }
+              }
+              img {
+                // dimensioni immagine carousel
+                height: 45vh;
+              }
+            }
+          }
+        .dots{
+          padding: 15px;
+        }
+      }
+  }
 
 }
 
 @media all and (max-width: 480px) {
+  #projects {
+    .container-custom {
+        .slider {
+          .slide{
+            .arrows{
+              .arrow{
+                i{
+                  line-height: 5;
+                }
+              }
+            }
+            img {
+              // dimensioni immagine carousel
+              height: 35vh;
+            }
+          }
+        }
+      .dots{
+        padding: 10px;
+      }
+    }
+}
 
 }

@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container-custom">
         <h2>Gecko <br/> Devs</h2>
         <div className="social">
-          <a href=""><i className="fab fa-linkedin fa-2x"></i></a>
+          {/* <a href=""><i className="fab fa-linkedin fa-2x"></i></a> */}
           {/* <a href=""><i className="fab fa-instagram"></i></a> */}
         </div> 
         <p>Gecko Developers brand and logo are trademarks of Gecko Developers S.r.l. © 2021.</p>

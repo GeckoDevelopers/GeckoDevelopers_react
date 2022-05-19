@@ -37,7 +37,7 @@ export default function Services() {
             <div className="carta_container">
               <Link onClick={scrollUp} to="/full" className="carta">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_full.png" alt="" />
                   <h3>{engb_text.card_full.title}</h3>
                 </div>
                 <p>{engb_text.card_full.paragrafo}</p>
@@ -55,7 +55,7 @@ export default function Services() {
             <div className="carta_container">
               <Link onClick={scrollUp} className="carta" to="/individuals">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_individuals.png" alt="" />
                   <h3>{engb_text.card_individuals.title}</h3>
                 </div>
                 <p>{engb_text.card_individuals.paragrafo}</p>
@@ -68,7 +68,7 @@ export default function Services() {
             <div className="carta_container">
               <Link className="carta" to="/companies">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_companies.png" alt="" />
                   <h3>{engb_text.card_companies.title}</h3>
                 </div>
                 <p>{engb_text.card_companies.paragrafo}</p>
@@ -81,7 +81,7 @@ export default function Services() {
             <div className="carta_container">
               <Link onClick={scrollUp} className="carta" to="/design">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_creative.png" alt="" />
                   <h3>{engb_text.card_design.title}</h3>
                 </div>
                 <p>{engb_text.card_design.paragrafo}</p>
@@ -99,7 +99,7 @@ export default function Services() {
             <div className="carta_container">
               <Link className="carta" to="/support">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_support.png" alt="" />
                   <h3>{engb_text.card_support.title}</h3>
                 </div>
                 <p>{engb_text.card_support.paragrafo}</p>
@@ -112,7 +112,7 @@ export default function Services() {
             <div className="carta_container">
               <Link onClick={scrollUp} className="carta" to="/content-creation">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_content.png" alt="" />
                   <h3>{engb_text.card_content_creation.title}</h3>
                 </div>
                 <p>{engb_text.card_content_creation.paragrafo}</p>
@@ -125,7 +125,7 @@ export default function Services() {
             <div className="carta_container">
               <Link onClick={scrollUp} className="carta" to="/marketing">
                 <div className="flex">
-                  <img src="" alt="" />
+                  <img src="./img/img-pagine-servizi/icon_marketing.png" alt="" />
                   <h3>{engb_text.card_marketing.title}</h3>
                 </div>
                 <p>{engb_text.card_marketing.paragrafo}</p>

@@ -81,7 +81,8 @@ export default function Navbar() {
                       <i id="caret" className="fas fa-angle-down"></i>
                     </span>
                     <div className="dropdown-services">
-                      <ul /* onClick={closeMenudaiLink} */>
+                      <ul>
+                        <hr/>
                         <li onClick={closeMenudaiLink}>/<a href="/#services-link">{engb_text.minimenuservizi.all}</a></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/full">{engb_text.minimenuservizi.full}</Link></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/individuals">{engb_text.minimenuservizi.indivisuals}</Link></li><hr/>

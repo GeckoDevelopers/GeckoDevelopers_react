@@ -1,22 +1,22 @@
 export  const PortfolioData = [
   {
-    image: "./img/img_mountains_wide.jpg",
+    image: "./img/workinprogress1.jpg",
     alt: "viva la fica",
-    text: "tetteeeeee"
+    text: "Work in progress"
   },
   {
-    image: "./img/img_nature_wide.jpg",
+    image: "./img/workinprogress2.jpg",
     alt: "viva la gnocca",
-    text: "yeeesssssss"
+    text: "We are working on it"
   },
   {
-    image: "./img/img_mountains_wide.jpg",
+    image: "./img/workinprogress3.png",
     alt: "viva la passera",
-    text: "ok, no."
+    text: "Almost there, stay tuned"
   },
   {
-    image: "./img/img_snow_wide.jpg",
+    image: "./img/workinprogress4.jpg",
     alt: "viva la topa",
-    text: "msndbv,asdbasjdf"
+    text: "Coming Soon"
   }
 ]

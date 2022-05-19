@@ -34,7 +34,7 @@ export default function Portfolio({ slides }) {
         <div className="intestazione flex">
           <h2>{engb_text.portfolio.title}</h2>
           <hr />
-          <img src="./images/similmenu-green.svg" alt="" />
+          <img src="./img/similmenu-green.svg" alt="" />
         </div>
 
         <div className="slider">

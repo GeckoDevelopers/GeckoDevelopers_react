@@ -8,14 +8,14 @@ export default function Marketing() {
       <div className="card-mover marketing_red">
         <div className="card">
           <div className="flex main-title">
-            <img src="./img/img-pagine-servizi/icon_marketing.png" alt=""/>
+            <img src="./img/icon_marketing.png" alt=""/>
             <h2>Marketing Activities and Consultancy</h2>
           </div>
           <p className="description">
             Establishing accurate and correct marketing strategies is fundamental to generate lead, generate revenue, help grow your brand or business, in any form of industry or market. Marketing is what helps you connect with who you want to reach and, eventually, convert the reach into business.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-pagine-servizi/img-services_marketing.png" alt=""/>
+            <img src="./img/img-services_marketing.png" alt=""/>
             <div className="text">
               <hr/>
                 <h2>GUIDELINES & CONSISTENCY</h2>

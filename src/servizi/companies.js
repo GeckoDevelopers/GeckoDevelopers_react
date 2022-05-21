@@ -8,14 +8,14 @@ export default function Companies() {
       <div className="card-mover companies_green">
         <div className="card">
           <div className="flex main-title">
-            <img src="./img/img-pagine-servizi/icon_companies.png" alt="" />
+            <img src="./img/icon_companies.png" alt="" />
             <h2>Website for Companies</h2>
           </div>
           <p className="description">
             If you’re developing a start-up, reaching for your dreams or opening a store, it is crucial to have a website that clearly showcases your identity and connects with your target audience and customers in an in-depth, as well as professional and clear way. Having your own website will help you increase credibility, exchange information, grant 24/7 accessibility, market expansion, advertising, while cutting down your costs.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-pagine-servizi/img-services_companies.png" alt=""/>
+            <img src="./img/img-services_companies.png" alt=""/>
             <div className="text">
               <hr/>
               <h2>PLANS & STRATEGIES</h2>

@@ -16,7 +16,7 @@ export default function Design() {
             As simple as it may sound, having professionally done visual assets, from your logo to a video or imagery, not only provides consistency and visual appeal, but can also boost up the credibility of your brand, establish meaningful relationships with your customers and target audience, as well as deliver your message across more efficiently.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-services_creative.png" alt=""/>
+            <img src="./img/img-services_creative.webp" alt=""/>
           </div>
           <p>Our services for Creative Design include:</p>
           <ul>

@@ -15,7 +15,7 @@ export default function Support() {
               Handling a website is no easy task. A website needs to be maintained, updated and monitored regularly in order to make sure it is running smoothly, the website pages and the message is being delivered accurately and the assets included in the pages are used and functions properly. Running SEO campaigns, inserting useful and clear keywords will also increase the visits to your website, hence put you higher up in the list of search engine research results. But having a website might not always be enough to establish a digital presence.
             </p>
             <div className="sidetext flex">
-              <img src="./img/img-services_support.png" alt=""/>
+              <img src="./img/img-services_support.webp" alt=""/>
               <div className="text">
                 <hr/>
                 <h2>PLANS & STRATEGIES</h2>

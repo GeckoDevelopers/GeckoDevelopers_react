@@ -15,7 +15,7 @@ export default function Companies() {
             If you’re developing a start-up, reaching for your dreams or opening a store, it is crucial to have a website that clearly showcases your identity and connects with your target audience and customers in an in-depth, as well as professional and clear way. Having your own website will help you increase credibility, exchange information, grant 24/7 accessibility, market expansion, advertising, while cutting down your costs.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-services_companies.png" alt=""/>
+            <img src="./img/img-services_companies.webp" alt=""/>
             <div className="text">
               <hr/>
               <h2>PLANS & STRATEGIES</h2>

@@ -15,7 +15,7 @@ export default function Marketing() {
             Establishing accurate and correct marketing strategies is fundamental to generate lead, generate revenue, help grow your brand or business, in any form of industry or market. Marketing is what helps you connect with who you want to reach and, eventually, convert the reach into business.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-services_marketing.png" alt=""/>
+            <img src="./img/img-services_marketing.webp" alt=""/>
             <div className="text">
               <hr/>
                 <h2>GUIDELINES & CONSISTENCY</h2>

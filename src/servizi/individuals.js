@@ -16,7 +16,7 @@ export default function Individuals() {
             Having a website online is becoming one of the most efficient ways to showcase who you are, what you are capable of, as well as can act like your online portfolio. Whether you are a photographer, artist, architect, designer, musician, or a blogger, having your content and your work reached to as many people, in the most clear and well-designed way is crucial for you to increase your personal brand’s image.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-services_individuals.png" alt=""/>
+            <img src="./img/img-services_individuals.webp" alt=""/>
             <div className="text">
               <hr/>
               <h2>PLANS & STRATEGIES</h2>

@@ -16,7 +16,7 @@ export default function FullServices () {
             When forming a new business or developing your own brand, there are many various aspects and activities to consider. Forming efficient consistency across all channels and all activities is fundamental to boost up your brand, build meaningful relationships with your stakeholders, partners, customers, and your audience.
           </p>
           <div className="sidetext flex">
-            <img src="./img/img-services_full.png" alt="" />
+            <img src="./img/img-services_full.webp" alt="" />
             <div className="text">
               <hr />
               <h2>PLANS & STRATEGIES</h2>

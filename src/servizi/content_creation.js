@@ -15,7 +15,7 @@ import "./servizi.scss"
               Your content is the most crucial asset you have. It identifies your brand, who you are, what you offer or deliver, helps you connect with your audience, fans, customers, future employers, as well as promote you and/or your brand and company.
             </p>
             <div className="sidetext flex">
-              <img src="./img/img-services_content.png" alt=""/>
+              <img src="./img/img-services_content.webp" alt=""/>
               <div className="text">
                 <hr/>
                 <h2>PLANS & STRATEGIES</h2>

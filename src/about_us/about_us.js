@@ -22,8 +22,8 @@ export default function Jumbo() {
           <p>{engb_text.about.subtitle}</p>
           
           <div className="cards">
-              <img className="imgdesk" src="./img/img-about_us.png" alt=""/>
-              <img className="imgmobile" src="./img/about_us-large.png" alt=""/>
+              <img className="imgdesk" src="./img/img-about_us.webp" alt=""/>
+              <img className="imgmobile" src="./img/about_us-large.webp" alt=""/>
           </div>
         
         </div>

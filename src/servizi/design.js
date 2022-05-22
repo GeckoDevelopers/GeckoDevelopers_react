@@ -1,3 +1,4 @@
+import React from 'react';
 import "./servizi.scss";
 /* import { getEngb_text } from "../../lingue/inglese"; */
 

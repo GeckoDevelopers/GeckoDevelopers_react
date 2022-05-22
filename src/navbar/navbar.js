@@ -57,11 +57,11 @@ export default function Navbar() {
               {location.pathname === "/" 
                 ? 
                 <a href="#home">
-                  <img src="img/gecko-nav-v2.webp" alt="" />
+                  <img src="img/gecko-nav-v2.png" alt="" />
                 </a>
                 :
                 <Link to="/" className="carta">
-                  <img src="img/gecko-nav-v2.webp" alt="" />
+                  <img src="img/gecko-nav-v2.png" alt="" />
                 </Link>
               }
             </div>

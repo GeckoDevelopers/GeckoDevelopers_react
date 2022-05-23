@@ -32,7 +32,7 @@ let engb_text = {
   },
   about: {
     title: "ABOUT US",
-    subtitle: "We <br /> are a newborn group of professionals that went together to build a workplace based on a good work environment and quality of our products. Our goal is to become a fully fledged one point stop for companies, professionals and individuals, for complete visibility on the internet and much more! We want to grow and are looking for talents like senior programmers, app developers, marketing related personnel and, even if I shouldn't talk about that yet, maybe in the long term some indie games development too. If you wish to know our reality feel free to contact us on ours email below and send your resume",
+    subtitle: "We are a newborn group of professionals that went together to build a workplace based on a good work environment and quality of our products. Our goal is to become a fully fledged one point stop for companies, professionals and individuals, for complete visibility on the internet and much more! We want to grow and are looking for talents like senior programmers, app developers, marketing related personnel and, even if I shouldn't talk about that yet, maybe in the long term some indie games development too. If you wish to know our reality feel free to contact us on ours email below and send your resume",
   },
   services: {
     title: "SERVICES",

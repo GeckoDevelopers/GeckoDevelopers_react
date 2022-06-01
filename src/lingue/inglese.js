@@ -1,4 +1,3 @@
-
 let engb_text = {
 
 /* voci navbar */

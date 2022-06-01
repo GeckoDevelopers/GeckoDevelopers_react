@@ -1,10 +1,10 @@
 import './mailForm.scss';
-import { getEngb_text } from "../lingue/inglese";
+import { getIta_text } from "../lingue/italiano";
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 
 export default function MailForm() {
-  var engb_text = getEngb_text();
+  var ita_text = getIta_text();
   const form = useRef(); // per emailjs
 
   function sendMail(e) {
@@ -13,7 +13,7 @@ export default function MailForm() {
     emailjs.sendForm('gmail', 'template_zjmrdij', form.current, 's2f0n7Fyg964jaMFu')
       .then((result) => {
         console.log(result.text);
-        document.getElementsByClassName("mailForm_overlay")[0].innerHTML = '<p><i class="fas fa-check"></i> Mail Sent</p>'
+        document.getElementsByClassName("mailForm_overlay")[0].innerHTML = '<p><i className="fas fa-check"></i> Mail Sent</p>'
         document.getElementsByClassName("mailForm_overlay")[0].classList.add("active")
         setTimeout(chiudiSuccess, 3000);
         function chiudiSuccess() {
@@ -21,7 +21,7 @@ export default function MailForm() {
         }
       }, (error) => {
         console.log(error.text);
-        document.getElementsByClassName("mailForm_overlay")[0].innerHTML = '<p><i class="far fa-times">Something goed wrong try to check the email</i></p>'
+        document.getElementsByClassName("mailForm_overlay")[0].innerHTML = '<p><i className="far fa-times">Something goed wrong try to check the email</i></p>'
       }
     );
     e.target.reset()
@@ -33,7 +33,7 @@ export default function MailForm() {
       </div>
       <div className="container-custom">
         <div className="intestazione flex">
-          <h2>{engb_text.contact.title}</h2>
+          <h2>{ita_text.contact.title}</h2>
           <hr />
           <img src="./img/similmenu-white.svg" alt="" />
         </div>

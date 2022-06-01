@@ -1,9 +1,9 @@
 import './jumbo.scss';
-import { getEngb_text } from "../lingue/inglese";
+import { getIta_text } from "../lingue/italiano";
 
 
 function Jumbo() {
-  var engb_text = getEngb_text();
+  var ita_text = getIta_text();
   return (
     <section id="home" className="jumbo">
             
@@ -11,7 +11,7 @@ function Jumbo() {
         <div className="container-custom flex">
             
           <div className="jumbo-title">
-            <h1>{engb_text.jumbo.title1}<br/>{engb_text.jumbo.title2}</h1>
+            <h1>{ita_text.jumbo.title1}<br/>{ita_text.jumbo.title2}</h1>
           </div>
 
           <div className="divider">
@@ -26,7 +26,7 @@ function Jumbo() {
           </div>
 
           <div className="jumbo-subtitle">
-              <h3>{engb_text.jumbo.subtitle}</h3>
+              <h3>{ita_text.jumbo.subtitle}</h3>
           </div>
         </div>
       </div>

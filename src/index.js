@@ -12,11 +12,9 @@ import ContentCreation from './servizi/content_creation';
 import Marketing from './servizi/marketing';
 import Footer from "./footer/footer"
 
-
 // import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // const rootElement = document.getElementById("root");
-
 
 ReactDOM.render(
   <BrowserRouter>

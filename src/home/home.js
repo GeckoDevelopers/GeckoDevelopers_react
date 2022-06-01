@@ -1,4 +1,4 @@
-/* import { getEngb_text } from "../lingue/inglese"; */
+/* import { getita_text } from "../lingue/inglese"; */
 import Jumbo from '../Jumbo/jumbo';
 import AboutUs from '../about_us/about_us';
 import Services from '../services/services';
@@ -11,7 +11,7 @@ import { PortfolioData } from '../portfolio/portfolioData';
 
 
 export default function Home() {
-  /* var engb_text = getEngb_text(); */
+  /* var ita_text = getita_text(); */
   return (
     <main className="home">
       <Jumbo/>

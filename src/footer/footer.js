@@ -1,9 +1,9 @@
 import './footer.scss';
-/* import { getEngb_text } from "../lingue/inglese"; */
+/* import { getita_text } from "../lingue/inglese"; */
 import { Link, useLocation } from "react-router-dom";
 
 export default function Footer() {
-  /* var engb_text = getEngb_text(); */
+  /* var ita_text = getita_text(); */
   const location = useLocation();
 
   // var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi

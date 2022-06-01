@@ -1,12 +1,12 @@
 import './portfolio.scss';
-import { getEngb_text } from "../lingue/inglese";
+import { getIta_text } from "../lingue/italiano";
 import { PortfolioData } from './portfolioData';
 import { useState } from 'react';
 
 /* const slides = { PortfolioData } */
 
 export default function Portfolio({ slides }) {
-  var engb_text = getEngb_text();
+  var ita_text = getIta_text();
 
   
   /* costruito seguendo https://www.youtube.com/watch?v=l1MYfu5YWHc */
@@ -32,7 +32,7 @@ export default function Portfolio({ slides }) {
       <div className="container-custom">
 
         <div className="intestazione flex">
-          <h2>{engb_text.portfolio.title}</h2>
+          <h2>{ita_text.portfolio.title}</h2>
           <hr />
           <img src="./img/similmenu-green.svg" alt="" />
         </div>
@@ -48,10 +48,10 @@ export default function Portfolio({ slides }) {
                   {index === current && (<img src={slide.image} alt={slide.alt}/>)}
                   <div className='arrows'>
                     <div className='arrow left-arrow' onClick={prevSlide}>
-                      <i class="fa-solid fa-angle-left"></i>
+                      <i className="fa-solid fa-angle-left"></i>
                     </div>
                     <div className='arrow right-arrow' onClick={nextSlide}>
-                      <i class="fa-solid fa-angle-right"></i>
+                      <i className="fa-solid fa-angle-right"></i>
                     </div>
                   </div>
                 </div>

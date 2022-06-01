@@ -1,9 +1,9 @@
 import './servizi.scss';
-/* import { getEngb_text } from "../../lingue/inglese"; */
+/* import { getita_text } from "../../lingue/inglese"; */
 
 
 export default function Individuals() {
- /*  var engb_text = getEngb_text(); */
+ /*  var ita_text = getita_text(); */
   return (
     <section className="container-services individuals_el_green">
       <div className="card-mover individuals_el_green">

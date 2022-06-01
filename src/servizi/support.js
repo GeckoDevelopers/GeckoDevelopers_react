@@ -1,8 +1,8 @@
 import "./servizi.scss"
-/* import { getEngb_text } from "../lingue/inglese"; */
+/* import { getita_text } from "../lingue/inglese"; */
 
 export default function Support() {
-  /* var engb_text = getEngb_text(); */
+  /* var ita_text = getita_text(); */
   return (
     <section className="container-services continuous_yellow">
       <div className="card-mover continuous_yellow">

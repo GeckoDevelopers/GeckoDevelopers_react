@@ -3,7 +3,7 @@ let ita_text = {
 /* voci navbar */
 navbar: {
   home: "/ home",
-  about_us: "/ su di noi",
+  about_us: "/ chi siamo",
   services: "/ servizi",
   portfolio: "/ portfolio",
   contacts: "/ contatti",

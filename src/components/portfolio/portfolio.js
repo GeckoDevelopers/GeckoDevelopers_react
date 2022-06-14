@@ -1,7 +1,8 @@
 import './portfolio.scss';
-import { getIta_text } from "../lingue/italiano";
+import { getIta_text } from "../../lingue/italiano";
 import { PortfolioData } from './portfolioData';
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 /* const slides = { PortfolioData } */
 
@@ -26,6 +27,11 @@ export default function Portfolio({ slides }) {
     setCurrent(current === 0 ? length -1 : current -1)
   }
 
+  // SCROLL UP DEI LINK
+  function scrollUp() {
+    window.scrollTo(0, 0)
+  }
+  
   return (
     <section id="projects">
       <span className="link" id="projects-link"></span>
@@ -75,7 +81,7 @@ export default function Portfolio({ slides }) {
 
         <div className="discover flex">
           <hr />
-          <a href=''>Discover more...</a>
+          <Link class="discover" to="/discover_more" onClick={scrollUp} >Discover more...</Link>
         </div>
         
       </div>

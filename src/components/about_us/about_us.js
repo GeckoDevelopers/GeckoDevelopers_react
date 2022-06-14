@@ -1,5 +1,5 @@
 import './about_us.scss';
-import { getIta_text } from "../lingue/italiano";
+import { getIta_text } from "../../lingue/italiano";
 
 
 export default function Jumbo() {

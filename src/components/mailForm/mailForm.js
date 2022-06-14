@@ -1,5 +1,5 @@
 import './mailForm.scss';
-import { getIta_text } from "../lingue/italiano";
+import { getIta_text } from "../../lingue/italiano";
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 

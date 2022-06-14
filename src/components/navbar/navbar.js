@@ -1,5 +1,5 @@
 import './navbar.scss';
-import { getIta_text } from "../lingue/italiano";
+import { getIta_text } from "../../lingue/italiano";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
@@ -74,7 +74,6 @@ export default function Navbar() {
               </select> */}
             <div className="nav-dropdown">
               <ul>
-                <li onClick={closeMenudaiLink}><a href="./#about_us-link">{ita_text.navbar.about_us}</a></li>
                 {location.pathname === "/" 
                   ? ""/*<a href="#home">{ita_text.navbar.home}</a>*/ 
                   : <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{ita_text.navbar.home}</Link></li>}

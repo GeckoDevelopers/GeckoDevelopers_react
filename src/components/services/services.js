@@ -1,5 +1,5 @@
 import './services.scss';
-import { getIta_text } from "../lingue/italiano";
+import { getIta_text } from "../../lingue/italiano";
 import { Link } from "react-router-dom";
 
 export default function Services() {

@@ -1,6 +1,7 @@
 import './navbar.scss';
 import { getIta_text } from "../../lingue/italiano";
 import { Link, useLocation } from "react-router-dom";
+import { getLanguage, setLanguage } from '../../variabili';
 
 export default function Navbar() {
   var ita_text = getIta_text();
@@ -48,9 +49,29 @@ export default function Navbar() {
     window.scrollTo(0, 0)
   }
 
+  function changeLanguage(){
+    console.log("cambio lingua");
+    if(getLanguage() == "ita"){
+      setLanguage("eng")
+    }
+    else{
+        setLanguage("ita")
+    }
+    console.log(getLanguage());
+  }
+  
+  function language(value,a){
+    console.log(a);
+  }
+
+  var selecto = document.getElementById('lingue');
+  var valore = selecto?.options[selecto?.selectedIndex]?.value;
+  console.log(selecto, "selecto");
+  console.log(valore, "valore");
 
   return (
     <nav>
+        {/* <button onClick={changeLanguage}>hello</button> */}
       <div className="container-custom-nav">
         <div className="nav-content">
           <div className="left-side">
@@ -68,10 +89,10 @@ export default function Navbar() {
             </div>
           </div>
           <div className="right-side flex">
-              {/* <select name="languages">
+              <select onChange={language} id="lingue">
                 <option value="ita">Italiano</option>
                 <option value="engb">English</option>
-              </select> */}
+              </select>
             <div className="nav-dropdown">
               <ul>
                 {location.pathname === "/" 

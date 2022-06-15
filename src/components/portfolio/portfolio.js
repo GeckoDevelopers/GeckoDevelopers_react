@@ -81,7 +81,7 @@ export default function Portfolio({ slides }) {
 
         <div className="discover flex">
           <hr />
-          <Link class="discover" to="/discover_more" onClick={scrollUp} >Discover more...</Link>
+          <Link className="discover" to="/discover_more" onClick={scrollUp} >Discover more...</Link>
         </div>
         
       </div>

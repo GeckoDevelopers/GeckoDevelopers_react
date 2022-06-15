@@ -25,55 +25,55 @@ minimenuservizi: {
 
 /* homepage text */
 jumbo: {
-  title1: "UN SITO PER CHI AMA COSTRUIRE",
+  title1: "UN SITO PER CHI AMA COSTRUIRE,",
   title2: "COSTRUIAMO I NOSTRI SOGNI... E I TUOI",
-  subtitle: "Founded by a group of individuals with various skills, we provide expertise in multiple areas in order to help you achieve the result you imagine for your website or business.",
+  subtitle: "Gecko Developers è un’azienda fondata da un gruppo di esperti nel settore pronti ad aiutarti a raggiungere i risultati che sogni per il tuo sito web o la tua attività",
 },
 about: {
-  title: "ABOUT US",
+  title: "chi siamo",
   subtitle: "We are a newborn group of professionals that went together to build a workplace based on a good work environment and quality of our products. Our goal is to become a fully fledged one point stop for companies, professionals and individuals, for complete visibility on the internet and much more! We want to grow and are looking for talents like senior programmers, app developers, marketing related personnel and, even if we shouldn't talk about that yet, maybe in the long term some indie games development too. If you wish to know our reality feel free to contact us on ours email below and send your resume",
 },
 services: {
-  title: "SERVICES",
+  title: "servizi",
   paragrafo1: "Gecko Developers is able to offer a wide variety of services to help you realize your dream website. From the initial design, to creating content, to your digital presence, Gecko Developers can work with you from the beginning, and continue to work with you along the way to make sure everything is being run smoothly, and the way you desired.",
-  paragrafo2: "You are free to choose any or multiple services from our offerings that better suit your needs.",
+  paragrafo2: "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze.",
 },
 portfolio: {
   title: "PORTFOLIO",
 },
 contact: {
-  title: "NEED MORE INFORMATION AND ESTIMATE?",
+  title: "hai bisogno di informazioni e preventivi?",
 },
 
 
 /* view more dei bottoni */
-card_view_more: "View more...",
+card_view_more: "Scopri...",
 
 
 /* contenuto card */
 card_full: {
-  title: "FULL PACKAGE",
-  paragrafo: "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise.",
+  title: "pacchetto completo",
+  paragrafo: "Dal design del tuo logo e del tuo sito web, fino alla creazione di contenuti e della comunicazione strategica, ci assicuriamo che tutto risponda alle tue esigenze",
 },
 card_individuals: {
-  title: "WEBSITE FOR INDIVIDUALS",
-  paragrafo: "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility.",
+  title: "Sito web per privati",
+  paragrafo: "Crea un sito web adatto alle tue esigenze, mostra le tue capacità e ottieni visibilità",
 },
 card_companies: {
-  title: "WEBSITE FOR COMPANIES",
-  paragrafo: "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers.",
+  title: "Sito web per aziende",
+  paragrafo: "Crea un sito web per il tuo business o la tua azienda che risponda alle tue esigenze insieme ai nostri programmatori",
 },
 card_design: {
   title: "CREATIVE DESIGN",
-  paragrafo: "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team.",
+  paragrafo: "Progetta il tuo logo, l’immagine del tuo brand e il tuo sito. Sviluppa la grafica che più si adatta alle tue esigenze insieme al nostro Design & Creative Team ",
 },
 card_support: {
-  title: "CONTINUOUS SUPPORT",
-  paragrafo: "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly.",
+  title: "Assistenza continua",
+  paragrafo: "Con il nostro servizio di assistenza continua, ti aiutiamo a mantenere aggiornato e funzionante il tuo sito, gestire la tua presenza online e i tuoi contenuti sui canali online e social media.",
 },
 card_content_creation: {
-  title: "CONTENT CREATION",
-  paragrafo: "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts.",
+  title: "Creazione dei contenuti",
+  paragrafo: "Crea contenuti strategici per te, il tuo brand o la tua attività grazie all’aiuto dei nostri esperti",
 },
 card_marketing: {
   title: "MARKETING ACTIVITIES AND CONSULTANCY",

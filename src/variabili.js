@@ -6,23 +6,29 @@ export let testaA_pinolo = "TEST"
 */
 
 
+import React, { useState } from "react";
 import { getIta_text } from "./lingue/italiano";
 import { getEngb_text } from "./lingue/inglese";
 
+
 var lingua = getIta_text 
 
-export function gino(value){
-	switch (value) {
+export function lingue(valore){
+    var success = "successo"
+    console.log(valore);
+	switch (valore) {
 		case "ita":
-				lingua = getIta_text
+				// lingua = getIta_text
+                console.log("lingua italiana");
 				break;
 		case "engb":
-				lingua = getEngb_text
+				// lingua = getEngb_text
+                console.log("lingua inglese");
 				break;
 		default:
 				break;
 	}
-	return lingua;
+	return lingua, success;
 }
 
 console.log();
@@ -35,13 +41,13 @@ var valore = selecto.options[select.selectedIndex].value; */
 
 
 
-
-var language = "ita" 
-
+// const [language, SetLanguage] = useState("ita");
+var language
 export function getLanguage() {
 	return language;
 };
 
 export function setLanguage(newLanguage) {
 	language = newLanguage;
+    //SetLanguage(newLanguage);
 };

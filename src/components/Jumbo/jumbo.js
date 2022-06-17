@@ -2,7 +2,7 @@ import './jumbo.scss';
 import { getIta_text } from "../../lingue/italiano";
 
 
-function Jumbo() {
+export default function Jumbo() {
   var ita_text = getIta_text();
   return (
     <section id="home" className="jumbo">
@@ -33,5 +33,3 @@ function Jumbo() {
     </section>
   );
 };
-
-export default Jumbo;

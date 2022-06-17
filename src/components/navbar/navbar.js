@@ -1,7 +1,8 @@
 import './navbar.scss';
 import { getIta_text } from "../../lingue/italiano";
 import { Link, useLocation } from "react-router-dom";
-import { getLanguage, setLanguage } from '../../variabili';
+import { getLanguage, setLanguage, lingue } from '../../variabili';
+
 
 export default function Navbar() {
   var ita_text = getIta_text();
@@ -28,6 +29,7 @@ export default function Navbar() {
     // MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
     document.getElementsByClassName("dropdown-services")[0].classList.toggle("servicesMenu")
   }
+
   function closeMenu() {
     // CHIUSURA DEL MENU A TENDINA CON LA X DEL BURGHERMENU
     document.getElementsByClassName("dropdown-services")[0].classList.remove("servicesMenu")
@@ -60,14 +62,19 @@ export default function Navbar() {
     console.log(getLanguage());
   }
   
-  function language(value,a){
-    console.log(a);
+  function language(value){
+    console.log(value);
+    
+  }
+  function submit(event) {
+    console.log('Selected value:', event.target.value);
   }
 
   var selecto = document.getElementById('lingue');
   var valore = selecto?.options[selecto?.selectedIndex]?.value;
   console.log(selecto, "selecto");
   console.log(valore, "valore");
+  console.log(lingue(), "lingue");
 
   return (
     <nav>
@@ -89,7 +96,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className="right-side flex">
-              <select onChange={language} id="lingue">
+              <select onChange={submit} id="lingue">
                 <option value="ita">Italiano</option>
                 <option value="engb">English</option>
               </select>

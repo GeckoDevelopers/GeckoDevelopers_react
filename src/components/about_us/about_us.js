@@ -5,15 +5,19 @@ import { getEngb_text } from "../../lingue/inglese";
 import {getLanguage, setLanguage} from  "../../variabili";
 
 
-export default function Jumbo() {
+export default function About_us() {
     const ita = getIta_text();
     const eng = getEngb_text();
     
-    //const [contatore, setContatore] = useState("ita");
+    const [contatore, setContatore] = useState("ita");
 
-    // console.log(getLanguage());
+    console.log(getLanguage(), contatore);
     // console.log(setContatore(getLanguage()));
-    //setContatore(getLanguage())
+    if (getLanguage() !== contatore) {
+        setContatore(getLanguage());
+    }
+
+    // setContatore(getLanguage())
   return (
     <section id="about_us">
       

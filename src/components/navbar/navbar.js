@@ -2,9 +2,11 @@ import './navbar.scss';
 import { getIta_text } from "../../lingue/italiano";
 import { Link, useLocation } from "react-router-dom";
 import { getLanguage, setLanguage, lingue } from '../../variabili';
-
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
 export default function Navbar() {
+  const { t } = useTranslation();
   var ita_text = getIta_text();
 
   // SERVE PER I DISCORSI DI PATH DEI LINK
@@ -68,6 +70,7 @@ export default function Navbar() {
   }
   function submit(event) {
     console.log('Selected value:', event.target.value);
+    i18next.changeLanguage(event.target.value)
   }
 
   var selecto = document.getElementById('lingue');
@@ -97,8 +100,8 @@ export default function Navbar() {
           </div>
           <div className="right-side flex">
               <select onChange={submit} id="lingue">
-                <option value="ita">Italiano</option>
-                <option value="engb">English</option>
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
               </select>
             <div className="nav-dropdown">
               <ul>

@@ -3,10 +3,14 @@ import { getIta_text } from "../../lingue/italiano";
 import { PortfolioData } from './portfolioData';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
+
 
 /* const slides = { PortfolioData } */
 
 export default function Portfolio({ slides }) {
+  const { t } = useTranslation();
+
   var ita_text = getIta_text();
 
   
@@ -38,7 +42,7 @@ export default function Portfolio({ slides }) {
       <div className="container-custom">
 
         <div className="intestazione flex">
-          <h2>{ita_text.portfolio.title}</h2>
+          <h2>{t('portfolio.title')}</h2>
           <hr />
           <img src="./img/similmenu-green.svg" alt="" />
         </div>

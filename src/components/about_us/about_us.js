@@ -2,7 +2,7 @@ import './about_us.scss';
 import { useTranslation } from 'react-i18next';
 
 export default function About_us() {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section id="about_us">

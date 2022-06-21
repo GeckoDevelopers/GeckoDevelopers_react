@@ -1,9 +1,23 @@
 import './servizi.scss';
+import { useTranslation } from 'react-i18next';
+
 /* import { getita_text } from "../../lingue/inglese"; */
 
 
 export default function FullServices () {
   /* var ita_text = getita_text(); */
+  const { t } = useTranslation();
+  var par4 = t(`full.paragrafo4`, { returnObjects: true })
+  var ulist = []
+  /*t(`full.paragrafo4`, { returnObjects: true }).forEach(e => {
+    ulist.push(<li><i className="fas fa-caret-right"></i>{e}</li>)
+  }); */
+
+  for (let i = 0; i < par4.length; i++) {
+    ulist.push(<li><i className="fas fa-caret-right"></i>{par4[i]}</li>)
+  }
+
+
   return (
     <section className="container-services full_gray ">
       <div className="card-mover full_gray">
@@ -27,17 +41,10 @@ export default function FullServices () {
           </div>
           <p>Our services for Full Package include:</p>
           <ul>
-            <li><i className="fas fa-caret-right"></i>Creating content for your website</li>
-            <li><i className="fas fa-caret-right"></i>Creative Design</li>
-            <li><i className="fas fa-caret-right"></i>Continuous Support</li>
-            <li><i className="fas fa-caret-right"></i>Content Creation</li>
-            <li><i className="fas fa-caret-right"></i>Marketing Activities and Consultancy</li>
+            {ulist}
           </ul>
           <p>For more information, <a id="get-touch" className="full_gray" href="./#contacts">get in touch</a> with us!</p>
         </div>
-        {/* @for($i = 0; $i < 500; $i++)
-        <div className="ombra full_gray"></div>
-        @endfor */}
       </div>
     </section>
   );

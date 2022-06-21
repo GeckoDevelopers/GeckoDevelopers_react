@@ -96,20 +96,20 @@ export default function Navbar() {
                     <div className="dropdown-services">
                       <ul>
                         <hr/>
-                        <li onClick={closeMenudaiLink}>/<a href="/#services-link">{ita_text.minimenuservizi.all}</a></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/full">{ita_text.minimenuservizi.full}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/individuals">{ita_text.minimenuservizi.indivisuals}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/companies">{ita_text.minimenuservizi.companies}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/design">{ita_text.minimenuservizi.design}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/support">{ita_text.minimenuservizi.support}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/content-creation">{ita_text.minimenuservizi.content}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/marketing">{ita_text.minimenuservizi.marketing}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<a href="/#services-link">{t('minimenuservizi.all')}</a></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/full">{t('minimenuservizi.full')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/individuals">{t('minimenuservizi.indivisuals')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/companies">{t('minimenuservizi.companies')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/design">{t('minimenuservizi.design')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/support">{t('minimenuservizi.support')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/content-creation">{t('minimenuservizi.content')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/marketing">{t('minimenuservizi.marketing')}</Link></li><hr/>
                       </ul>
                     </div>
                   </li>
                 }
-                <li onClick={closeMenudaiLink}><a href="./#projects-link">{ita_text.navbar.portfolio}</a></li>
-                <li onClick={closeMenudaiLink}><a href="./#contacts">{ita_text.navbar.contacts}</a></li>
+                <li onClick={closeMenudaiLink}><a href="./#projects-link">{t('navbar.portfolio')}</a></li>
+                <li onClick={closeMenudaiLink}><a href="./#contacts">{t('navbar.contacts')}</a></li>
               </ul>
 
             </div>

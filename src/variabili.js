@@ -13,25 +13,24 @@ import { getEngb_text } from "./lingue/inglese";
 
 var lingua = getIta_text 
 
-export function lingue(valore){
-    var success = "successo"
-    console.log(valore);
-	switch (valore) {
-		case "ita":
-				// lingua = getIta_text
-                console.log("lingua italiana");
-				break;
-		case "engb":
-				// lingua = getEngb_text
-                console.log("lingua inglese");
-				break;
-		default:
-				break;
-	}
-	return lingua, success;
-}
+// export function lingue(valore){
+//     var success = "successo"
+// 	switch (valore) {
+// 		case "ita":
+// 				// lingua = getIta_text
+//                 console.log("lingua italiana");
+// 				break;
+// 		case "engb":
+// 				// lingua = getEngb_text
+//                 console.log("lingua inglese");
+// 				break;
+// 		default:
+// 				break;
+// 	}
+// 	return lingua, success;
+// }
 
-console.log();
+// console.log();
 
 /* export const selecto = <select id="lingue"><option value="ita">Italiano</option><option value="engb">English</option></select>
 console.log(selecto);

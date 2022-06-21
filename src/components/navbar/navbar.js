@@ -1,7 +1,6 @@
 import './navbar.scss';
 import { getIta_text } from "../../lingue/italiano";
 import { Link, useLocation } from "react-router-dom";
-import { getLanguage, setLanguage, lingue } from '../../variabili';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
@@ -53,31 +52,9 @@ export default function Navbar() {
     window.scrollTo(0, 0)
   }
 
-  function changeLanguage(){
-    console.log("cambio lingua");
-    if(getLanguage() == "ita"){
-      setLanguage("eng")
-    }
-    else{
-        setLanguage("ita")
-    }
-    console.log(getLanguage());
-  }
-  
-  function language(value){
-    console.log(value);
-    
-  }
-  function submit(event) {
-    console.log('Selected value:', event.target.value);
+  function changeLanguages(event) {
     i18next.changeLanguage(event.target.value)
   }
-
-  var selecto = document.getElementById('lingue');
-  var valore = selecto?.options[selecto?.selectedIndex]?.value;
-  console.log(selecto, "selecto");
-  console.log(valore, "valore");
-  console.log(lingue(), "lingue");
 
   return (
     <nav>
@@ -99,7 +76,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className="right-side flex">
-              <select onChange={submit} id="lingue">
+              <select onChange={changeLanguages} id="lingue">
                 <option value="it">Italiano</option>
                 <option value="en">English</option>
               </select>

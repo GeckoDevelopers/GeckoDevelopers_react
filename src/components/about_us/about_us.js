@@ -1,11 +1,8 @@
 import './about_us.scss';
-import React, { useState } from "react";
-import { getIta_text} from "../../lingue/italiano";
-import { getEngb_text } from "../../lingue/inglese";
-import { t } from 'i18next';
-
+import { useTranslation } from 'react-i18next';
 
 export default function About_us() {
+    const { t } = useTranslation();
 
   return (
     <section id="about_us">

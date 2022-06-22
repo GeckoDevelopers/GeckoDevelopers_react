@@ -2,6 +2,7 @@ import './navbar.scss';
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -93,7 +94,7 @@ export default function Navbar() {
                     <div className="dropdown-services">
                       <ul>
                         <hr/>
-                        <li onClick={closeMenudaiLink}>/<a href="/#services-link">{t('minimenuservizi.all')}</a></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<HashLink to="/#services-link">{t('minimenuservizi.all')}</HashLink></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/full">{t('minimenuservizi.full')}</Link></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/individuals">{t('minimenuservizi.indivisuals')}</Link></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/companies">{t('minimenuservizi.companies')}</Link></li><hr/>
@@ -105,9 +106,9 @@ export default function Navbar() {
                     </div>
                   </li>
                 }
-                {/* <li onClick={closeMenudaiLink}><HashLink to="/#projects-link">{t('navbar.portfolio')}</HashLink></li> */}
-                <li onClick={closeMenudaiLink}><Link to="/#projects-link">{t('navbar.portfolio')}</Link></li>
-                <li onClick={closeMenudaiLink}><Link to="/#contacts">{t('navbar.contacts')}</Link></li>
+                <li onClick={closeMenudaiLink}><HashLink to="/#projects-link">{t('navbar.portfolio')}</HashLink></li>
+                {/* <li onClick={closeMenudaiLink}><Link to="/#projects-link">{t('navbar.portfolio')}</Link></li> */}
+                <li onClick={closeMenudaiLink}><HashLink to="/#contacts">{t('navbar.contacts')}</HashLink></li>
                 <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/about_us">{t('navbar.about_us')}</Link></li>
               </ul>
 

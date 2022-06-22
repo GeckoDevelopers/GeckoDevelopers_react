@@ -95,7 +95,10 @@
     "Creazione di contenuti",
     "Attività di marketing e consulenza"    
   ],
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 },
 
 "individuals": {
@@ -104,7 +107,10 @@
   "paragrafo2": "Mostrare il tuo lavoro attraverso un sito web ti aiuterà ad aumentare la tua credibilità e ad apparire professionale al tuo pubblico, ai tuoi clienti o perfino ai tuoi futuri impiegati.",
   "paragrafo3": "Grazie ai nostri esperti, ti aiuteremo a creare un sito web a diversi livelli di interattività che meglio si adatta alle tue esigenze.",
   "paragrafo4": "",
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 },
 "companies": {
   "title": "Sito web per aziende",
@@ -112,38 +118,77 @@
   "paragrafo2": "Il tuo sito web deve essere facile da usare, deve fornire informazioni precise e dettagliate sul tuo business e la tua azienda, promuovendo il tuo brand allo stesso tempo.",
   "paragrafo3": "Grazie ai nostri esperti, ti aiuteremo a creare un sito web a diversi livelli di interattività che meglio si adatta alle tue esigenze.",
   "paragrafo4": "",
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 },
 "design": {
   "title": "CREATIVE DESIGN",
   "paragrafo1": "Avere un’immagine precisa del tuo brand è importante per creare un impatto visivo, insieme ad aumentare la credibilità del tuo brand, stabilire un legame con i tuoi clienti e il tuo target e trasmettere il tuo messaggio in maniera efficiente.",
   "paragrafo2": "I nostri servizi di Creative Design includono:",
   "paragrafo3": "",
-  "paragrafo4": "", 
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo4": [
+    "Logo Design",
+    "Web Design",
+    "Sound Design",
+    "Creazione e montaggio video", 
+    "Imagery",
+    "Motion graphics" 
+  ], 
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 },
 "support": {
   "title": "Assistenza continua",
   "paragrafo1": "Gestire un sito web non è un’impresa semplice. Un sito web deve essere aggiornato e monitorato regolarmente per assicurarsi che funzioni correttamente e che il messaggio venga recepito. Progettare strategie SEO e scegliere le parole chiave adatte ti aiuterà ad aumentare le visite al tuo sito e posizionarti nell’elenco dei risultati sui motori di ricerca.",
   "paragrafo2": "Avere una presenza online può anche includere gestire attivamente e regolarmente dei profili social. Per molti tipi di aziende e singoli lavoratori, una presenza sui social media è ormai fondamentale.",
   "paragrafo3": "I nostri servizi di assistenza continua e garantita includono:",
-  "paragrafo4": "", 
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo4": [
+    "Manutenzione e aggiornamento del tuo sito web",
+    "Ranking su Google e analisi dei dati",
+    "SEO (Search Engine Optimization) e SEM (Search Engine Marketing)",
+    "Creazione e gestione di profili sui social media" 
+  ], 
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 },
 "content": {
   "title": "Creazione dei contenuti",
   "paragrafo1": "I contenuti sono la risorsa più preziosa che tu possa avere. I contenuti che proponi identificano il tuo brand, mostrano chi sei e cosa hai da offrire e ti aiutano a connetterti con il tuo pubblico, i tuoi clienti o il tuo futuro datore di lavoro.",
   "paragrafo2": "Da ciò che scrivi sul tuo sito web fino alle attività che svolgi online, tutto viene veicolato attraverso i contenuti. Creando contenuti coerenti, chiari e informativi, fornisci informazioni su chi sei e cosa offri con il tuo lavoro. Strategie di creazione di contenuti efficaci ti aiuteranno a promuoverti al meglio, oltre che ad aumentare la tua reputazione online e offline.",
   "paragrafo3": "I nostri servizi di creazione di contenuti includono: ",
-  "paragrafo4": "", 
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo4": [
+    "Creazione di contenuti per il tuo sito web ",
+    "Sviluppo di contenuti per i profili social",
+    "Consulenza nella creazione di contenuti"
+  ],  
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 },
 "marketing": {
   "title": "Attività di marketing e consulenza",
   "paragrafo1": "Delineare attività di marketing accurate è fondamentale per creare il tuo giro di mercato, generare leads e far crescere la tua attività. Il marketing ti aiuta a connetterti e raggiungere il tuo target e, alla fine, convertire i tuoi clienti.",
   "paragrafo2": "Insieme alle attività di marketing, creare una brand identity è fondamentale. Una brand identity unica e ben strutturata ti aiuterà a promuovere le relazioni con i tuoi clienti o il tuo target, perché mostra al meglio i tuoi valori, crea coerenza e stabilisce linee guida per attività future.",
   "paragrafo3": "I nostri servizi di marketing e consulenza includono:",
-  "paragrafo4": "",
-  "paragrafo5": "Per maggiori informazioni, contattaci!"
+  "paragrafo4": [
+    "Strategie di marketing digitale",
+    "Strategie di marketing offline",
+    "Consulenza marketing",
+    "Misurazioni del ROI (Return on Investment)",
+    "Creazione e monitoraggio di campagne marketing",
+    "Creazione di campagne SEA (Search Engine Advertising)",
+    "Creazione di una brand identity" 
+  ], 
+  "paragrafo5": {
+    "pre": "Per maggiori informazioni, ",
+    "link": "contattaci!"
+  }
 }
 }

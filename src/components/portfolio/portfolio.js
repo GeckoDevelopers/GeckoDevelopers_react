@@ -1,5 +1,4 @@
 import './portfolio.scss';
-import { getIta_text } from "../../lingue/italiano";
 import { PortfolioData } from './portfolioData';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
@@ -11,9 +10,6 @@ import { useTranslation } from 'react-i18next';
 export default function Portfolio({ slides }) {
   const { t } = useTranslation();
 
-  var ita_text = getIta_text();
-
-  
   /* costruito seguendo https://www.youtube.com/watch?v=l1MYfu5YWHc */
 
   const [current, setCurrent] = useState(0)

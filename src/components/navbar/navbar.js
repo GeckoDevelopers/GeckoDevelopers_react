@@ -1,12 +1,10 @@
 import './navbar.scss';
-import { getIta_text } from "../../lingue/italiano";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
 export default function Navbar() {
   const { t } = useTranslation();
-  var ita_text = getIta_text();
 
   // SERVE PER I DISCORSI DI PATH DEI LINK
   const location = useLocation();
@@ -84,13 +82,13 @@ export default function Navbar() {
               <ul>
                 {location.pathname === "/" 
                   ? ""/*<a href="#home">{ita_text.navbar.home}</a>*/ 
-                  : <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{ita_text.navbar.home}</Link></li>}
-                <li onClick={closeMenudaiLink}><a href="./#about_us-link">{ita_text.navbar.about_us}</a></li>
+                  : <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{t('navbar.home')}</Link></li>}
+                <li onClick={closeMenudaiLink}><a href="./#about_us-link">{t('navbar.about_us')}</a></li>
                 {location.pathname === "/" 
-                  ? <li onClick={closeMenudaiLink}><a href="#services-link">{ita_text.navbar.services}</a></li>
+                  ? <li onClick={closeMenudaiLink}><a href="#services-link">{t('navbar.services')}</a></li>
                   : 
                   <li className="nowrap" onClick={animazioneTendina}>
-                    <span id="servicesMenu">{ita_text.navbar.services}
+                    <span id="servicesMenu">{t('navbar.services')}
                       <i id="caret" className="fas fa-angle-down"></i>
                     </span>
                     <div className="dropdown-services">

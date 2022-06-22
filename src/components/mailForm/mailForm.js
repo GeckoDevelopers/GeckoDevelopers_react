@@ -1,10 +1,12 @@
 import './mailForm.scss';
-import { getIta_text } from "../../lingue/italiano";
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 export default function MailForm() {
-  var ita_text = getIta_text();
+  const { t } = useTranslation();
+
   const form = useRef(); // per emailjs
 
   function sendMail(e) {
@@ -33,7 +35,7 @@ export default function MailForm() {
       </div>
       <div className="container-custom">
         <div className="intestazione flex">
-          <h2>{ita_text.contact.title}</h2>
+          <h2>{t('contact.title')}</h2>
           <hr />
           <img src="./img/similmenu-white.svg" alt="" />
         </div>

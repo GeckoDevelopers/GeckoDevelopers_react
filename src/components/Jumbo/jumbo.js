@@ -1,9 +1,8 @@
 import './jumbo.scss';
-import { getIta_text } from "../../lingue/italiano";
+import { useTranslation } from 'react-i18next';
 
-
-function Jumbo() {
-  var ita_text = getIta_text();
+export default function Jumbo() {
+  const { t } = useTranslation();
   return (
     <section id="home" className="jumbo">
             
@@ -11,7 +10,7 @@ function Jumbo() {
         <div className="container-custom flex">
             
           <div className="jumbo-title">
-            <h1>{ita_text.jumbo.title1}<br/>{ita_text.jumbo.title2}</h1>
+            <h1>{t('jumbo.title1')}<br/>{t('jumbo.title2')}</h1>
           </div>
 
           <div className="divider">
@@ -26,12 +25,10 @@ function Jumbo() {
           </div>
 
           <div className="jumbo-subtitle">
-              <h3>{ita_text.jumbo.subtitle}</h3>
+              <h3>{t('jumbo.subtitle')}</h3>
           </div>
         </div>
       </div>
     </section>
   );
 };
-
-export default Jumbo;

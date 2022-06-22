@@ -1,25 +1,25 @@
 import './about_us.scss';
-import { getIta_text } from "../../lingue/italiano";
+import { useTranslation } from 'react-i18next';
 
+export default function AboutUs() {
+  const { t } = useTranslation();
 
-export default function Jumbo() {
-  var ita_text = getIta_text();
   return (
     <section id="about_us">
       
-      <span className="link" id="about_us-link"></span>
+        <span className="link" id="about_us-link"></span>
         
         <div className="container-custom">
           
           <div className="intestazione flex">
             
-            <h2>{ita_text.about.title}</h2>
+            <h2>{t('about.title')}</h2>
             <hr />
             <img src="./img/similmenu-green.svg" alt="" />
           
           </div>
           
-          <p>{ita_text.about.subtitle}</p>
+          <p>{t('about.subtitle')}</p>
           
           <div className="cards">
               <img className="imgdesk" src="./img/img-about_us.webp" alt=""/>

@@ -118,14 +118,14 @@
   }
 }
 
-.pallini {
+.dot {
   height: 20px;
   width: 10px;
   border-radius: 5px;
   background: $white;
   margin: 0 5px;
   border: 1px solid $gray;
-  &.color {
+  &.active {
     background: $gray;
   }
 }

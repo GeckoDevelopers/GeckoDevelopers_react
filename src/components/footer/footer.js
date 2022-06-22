@@ -1,8 +1,11 @@
 import './footer.scss';
 /* import { getita_text } from "../lingue/inglese"; */
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+    const { t } = useTranslation();
+
   /* var ita_text = getita_text(); */
   const location = useLocation();
 

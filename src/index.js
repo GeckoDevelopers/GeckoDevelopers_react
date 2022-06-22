@@ -15,6 +15,7 @@ import Design from './views/servizi/design';
 import Support from './views/servizi/support';
 import ContentCreation from './views/servizi/content_creation';
 import Marketing from './views/servizi/marketing';
+import ServiziMain from './views/servizi_mainpage/servizi_mainpage'
 import AboutUs from './views/about_us/about_us';
 
 import Portfoliomore from './views/portfolio_more/portfolio_more';
@@ -37,6 +38,7 @@ ReactDOM.render(
           <Route path="/content_creation" element={<ContentCreation/>}/>
           <Route path="/marketing" element={<Marketing/>}/>
           <Route path="/discover_more" element={<Portfoliomore/>}/>
+          <Route path="/servizi_mainpage" element={<ServiziMain/>}/>
           <Route path="/about_us" element={<AboutUs/>}/>
         </Routes>
         <Footer/>

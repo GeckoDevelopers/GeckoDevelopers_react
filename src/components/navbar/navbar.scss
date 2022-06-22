@@ -1,6 +1,10 @@
 @import './src/variabili.scss';
 
 nav {
+    /* .nav_filler { // previene la navbar dal coprire elementi a inizio pagina
+        width: 100%;
+        height: $heightNav;
+    } */
     position: fixed;
     top: 0;
     left: 0;
@@ -32,6 +36,11 @@ nav {
             }
             .right-side {
                 align-items: center;
+                .bottoni {
+                    img {
+                        width: 100px;
+                    }
+                }
                 .nav-dropdown {
                     display: block;
                     width: 100%;

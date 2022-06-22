@@ -3,8 +3,9 @@
 #about_us {
   background-color: $white;
   color: $green;
-  padding: 44px 0 52px 0; /*fix*/
+  padding: 100px 0 52px 0; /*fix*/
   position: relative; //per l'anchor link
+  min-height: 100vh;
   .container-custom {
       .intestazione {
           // margini titolo sezione

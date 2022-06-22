@@ -10,27 +10,49 @@ import { useTranslation } from 'react-i18next';
 export default function Portfolio({ slides }) {
   const { t } = useTranslation();
 
-  /* costruito seguendo https://www.youtube.com/watch?v=l1MYfu5YWHc */
+  const [imageId, setImageId] = useState(0);
+  var datas = PortfolioData
 
-  const [current, setCurrent] = useState(0)
-  const length = slides.length
-  
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null
-  }
+	// dots fra version
+	var dots = [];
+	for (let i = 0; i < datas.length; i++) {
+		dots.push(<div className={(imageId === i)?"active dot":"dot"} onClick={() => setImageById(i)}></div>);
+	}
 
-  function nextSlide () {
-    setCurrent(current === length - 1 ? 0 : current + 1)
-  }
+  // display del carosello
+  var image = [
+		<p className="img_description">{datas[imageId]?.text}</p>,
+		<img alt="immagine mancante" className="carosello" src={datas[imageId]?.image} />
+  ]
 
-  function prevSlide() {
-    setCurrent(current === 0 ? length -1 : current -1)
-  }
+  //#region funzioni
+    function setImageById(i) {
+        setImageId(i);
+    }
 
-  // SCROLL UP DEI LINK
-  function scrollUp() {
-    window.scrollTo(0, 0)
-  }
+    // frecce minus
+    function prevImg() {
+        if (imageId === 0) {
+            setImageId(datas.length - 1);
+        } else {
+            setImageId(imageId - 1);
+        }
+    }
+
+     // funzioni per il cambio immagine nel carosello
+    function nextImg() {
+        if (imageId >= datas.length - 1) {
+            setImageId(0);
+        } else {
+            setImageId(imageId + 1);
+        }
+    }
+
+    // SCROLL UP DEI LINK
+    function scrollUp() {
+        window.scrollTo(0, 0)
+    }
+    //#endregion
   
   return (
     <section id="projects">
@@ -44,40 +66,31 @@ export default function Portfolio({ slides }) {
         </div>
 
         <div className="slider">
-          {PortfolioData.map(function (slide, index) {
-            return (
-              <div>
-                <div className='slider-text'>
-                  {index === current && (<p>{slide.text}</p>)}
+            <div>
+            <div className='slider-text'>
+                {image[0]}
+            </div>
+            <div className="slide active">
+                <div onClick={nextImg}>
+                    {image[1]}
                 </div>
-                <div className={index === current ? "slide active" : "slide"} key={index}>
-                  {index === current && (<img src={slide.image} alt={slide.alt}/>)}
-                  <div className='arrows'>
-                    <div className='arrow left-arrow' onClick={prevSlide}>
-                      <i className="fa-solid fa-angle-left"></i>
-                    </div>
-                    <div className='arrow right-arrow' onClick={nextSlide}>
-                      <i className="fa-solid fa-angle-right"></i>
-                    </div>
-                  </div>
+                <div className='arrows'>
+                <div className='arrow left-arrow' onClick={prevImg}>
+                    <i className="fa-solid fa-angle-left"></i>
                 </div>
-              </div>
-            )
-          })}
+                <div className='arrow right-arrow' onClick={nextImg}>
+                    <i className="fa-solid fa-angle-right"></i>
+                </div>
+                </div>
+            </div>
+            </div>
 
         </div>
         <div className="dots">
-          {PortfolioData.map(function (slide, index) {
-            return (
-              <div>
-                <div className={index === current ? "pallini color" : "pallini"} key={index}/>
-              </div>
-            )
-          })}
+            <div>
+                {dots}
+            </div>
         </div>
-
-
-
 
         <div className="discover flex">
           <hr />

@@ -1,8 +1,8 @@
-import './services.scss';
+import './servizi_mainpage.scss';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-export default function Services() {
+export default function ServiziMain() {
   const { t } = useTranslation();
 
   // SCROLL UP DEI LINK
@@ -11,7 +11,7 @@ export default function Services() {
   }
 
   return (
-    <section id="services">
+    <section id="servizi_main">
       <span className="link" id="services-link"></span>
       <div className="container-custom">
 
@@ -51,6 +51,32 @@ export default function Services() {
 {/* <!-- seconda ROW --> */}
         <div className="riga">
 
+          <div className="trasparente individuals_el_green">
+            <div className="carta_container">
+              <Link onClick={scrollUp} className="carta" to="/individuals">
+                <div className="flex">
+                  <img src="./img/icon_individuals.png" alt="" />
+                  <h3>{t('card_individuals.title')}</h3>
+                </div>
+                <p>{t('card_individuals.paragrafo')}</p>
+                <span>{t('card_view_more')}</span>
+              </Link>
+            </div>
+          </div>
+
+          <div className="trasparente companies_green">
+            <div className="carta_container">
+              <Link className="carta" to="/companies">
+                <div className="flex">
+                  <img src="./img/icon_companies.png" alt="" />
+                  <h3>{t('card_companies.title')}</h3>
+                </div>
+                <p>{t('card_companies.paragrafo')}</p>
+                <span>{t('card_view_more')}</span>
+              </Link>
+            </div>
+          </div>
+
           <div className="trasparente design_dk_green">
             <div className="carta_container">
               <Link onClick={scrollUp} className="carta" to="/design">
@@ -59,6 +85,24 @@ export default function Services() {
                   <h3>{t('card_design.title')}</h3>
                 </div>
                 <p>{t('card_design.paragrafo')}</p>
+                <span>{t('card_view_more')}</span>
+              </Link>
+            </div>
+          </div>
+
+        </div>
+
+{/* <!-- terza ROEW --> */}
+        <div className="riga">
+
+          <div className="trasparente continuous_yellow">
+            <div className="carta_container">
+              <Link className="carta" to="/support">
+                <div className="flex">
+                  <img src="./img/icon_support.png" alt="" />
+                  <h3>{t('card_support.title')}</h3>
+                </div>
+                <p>{t('card_support.paragrafo')}</p>
                 <span>{t('card_view_more')}</span>
               </Link>
             </div>
@@ -91,6 +135,7 @@ export default function Services() {
           </div>
 
         </div>
+
       </div>
     </section>
   );

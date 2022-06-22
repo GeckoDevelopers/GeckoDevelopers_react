@@ -52,12 +52,13 @@ export default function Navbar() {
   }
 
   function changeLanguages(event) {
-    i18next.changeLanguage(event.target.value)
+    i18next.changeLanguage(event)
+    //i18next.changeLanguage(event.target.value)
   }
 
   return (
     <nav>
-        {/* <button onClick={changeLanguage}>hello</button> */}
+      {/* <div className='nav_filler'></div> */}
       <div className="container-custom-nav">
         <div className="nav-content">
           <div className="left-side">
@@ -75,37 +76,46 @@ export default function Navbar() {
             </div>
           </div>
           <div className="right-side flex">
-              <select onChange={changeLanguages} id="lingue">
-                <option value="it">Italiano</option>
-                <option value="en">English</option>
-              </select>
+
+            <div className="bottoni" /* onClick={animazioneTendina} */>
+              {/* <span id="servicesMenu">lingue
+                <i id="caret" className="fas fa-angle-down"></i>
+              </span> */}
+              <div className="flex">
+                <button type="button" onClick={() => changeLanguages("en")}><img src="./img/flags/english.jpg" alt="" /></button>
+                <button type="button" onClick={() => changeLanguages("it")}><img src="./img/flags/italiano.jpg" alt="" /></button>
+              </div>
+            </div>
+
+            {/* <select onChange={changeLanguages} id="lingue">
+              <option value="it">Italiano</option>
+              <option value="en">English</option>
+            </select> */}
+
             <div className="nav-dropdown">
               <ul>
                 {location.pathname === "/" 
                   ? ""/*<a href="#home">{ita_text.navbar.home}</a>*/ 
-                  : <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{t('navbar.home')}</Link></li>}
-                {location.pathname === "/" 
-                  ? <li onClick={closeMenudaiLink}><a href="#services-link">{t('navbar.services')}</a></li>
-                  : 
-                  <li className="nowrap" onClick={animazioneTendina}>
-                    <span id="servicesMenu">{t('navbar.services')}
-                      <i id="caret" className="fas fa-angle-down"></i>
-                    </span>
-                    <div className="dropdown-services">
-                      <ul>
-                        <hr/>
-                        <li onClick={closeMenudaiLink}>/<HashLink to="/#services-link">{t('minimenuservizi.all')}</HashLink></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/full">{t('minimenuservizi.full')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/individuals">{t('minimenuservizi.indivisuals')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/companies">{t('minimenuservizi.companies')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/design">{t('minimenuservizi.design')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/support">{t('minimenuservizi.support')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/content_creation">{t('minimenuservizi.content')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/marketing">{t('minimenuservizi.marketing')}</Link></li><hr/>
-                      </ul>
-                    </div>
-                  </li>
+                  : <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{t('navbar.home')}</Link></li>
                 }
+                <li className="nowrap" onClick={animazioneTendina}>
+                  <span id="servicesMenu">{t('navbar.services')}
+                    <i id="caret" className="fas fa-angle-down"></i>
+                  </span>
+                  <div className="dropdown-services">
+                    <ul>
+                      <hr/>
+                      <li onClick={closeMenudaiLink}>/<Link to="/servizi_mainpage">{t('minimenuservizi.all')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/full">{t('minimenuservizi.full')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/individuals">{t('minimenuservizi.indivisuals')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/companies">{t('minimenuservizi.companies')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/design">{t('minimenuservizi.design')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/support">{t('minimenuservizi.support')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/content_creation">{t('minimenuservizi.content')}</Link></li><hr/>
+                      <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/marketing">{t('minimenuservizi.marketing')}</Link></li><hr/>
+                    </ul>
+                  </div>
+                </li>
                 <li onClick={closeMenudaiLink}><HashLink to="/#projects-link">{t('navbar.portfolio')}</HashLink></li>
                 {/* <li onClick={closeMenudaiLink}><Link to="/#projects-link">{t('navbar.portfolio')}</Link></li> */}
                 <li onClick={closeMenudaiLink}><HashLink to="/#contacts">{t('navbar.contacts')}</HashLink></li>

@@ -77,7 +77,7 @@ export default function Navbar() {
           </div>
           <div className="right-side flex">
 
-            <div className="bottoni" /* onClick={animazioneTendina} */>
+            <div className="lingueSelector" /* onClick={animazioneTendina} */>
               {/* <span id="servicesMenu">lingue
                 <i id="caret" className="fas fa-angle-down"></i>
               </span> */}

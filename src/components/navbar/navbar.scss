@@ -36,9 +36,12 @@ nav {
             }
             .right-side {
                 align-items: center;
-                .bottoni {
-                    img {
-                        width: 100px;
+                .lingueSelector {
+                    button {
+                        border: none;
+                        img {
+                            width: 100px;
+                        }
                     }
                 }
                 .nav-dropdown {

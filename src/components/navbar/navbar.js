@@ -83,7 +83,6 @@ export default function Navbar() {
                 {location.pathname === "/" 
                   ? ""/*<a href="#home">{ita_text.navbar.home}</a>*/ 
                   : <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{t('navbar.home')}</Link></li>}
-                <li onClick={closeMenudaiLink}><a href="./#about_us-link">{t('navbar.about_us')}</a></li>
                 {location.pathname === "/" 
                   ? <li onClick={closeMenudaiLink}><a href="#services-link">{t('navbar.services')}</a></li>
                   : 
@@ -100,14 +99,16 @@ export default function Navbar() {
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/companies">{t('minimenuservizi.companies')}</Link></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/design">{t('minimenuservizi.design')}</Link></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/support">{t('minimenuservizi.support')}</Link></li><hr/>
-                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/content-creation">{t('minimenuservizi.content')}</Link></li><hr/>
+                        <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/content_creation">{t('minimenuservizi.content')}</Link></li><hr/>
                         <li onClick={closeMenudaiLink}>/<Link onClick={scrollUp} to="/marketing">{t('minimenuservizi.marketing')}</Link></li><hr/>
                       </ul>
                     </div>
                   </li>
                 }
-                <li onClick={closeMenudaiLink}><a href="./#projects-link">{t('navbar.portfolio')}</a></li>
-                <li onClick={closeMenudaiLink}><a href="./#contacts">{t('navbar.contacts')}</a></li>
+                {/* <li onClick={closeMenudaiLink}><HashLink to="/#projects-link">{t('navbar.portfolio')}</HashLink></li> */}
+                <li onClick={closeMenudaiLink}><Link to="/#projects-link">{t('navbar.portfolio')}</Link></li>
+                <li onClick={closeMenudaiLink}><Link to="/#contacts">{t('navbar.contacts')}</Link></li>
+                <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/about_us">{t('navbar.about_us')}</Link></li>
               </ul>
 
             </div>

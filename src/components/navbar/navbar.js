@@ -78,19 +78,14 @@ export default function Navbar() {
           <div className="right-side flex">
 
             <div className="lingueSelector" /* onClick={animazioneTendina} */>
-              {/* <span id="servicesMenu">lingue
-                <i id="caret" className="fas fa-angle-down"></i>
-              </span> */}
+              
               <div className="flex">
                 <button type="button" onClick={() => changeLanguages("en")}><img src="./img/flags/english.jpg" alt="" /></button>
                 <button type="button" onClick={() => changeLanguages("it")}><img src="./img/flags/italiano.jpg" alt="" /></button>
               </div>
             </div>
 
-            {/* <select onChange={changeLanguages} id="lingue">
-              <option value="it">Italiano</option>
-              <option value="en">English</option>
-            </select> */}
+          
 
             <div className="nav-dropdown">
               <ul>
@@ -116,7 +111,7 @@ export default function Navbar() {
                     </ul>
                   </div>
                 </li>
-                <li onClick={closeMenudaiLink}><HashLink to="/#projects-link">{t('navbar.portfolio')}</HashLink></li>
+                <li onClick={closeMenudaiLink}><Link to="/discover_more" onClick={scrollUp}>{t('navbar.portfolio')}</Link></li>
                 {/* <li onClick={closeMenudaiLink}><Link to="/#projects-link">{t('navbar.portfolio')}</Link></li> */}
                 <li onClick={closeMenudaiLink}><HashLink to="/#contacts">{t('navbar.contacts')}</HashLink></li>
                 <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/about_us">{t('navbar.about_us')}</Link></li>

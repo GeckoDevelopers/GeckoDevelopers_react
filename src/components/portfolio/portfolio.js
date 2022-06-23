@@ -66,28 +66,20 @@ export default function Portfolio({ slides }) {
 				</div>
 
 				<div className="slider">
-					<div>
-						<div className='slider-text'>
-							{image[0]}
-						</div>
-						<div className="slide active">
-							<div onClick={nextImg}>
-								{image[1]}
-							</div>
-							{/* <div className='arrows'>
-								<div className='arrow left-arrow' onClick={prevImg}>
-									<i className="fa-solid fa-angle-left"></i>
-								</div>
-								<div className='arrow right-arrow' onClick={nextImg}>
-									<i className="fa-solid fa-angle-right"></i>
-								</div>
-							</div> */}
-						</div>
+					<div className='slider-text'>
+						{image[0]}
+					</div>
+					<div className="slide" onClick={nextImg}>
+						{image[1]}
 					</div>
 				</div>
 
 				<div className="dots">
-					{dots}
+					<i className="fa-solid fa-angle-left" onClick={prevImg}></i>
+					<div className='dot_container'>
+						{dots}
+					</div>
+					<i className="fa-solid fa-angle-right" onClick={nextImg}></i>
 				</div>
 
 				<div className="discover flex">

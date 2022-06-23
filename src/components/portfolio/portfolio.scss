@@ -38,7 +38,6 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        /* padding: 0 10vw 0 10vw; */
         .slider-text{
           p{
             font-size: $paragrafi_sezioni;
@@ -47,40 +46,19 @@
           }
         }
         .slide {
-          width: 100%;
-          height: 100%;
-          display: none;
+          height: 33vw;
           overflow: hidden;
-          position: relative;
-          img {
-            height: 50vh;
-            width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .carosello {
+            max-height: 100%;
+            max-width: 100%;
             object-fit: cover;
           }
         }
-        
-        .active {
-        display: flex;
-        justify-content: center;
-        align-items: center;
       }
-      }
-      .arrows {
-        display: flex;
-        justify-content: space-between;
-        opacity: 0.2;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        .arrow {
-          background-color: $white;
-          i{
-            font-size: 65px;
-            color: $gray;
-            line-height: 7.5;
-          }
-        }
-      }
+      
       
       
       
@@ -118,25 +96,35 @@
   }
 }
 
-.dot {
-  height: 20px;
-  width: 10px;
-  border-radius: 5px;
-  background: $white;
-  margin: 0 5px;
-  border: 1px solid $gray;
-  &.active {
-    background: $gray;
-  }
-}
+
 
 .dots {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 3px 20px;
   background-color: $green;
   z-index: 5;
+  i{
+    font-size: 60px;
+    color: $gray;
+    /* line-height: 7.5; */
+  }
+  .dot_container {
+    display: flex;
+    justify-content: center;
+    .dot {
+      height: 20px;
+      width: 10px;
+      border-radius: 5px;
+      background: $white;
+      margin: 0 5px;
+      border: 1px solid $gray;
+      &.active {
+        background: $gray;
+      }
+    }
+  }
 }
 
 

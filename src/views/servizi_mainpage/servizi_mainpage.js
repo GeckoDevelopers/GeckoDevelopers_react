@@ -110,7 +110,7 @@ export default function ServiziMain() {
 
           <div className="trasparente content_orange">
             <div className="carta_container">
-              <Link onClick={scrollUp} className="carta" to="/content-creation">
+              <Link onClick={scrollUp} className="carta" to="/content_creation">
                 <div className="flex">
                   <img src="./img/icon_content.png" alt="" />
                   <h3>{t('card_content_creation.title')}</h3>

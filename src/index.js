@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 
@@ -25,24 +25,24 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // const rootElement = document.getElementById("root");
 
 ReactDOM.render(
-  <Suspense fallback={(<div>Loading ~~~</div>)}>
-    <BrowserRouter>
-        <Navbar />
-        <Routes>
-        <Route path="/" element={<Home/>} />
-          <Route path="/full" element={<Full/>} />
-          <Route path="/individuals" element={<Individuals/>}/>
-          <Route path="/companies" element={<Companies/>}/>
-          <Route path="/design" element={<Design/>}/>
-          <Route path="/support" element={<Support/>}/>
-          <Route path="/content_creation" element={<ContentCreation/>}/>
-          <Route path="/marketing" element={<Marketing/>}/>
-          <Route path="/discover_more" element={<Portfoliomore/>}/>
-          <Route path="/servizi_mainpage" element={<ServiziMain/>}/>
-          <Route path="/about_us" element={<AboutUs/>}/>
-        </Routes>
-        <Footer/>
-    </BrowserRouter>
-  </Suspense>
-  , document.getElementById('root')
+   <Suspense fallback={(<div>Loading ~~~</div>)}>
+      <BrowserRouter>
+         <Navbar />
+         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/full" element={<Full />} />
+            <Route path="/individuals" element={<Individuals />} />
+            <Route path="/companies" element={<Companies />} />
+            <Route path="/design" element={<Design />} />
+            <Route path="/support" element={<Support />} />
+            <Route path="/content_creation" element={<ContentCreation />} />
+            <Route path="/marketing" element={<Marketing />} />
+            <Route path="/discover_more" element={<Portfoliomore />} />
+            <Route path="/servizi_mainpage" element={<ServiziMain />} />
+            <Route path="/about_us" element={<AboutUs />} />
+         </Routes>
+         <Footer />
+      </BrowserRouter>
+   </Suspense>
+   , document.getElementById('root')
 );

@@ -13,118 +13,153 @@ nav {
 	z-index: 10;
 	transition: background-color 0.4s;
 	background-color: $green;
+
 	.container-custom-nav {
-		width: 90.5%; /*fix*/
+		width: 90.5%;
+		/*fix*/
 		margin: 0 auto;
+
 		.nav-content {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			height: 100%;
+
 			.left-side {
 				width: 100px;
+
 				.logo {
-				// contenitore logo gecko
-				width: 95px; /*fix*/
-				img {
-				  width: 100px;
-				  cursor: pointer;
-				  padding: 14px 0;
+					// contenitore logo gecko
+					width: 95px;
+
+					/*fix*/
+					img {
+						width: 100px;
+						cursor: pointer;
+						padding: 14px 0;
+					}
 				}
-			  }
-			  align-items: center;
+
+				align-items: center;
 			}
+
 			.right-side {
 				align-items: center;
+
 				.lingueSelector {
 					margin-right: 3vw;
+
 					button {
 						border: none;
 						background-color: red;
 						padding: 0;
 						margin: 0 1vw;
 						max-height: 20px;
+
 						img {
 							max-height: 20px;
 						}
 					}
 				}
+
 				.nav-dropdown {
 					display: block;
 					width: 100%;
+
 					&.active {
 						left: 0;
 					}
+
 					a,
 					span {
 						// font in nav menù
 						color: $gray;
 						text-transform: uppercase;
 						margin: 0 10px;
-						font-size: 17px; /*fix*/
-						letter-spacing: 0.07em; /*fix*/
+						font-size: 17px;
+						/*fix*/
+						letter-spacing: 0.07em;
+						/*fix*/
 						cursor: pointer;
+
 						&:hover {
 							text-decoration: underline;
 						}
 					}
+
 					ul {
-					  width: 100%;
-					  height: 100%;
-					  display: flex;
-					  justify-content: space-evenly;
-					  li {
-						// slash in nav menù
-						margin-left: 17px; /*fix*/
-						font-size: 17px; /*fix*/
-						color: $gray;
-						#caret {
-						  // freccia dropdown services menù
-						  font-size: 16px; /*fix*/
-						  transition: transform 0.4s;
-						  margin-left: 4px; /*fix*/
-						  cursor: pointer;
-						  &.rotate {
-							transform: rotate(180deg);
-							transition: transform 0.4s;
-						  }
+						width: 100%;
+						height: 100%;
+						display: flex;
+						justify-content: space-evenly;
+
+						li {
+							// slash in nav menù
+							margin-left: 17px;
+							/*fix*/
+							font-size: 17px;
+							/*fix*/
+							color: $gray;
+
+							#caret {
+								// freccia dropdown services menù
+								font-size: 16px;
+								/*fix*/
+								transition: transform 0.4s;
+								margin-left: 4px;
+								/*fix*/
+								cursor: pointer;
+
+								&.rotate {
+									transform: rotate(180deg);
+									transition: transform 0.4s;
+								}
+							}
 						}
-					  }
 					}
+
 					.dropdown-services {
 						// posizione dropdown-services desktop
 						display: none;
 						position: absolute;
-						top: 25px; /*fix*/
+						top: 25px;
+						/*fix*/
 						left: -17px;
 						z-index: 20;
+
 						&.servicesMenu {
-						  display: block !important; // se no non diventa visibile il menu a tendinda dei servizi. what a fuck
+							display: block !important; // se no non diventa visibile il menu a tendinda dei servizi. what a fuck
 						}
+
 						ul {
-						  width: 451px;
-						  padding: 15px;
-						  background-color: $green;
-						  color: $gray;
-						  list-style: none;
-						  flex-direction: column;
-						  li {
-							// slash in dropdown services menù
-							font-size: 17px; /*fix*/
-							margin: 2.5px 0;
-							&:hover {
-							  text-decoration: underline;
+							width: 451px;
+							padding: 15px;
+							background-color: $green;
+							color: $gray;
+							list-style: none;
+							flex-direction: column;
+
+							li {
+								// slash in dropdown services menù
+								font-size: 17px;
+								/*fix*/
+								margin: 2.5px 0;
+
+								&:hover {
+									text-decoration: underline;
+								}
 							}
-						  }
 						}
 					}
 				}
+
 				.hamburger {
 					display: none;
 					flex-direction: column;
 					justify-content: center;
 					cursor: pointer;
 					width: 35px;
+
 					div {
 						// linee menù compresso smartphone
 						background-color: $gray;
@@ -135,31 +170,51 @@ nav {
 						margin-left: auto;
 						transition: transform 0.4s;
 					}
+
 					// posizione iniziale
 					.line1 {
-						transform: rotate(-65deg) /*fix*/ translate(-11px, -12px); /*fix*/
+						transform: rotate(-65deg)
+							/*fix*/
+							translate(-11px, -12px);
+						/*fix*/
 					}
+
 					.line2 {
-						transform: rotate(-65deg) /*fix*/ translate(-2px, -7px); /*fix*/
+						transform: rotate(-65deg)
+							/*fix*/
+							translate(-2px, -7px);
+						/*fix*/
 					}
+
 					.line3 {
-						transform: rotate(-65deg) /*fix*/ translate(7px, -2px); /*fix*/
+						transform: rotate(-65deg)
+							/*fix*/
+							translate(7px, -2px);
+						/*fix*/
 					}
+
 					.line1.active {
-						transform: translateY(5px) /*fix*/ rotate(45deg);
+						transform: translateY(5px)
+							/*fix*/
+							rotate(45deg);
 					}
+
 					// posizione finale
 					.line2.active {
 						opacity: 0;
 					}
+
 					.line3.active {
-						transform: translateY(-7px) /*fix*/ rotate(-45deg);
+						transform: translateY(-7px)
+							/*fix*/
+							rotate(-45deg);
 					}
 				}
 			}
 		}
 	}
 }
+
 nav {
 	ul {
 		li {
@@ -175,7 +230,9 @@ nav {
 @media all and (max-width: 1024px) {
 	nav {
 		.container-custom-nav {
-			width: 90.5%; /*fix*/
+			width: 90.5%;
+
+			/*fix*/
 			.nav-content {
 				.right-side {
 					.nav-dropdown {
@@ -191,14 +248,18 @@ nav {
 						height: calc(100vh - 70px);
 						display: flex;
 						justify-content: center;
+
 						&.active {
+
 							a,
 							span {
 								// font in menù smartphone
 								color: $gray;
-								font-size: 17px; /*fix*/
+								font-size: 17px;
+								/*fix*/
 							}
 						}
+
 						ul {
 							li {
 								.dropdown-services {
@@ -211,24 +272,29 @@ nav {
 									left: -100%;
 									display: flex;
 									justify-content: center;
+
 									&.servicesMenu {
 										display: block;
 										left: 0;
 									}
+
 									ul {
 										// dimensioni dropdown services menù smartphone
 										// rispetto allo schermo
 										width: 100%;
 										height: 100%;
+
 										hr {
-										  border-style: none;
-										  height: 1px;
-										  background-color: $gray;
+											border-style: none;
+											height: 1px;
+											background-color: $gray;
 										}
+
 										li {
 											a {
 												// font dropdown services menù smartphone
-												font-size: 17px; /*fix*/
+												font-size: 17px;
+												/*fix*/
 											}
 										}
 									}
@@ -236,6 +302,7 @@ nav {
 							}
 						}
 					}
+
 					.hamburger {
 						display: block;
 					}
@@ -243,13 +310,16 @@ nav {
 			}
 		}
 	}
-	.nav-dropdown > ul {
+
+	.nav-dropdown>ul {
 		flex-direction: column;
 		// distanziamento menù smartphone
-		height: 60%; /*fix*/
+		height: 60%;
+		/*fix*/
 		// justify-content: space-evenly;
 	}
-	.nav-dropdown > ul > li {
+
+	.nav-dropdown>ul>li {
 		border-bottom: 1px solid lightgrey;
 		padding: 15px 0;
 		margin: 0;
@@ -259,7 +329,8 @@ nav {
 @media all and (max-width: 768px) {
 	nav {
 		.container-custom-nav {
-			width: 88.5%; /*fix*/
+			width: 88.5%;
+			/*fix*/
 		}
 	}
 }
@@ -267,9 +338,11 @@ nav {
 @media all and (max-width: 480px) {
 	nav {
 		.container-custom-nav {
-			width: 83%; /*fix*/
+			width: 83%;
+			/*fix*/
 		}
 	}
+
 	.nav-dropdown.active a {
 		color: $gray;
 		font-size: 15px;

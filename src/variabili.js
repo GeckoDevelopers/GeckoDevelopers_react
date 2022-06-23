@@ -11,7 +11,7 @@ import { getIta_text } from "./lingue/italiano";
 import { getEngb_text } from "./lingue/inglese";
 
 
-var lingua = getIta_text 
+var lingua = getIta_text
 
 // export function lingue(valore){
 //     var success = "successo"
@@ -43,10 +43,10 @@ var valore = selecto.options[select.selectedIndex].value; */
 // const [language, SetLanguage] = useState("ita");
 var language
 export function getLanguage() {
-	return language;
+   return language;
 };
 
 export function setLanguage(newLanguage) {
-	language = newLanguage;
-    //SetLanguage(newLanguage);
+   language = newLanguage;
+   //SetLanguage(newLanguage);
 };

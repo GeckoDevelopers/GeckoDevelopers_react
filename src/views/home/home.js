@@ -7,13 +7,13 @@ import MailForm from '../../components/mailForm/mailForm';
 import { PortfolioData } from '../../components/portfolio/portfolioData';
 
 export default function Home() {
-  /* var ita_text = getita_text(); */
-  return (
-    <main className="home">
-      <Jumbo/>
-      <Services/>
-      <Porfolio slides={PortfolioData} />
-      <MailForm/>
-    </main>
-  );
+   /* var ita_text = getita_text(); */
+   return (
+      <main className="home">
+         <Jumbo />
+         <Services />
+         <Porfolio slides={PortfolioData} />
+         <MailForm />
+      </main>
+   );
 };

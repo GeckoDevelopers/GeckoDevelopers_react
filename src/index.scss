@@ -16,113 +16,128 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
 //custom font
 @import './src/variabili.scss';
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  // font bottoni e altro
-  font-size: 14px;  /*fix*/
-  text-decoration: none;
-  cursor: default;
-  font-family: $font-body;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   // font bottoni e altro
+   font-size: 14px;
+   /*fix*/
+   text-decoration: none;
+   cursor: default;
+   font-family: $font-body;
 }
 
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 a {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 span[id].link {
-  position: absolute;
-  top: -70px;
-  left: 0;
+   position: absolute;
+   top: -70px;
+   left: 0;
 }
 
 @font-face {
-    font-family: 'grotisque';
-    src: url("./fonts/grotisque.otf") format('otf');
-    src: url("./fonts/grotisque.ttf") format('truetype');
-    src: url("./fonts/grotisque.woff") format('woff');
-    font-weight: bold;
+   font-family: 'grotisque';
+   src: url("./fonts/grotisque.otf") format('otf');
+   src: url("./fonts/grotisque.ttf") format('truetype');
+   src: url("./fonts/grotisque.woff") format('woff');
+   font-weight: bold;
 }
 
 
 body {
-  &.fixed {
+   &.fixed {
       position: fixed;
 
       @media screen and (min-width: 1024px) {
-          position: initial;
+         position: initial;
       }
-  }
+   }
 }
 
 hr {
-  border-style: none;
-  height: 2px;
+   border-style: none;
+   height: 2px;
 }
 
 .flex {
-  display: flex;
+   display: flex;
 }
+
 .container-custom {
-  width: 90%;
-  margin: 0 auto;
+   width: 90%;
+   margin: 0 auto;
 }
+
 .transparent {
-  background-color: inherit;
+   background-color: inherit;
 }
+
 .visible {
-  background-color: #fff;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  .logo h2 {
+   background-color: #fff;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+   .logo h2 {
       text-shadow: none;
-  }
-  .nav-dropdown a {
+   }
+
+   .nav-dropdown a {
       text-shadow: none;
-  }
+   }
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+   font-weight: normal;
 }
+
 h1 {
-  font-size: 28px;
+   font-size: 28px;
 }
+
 h2 {
-  font-size: 22px;
+   font-size: 22px;
 }
+
 h3 {
-  font-size: 20px;
+   font-size: 20px;
 }
+
 ul {
-  margin-bottom: 0;
+   margin-bottom: 0;
 }
 
 @media all and (max-width: 1024px) {
-  .container-custom {
-      width: 90%; /*fix*/
-  }
+   .container-custom {
+      width: 90%;
+      /*fix*/
+   }
 }
 
 @media all and (max-width: 768px) {
-  .container-custom {
-      width: 88%; /*fix*/
-  }
+   .container-custom {
+      width: 88%;
+      /*fix*/
+   }
 }
 
 @media all and (max-width: 480px) {
-  .container-custom {
-      width: 82%; /*fix*/
-  }
+   .container-custom {
+      width: 82%;
+      /*fix*/
+   }
 }
 
 
@@ -141,6 +156,3 @@ ul {
 //
 // da sostituire al primo / dopo il .
 // <?php echo $envPath ?>
-
-
-

@@ -1,147 +1,186 @@
 @import './src/variabili.scss';
 
 .jumbo {
-  height: 85vh;
-  background-image: url('../../../public/img/jumbo_img.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  .container-custom {
-      // justify-content: center;
-      margin-top: 23vh; /*fix*/
-      flex-direction: column;
-      color: $white;
-      .jumbo-title {
-          h1 {
-              // width: 80%; /*fix*/
-              font-family: $font-titolo;
-              font-size: $titolo_jumbo;
-              letter-spacing: $title-spacing;
-          }
-      }
-      .divider {
-          width: 50%;
-          height: 2.2px; /*fix*/
-          margin: 22px 0; /*fix*/
-          display: flex;
-          div {
-              width: calc(100%/8);
-              height: 100%;
-          }
-          .red {
-              background-color: $red;
-          }
-          .orange {
-              background-color: $orange;
-          }
-          .yellow {
-              background-color: $yellow;
-          }
-          .white {
-              background-color: $white;
-          }
-          .light-green {
-              background-color: $light-green;
-          }
-          .green {
-              background-color: $green;
-          }
-          .dark-green {
-              background-color: $dark-green;
-          }
-          .gray {
-              background-color: $gray;
-          }
-      }
-      .jumbo-subtitle {
-          width: 50%;
-          h3 {
-              font-size: $paragrafi_sezioni; /*fix*/
-          }
-      }
-  }
+	height: 85vh;
+	background-image: url('../../../public/img/jumbo_img.webp');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	.container-custom {
+		// justify-content: center;
+		margin-top: 23vh;
+		/*fix*/
+		flex-direction: column;
+		color: $white;
+
+		.jumbo-title {
+			h1 {
+				// width: 80%; /*fix*/
+				font-family: $font-titolo;
+				font-size: $titolo_jumbo;
+				letter-spacing: $title-spacing;
+			}
+		}
+
+		.divider {
+			width: 50%;
+			height: 2.2px;
+			/*fix*/
+			margin: 22px 0;
+			/*fix*/
+			display: flex;
+
+			div {
+				width: calc(100%/8);
+				height: 100%;
+			}
+
+			.red {
+				background-color: $red;
+			}
+
+			.orange {
+				background-color: $orange;
+			}
+
+			.yellow {
+				background-color: $yellow;
+			}
+
+			.white {
+				background-color: $white;
+			}
+
+			.light-green {
+				background-color: $light-green;
+			}
+
+			.green {
+				background-color: $green;
+			}
+
+			.dark-green {
+				background-color: $dark-green;
+			}
+
+			.gray {
+				background-color: $gray;
+			}
+		}
+
+		.jumbo-subtitle {
+			width: 50%;
+
+			h3 {
+				font-size: $paragrafi_sezioni;
+				/*fix*/
+			}
+		}
+	}
 }
 
 @media all and (max-width: 1024px) {
-  .jumbo {
-      .container-custom {
-          .jumbo-title {
-              h1 {
-                  font-size: 43px; /*fix*/
-              }
-          }
-          .divider {
-              width: 60%;
-              margin: 30px 0;
-          }
-          .jumbo-subtitle {
-              width: 60%;
-              h3 {
-                  font-size: $paragrafi_sezioni_S; /*fix*/
-              }
-          }
-      }
-  }
+	.jumbo {
+		.container-custom {
+			.jumbo-title {
+				h1 {
+					font-size: 43px;
+					/*fix*/
+				}
+			}
+
+			.divider {
+				width: 60%;
+				margin: 30px 0;
+			}
+
+			.jumbo-subtitle {
+				width: 60%;
+
+				h3 {
+					font-size: $paragrafi_sezioni_S;
+					/*fix*/
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 920px) {
-  .jumbo {
-      .container-custom {
-          margin-top: 21vh; /*fix*/
-          .jumbo-title {
-              h1 {
-                  width: 90%; /*fix*/
-                  font-size: 40px; /*fix*/
-              }
-          }
-          .divider {
-              width: 70%;
-              margin: 30px 0;
-          }
-          .jumbo-subtitle {
-              width: 70%;
-          }
-      }
-  }
+	.jumbo {
+		.container-custom {
+			margin-top: 21vh;
+
+			/*fix*/
+			.jumbo-title {
+				h1 {
+					width: 90%;
+					/*fix*/
+					font-size: 40px;
+					/*fix*/
+				}
+			}
+
+			.divider {
+				width: 70%;
+				margin: 30px 0;
+			}
+
+			.jumbo-subtitle {
+				width: 70%;
+			}
+		}
+	}
 }
 
 @media all and (max-width: 576px) {
-  .jumbo {
-      .container-custom {
-          margin-top: 18vh; /*fix*/
-          .jumbo-title {
-              h1 {
-                  width: 95%; /*fix*/
-                  font-size: 36px; /*fix*/
-              }
-          }
-          .divider {
-              width: 80%;
-              margin: 30px 0;
-          }
-          .jumbo-subtitle {
-              width: 85%; /*fix*/
-          }
-      }
-  }
+	.jumbo {
+		.container-custom {
+			margin-top: 18vh;
+
+			/*fix*/
+			.jumbo-title {
+				h1 {
+					width: 95%;
+					/*fix*/
+					font-size: 36px;
+					/*fix*/
+				}
+			}
+
+			.divider {
+				width: 80%;
+				margin: 30px 0;
+			}
+
+			.jumbo-subtitle {
+				width: 85%;
+				/*fix*/
+			}
+		}
+	}
 }
 
 @media all and (max-width: 450px) {
-  .jumbo {
-      .container-custom {
-          .jumbo-title {
-              h1 {
-                  width: 100%; /*fix*/
-                  font-size: 33px;
-              }
-          }
-          .divider {
-              width: 98%;
-              margin: 20px auto;
-          }
-          .jumbo-subtitle {
-              width: 100%;
-          }
-      }
-  }
+	.jumbo {
+		.container-custom {
+			.jumbo-title {
+				h1 {
+					width: 100%;
+					/*fix*/
+					font-size: 33px;
+				}
+			}
+
+			.divider {
+				width: 98%;
+				margin: 20px auto;
+			}
+
+			.jumbo-subtitle {
+				width: 100%;
+			}
+		}
+	}
 }

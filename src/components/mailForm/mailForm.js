@@ -69,7 +69,7 @@ export default function MailForm() {
 					</div>
 				</form>
 
-				<p className="more-contacts">You can also find us here: <span>gecko.devs@gmail.com</span></p>
+				<p className="more-contacts">You can also find us here: <span>info@geckodevelopers.com</span></p>
 			</div>
 
 			{/* <div className='overlay'>

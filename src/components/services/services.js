@@ -1,6 +1,8 @@
 import './services.scss';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import ServiceCard from '../cards/serviceCard/serviceCard';
+//import servicesData from '../servicesData.json'
 
 export default function Services() {
    const { t } = useTranslation();
@@ -64,7 +66,8 @@ export default function Services() {
                   </div>
                </div>
 
-               <div className="trasparente content_orange">
+               <ServiceCard />
+               {/* <div className="trasparente content_orange">
                   <div className="carta_container">
                      <Link onClick={scrollUp} className="carta" to="/content_creation">
                         <div className="flex">
@@ -75,7 +78,7 @@ export default function Services() {
                         <span>{t('card_view_more')}</span>
                      </Link>
                   </div>
-               </div>
+               </div> */}
 
                <div className="trasparente marketing_red">
                   <div className="carta_container">

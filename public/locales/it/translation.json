@@ -50,37 +50,64 @@
 
 "card_view_more": "scopri...",
 
-
-
-"card_full": {
-  "title": "pacchetto completo",
-  "paragrafo": "Dal design del tuo logo e del tuo sito web, fino alla creazione di contenuti e della comunicazione strategica, ci assicuriamo che tutto risponda alle tue esigenze"
-},
-"card_individuals": {
-  "title": "Sito web per privati",
-  "paragrafo": "Crea un sito web adatto alle tue esigenze, mostra le tue capacità e ottieni visibilità"
-},
-"card_companies": {
-  "title": "Sito web per aziende",
-  "paragrafo": "Crea un sito web per il tuo business o la tua azienda che risponda alle tue esigenze"
-},
-"card_design": {
-  "title": "CREATIVE DESIGN",
-  "paragrafo": "Progetta il tuo logo, l’immagine del tuo brand e il tuo sito. Sviluppa la grafica che più si adatta alle tue esigenze insieme al nostro Design & Creative Team"
-},
-"card_support": {
-  "title": "Assistenza continua",
-  "paragrafo": "Con il nostro servizio di assistenza continua, ti aiutiamo a mantenere aggiornato e funzionante il tuo sito, gestire la tua presenza online e i tuoi contenuti sui canali online e social media."
-},
-"card_content_creation": {
-  "title": "Creazione dei contenuti",
-  "paragrafo": "Crea contenuti strategici per te, il tuo brand o la tua attività grazie all’aiuto dei nostri esperti"
-},
-"card_marketing": {
-  "title": "Attività di marketing e consulenza",
-  "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate"
-},
-
+"cards_service": [
+    {
+      "id": "card_full",
+      "title": "pacchetto completo",
+      "paragrafo": "Dal design del tuo logo e del tuo sito web, fino alla creazione di contenuti e della comunicazione strategica, ci assicuriamo che tutto risponda alle tue esigenze",
+      "color": "full_gray",
+      "icon": "./img/icon_full.png",
+      "link": "/full"
+    },
+    {
+      "id": "card_individuals",
+      "title": "Sito web per privati",
+      "paragrafo": "Crea un sito web adatto alle tue esigenze, mostra le tue capacità e ottieni visibilità",
+      "color": "individuals_el_green",
+      "icon": "./img/icon_individuals.png",
+      "link": "/individuals"
+    },
+    {
+      "id": "card_companies",
+      "title": "Sito web per aziende",
+      "paragrafo": "Crea un sito web per il tuo business o la tua azienda che risponda alle tue esigenze",
+      "color": "companies_green",
+      "icon": "./img/icon_companies.png",
+      "link": "/companies"
+    },
+    {
+      "id": "card_design",
+      "title": "CREATIVE DESIGN",
+      "paragrafo": "Progetta il tuo logo, l’immagine del tuo brand e il tuo sito. Sviluppa la grafica che più si adatta alle tue esigenze insieme al nostro Design & Creative Team",
+      "color": "design_dk_green",
+      "icon": "./img/icon_creative.png",
+      "link": "/design"
+    },
+    {
+      "id": "card_support",
+      "title": "Assistenza continua",
+      "paragrafo": "Con il nostro servizio di assistenza continua, ti aiutiamo a mantenere aggiornato e funzionante il tuo sito, gestire la tua presenza online e i tuoi contenuti sui canali online e social media.",
+      "color": "continuous_yellow",
+      "icon": "./img/icon_support.png",
+      "link": "/support"
+    },
+    {
+      "id": "card_content_creation",
+      "title": "Creazione dei contenuti",
+      "paragrafo": "Crea contenuti strategici per te, il tuo brand o la tua attività grazie all’aiuto dei nostri esperti",
+      "color": "content_orange",
+      "icon": "./img/icon_content.png",
+      "link": "/content_creation"
+    },
+    {
+      "id": "card_marketing",
+      "title": "Attività di marketing e consulenza",
+      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+      "color": "marketing_red",
+      "icon": "./img/icon_marketing.png",
+      "link": "/marketing"
+    }
+  ],
 
 
 "full": {

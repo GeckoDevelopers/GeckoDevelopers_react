@@ -11,7 +11,7 @@
    .container-custom {
       .riga {
          display: flex;
-         flex-wrap: nowrap;
+         flex-wrap: wrap;
          justify-content: space-between;
 
          .col-md-8 {

@@ -2,10 +2,15 @@ import './services.scss';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import ServiceCard from '../cards/serviceCard/serviceCard';
-//import servicesData from '../servicesData.json'
 
 export default function Services() {
    const { t } = useTranslation();
+   
+   var cardsService = t(`cards_service`, { returnObjects: true })
+   var neddedCards = [ "card_full", "card_design", "card_content_creation", "card_marketing"]
+   var cardsService = cardsService.filter(card => {
+     return neddedCards.includes(card.id);
+   })
 
    // SCROLL UP DEI LINK
    function scrollUp() {
@@ -34,65 +39,13 @@ export default function Services() {
                      {t('services.paragrafo2')}
                   </p>
                </div>
-
-               <div className="trasparente full_gray">
-                  <div className="carta_container">
-                     <Link onClick={scrollUp} to="/full" className="carta">
-                        <div className="flex">
-                           <img src="./img/icon_full.png" alt="" />
-                           <h3>{t('card_full.title')}</h3>
-                        </div>
-                        <p>{t('card_full.paragrafo')}</p>
-                        <span>{t('card_view_more')}</span>
-                     </Link>
-                  </div>
-               </div>
-
             </div>
-
             {/* <!-- seconda ROW --> */}
             <div className="riga">
-
-               <div className="trasparente design_dk_green">
-                  <div className="carta_container">
-                     <Link onClick={scrollUp} className="carta" to="/design">
-                        <div className="flex">
-                           <img src="./img/icon_creative.png" alt="" />
-                           <h3>{t('card_design.title')}</h3>
-                        </div>
-                        <p>{t('card_design.paragrafo')}</p>
-                        <span>{t('card_view_more')}</span>
-                     </Link>
-                  </div>
-               </div>
-
-               <ServiceCard />
-               {/* <div className="trasparente content_orange">
-                  <div className="carta_container">
-                     <Link onClick={scrollUp} className="carta" to="/content_creation">
-                        <div className="flex">
-                           <img src="./img/icon_content.png" alt="" />
-                           <h3>{t('card_content_creation.title')}</h3>
-                        </div>
-                        <p>{t('card_content_creation.paragrafo')}</p>
-                        <span>{t('card_view_more')}</span>
-                     </Link>
-                  </div>
-               </div> */}
-
-               <div className="trasparente marketing_red">
-                  <div className="carta_container">
-                     <Link onClick={scrollUp} className="carta" to="/marketing">
-                        <div className="flex">
-                           <img src="./img/icon_marketing.png" alt="" />
-                           <h3>{t('card_marketing.title')}</h3>
-                        </div>
-                        <p>{t('card_marketing.paragrafo')}</p>
-                        <span>{t('card_view_more')}</span>
-                     </Link>
-                  </div>
-               </div>
-
+               {cardsService.map((card, i) => {
+                    // Return the element. Also pass key     
+                    return (<ServiceCard key={card.id} data={card} />) 
+                })}
             </div>
          </div>
       </section>

@@ -16,11 +16,11 @@ export default function ServiceCard({data}) {
 	// var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi
 	return (
 
-        <section className="trasparente content_orange">
+        <section className={`trasparente ${data.color}`}>
             <div className="carta_container">
-                <Link onClick={scrollUp} className="carta" to="/content_creation">
+                <Link onClick={scrollUp} className="carta" to={`${data.link}`}>
                     <div className="flex">
-                        <img src="./img/icon_content.png" alt="" />
+                        <img src={`${data.icon}`} alt="" />
                         <h3>{data.title}</h3>
                     </div>
                     <p>{data.paragrafo}</p>
@@ -28,7 +28,6 @@ export default function ServiceCard({data}) {
                 </Link>
             </div>
         </section>
-
-
+        
 	);
 };

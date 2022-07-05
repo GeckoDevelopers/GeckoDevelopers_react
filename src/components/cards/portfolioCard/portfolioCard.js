@@ -1,8 +1,8 @@
-import './serviceCard.scss';
+import './portfolioCard.scss';
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-export default function ServiceCard({data}) {
+export default function PortfolioCard({data}) {
 	const { t } = useTranslation();
 
 	const location = useLocation();

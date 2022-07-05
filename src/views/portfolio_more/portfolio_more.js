@@ -1,14 +1,21 @@
 import './portfolio_more.scss';
-import ServiceCard from '../../components/cards/serviceCard/serviceCard';
+import PortfolioCard from '../../components/cards/portfolioCard/portfolioCard';
+import { useTranslation } from 'react-i18next';
 
 export default function Portfoliomore() {
 
+   const { t } = useTranslation();
+   var cards_portfolio = t(`cards_portfolio`, { returnObjects: true })
+   console.log(cards_portfolio);
+
    return (
-      <main id="portfoliomore">
-             <ServiceCard />
-             <ServiceCard />
-             <ServiceCard />
-             <ServiceCard />
-      </main>
+      <section id="portfoliomore">
+         <div className="riga">
+            {cards_portfolio.map((card, i) => {
+               // Return the element. Also pass key     
+               return (<PortfolioCard key={card.id} data={card} />)
+            })}
+         </div>
+      </section>
    );
 };

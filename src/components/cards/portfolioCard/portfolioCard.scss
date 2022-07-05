@@ -1,0 +1,145 @@
+@import '../../../variabili.scss';
+
+
+.trasparente {
+    width: calc(100% / 3 - 2%);
+    height: 328px;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    margin-top: 0.3%;
+    /*fix*/
+    margin-bottom: 0.7%;
+
+    /*fix*/
+    // &:hover {
+    //     margin-top: -10px;
+    //     margin-left: -10px;
+    // }
+    &:before {
+       position: absolute;
+       top: 9px;
+       left: 98%;
+       width: 100%;
+       height: 100%;
+       content: '';
+       transform: skewY(45deg);
+       transform-origin: 0 0;
+    }
+
+    &:after {
+       position: absolute;
+       top: 90%;
+       left: 15px;
+       width: 100%;
+       height: 150%;
+       content: '';
+       transform: skewX(45deg);
+       transform-origin: 0 0;
+    }
+
+    .carta_container {
+       width: 100%;
+       // altezza card
+       height: 297px;
+       /*fix*/
+       position: relative;
+
+       .carta {
+          --notchSize: 18px;
+          --null: 0px;
+          /* from https://css-tricks.com/notched-boxes/ */
+          clip-path:
+             /* Notched Boxes or Notched Module */
+             polygon(0% var(--notchSize),
+                /* top left */
+                var(--null) 0%,
+                /* top left */
+                calc(100% - var(--notchSize)) 0%,
+                /* top right */
+                100% var(--notchSize),
+                /* top right */
+                100% calc(100% - var(--notchSize)),
+                /* bottom right */
+                calc(100% - var(--null)) 100%,
+                /* bottom right */
+                var(--notchSize) 100%,
+                /* bottom left */
+                0% calc(100% - var(--notchSize))
+                /* bottom left */
+             );
+        }
+
+        a * {
+          cursor: pointer;
+        }
+
+        a.carta {
+          // margini card
+          width: 100%;
+          height: 100%;
+          padding: 1.7vw 2.5vw;
+          /*fix*/
+          position: absolute;
+          background-color: $white;
+          text-decoration: none;
+
+          /* z-index: 2000; */
+          .flex {
+
+             // ricorda è in commons.scss
+             img {
+                width: 17px;
+                height: 17px;
+                margin-right: 10px;
+             }
+
+             h3 {
+                font-family: $font-titolo;
+                font-size: $card_title;
+                line-height: $line-height-card;
+                margin-bottom: 5%;
+                /*fix*/
+             }
+        }
+
+        p {
+             color: $gray;
+             font-size: $card_paragraph;
+             line-height: $line-height-card_paragraph;
+             /*fix*/
+             text-align: justify;
+             /*fix*/
+          }
+
+          span {
+             // button card
+             padding-top: 0.8%;
+             padding-right: 3.7%;
+             padding-bottom: 0.8%;
+             padding-left: 4.7%;
+             color: $white;
+             position: absolute;
+             bottom: 2vw;
+             /*fix*/
+             right: 2.5vw;
+             /*fix*/
+             /* z-index: 0; */
+          }
+       }
+    }
+}
+.trasparente.content_orange:before,
+.trasparente.content_orange:after {
+    background: $orange;
+    }
+
+    .trasparente.content_orange,
+    .trasparente.content_orange {
+    h3 {
+        color: $orange;
+    }
+
+    span {
+        background-color: $orange;
+    }
+}

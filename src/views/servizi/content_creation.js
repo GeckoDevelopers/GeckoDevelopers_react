@@ -1,8 +1,6 @@
 import "./servizi.scss"
-/* import { getita_text } from "../../lingue/inglese"; */
 
 export default function ContentCreation() {
-   /* var ita_text = getita_text(); */
    return (
       <section className="container-services content_orange">
          <div className="card-mover content_orange">

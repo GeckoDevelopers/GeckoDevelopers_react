@@ -1,8 +1,6 @@
 import "./servizi.scss";
-/* import { getita_text } from "../../lingue/inglese"; */
 
 export default function Design() {
-   /* var ita_text = getita_text(); */
 
    return (
       <section className="container-services design_dk_green">

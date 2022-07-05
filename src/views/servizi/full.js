@@ -1,18 +1,16 @@
 import './servizi.scss';
 import { useTranslation } from 'react-i18next';
 
-/* import { getita_text } from "../../lingue/inglese"; */
 
 
 export default function FullServices() {
-   /* var ita_text = getita_text(); */
    const { t } = useTranslation();
    var par4 = t(`full.paragrafo4`, { returnObjects: true })
    var ulist = []
+
    /*t(`full.paragrafo4`, { returnObjects: true }).forEach(e => {
      ulist.push(<li><i className="fas fa-caret-right"></i>{e}</li>)
    }); */
-
    for (let i = 0; i < par4.length; i++) {
       ulist.push(<li><i className="fas fa-caret-right"></i>{par4[i]}</li>)
    }

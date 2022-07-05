@@ -46,35 +46,43 @@
   "card_view_more": "View more...",
 
 
-
-  "card_full": {
-    "title": "FULL PACKAGE",
-    "paragrafo": "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise."
-  },
-  "card_individuals": {
-    "title": "WEBSITE FOR INDIVIDUALS",
-    "paragrafo": "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility."
-  },
-  "card_companies": {
-    "title": "WEBSITE FOR COMPANIES",
-    "paragrafo": "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers."
-  },
-  "card_design": {
-    "title": "CREATIVE DESIGN",
-    "paragrafo": "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team."
-  },
-  "card_support": {
-    "title": "CONTINUOUS SUPPORT",
-    "paragrafo": "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly."
-  },
-  "card_content_creation": {
-    "title": "CONTENT CREATION",
-    "paragrafo": "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts."
-  },
-  "card_marketing": {
-    "title": "MARKETING ACTIVITIES AND CONSULTANCY",
-    "paragrafo": "Constructing necessary marketing activities, campaigns, both online and offline, to better promote your brand or your business to your audience and customers, help you generate leads and revenue, with the help of our expert marketers and strategists."
-  },
+  "cards_service": [
+    {
+      "id": "card_full",
+      "title": "FULL PACKAGE",
+      "paragrafo": "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise."
+    },
+    {
+      "id": "card_individuals",
+      "title": "WEBSITE FOR INDIVIDUALS",
+      "paragrafo": "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility."
+    },
+    {
+      "id": "card_companies",
+      "title": "WEBSITE FOR COMPANIES",
+      "paragrafo": "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers."
+    },
+    {
+      "id": "card_design",
+      "title": "CREATIVE DESIGN",
+      "paragrafo": "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team."
+    },
+    {
+      "id": "card_support",
+      "title": "CONTINUOUS SUPPORT",
+      "paragrafo": "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly."
+    },
+    {
+      "id": "card_content_creation",
+      "title": "CONTENT CREATION",
+      "paragrafo": "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts."
+    },
+    {
+      "id": "card_marketing",
+      "title": "MARKETING ACTIVITIES AND CONSULTANCY",
+      "paragrafo": "Constructing necessary marketing activities, campaigns, both online and offline, to better promote your brand or your business to your audience and customers, help you generate leads and revenue, with the help of our expert marketers and strategists."
+    }
+  ],
   
 
   "full": {

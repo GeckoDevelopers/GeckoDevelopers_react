@@ -2,10 +2,11 @@ import './services.scss';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import ServiceCard from '../cards/serviceCard/serviceCard';
-//import servicesData from '../servicesData.json'
 
 export default function Services() {
    const { t } = useTranslation();
+   
+   var cards_service = t(`cards_service`, { returnObjects: true })
 
    // SCROLL UP DEI LINK
    function scrollUp() {
@@ -53,7 +54,7 @@ export default function Services() {
             {/* <!-- seconda ROW --> */}
             <div className="riga">
 
-               <div className="trasparente design_dk_green">
+               {/* <div className="trasparente design_dk_green">
                   <div className="carta_container">
                      <Link onClick={scrollUp} className="carta" to="/design">
                         <div className="flex">
@@ -64,9 +65,13 @@ export default function Services() {
                         <span>{t('card_view_more')}</span>
                      </Link>
                   </div>
-               </div>
+               </div> */}
 
-               <ServiceCard />
+               {cards_service.map((card, i) => {
+                    // Return the element. Also pass key     
+                    return (<ServiceCard key={card.id} data={card} />) 
+                })}
+               {/* <ServiceCard /> */}
                {/* <div className="trasparente content_orange">
                   <div className="carta_container">
                      <Link onClick={scrollUp} className="carta" to="/content_creation">
@@ -80,7 +85,7 @@ export default function Services() {
                   </div>
                </div> */}
 
-               <div className="trasparente marketing_red">
+               {/* <div className="trasparente marketing_red">
                   <div className="carta_container">
                      <Link onClick={scrollUp} className="carta" to="/marketing">
                         <div className="flex">
@@ -91,7 +96,7 @@ export default function Services() {
                         <span>{t('card_view_more')}</span>
                      </Link>
                   </div>
-               </div>
+               </div> */}
 
             </div>
          </div>

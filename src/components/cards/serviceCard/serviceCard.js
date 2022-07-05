@@ -3,7 +3,7 @@ import './serviceCard.scss';
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-export default function ServiceCard() {
+export default function ServiceCard({data}) {
 	const { t } = useTranslation();
 
 	/* var ita_text = getita_text(); */
@@ -21,9 +21,9 @@ export default function ServiceCard() {
                 <Link onClick={scrollUp} className="carta" to="/content_creation">
                     <div className="flex">
                         <img src="./img/icon_content.png" alt="" />
-                        <h3>{t('card_content_creation.title')}</h3>
+                        <h3>{data.title}</h3>
                     </div>
-                    <p>{t('card_content_creation.paragrafo')}</p>
+                    <p>{data.paragrafo}</p>
                     <span>{t('card_view_more')}</span>
                 </Link>
             </div>

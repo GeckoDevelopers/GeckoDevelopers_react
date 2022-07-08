@@ -16,9 +16,9 @@ export default function PortfolioCard({data}) {
 
         <section className={`trasparente ${data.color}`}>
             <div className="carta_container">
+                        <img src={`${data.image}`} alt="" />
                 <Link onClick={scrollUp} className="carta" to={`${data.link}`}>
                     <div className="flex">
-                        <img src={`${data.icon}`} alt="" />
                         <h3>{data.title}</h3>
                     </div>
                     <p>{data.paragrafo}</p>

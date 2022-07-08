@@ -38,7 +38,25 @@
    },
 
 
+
+
+
+
+
+
+
+
    "card_view_more": "scopri...",
+
+
+
+
+
+
+
+
+
+
 
 
    "cards_service": [
@@ -97,8 +115,47 @@
          "color": "marketing_red",
          "icon": "./img/icon_marketing.png",
          "link": "/marketing"
+      },
+      {
+         "id": "card_app",
+         "title": "creazione app",
+         "paragrafo": "lorem ipsum dolor faucere eficere dicit",
+         "color": "full_gray",
+         "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+         "link": "/broke"
+      },
+      {
+         "id": "card_games",
+         "title": "ideificio giochi",
+         "paragrafo": "lorem ipsum dolor faucere eficere dicit",
+         "color": "individuals_el_green",
+         "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+         "link": "/broke"
+      },
+      {
+         "id": "card_pubblicità",
+         "title": "pubblicità",
+         "paragrafo": "lorem ipsum dolor faucere eficere dicit",
+         "color": "companies_green",
+         "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+         "link": "/broke"
+      },
+      {
+         "id": "card_socialmedia",
+         "title": "social media management",
+         "paragrafo": "lorem ipsum dolor faucere eficere dicit",
+         "color": "design_dk_green",
+         "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+         "link": "/broke"
       }
    ],
+
+
+
+
+
+
+
 
 
 
@@ -212,7 +269,45 @@
 
 
 
+
+
+
+
+
+
+
+
    "cards_portfolio": [
+      {
+         "id": "sito_trainer",
+         "title": "Attività di marketing e consulenza",
+         "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+         "link": "/marketing",
+         "image": "gfdgdfg",
+         "color": "marketing_red"
+      },
+      {
+         "id": "sito_fotografo",
+         "title": "Attività di marketing e consulenza",
+         "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+         "link": "/marketing",
+         "image": "gfdgdfg",
+         "color": "marketing_red"
+      }
+   ],
+
+
+
+
+
+
+
+
+
+
+   
+
+   "cards_abaut_us": [
       {
          "id": "card_marketing",
          "title": "Attività di marketing e consulenza",

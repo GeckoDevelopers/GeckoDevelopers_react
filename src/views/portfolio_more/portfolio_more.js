@@ -10,11 +10,13 @@ export default function Portfoliomore() {
 
    return (
       <section id="portfoliomore">
-         <div className="riga">
-            {cards_portfolio.map((card, i) => {
-               // Return the element. Also pass key     
-               return (<PortfolioCard key={card.id} data={card} />)
-            })}
+         <div className="container-custom">
+            <div className="riga">
+               {cards_portfolio.map((card, i) => {
+                  // Return the element. Also pass key     
+                  return (<PortfolioCard key={card.id} data={card} />)
+               })}
+            </div>
          </div>
       </section>
    );

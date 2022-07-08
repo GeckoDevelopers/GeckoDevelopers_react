@@ -1,8 +1,10 @@
 import './about_us.scss';
 import { useTranslation } from 'react-i18next';
+import AboutUsCard from '../../components/cards/aboutUsCard/aboutUsCard'
 
 export default function AboutUs() {
    const { t } = useTranslation();
+   var cards_abaut_us = t(`cards_abaut_us`, { returnObjects: true })
 
    return (
       <section id="about_us">
@@ -27,6 +29,16 @@ export default function AboutUs() {
             </div>
 
          </div>
+
+         <div className="container-custom">
+            <div className="riga">
+               {cards_abaut_us.map((card, i) => {
+                  // Return the element. Also pass key     
+                  return (<AboutUsCard key={card.id} data={card} />)
+               })}
+            </div>
+         </div>
+
       </section>
 
    );

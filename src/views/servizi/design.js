@@ -27,9 +27,7 @@ export default function Design() {
                </ul>
                <p>For more information, <a id="get-touch" className=" design_dk_green" href="./#contacts">get in touch</a> with us!</p>
             </div>
-            {/* @for($i = 0; $i < 500; $i++)
-        <div className="ombra  design_dk_green"></div>
-        @endfor */}
+         
          </div>
       </section>
 

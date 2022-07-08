@@ -30,9 +30,7 @@ export default function ContentCreation() {
                </ul>
                <p>For more information, <a id="get-touch" className=" content_orange" href="./#contacts">get in touch</a> with us!</p>
             </div>
-            {/* @for($i = 0; $i < 500; $i++)
-          <div className="ombra  content_orange"></div>
-          @endfor */}
+         
          </div>
       </section>
    )

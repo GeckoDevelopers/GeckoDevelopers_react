@@ -28,9 +28,7 @@ export default function Individuals() {
 
                <p>For more information, <a id="get-touch" className=" individuals_el_green" href="./#contacts">get in touch</a> with us!</p>
             </div>
-            {/* @for($i = 0; $i < 500; $i++)
-        <div className="ombra  individuals_el_green"></div>
-        @endfor */}
+           
          </div>
       </section>
    )

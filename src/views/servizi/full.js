@@ -44,6 +44,9 @@ export default function FullServices() {
                <p>For more information, <a id="get-touch" className="full_gray" href="./#contacts">get in touch</a> with us!</p>
             </div>
          </div>
+
+         
+
       </section>
    );
 };

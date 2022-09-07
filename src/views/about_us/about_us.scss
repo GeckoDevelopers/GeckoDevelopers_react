@@ -1,9 +1,79 @@
 @import './src/variabili.scss';
 
-#services {
-   background-color: $green;
+#about_us {
+   background-color: $white;
+   color: $green;
+   padding: 100px 0 52px 0;
+   /*fix*/
+   position: relative; //per l'anchor link
+   min-height: 100vh;
+
+   .container-custom {
+      .intestazione {
+         // margini titolo sezione
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 36px;
+
+         /*fix*/
+         h2 {
+            // scritta ABOUT US e margini
+            min-width: 147px;
+            font-size: $titoli_sezioni;
+            letter-spacing: $letter-spacing;
+            margin-right: 40px;
+            /*fix*/
+         }
+
+         hr {
+            // line
+            width: 100%;
+            background-color: $green;
+            margin: 0;
+         }
+
+         img {
+            // 5 slash dx
+            height: 21px;
+            /*fix*/
+            margin-left: 40px;
+            /*fix*/
+         }
+      }
+
+      p {
+         // font sezione
+         font-size: $paragrafi_sezioni;
+         /*fix*/
+         line-height: $line-height-paragrafi_ALL;
+         /*fix*/
+         // word-spacing per correggere gli spazi vuoti
+         word-spacing: 2px;
+         /*fix*/
+         text-align: justify;
+         margin-bottom: 42px;
+         /*fix*/
+      }
+
+      .cards {
+         // striscia verde sotto (cancellata)
+         width: 100%;
+         margin-top: 30px;
+         background-color: $green;
+         padding-bottom: 35px;
+
+         /*fix*/
+         img {
+            width: 100%;
+         }
+
+         .imgmobile {
+            display: none;
+         }
+      }
+   }
    color: $white;
-   padding: 47px 0 32px 0;
+   padding: 100px 0 32px 0;
    /*fix*/
    position: relative; //per l'anchor link
    overflow: hidden;
@@ -311,210 +381,32 @@
    }
 }
 
-
-
 @media all and (max-width: 1024px) {
-   #services {
+   #about_us {
       .container-custom {
-         .riga {
-            .col-md-8 {
-               // meno padding
-               padding-right: 8px;
-
-               /*fix*/
-               p {
-                  column-count: 2;
-                  /*fix*/
-                  column-gap: 25px;
-                  /*fix*/
-                  // font sezione
-                  font-size: $paragrafi_sezioni_S;
-                  /*fix*/
-                  line-height: 24px;
-                  /*fix*/
-                  margin-bottom: 34px;
-                  /*fix*/
-               }
-            }
-
-            .trasparente {
-               height: 360px;
-               /*fix*/
-               margin-bottom: 4.5%;
-
-               /*fix*/
-               &:after {
-                  top: 96%;
-                  left: 3px;
-               }
-
-               .carta_container {
-                  height: 360px;
-
-                  /*fix*/
-                  a.carta {
-                     padding: 2.5vw 2.5vw;
-
-                     /*fix*/
-                     .flex {
-
-                        // ricorda è in commons.scss
-                        img {
-                           width: 14px;
-                           /*fix*/
-                           height: 14px;
-                           /*fix*/
-                           margin-right: 10px;
-                        }
-
-                        h3 {
-                           font-size: 17px;
-                           /*fix*/
-                           line-height: 18px;
-                           /*fix*/
-                           margin-bottom: 4.5%;
-                           /*fix*/
-                        }
-                     }
-
-                     p {
-                        font-size: 13px;
-                        /*fix*/
-                     }
-
-                     span {
-                        // button card
-                        bottom: 3vw;
-                        /*fix*/
-                        right: 3.5vw;
-                        /*fix*/
-                     }
-                  }
-               }
-            }
+         p {
+            // font sezione
+            font-size: $paragrafi_sezioni_S;
+            /*fix*/
+            margin-bottom: 45px;
+            /*fix*/
          }
       }
    }
 }
 
-@media all and (max-width: 767px) {
-
-   // ERRORE!!! sistemato da cani da me
-   #services {
-      .container-custom {
-         .riga {
-            flex-wrap: wrap;
-
-            .col-md-8 {
-               // leva padding
-               padding-right: 0px;
-               /*fix*/
-               width: 100%;
-
-               p {
-                  column-count: 1;
-                  /*fix*/
-               }
-            }
-
-            .trasparente {
-               width: 100%;
-               height: 224px;
-               /*fix*/
-               margin-bottom: 6%;
-
-               /*fix*/
-               &:before {
-                  top: 14px;
-                  left: 99%;
-               }
-
-               &:after {
-                  left: 7px;
-               }
-
-               .carta_container {
-                  width: 100%;
-                  height: 224px;
-
-                  /*fix*/
-                  a.carta {
-                     padding: 3vw 3.5vw;
-                     /*fix*/
-                  }
-               }
-            }
-         }
-      }
-   }
-}
+@media all and (max-width: 768px) {}
 
 @media all and (max-width: 480px) {
-   #services {
+   #about_us {
       .container-custom {
-         .riga {
-            .col-md-8 {
-               // leva padding
-               padding-right: 0px;
-               /*fix*/
+         .cards {
+            .imgdesk {
+               display: none;
             }
 
-            .trasparente {
-               width: 100%;
-               height: 224px;
-               /*fix*/
-               margin-bottom: 6%;
-
-               /*fix*/
-               &:before {
-                  top: 8px;
-                  left: 97%;
-               }
-
-               &:after {
-                  left: 8px;
-               }
-
-               .carta_container {
-                  width: 100%;
-                  height: 224px;
-                  /*fix*/
-                  margin-bottom: 6%;
-
-                  /*fix*/
-                  a.carta {
-                     padding: 4vw 6vw;
-
-                     /*fix*/
-                     .flex {
-
-                        // ricorda è in commons.scss
-                        h3 {
-                           font-size: 15.5px;
-                           /*fix*/
-                           line-height: 16px;
-                           /*fix*/
-                           margin-bottom: 3.5%;
-                           /*fix*/
-                        }
-                     }
-
-                     p {
-                        font-size: 13px;
-                        /*fix*/
-                        line-height: 16px;
-                        /*fix*/
-                     }
-
-                     span {
-                        // button card
-                        bottom: 4.5vw;
-                        /*fix*/
-                        right: 6vw;
-                        /*fix*/
-                     }
-                  }
-               }
+            .imgmobile {
+               display: inline-block;
             }
          }
       }

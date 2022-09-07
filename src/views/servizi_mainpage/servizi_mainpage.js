@@ -1,16 +1,12 @@
-import './services.scss';
+import './servizi_mainpage.scss';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-import ServiceCard from '../cards/serviceCard/serviceCard';
+import ServiceCard from '../../components/cards/serviceCard/serviceCard';
 
-export default function Services() {
+export default function ServiziMain() {
    const { t } = useTranslation();
-   
-   var cardsService = t(`cards_service`, { returnObjects: true })
-   var neddedCards = [ "card_full", "card_design", "card_content_creation", "card_marketing"]
-   var cardsService = cardsService.filter(card => {
-     return neddedCards.includes(card.id);
-   })
+
+   var cards_service = t(`cards_service`, { returnObjects: true })
 
    // SCROLL UP DEI LINK
    function scrollUp() {
@@ -18,8 +14,7 @@ export default function Services() {
    }
 
    return (
-      <section id="services">
-         <span className="link" id="services-link"></span>
+      <section id="servizi_main">
          <div className="container-custom">
 
             {/* <!-- prima ROW COL TESTO --> */}
@@ -40,14 +35,15 @@ export default function Services() {
                   </p>
                </div>
             </div>
-            {/* <!-- seconda ROW --> */}
+
             <div className="riga">
-               {cardsService.map((card, i) => {
+                {cards_service.map((card, i) => {
                     // Return the element. Also pass key     
                     return (<ServiceCard key={card.id} data={card} />) 
                 })}
             </div>
-         </div>
+         </div> 
+         
       </section>
    );
 };

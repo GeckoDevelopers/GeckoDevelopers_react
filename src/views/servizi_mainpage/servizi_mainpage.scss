@@ -1,9 +1,9 @@
 @import './src/variabili.scss';
 
-#services {
+#servizi_main {
    background-color: $green;
    color: $white;
-   padding: 47px 0 32px 0;
+   padding: 100px 0 32px 0;
    /*fix*/
    position: relative; //per l'anchor link
    overflow: hidden;

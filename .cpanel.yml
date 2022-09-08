@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - npm install
-    - npm run build
-    - npm start
+    - export DEPLOYPATH=/home/geckmfgt/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH.

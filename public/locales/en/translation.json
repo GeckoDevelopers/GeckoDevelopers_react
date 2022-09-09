@@ -4,10 +4,19 @@
     "about_us": "/ about us",
     "services": "/ services",
     "portfolio": "/ portfolio",
-    "contacts": "/ contacts"
+    "contacts": "/ contacts",
+    "languages": {
+        "text": "/ English",
+        "image": "english.jpg"
+    }
   },
-
-
+  "languages": [
+    {
+        "text": "/ Italiano",
+        "image": "italiano.jpg",
+        "link": "it"
+    }
+  ],
   "minimenuservizi": {
     "all": "All Services",
     "full": "Full Package",
@@ -18,8 +27,6 @@
     "content": "Content Creation",
     "marketing": "Marketing Activities & Consultancy"
   },
-
-
   "jumbo": {
     "title1": "A COMPANY FOR ALL YOUR NEEDS",
     "title2": "TO REALIZE YOUR DREAMS",

@@ -23,11 +23,19 @@ export default function Navbar() {
 	}
 
 	// CARRET DOWN E MENU SERVIZI
-	function animazioneTendina() {
+	function animazioneTendinaService() {
 		// CARRET DOWN CHE GIRA
-		document.getElementById("caret").classList.toggle("rotate");
+		document.getElementById("caret-service").classList.toggle("rotate");
 		// MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
 		document.getElementsByClassName("dropdown-services")[0].classList.toggle("servicesMenu")
+	}
+
+    // CARRET DOWN E MENU LINGUE
+	function animazioneTendinaLanguages() {
+		// CARRET DOWN CHE GIRA
+		document.getElementById("caret-languages").classList.toggle("rotate");
+		// MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
+		document.getElementsByClassName("dropdown-languages")[0].classList.toggle("languagesMenu")
 	}
 
 	function closeMenu() {
@@ -77,13 +85,13 @@ export default function Navbar() {
 					</div>
 					<div className="right-side flex">
 
-						<div className="lingueSelector" /* onClick={animazioneTendina} */>
+						{/* <div className="lingueSelector">
 
 							<div className="flex">
 								<button type="button" onClick={() => changeLanguages("en")}><img src="./img/flags/english.jpg" alt="" /></button>
 								<button type="button" onClick={() => changeLanguages("it")}><img src="./img/flags/italiano.jpg" alt="" /></button>
 							</div>
-						</div>
+						</div> */}
 
 
 
@@ -93,9 +101,30 @@ export default function Navbar() {
 									? ""/*<a href="#home">{ita_text.navbar.home}</a>*/
 									: <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{t('navbar.home')}</Link></li>
 								}
-								<li className="nowrap" onClick={animazioneTendina}>
+                                <li className="nowrap" onClick={animazioneTendinaLanguages}>
+									<span id="languagesMenu">
+                                        {t('navbar.languages.text')}
+                                        <img className='flag' src={`./img/flags/${t('navbar.languages.image')}`} alt="" />
+										<i id="caret-languages" className="fas fa-angle-down"></i>
+									</span>
+									<div className="dropdown-languages">
+										<ul>
+											<hr />
+                                            {t('languages', { returnObjects: true }).map((language, i) => {
+                                                // Return the element. Also pass key     
+                                                return (
+                                                    <li onClick={() => changeLanguages(`${language.link}`)}>
+                                                        {language.text}
+                                                        <img className='flag' src={`./img/flags/${language.image}`} alt="" />
+                                                    </li> 
+                                                )
+                                            })}
+										</ul>
+									</div>
+								</li>
+								<li className="nowrap" onClick={animazioneTendinaService}>
 									<span id="servicesMenu">{t('navbar.services')}
-										<i id="caret" className="fas fa-angle-down"></i>
+										<i id="caret-service" className="fas fa-angle-down"></i>
 									</span>
 									<div className="dropdown-services">
 										<ul>
@@ -116,7 +145,6 @@ export default function Navbar() {
 								<li onClick={closeMenudaiLink}><HashLink to="/#contacts">{t('navbar.contacts')}</HashLink></li>
 								<li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/about_us">{t('navbar.about_us')}</Link></li>
 							</ul>
-
 						</div>
 						<div className="hamburger flex" onClick={() => { animazioneBurgherMenu(); closeMenu(); }}>
 							<div className="line1"></div>

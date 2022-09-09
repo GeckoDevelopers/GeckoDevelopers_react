@@ -70,6 +70,10 @@ nav {
 						left: 0;
 					}
 
+                    .flag{
+                        height: 15px;
+                    }
+
 					a,
 					span {
 						// font in nav menù
@@ -101,7 +105,21 @@ nav {
 							/*fix*/
 							color: $gray;
 
-							#caret {
+							#caret-service {
+								// freccia dropdown services menù
+								font-size: 16px;
+								/*fix*/
+								transition: transform 0.4s;
+								margin-left: 4px;
+								/*fix*/
+								cursor: pointer;
+
+								&.rotate {
+									transform: rotate(180deg);
+									transition: transform 0.4s;
+								}
+							}
+                            #caret-languages {
 								// freccia dropdown services menù
 								font-size: 16px;
 								/*fix*/
@@ -117,7 +135,10 @@ nav {
 							}
 						}
 					}
-
+                    // todo: se che tempo, tentare di raggruppare dropdown-service e dropdown-language
+                    // in un unica classe dropdown e mettere le cose necessare al cambiamento 
+                    // (probabilmente solo il fatto che sia display block o meno) nelle classi
+                    // dropdown-service e dropdown-language
 					.dropdown-services {
 						// posizione dropdown-services desktop
 						display: none;
@@ -128,6 +149,40 @@ nav {
 						z-index: 20;
 
 						&.servicesMenu {
+							display: block !important; // se no non diventa visibile il menu a tendinda dei servizi. what a fuck
+						}
+
+						ul {
+							width: 451px;
+							padding: 15px;
+							background-color: $green;
+							color: $gray;
+							list-style: none;
+							flex-direction: column;
+
+							li {
+								// slash in dropdown services menù
+								font-size: 17px;
+								/*fix*/
+								margin: 2.5px 0;
+
+								&:hover {
+									text-decoration: underline;
+								}
+							}
+						}
+					}
+
+                    .dropdown-languages {
+						// posizione dropdown-languages desktop
+						display: none;
+						position: absolute;
+						top: 25px;
+						/*fix*/
+						left: -17px;
+						z-index: 20;
+
+						&.languagesMenu {
 							display: block !important; // se no non diventa visibile il menu a tendinda dei servizi. what a fuck
 						}
 

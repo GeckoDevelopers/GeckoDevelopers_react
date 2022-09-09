@@ -4,8 +4,19 @@
     "about_us": "/ chi siamo",
     "services": "/ servizi",
     "portfolio": "/ portfolio",
-    "contacts": "/ contatti"
+    "contacts": "/ contatti",
+    "languages": {
+        "text": "/ Italiano",
+        "image": "italiano.jpg"
+    }
   },
+  "languages": [
+    {
+        "text": "/ English",
+        "image": "english.jpg",
+        "link": "en"
+    }
+  ],
   "minimenuservizi": {
     "all": "tutti i servizi",
     "full": "pacchetto completo",

@@ -24,6 +24,7 @@ export default function Navbar() {
 
 	// CARRET DOWN E MENU SERVIZI
 	function animazioneTendinaService() {
+        closeMenuLanguages()
 		// CARRET DOWN CHE GIRA
 		document.getElementById("caret-service").classList.toggle("rotate");
 		// MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
@@ -32,15 +33,23 @@ export default function Navbar() {
 
     // CARRET DOWN E MENU LINGUE
 	function animazioneTendinaLanguages() {
+        closeMenuService()
 		// CARRET DOWN CHE GIRA
 		document.getElementById("caret-languages").classList.toggle("rotate");
 		// MENU A TENDINA CHE SCENDE O ENTRA DI LATO CON IL DISPLAY DEL TELEFONO
 		document.getElementsByClassName("dropdown-languages")[0].classList.toggle("languagesMenu")
 	}
 
-	function closeMenu() {
+	function closeMenuService() {
 		// CHIUSURA DEL MENU A TENDINA CON LA X DEL BURGHERMENU
 		document.getElementsByClassName("dropdown-services")[0].classList.remove("servicesMenu")
+		document.getElementById("caret-service").classList.remove("rotate")
+	}
+    
+    function closeMenuLanguages() {
+		// CHIUSURA DEL MENU A TENDINA CON LA X DEL BURGHERMENU
+		document.getElementsByClassName("dropdown-languages")[0].classList.remove("languagesMenu")
+		document.getElementById("caret-languages").classList.remove("rotate")
 	}
 
 	// CHIUSURA DEI MENU AL CLICK SUI LINK
@@ -146,7 +155,7 @@ export default function Navbar() {
 								<li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/about_us">{t('navbar.about_us')}</Link></li>
 							</ul>
 						</div>
-						<div className="hamburger flex" onClick={() => { animazioneBurgherMenu(); closeMenu(); }}>
+						<div className="hamburger flex" onClick={() => { animazioneBurgherMenu(); closeMenuService(); }}>
 							<div className="line1"></div>
 							<div className="line2"></div>
 							<div className="line3"></div>

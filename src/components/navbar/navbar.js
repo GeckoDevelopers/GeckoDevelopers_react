@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import { HashLink } from 'react-router-hash-link';
+// import DropdownMenu from '../dropdownMenu/dropdownMenu';
+
 
 export default function Navbar() {
 	const { t } = useTranslation();
@@ -110,6 +112,7 @@ export default function Navbar() {
 									? ""/*<a href="#home">{ita_text.navbar.home}</a>*/
 									: <li onClick={closeMenudaiLink}><Link onClick={scrollUp} to="/">{t('navbar.home')}</Link></li>
 								}
+                                {/* <li><DropdownMenu /></li> */}
                                 <li className="nowrap" onClick={animazioneTendinaLanguages}>
 									<span id="languagesMenu">
                                         {t('navbar.languages.text')}

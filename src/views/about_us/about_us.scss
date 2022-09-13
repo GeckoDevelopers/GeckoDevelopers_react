@@ -1,7 +1,7 @@
 @import './src/variabili.scss';
 
 #about_us {
-   background-color: $white;
+   background-color: $test;
    color: $green;
    padding: 100px 0 52px 0;
    /*fix*/
@@ -23,6 +23,8 @@
             letter-spacing: $letter-spacing;
             margin-right: 40px;
             /*fix*/
+            color: $gray;
+
          }
 
          hr {
@@ -53,6 +55,8 @@
          text-align: justify;
          margin-bottom: 42px;
          /*fix*/
+         color: $gray;
+
       }
 
       .cards {
@@ -138,245 +142,7 @@
             }
          }
 
-         .trasparente {
-            width: calc(100% / 3 - 2%);
-            height: 328px;
-            background: rgba(0, 0, 0, 0);
-            position: relative;
-            margin-top: 0.3%;
-            /*fix*/
-            margin-bottom: 0.7%;
-
-            /*fix*/
-            // &:hover {
-            //     margin-top: -10px;
-            //     margin-left: -10px;
-            // }
-            &:before {
-               position: absolute;
-               top: 9px;
-               left: 98%;
-               width: 100%;
-               height: 100%;
-               content: '';
-               transform: skewY(45deg);
-               transform-origin: 0 0;
-            }
-
-            &:after {
-               position: absolute;
-               top: 90%;
-               left: 15px;
-               width: 100%;
-               height: 150%;
-               content: '';
-               transform: skewX(45deg);
-               transform-origin: 0 0;
-            }
-
-            .carta_container {
-               width: 100%;
-               // altezza card
-               height: 297px;
-               /*fix*/
-               position: relative;
-
-               .carta {
-                  --notchSize: 18px;
-                  --null: 0px;
-                  /* from https://css-tricks.com/notched-boxes/ */
-                  clip-path:
-                     /* Notched Boxes or Notched Module */
-                     polygon(0% var(--notchSize),
-                        /* top left */
-                        var(--null) 0%,
-                        /* top left */
-                        calc(100% - var(--notchSize)) 0%,
-                        /* top right */
-                        100% var(--notchSize),
-                        /* top right */
-                        100% calc(100% - var(--notchSize)),
-                        /* bottom right */
-                        calc(100% - var(--null)) 100%,
-                        /* bottom right */
-                        var(--notchSize) 100%,
-                        /* bottom left */
-                        0% calc(100% - var(--notchSize))
-                        /* bottom left */
-                     );
-               }
-
-               a * {
-                  cursor: pointer;
-               }
-
-               a.carta {
-                  // margini card
-                  width: 100%;
-                  height: 100%;
-                  padding: 1.7vw 2.5vw;
-                  /*fix*/
-                  position: absolute;
-                  background-color: $white;
-                  text-decoration: none;
-
-                  /* z-index: 2000; */
-                  .flex {
-
-                     // ricorda è in commons.scss
-                     img {
-                        width: 17px;
-                        height: 17px;
-                        margin-right: 10px;
-                     }
-
-                     h3 {
-                        font-family: $font-titolo;
-                        font-size: $card_title;
-                        line-height: $line-height-card;
-                        margin-bottom: 5%;
-                        /*fix*/
-                     }
-                  }
-
-                  p {
-                     color: $gray;
-                     font-size: $card_paragraph;
-                     line-height: $line-height-card_paragraph;
-                     /*fix*/
-                     text-align: justify;
-                     /*fix*/
-                  }
-
-                  span {
-                     // button card
-                     padding-top: 0.8%;
-                     padding-right: 3.7%;
-                     padding-bottom: 0.8%;
-                     padding-left: 4.7%;
-                     color: $white;
-                     position: absolute;
-                     bottom: 2vw;
-                     /*fix*/
-                     right: 2.5vw;
-                     /*fix*/
-                     /* z-index: 0; */
-                  }
-               }
-            }
-         }
-
-         .trasparente.full_gray:before,
-         .trasparente.full_gray:after {
-            background: $gray;
-         }
-
-         .trasparente.full_gray,
-         .trasparente.full_gray {
-            h3 {
-               color: $gray;
-            }
-
-            span {
-               background-color: $gray;
-            }
-         }
-
-         .trasparente.individuals_el_green:before,
-         .trasparente.individuals_el_green:after {
-            background: $light-green;
-         }
-
-         .trasparente.individuals_el_green,
-         .trasparente.individuals_el_green {
-            h3 {
-               color: $light-green;
-            }
-
-            span {
-               background-color: $light-green;
-            }
-         }
-
-         .trasparente.companies_green:before,
-         .trasparente.companies_green:after {
-            background: $green;
-         }
-
-         .trasparente.companies_green,
-         .trasparente.companies_green {
-            h3 {
-               color: $green;
-            }
-
-            span {
-               background-color: $green;
-            }
-         }
-
-         .trasparente.design_dk_green:before,
-         .trasparente.design_dk_green:after {
-            background: $dark-green;
-         }
-
-         .trasparente.design_dk_green,
-         .trasparente.design_dk_green {
-            h3 {
-               color: $dark-green;
-            }
-
-            span {
-               background-color: $dark-green;
-            }
-         }
-
-         .trasparente.continuous_yellow:before,
-         .trasparente.continuous_yellow:after {
-            background: $yellow;
-         }
-
-         .trasparente.continuous_yellow,
-         .trasparente.continuous_yellow {
-            h3 {
-               color: $yellow;
-            }
-
-            span {
-               background-color: $yellow;
-            }
-         }
-
-         .trasparente.content_orange:before,
-         .trasparente.content_orange:after {
-            background: $orange;
-         }
-
-         .trasparente.content_orange,
-         .trasparente.content_orange {
-            h3 {
-               color: $orange;
-            }
-
-            span {
-               background-color: $orange;
-            }
-         }
-
-         .trasparente.marketing_red:before,
-         .trasparente.marketing_red:after {
-            background: $red;
-         }
-
-         .trasparente.marketing_red,
-         .trasparente.marketing_red {
-            h3 {
-               color: $red;
-            }
-
-            span {
-               background-color: $red;
-            }
-         }
+         
       }
    }
 }

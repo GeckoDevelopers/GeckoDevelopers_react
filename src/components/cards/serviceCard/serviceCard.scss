@@ -1,145 +1,380 @@
 @import '../../../variabili.scss';
 
+#serviceCard {
+	width: calc(100% / 3 - 2%);
+	height: 328px;
+	background: rgba(0, 0, 0, 0);
+	position: relative;
+	margin-top: 0.3%;
+	/*fix*/
+	margin-bottom: 0.7%;
 
-.trasparente {
-    width: calc(100% / 3 - 2%);
-    height: 328px;
-    background: rgba(0, 0, 0, 0);
-    position: relative;
-    margin-top: 0.3%;
-    /*fix*/
-    margin-bottom: 0.7%;
+	/*fix*/
+	// &:hover {
+	//     margin-top: -10px;
+	//     margin-left: -10px;
+	// }
+	&:before {
+		position: absolute;
+		top: 9px;
+		left: 98%;
+		width: 100%;
+		height: 100%;
+		content: '';
+		transform: skewY(45deg);
+		transform-origin: 0 0;
+	}
 
-    /*fix*/
-    // &:hover {
-    //     margin-top: -10px;
-    //     margin-left: -10px;
-    // }
-    &:before {
-       position: absolute;
-       top: 9px;
-       left: 98%;
-       width: 100%;
-       height: 100%;
-       content: '';
-       transform: skewY(45deg);
-       transform-origin: 0 0;
-    }
+	&:after {
+		position: absolute;
+		top: 90%;
+		left: 15px;
+		width: 100%;
+		height: 150%;
+		content: '';
+		transform: skewX(45deg);
+		transform-origin: 0 0;
+	}
 
-    &:after {
-       position: absolute;
-       top: 90%;
-       left: 15px;
-       width: 100%;
-       height: 150%;
-       content: '';
-       transform: skewX(45deg);
-       transform-origin: 0 0;
-    }
+	.carta_container {
+		width: 100%;
+		// altezza card
+		height: 297px;
+		/*fix*/
+		position: relative;
 
-    .carta_container {
-       width: 100%;
-       // altezza card
-       height: 297px;
-       /*fix*/
-       position: relative;
+		.carta {
+			--notchSize: 18px;
+			--null: 0px;
+			/* from https://css-tricks.com/notched-boxes/ */
+			clip-path:
+                 /* Notched Boxes or Notched Module */ polygon(
+				0% var(--notchSize),
+				/* top left */ var(--null) 0%,
+				/* top left */ calc(100% - var(--notchSize)) 0%,
+				/* top right */ 100% var(--notchSize),
+				/* top right */ 100% calc(100% - var(--notchSize)),
+				/* bottom right */ calc(100% - var(--null)) 100%,
+				/* bottom right */ var(--notchSize) 100%,
+				/* bottom left */ 0% calc(100% - var(--notchSize)) /* bottom left */
+			);
+		}
 
-       .carta {
-          --notchSize: 18px;
-          --null: 0px;
-          /* from https://css-tricks.com/notched-boxes/ */
-          clip-path:
-             /* Notched Boxes or Notched Module */
-             polygon(0% var(--notchSize),
-                /* top left */
-                var(--null) 0%,
-                /* top left */
-                calc(100% - var(--notchSize)) 0%,
-                /* top right */
-                100% var(--notchSize),
-                /* top right */
-                100% calc(100% - var(--notchSize)),
-                /* bottom right */
-                calc(100% - var(--null)) 100%,
-                /* bottom right */
-                var(--notchSize) 100%,
-                /* bottom left */
-                0% calc(100% - var(--notchSize))
-                /* bottom left */
-             );
-        }
+		a * {
+			cursor: pointer;
+		}
 
-        a * {
-          cursor: pointer;
-        }
+		a.carta {
+			// margini card
+			width: 100%;
+			height: 100%;
+			padding: 1.7vw 2.5vw;
+			/*fix*/
+			position: absolute;
+			background-color: $white;
+			text-decoration: none;
 
-        a.carta {
-          // margini card
-          width: 100%;
-          height: 100%;
-          padding: 1.7vw 2.5vw;
-          /*fix*/
-          position: absolute;
-          background-color: $white;
-          text-decoration: none;
+			/* z-index: 2000; */
+			.flex {
+				// ricorda è in commons.scss
+				img {
+					width: 17px;
+					height: 17px;
+					margin-right: 10px;
+				}
 
-          /* z-index: 2000; */
-          .flex {
+				h3 {
+					font-family: $font-titolo;
+					font-size: $card_title;
+					line-height: $line-height-card;
+					margin-bottom: 5%;
+					/*fix*/
+				}
+			}
 
-             // ricorda è in commons.scss
-             img {
-                width: 17px;
-                height: 17px;
-                margin-right: 10px;
-             }
+			p {
+				color: $gray;
+				font-size: $card_paragraph;
+				line-height: $line-height-card_paragraph;
+				/*fix*/
+				text-align: justify;
+				/*fix*/
+			}
 
-             h3 {
-                font-family: $font-titolo;
-                font-size: $card_title;
-                line-height: $line-height-card;
-                margin-bottom: 5%;
-                /*fix*/
-             }
-        }
-
-        p {
-             color: $gray;
-             font-size: $card_paragraph;
-             line-height: $line-height-card_paragraph;
-             /*fix*/
-             text-align: justify;
-             /*fix*/
-          }
-
-          span {
-             // button card
-             padding-top: 0.8%;
-             padding-right: 3.7%;
-             padding-bottom: 0.8%;
-             padding-left: 4.7%;
-             color: $white;
-             position: absolute;
-             bottom: 2vw;
-             /*fix*/
-             right: 2.5vw;
-             /*fix*/
-             /* z-index: 0; */
-          }
-       }
-    }
+			span {
+				// button card
+				padding-top: 0.8%;
+				padding-right: 3.7%;
+				padding-bottom: 0.8%;
+				padding-left: 4.7%;
+				color: $white;
+				position: absolute;
+				bottom: 2vw;
+				/*fix*/
+				right: 2.5vw;
+				/*fix*/
+				/* z-index: 0; */
+			}
+		}
+	}
 }
-.trasparente.content_orange:before,
-.trasparente.content_orange:after {
-    background: $orange;
-    }
 
-    .trasparente.content_orange,
-    .trasparente.content_orange {
-    h3 {
-        color: $orange;
-    }
+#serviceCard.full_gray:before,
+#serviceCard.full_gray:after {
+	background: $gray;
+}
 
-    span {
-        background-color: $orange;
-    }
+#serviceCard.full_gray,
+#serviceCard.full_gray {
+	h3 {
+		color: $gray;
+	}
+
+	span {
+		background-color: $gray;
+	}
+}
+
+#serviceCard.individuals_el_green:before,
+#serviceCard.individuals_el_green:after {
+	background: $light-green;
+}
+
+#serviceCard.individuals_el_green,
+#serviceCard.individuals_el_green {
+	h3 {
+		color: $light-green;
+	}
+
+	span {
+		background-color: $light-green;
+	}
+}
+
+#serviceCard.companies_green:before,
+#serviceCard.companies_green:after {
+	background: $green;
+}
+
+#serviceCard.companies_green,
+#serviceCard.companies_green {
+	h3 {
+		color: $green;
+	}
+
+	span {
+		background-color: $green;
+	}
+}
+
+#serviceCard.design_dk_green:before,
+#serviceCard.design_dk_green:after {
+	background: $dark-green;
+}
+
+#serviceCard.design_dk_green,
+#serviceCard.design_dk_green {
+	h3 {
+		color: $dark-green;
+	}
+
+	span {
+		background-color: $dark-green;
+	}
+}
+
+#serviceCard.continuous_yellow:before,
+#serviceCard.continuous_yellow:after {
+	background: $yellow;
+}
+
+#serviceCard.continuous_yellow,
+#serviceCard.continuous_yellow {
+	h3 {
+		color: $yellow;
+	}
+
+	span {
+		background-color: $yellow;
+	}
+}
+
+#serviceCard.content_orange:before,
+#serviceCard.content_orange:after {
+	background: $orange;
+}
+
+#serviceCard.content_orange,
+#serviceCard.content_orange {
+	h3 {
+		color: $orange;
+	}
+
+	span {
+		background-color: $orange;
+	}
+}
+
+#serviceCard.marketing_red:before,
+#serviceCard.marketing_red:after {
+	background: $red;
+}
+
+#serviceCard.marketing_red,
+#serviceCard.marketing_red {
+	h3 {
+		color: $red;
+	}
+
+	span {
+		background-color: $red;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#serviceCard {
+		height: 360px;
+		/*fix*/
+		margin-bottom: 4.5%;
+
+		/*fix*/
+		&:after {
+			top: 96%;
+			left: 3px;
+		}
+
+		.carta_container {
+			height: 360px;
+
+			/*fix*/
+			a.carta {
+				padding: 2.5vw 2.5vw;
+
+				/*fix*/
+				.flex {
+					// ricorda è in commons.scss
+					img {
+						width: 14px;
+						/*fix*/
+						height: 14px;
+						/*fix*/
+						margin-right: 10px;
+					}
+
+					h3 {
+						font-size: 17px;
+						/*fix*/
+						line-height: 18px;
+						/*fix*/
+						margin-bottom: 4.5%;
+						/*fix*/
+					}
+				}
+
+				p {
+					font-size: 13px;
+					/*fix*/
+				}
+
+				span {
+					// button card
+					bottom: 3vw;
+					/*fix*/
+					right: 3.5vw;
+					/*fix*/
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 767px) {
+	// ERRORE!!! sistemato da cani da me
+
+	#serviceCard {
+		width: 100%;
+		height: 224px;
+		/*fix*/
+		margin-bottom: 6%;
+
+		/*fix*/
+		&:before {
+			top: 14px;
+			left: 99%;
+		}
+
+		&:after {
+			left: 7px;
+		}
+
+		.carta_container {
+			width: 100%;
+			height: 224px;
+
+			/*fix*/
+			a.carta {
+				padding: 3vw 3.5vw;
+				/*fix*/
+			}
+		}
+	}
+}
+
+@media all and (max-width: 480px) {
+	#serviceCard {
+		width: 100%;
+		height: 224px;
+		/*fix*/
+		margin-bottom: 6%;
+
+		/*fix*/
+		&:before {
+			top: 8px;
+			left: 97%;
+		}
+
+		&:after {
+			left: 8px;
+		}
+
+		.carta_container {
+			width: 100%;
+			height: 224px;
+			/*fix*/
+			margin-bottom: 6%;
+
+			/*fix*/
+			a.carta {
+				padding: 4vw 6vw;
+
+				/*fix*/
+				.flex {
+					// ricorda è in commons.scss
+					h3 {
+						font-size: 15.5px;
+						/*fix*/
+						line-height: 16px;
+						/*fix*/
+						margin-bottom: 3.5%;
+						/*fix*/
+					}
+				}
+
+				p {
+					font-size: 13px;
+					/*fix*/
+					line-height: 16px;
+					/*fix*/
+				}
+
+				span {
+					// button card
+					bottom: 4.5vw;
+					/*fix*/
+					right: 6vw;
+					/*fix*/
+				}
+			}
+		}
+	}
 }

@@ -14,7 +14,7 @@ export default function PortfolioCard({data}) {
 	// var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi
 	return (
 
-        <section className={`trasparente ${data.color}`}>
+        <section id="portfolioCard" className={`${data.color}`}>
             <div className="carta_container">
                         <img src={`${data.image}`} alt="" />
                 <Link onClick={scrollUp} className="carta" to={`${data.link}`}>

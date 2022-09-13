@@ -14,7 +14,7 @@ export default function AboutUsCard({ data }) {
    // var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi
    return (
 
-      <section id="aboutUsCard" className={`trasparente ${data.color}`}>
+      <section id="aboutUsCard" className={`${data.color}`}>
          <div className="carta_container">
             <img src={`${data.image}`} alt="" />
             <Link onClick={scrollUp} className="carta" to={`${data.link}`}>

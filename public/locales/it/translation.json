@@ -262,20 +262,16 @@
 
   "cards_abaut_us": [
     {
-      "id": "card_marketing",
-      "title": "Attività di marketing e consulenza",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
-      "link": "/marketing",
-      "image": "gfdgdfg",
-      "color": "marketing_red"
+        "title": "Fabio Parisi",
+        "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+        "image": "user.webp",
+        "color": "marketing_red"
     },
     {
-      "id": "card_marketing",
-      "title": "Attività di marketing e consulenza",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
-      "link": "/marketing",
-      "image": "gfdgdfg",
-      "color": "marketing_red"
+        "title": "Francesco Livio",
+        "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+        "image": "user.webp",
+        "color": "marketing_red"
     }
   ]
 }

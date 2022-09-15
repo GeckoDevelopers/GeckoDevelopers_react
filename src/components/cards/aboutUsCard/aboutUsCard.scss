@@ -1,23 +1,23 @@
 @import '../../../variabili.scss';
 
 #aboutUsCard {
-	width: calc(100% - 2%);
+	width: 100%;
 	height: 328px;
 	background: rgba(0, 0, 0, 0);
 	position: relative;
 	margin-top: 0.3%;
-	/*fix*/
+	
 	margin-bottom: 0.7%;
 
-	/*fix*/
+	
 	// &:hover {
 	//     margin-top: -10px;
 	//     margin-left: -10px;
 	// }
 	&:before {
 		position: absolute;
-		top: 9px;
-		left: 98%;
+		top: 10.5px;
+		left: 99.5%;
 		width: 100%;
 		height: 100%;
 		content: '';
@@ -28,7 +28,7 @@
 	&:after {
 		position: absolute;
 		top: 90%;
-		left: 15px;
+		left: 16px;
 		width: 100%;
 		height: 150%;
 		content: '';
@@ -40,7 +40,7 @@
 		width: 100%;
 		// altezza card
 		height: 297px;
-		/*fix*/
+		
 		position: relative;
 
 		.carta {
@@ -60,60 +60,40 @@
 			);
 		}
 
-		a * {
-			cursor: pointer;
-		}
-
-		a.carta {
+		div.carta {
 			// margini card
 			width: 100%;
 			height: 100%;
 			padding: 1.7vw 2.5vw;
-			/*fix*/
 			position: absolute;
 			background-color: $white;
 			text-decoration: none;
+            display: flex;
 
+
+            img {
+                height: 100%;
+                margin-right: 10px;
+			}
 			/* z-index: 2000; */
 			.flex {
 				// ricorda è in commons.scss
-				img {
-					width: 17px;
-					height: 17px;
-					margin-right: 10px;
-				}
-
+                flex-direction: column;
 				h3 {
 					font-family: $font-titolo;
 					font-size: $card_title;
 					line-height: $line-height-card;
 					margin-bottom: 5%;
-					/*fix*/
+					
 				}
-			}
-
-			p {
-				color: $gray;
-				font-size: $card_paragraph;
-				line-height: $line-height-card_paragraph;
-				/*fix*/
-				text-align: justify;
-				/*fix*/
-			}
-
-			span {
-				// button card
-				padding-top: 0.8%;
-				padding-right: 3.7%;
-				padding-bottom: 0.8%;
-				padding-left: 4.7%;
-				color: $white;
-				position: absolute;
-				bottom: 2vw;
-				/*fix*/
-				right: 2.5vw;
-				/*fix*/
-				/* z-index: 0; */
+                p {
+                    color: $gray;
+                    font-size: $card_paragraph;
+                    line-height: $line-height-card_paragraph;
+                    
+                    text-align: justify;
+                    
+                }
 			}
 		}
 	}

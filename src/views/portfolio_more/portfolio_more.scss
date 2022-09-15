@@ -1,146 +1,135 @@
 @import './src/variabili.scss';
 
 #portfoliomore {
-   min-height: 100vh;
-   min-width: 100%;
-   background-color: $gray;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+	min-height: 100vh;
+	min-width: 100%;
+	background-color: $gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-   color: $white;
-   padding: 100px 0 32px 0;
-   /*fix*/
-   position: relative; //per l'anchor link
-   overflow: hidden;
+	color: $white;
+	padding: 100px 0 32px 0;
+	/*fix*/
+	position: relative; //per l'anchor link
+	overflow: hidden;
 
-   .container-custom {
-      .riga {
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
+	.container-custom {
+		.intestazione {
+			// margini titolo sezione
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 36px;
 
-         .col-md-8 {
-            // leva padding
-            padding-left: 0;
-            /*fix*/
-            padding-right: 15px;
-            /*fix*/
-            width: calc(100vw/3*2 - 70px);
+			/*fix*/
+			h2 {
+				// scritta ABOUT US e margini
+				min-width: 147px;
+				font-size: $titoli_sezioni;
+				letter-spacing: $letter-spacing;
+				margin-right: 40px;
+				/*fix*/
+				color: $white;
+			}
 
-            .intestazione {
-               // margini titolo sezione
-               justify-content: space-between;
-               align-items: center;
-               margin-bottom: 42px;
+			hr {
+				// line
+				width: 100%;
+				background-color: $green;
+				margin: 0;
+			}
 
-               /*fix*/
-               h2 {
-                  // scritta SERVICES e margini
-                  font-size: $titoli_sezioni;
-                  letter-spacing: $letter-spacing;
-                  margin-right: 40px;
-                  /*fix*/
-               }
-
-               hr {
-                  // line
-                  width: 100%;
-                  background-color: $white;
-                  margin: 0;
-               }
-
-               img {
-                  // 5 slash dx
-                  height: 21px;
-                  /*fix*/
-                  margin-left: 40px;
-                  /*fix*/
-               }
-            }
-
-            p {
-               column-count: 2;
-               /*fix*/
-               column-gap: 40px;
-               /*fix*/
-               // font sezione
-               font-size: $paragrafi_sezioni;
-               /*fix*/
-               line-height: 24px;
-               /*fix*/
-               text-align: justify;
-               // margin-bottom: 36px;
-            }
-         }
-      }
-   }
+			img {
+				// 5 slash dx
+				height: 21px;
+				/*fix*/
+				margin-left: 40px;
+				/*fix*/
+			}
+		}
+		p {
+			// font sezione
+			font-size: $paragrafi_sezioni;
+			/*fix*/
+			line-height: $line-height-paragrafi_ALL;
+			/*fix*/
+			// word-spacing per correggere gli spazi vuoti
+			word-spacing: 2px;
+			/*fix*/
+			text-align: justify;
+			margin-bottom: 42px;
+			/*fix*/
+			color: $white;
+		}
+		.riga {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	}
 }
 
-
-
 @media all and (max-width: 1024px) {
-   #services {
-      .container-custom {
-         .riga {
-            .col-md-8 {
-               // meno padding
-               padding-right: 8px;
+	#services {
+		.container-custom {
+			.riga {
+				.col-md-8 {
+					// meno padding
+					padding-right: 8px;
 
-               /*fix*/
-               p {
-                  column-count: 2;
-                  /*fix*/
-                  column-gap: 25px;
-                  /*fix*/
-                  // font sezione
-                  font-size: $paragrafi_sezioni_S;
-                  /*fix*/
-                  line-height: 24px;
-                  /*fix*/
-                  margin-bottom: 34px;
-                  /*fix*/
-               }
-            }
-         }
-      }
-   }
+					/*fix*/
+					p {
+						column-count: 2;
+						/*fix*/
+						column-gap: 25px;
+						/*fix*/
+						// font sezione
+						font-size: $paragrafi_sezioni_S;
+						/*fix*/
+						line-height: 24px;
+						/*fix*/
+						margin-bottom: 34px;
+						/*fix*/
+					}
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 767px) {
+	// ERRORE!!! sistemato da cani da me
+	#services {
+		.container-custom {
+			.riga {
+				flex-wrap: wrap;
 
-   // ERRORE!!! sistemato da cani da me
-   #services {
-      .container-custom {
-         .riga {
-            flex-wrap: wrap;
+				.col-md-8 {
+					// leva padding
+					padding-right: 0px;
+					/*fix*/
+					width: 100%;
 
-            .col-md-8 {
-               // leva padding
-               padding-right: 0px;
-               /*fix*/
-               width: 100%;
-
-               p {
-                  column-count: 1;
-                  /*fix*/
-               }
-            }
-         }
-      }
-   }
+					p {
+						column-count: 1;
+						/*fix*/
+					}
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 480px) {
-   #services {
-      .container-custom {
-         .riga {
-            .col-md-8 {
-               // leva padding
-               padding-right: 0px;
-               /*fix*/
-            }
-         }
-      }
-   }
+	#services {
+		.container-custom {
+			.riga {
+				.col-md-8 {
+					// leva padding
+					padding-right: 0px;
+					/*fix*/
+				}
+			}
+		}
+	}
 }

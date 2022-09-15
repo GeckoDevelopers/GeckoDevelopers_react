@@ -36,13 +36,14 @@
     "title": "Chi siamo",
     "subtitle": "Siamo un gruppo di professionisti che si sono uniti per costruire un ambiente lavorativo ottimale basato sulla qualità dell’ambiente lavorativo stesso e sulla qualità dei nostri prodotti. Il nostro obiettivo è diventare un vero e proprio punto di riferimento per aziende, professionisti e privati, per una visibilità completa su Internet e molto altro! Vogliamo crescere e siamo alla ricerca di talenti come programmatori senior, sviluppatori di app, personale addetto al marketing e, anche se non dovremmo ancora parlarne, forse a lungo termine anche per lo sviluppo di videogiochi. Se desideri conoscere la nostra realtà non esitare a contattarci sulla nostra email qui sotto e ad inviarci il tuo curriculum!"
   },
+  "portfolio": {
+    "title": "portfolio",
+    "subtitle": "Alcuni dei nostri lavori"
+  },
   "services": {
     "title": "Servizi",
     "paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua presenza digitale, Gecko Developers ti accompagna in ogni fase del percorso. Il nostro compito? Assicurarci che tutto proceda senza intoppi e nel modo in cui desideri.",
     "paragrafo2": "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze."
-  },
-  "portfolio": {
-    "title": "PORTFOLIO"
   },
   "contact": {
     "title": "hai bisogno di piu informazioni e preventivi? contattaci!"
@@ -243,20 +244,23 @@
 
   "cards_portfolio": [
     {
-      "id": "sito_trainer",
-      "title": "Attività di marketing e consulenza",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
-      "link": "/marketing",
-      "image": "gfdgdfg",
-      "color": "marketing_red"
+        "title": "Carlo Livio Fotografia",
+        "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+        "image1": "user.webp",
+        "image2": "user.webp",
+        "image3": "user.webp",
+        "color": "marketing_red",
+        "link": "https://carlo-livio.netlify.app/"
+
     },
     {
-      "id": "sito_fotografo",
-      "title": "Attività di marketing e consulenza",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
-      "link": "/marketing",
-      "image": "gfdgdfg",
-      "color": "marketing_red"
+        "title": "Luigi Masi Personal Trainer",
+        "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+        "image1": "user.webp",
+        "image2": "user.webp",
+        "image3": "user.webp",
+        "color": "marketing_red",
+        "link": "https://luigimasi.netlify.app/"
     }
   ],
 

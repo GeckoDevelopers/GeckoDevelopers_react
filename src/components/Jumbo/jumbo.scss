@@ -10,13 +10,13 @@
   .container-custom {
     // justify-content: center;
     margin-top: 23vh;
-    /*fix*/
+    
     flex-direction: column;
     color: $white;
 
     .jumbo-title {
       h1 {
-        // width: 80%; /*fix*/
+        // width: 80%; 
         font-family: $font-titolo;
         font-size: $titolo_jumbo;
         letter-spacing: $title-spacing;
@@ -26,9 +26,9 @@
     .divider {
       width: 50%;
       height: 2.2px;
-      /*fix*/
+      
       margin: 22px 0;
-      /*fix*/
+      
       display: flex;
 
       div {
@@ -74,7 +74,7 @@
 
       h3 {
         font-size: $paragrafi_sezioni;
-        /*fix*/
+        
       }
     }
   }
@@ -86,7 +86,7 @@
       .jumbo-title {
         h1 {
           font-size: 43px;
-          /*fix*/
+          
         }
       }
 
@@ -100,7 +100,7 @@
 
         h3 {
           font-size: $paragrafi_sezioni_S;
-          /*fix*/
+          
         }
       }
     }
@@ -112,13 +112,13 @@
     .container-custom {
       margin-top: 21vh;
 
-      /*fix*/
+      
       .jumbo-title {
         h1 {
           width: 90%;
-          /*fix*/
+          
           font-size: 40px;
-          /*fix*/
+          
         }
       }
 
@@ -139,13 +139,13 @@
     .container-custom {
       margin-top: 18vh;
 
-      /*fix*/
+      
       .jumbo-title {
         h1 {
           width: 95%;
-          /*fix*/
+          
           font-size: 36px;
-          /*fix*/
+          
         }
       }
 
@@ -156,7 +156,7 @@
 
       .jumbo-subtitle {
         width: 85%;
-        /*fix*/
+        
       }
     }
   }
@@ -168,7 +168,7 @@
       .jumbo-title {
         h1 {
           width: 100%;
-          /*fix*/
+          
           font-size: 33px;
         }
       }

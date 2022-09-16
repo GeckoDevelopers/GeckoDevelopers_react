@@ -16,7 +16,7 @@ nav {
 
 	.container-custom-nav {
 		width: 90.5%;
-		/*fix*/
+		
 		margin: 0 auto;
 
 		.nav-content {
@@ -32,7 +32,7 @@ nav {
 					// contenitore logo gecko
 					width: 95px;
 
-					/*fix*/
+					
 					img {
 						width: 100px;
 						cursor: pointer;
@@ -81,9 +81,9 @@ nav {
 						text-transform: uppercase;
 						margin: 0 10px;
 						font-size: 17px;
-						/*fix*/
+						
 						letter-spacing: 0.07em;
-						/*fix*/
+						
 						cursor: pointer;
 
 						&:hover {
@@ -100,18 +100,18 @@ nav {
 						li {
 							// slash in nav menù
 							margin-left: 17px;
-							/*fix*/
+							
 							font-size: 17px;
-							/*fix*/
+							
 							color: $gray;
 
 							#caret-service {
 								// freccia dropdown services menù
 								font-size: 16px;
-								/*fix*/
+								
 								transition: transform 0.4s;
 								margin-left: 4px;
-								/*fix*/
+								
 								cursor: pointer;
 
 								&.rotate {
@@ -122,10 +122,10 @@ nav {
                             #caret-languages {
 								// freccia dropdown services menù
 								font-size: 16px;
-								/*fix*/
+								
 								transition: transform 0.4s;
 								margin-left: 4px;
-								/*fix*/
+								
 								cursor: pointer;
 
 								&.rotate {
@@ -144,7 +144,7 @@ nav {
 						display: none;
 						position: absolute;
 						top: 25px;
-						/*fix*/
+						
 						left: -17px;
 						z-index: 20;
 
@@ -163,7 +163,7 @@ nav {
 							li {
 								// slash in dropdown services menù
 								font-size: 17px;
-								/*fix*/
+								
 								margin: 2.5px 0;
 
 								&:hover {
@@ -178,7 +178,7 @@ nav {
 						display: none;
 						position: absolute;
 						top: 25px;
-						/*fix*/
+						
 						left: -17px;
 						z-index: 20;
 
@@ -197,7 +197,7 @@ nav {
 							li {
 								// slash in dropdown services menù
 								font-size: 17px;
-								/*fix*/
+								
 								margin: 2.5px 0;
 
 								&:hover {
@@ -229,28 +229,28 @@ nav {
 					// posizione iniziale
 					.line1 {
 						transform: rotate(-65deg)
-							/*fix*/
+							
 							translate(-11px, -12px);
-						/*fix*/
+						
 					}
 
 					.line2 {
 						transform: rotate(-65deg)
-							/*fix*/
+							
 							translate(-2px, -7px);
-						/*fix*/
+						
 					}
 
 					.line3 {
 						transform: rotate(-65deg)
-							/*fix*/
+							
 							translate(7px, -2px);
-						/*fix*/
+						
 					}
 
 					.line1.active {
 						transform: translateY(5px)
-							/*fix*/
+							
 							rotate(45deg);
 					}
 
@@ -261,7 +261,7 @@ nav {
 
 					.line3.active {
 						transform: translateY(-7px)
-							/*fix*/
+							
 							rotate(-45deg);
 					}
 				}
@@ -287,7 +287,7 @@ nav {
 		.container-custom-nav {
 			width: 90.5%;
 
-			/*fix*/
+			
 			.nav-content {
 				.right-side {
 					.nav-dropdown {
@@ -311,7 +311,7 @@ nav {
 								// font in menù smartphone
 								color: $gray;
 								font-size: 17px;
-								/*fix*/
+								
 							}
 						}
 
@@ -349,7 +349,7 @@ nav {
 											a {
 												// font dropdown services menù smartphone
 												font-size: 17px;
-												/*fix*/
+												
 											}
 										}
 									}
@@ -370,7 +370,7 @@ nav {
 		flex-direction: column;
 		// distanziamento menù smartphone
 		height: 60%;
-		/*fix*/
+		
 		// justify-content: space-evenly;
 	}
 
@@ -385,7 +385,7 @@ nav {
 	nav {
 		.container-custom-nav {
 			width: 88.5%;
-			/*fix*/
+			
 		}
 	}
 }
@@ -394,7 +394,7 @@ nav {
 	nav {
 		.container-custom-nav {
 			width: 83%;
-			/*fix*/
+			
 		}
 	}
 

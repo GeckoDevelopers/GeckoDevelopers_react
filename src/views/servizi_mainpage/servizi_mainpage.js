@@ -28,10 +28,10 @@ export default function ServiziMain() {
                   </div>
 
                   <p>
-                     {t('services.paragrafo1')}
+                     {t('servizi_mainpage.paragrafo1')}
                      <br />
                      <br />
-                     {t('services.paragrafo2')}
+                     {t('servizi_mainpage.paragrafo2')}
                   </p>
                </div>
             </div>

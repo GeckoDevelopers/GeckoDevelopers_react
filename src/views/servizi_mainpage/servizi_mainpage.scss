@@ -4,7 +4,7 @@
   background-color: $green;
   color: $white;
   padding: 100px 0 32px 0;
-  /*fix*/
+  
   position: relative; //per l'anchor link
   overflow: hidden;
 
@@ -17,9 +17,9 @@
       .col-md-8 {
         // leva padding
         padding-left: 0;
-        /*fix*/
+        
         padding-right: 15px;
-        /*fix*/
+        
         width: calc(100vw / 3 * 2 - 70px);
 
         .intestazione {
@@ -28,13 +28,13 @@
           align-items: center;
           margin-bottom: 42px;
 
-          /*fix*/
+          
           h2 {
             // scritta SERVICES e margini
             font-size: $titoli_sezioni;
             letter-spacing: $letter-spacing;
             margin-right: 40px;
-            /*fix*/
+            
           }
 
           hr {
@@ -47,22 +47,20 @@
           img {
             // 5 slash dx
             height: 21px;
-            /*fix*/
+            
             margin-left: 40px;
-            /*fix*/
+            
           }
         }
 
         p {
           column-count: 2;
-          /*fix*/
+          
           column-gap: 40px;
-          /*fix*/
+          
           // font sezione
           font-size: $paragrafi_sezioni;
-          /*fix*/
           line-height: 24px;
-          /*fix*/
           text-align: justify;
           // margin-bottom: 36px;
         }
@@ -79,19 +77,19 @@
           // meno padding
           padding-right: 8px;
 
-          /*fix*/
+          
           p {
             column-count: 2;
-            /*fix*/
+            
             column-gap: 25px;
-            /*fix*/
+            
             // font sezione
             font-size: $paragrafi_sezioni_S;
-            /*fix*/
+            
             line-height: 24px;
-            /*fix*/
+            
             margin-bottom: 34px;
-            /*fix*/
+            
           }
         }
       }
@@ -109,12 +107,12 @@
         .col-md-8 {
           // leva padding
           padding-right: 0px;
-          /*fix*/
+          
           width: 100%;
 
           p {
             column-count: 1;
-            /*fix*/
+            
           }
         }
       }
@@ -129,7 +127,7 @@
         .col-md-8 {
           // leva padding
           padding-right: 0px;
-          /*fix*/
+          
         }
       }
     }

@@ -42,8 +42,7 @@
   },
   "services": {
     "title": "Servizi",
-    "paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua presenza digitale, Gecko Developers ti accompagna in ogni fase del percorso. Il nostro compito? Assicurarci che tutto proceda senza intoppi e nel modo in cui desideri.",
-    "paragrafo2": "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze."
+    "paragrafo1": "Operiamo in vari campi e con vari servizi. Questi sono alcuni dei nostri servizi più richiesti, scelti fra la nostra gamma di offerte al dettaglio che variano in molti campi fino alla videoludica."
   },
   "contact": {
     "title": "hai bisogno di piu informazioni e preventivi? contattaci!"
@@ -134,6 +133,11 @@
     }
   ],
 
+  "servizi_mainpage":{
+    "paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua presenza digitale, Gecko Developers ti accompagna in ogni fase del percorso. Il nostro compito? Assicurarci che tutto proceda senza intoppi e nel modo in cui desideri.",
+    "paragrafo2": "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze."
+  },
+
   "full": {
     "title": "pacchetto completo",
     "paragrafo1": "Quando si crea un proprio business o si vuole sviluppare il proprio brand, ci sono molti aspetti da prendere in considerazione. Creare coerenza tra tutti i canali e tutte le attività svolte è fondamentale per rafforzare il tuo brand, creare relazioni con i tuoi stakeholder, partner, clienti e target.",
@@ -152,7 +156,7 @@
     }
   },
   "individuals": {
-    "title": "Sito web per privati ",
+    "title": "sito web per piccole imprese e privati ",
     "paragrafo1": "Un sito web ben progettato è un ottimo portfolio per mostrare agli altri chi sei e quali sono le tue abilità e competenze. Che tu sia un fotografo, un artista, un architetto, un designer, un musicista o un blogger, è importante che il tuo lavoro arrivi a più persone possibili e nel migliore dei modi, per far accrescere la tua immagine e il tuo brand personale.",
     "paragrafo2": "Mostrare il tuo lavoro attraverso un sito web ti aiuterà ad aumentare la tua credibilità e ad apparire professionale al tuo pubblico, ai tuoi clienti o perfino ai tuoi futuri impiegati.",
     "paragrafo3": "Grazie ai nostri esperti, ti aiuteremo a creare un sito web a diversi livelli di interattività che meglio si adatta alle tue esigenze.",

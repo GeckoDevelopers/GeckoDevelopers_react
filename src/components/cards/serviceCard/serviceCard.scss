@@ -6,10 +6,10 @@
 	background: rgba(0, 0, 0, 0);
 	position: relative;
 	margin-top: 0.3%;
-	/*fix*/
+	
 	margin-bottom: 0.7%;
 
-	/*fix*/
+	
 	// &:hover {
 	//     margin-top: -10px;
 	//     margin-left: -10px;
@@ -40,7 +40,7 @@
 		width: 100%;
 		// altezza card
 		height: 297px;
-		/*fix*/
+		
 		position: relative;
 
 		.carta {
@@ -69,7 +69,7 @@
 			width: 100%;
 			height: 100%;
 			padding: 1.7vw 2.5vw;
-			/*fix*/
+			
 			position: absolute;
 			background-color: $white;
 			text-decoration: none;
@@ -88,7 +88,7 @@
 					font-size: $card_title;
 					line-height: $line-height-card;
 					margin-bottom: 5%;
-					/*fix*/
+					
 				}
 			}
 
@@ -96,9 +96,9 @@
 				color: $gray;
 				font-size: $card_paragraph;
 				line-height: $line-height-card_paragraph;
-				/*fix*/
+				
 				text-align: justify;
-				/*fix*/
+				
 			}
 
 			span {
@@ -110,9 +110,9 @@
 				color: $white;
 				position: absolute;
 				bottom: 2vw;
-				/*fix*/
+				
 				right: 2.5vw;
-				/*fix*/
+				
 				/* z-index: 0; */
 			}
 		}
@@ -234,10 +234,10 @@
 @media all and (max-width: 1024px) {
 	#serviceCard {
 		height: 360px;
-		/*fix*/
+		
 		margin-bottom: 4.5%;
 
-		/*fix*/
+		
 		&:after {
 			top: 96%;
 			left: 3px;
@@ -246,42 +246,42 @@
 		.carta_container {
 			height: 360px;
 
-			/*fix*/
+			
 			a.carta {
 				padding: 2.5vw 2.5vw;
 
-				/*fix*/
+				
 				.flex {
 					// ricorda è in commons.scss
 					img {
 						width: 14px;
-						/*fix*/
+						
 						height: 14px;
-						/*fix*/
+						
 						margin-right: 10px;
 					}
 
 					h3 {
 						font-size: 17px;
-						/*fix*/
+						
 						line-height: 18px;
-						/*fix*/
+						
 						margin-bottom: 4.5%;
-						/*fix*/
+						
 					}
 				}
 
 				p {
 					font-size: 13px;
-					/*fix*/
+					
 				}
 
 				span {
 					// button card
 					bottom: 3vw;
-					/*fix*/
+					
 					right: 3.5vw;
-					/*fix*/
+					
 				}
 			}
 		}
@@ -294,10 +294,10 @@
 	#serviceCard {
 		width: 100%;
 		height: 224px;
-		/*fix*/
+		
 		margin-bottom: 6%;
 
-		/*fix*/
+		
 		&:before {
 			top: 14px;
 			left: 99%;
@@ -311,10 +311,10 @@
 			width: 100%;
 			height: 224px;
 
-			/*fix*/
+			
 			a.carta {
 				padding: 3vw 3.5vw;
-				/*fix*/
+				
 			}
 		}
 	}
@@ -324,10 +324,10 @@
 	#serviceCard {
 		width: 100%;
 		height: 224px;
-		/*fix*/
+		
 		margin-bottom: 6%;
 
-		/*fix*/
+		
 		&:before {
 			top: 8px;
 			left: 97%;
@@ -340,39 +340,39 @@
 		.carta_container {
 			width: 100%;
 			height: 224px;
-			/*fix*/
+			
 			margin-bottom: 6%;
 
-			/*fix*/
+			
 			a.carta {
 				padding: 4vw 6vw;
 
-				/*fix*/
+				
 				.flex {
 					// ricorda è in commons.scss
 					h3 {
 						font-size: 15.5px;
-						/*fix*/
+						
 						line-height: 16px;
-						/*fix*/
+						
 						margin-bottom: 3.5%;
-						/*fix*/
+						
 					}
 				}
 
 				p {
 					font-size: 13px;
-					/*fix*/
+					
 					line-height: 16px;
-					/*fix*/
+					
 				}
 
 				span {
 					// button card
 					bottom: 4.5vw;
-					/*fix*/
+					
 					right: 6vw;
-					/*fix*/
+					
 				}
 			}
 		}

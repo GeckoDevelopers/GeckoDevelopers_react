@@ -5,7 +5,7 @@
 	color: $green;
 	// margini top bottom intera sezione projects
 	padding: 47px 0 36px 0;
-	/*fix*/
+	
 	position: relative; //per l'anchor link
 
 	.container-custom {
@@ -19,12 +19,12 @@
 				// scritta PROJECT e margini
 				min-width: 138px;
 				font-size: $titoli_sezioni;
-				/*fix*/
+				
 				letter-spacing: $letter-spacing;
 				margin-right: 42px;
-				/*fix*/
+				
 				margin-bottom: 44px;
-				/*fix*/
+				
 			}
 
 			hr {
@@ -32,17 +32,17 @@
 				width: 100%;
 				background-color: $green;
 				margin: 12px 0;
-				/*fix*/
+				
 			}
 
 			img {
 				// 5 slash dx
 				height: 21px;
-				/*fix*/
+				
 				margin-top: 3px;
-				/*fix*/
+				
 				margin-left: 40px;
-				/*fix*/
+				
 			}
 		}
 
@@ -89,7 +89,7 @@
 				background-color: $green;
 				width: 100%;
 				margin: 58px 0 0 0;
-				/*fix*/
+				
 			}
 
 			.discover {
@@ -97,20 +97,20 @@
 				background-color: $green;
 				color: $white;
 				min-width: 146px;
-				/*fix*/
+				
 				// padding: 10px 14px;
 				padding-top: 12px;
-				/*fix*/
+				
 				padding-right: 11px;
-				/*fix*/
+				
 				padding-bottom: 12px;
-				/*fix*/
+				
 				padding-left: 20px;
-				/*fix*/
+				
 				margin-top: 35px;
-				/*fix*/
+				
 				margin-left: 42px;
-				/*fix*/
+				
 				text-decoration: none;
 				cursor: pointer;
 				/* &:hover {

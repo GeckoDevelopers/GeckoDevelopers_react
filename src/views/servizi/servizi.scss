@@ -69,30 +69,30 @@
          position: relative;
          /* z-index: 999; */
          padding: 60px 69px;
-         /*fix*/
+         
 
          .main-title {
             // blocco top
             margin-bottom: 28px;
 
-            /*fix*/
+            
             img {
                // icona
                margin-top: 2px;
-               /*fix*/
+               
                height: 34px;
-               /*fix*/
+               
                margin-right: 12px;
-               /*fix*/
+               
             }
 
             h2 {
                // titolo card
                font-family: $font-titolo;
                font-size: $titoli_cardpage;
-               /*fix*/
+               
                line-height: $line-height_t_cardpage;
-               /*fix*/
+               
                text-transform: uppercase;
             }
          }
@@ -100,9 +100,9 @@
          .description {
             // primo paragrafo card
             font-size: $paragrafi_cardpage;
-            /*fix*/
+            
             line-height: $line-height_p_cardpage;
-            /*fix*/
+            
             text-align: justify;
             margin: 0;
          }
@@ -110,10 +110,10 @@
          .sidetext {
             margin: 40px 0;
 
-            /*fix*/
+            
             img {
                object-fit: cover;
-               /*fix*/
+               
                // // striscia sotto immagine (non usata)
                width: 100%;
                margin-top: 0px;
@@ -125,7 +125,7 @@
                width: 100%;
                margin: 0 0 auto 6.5%;
 
-               /*fix*/
+               
                hr {
                   width: 100%;
                   // background-color: #5CC69E; // cambia colore
@@ -143,15 +143,15 @@
                   letter-spacing: $letter-spacing;
                   text-transform: uppercase;
                   margin-bottom: 24px;
-                  /*fix*/
+                  
                }
 
                p {
                   // paragrafo dx immagine
                   font-size: $paragrafi_cardpage;
-                  /*fix*/
+                  
                   line-height: $line-height_p_cardpage;
-                  /*fix*/
+                  
                   text-align: justify;
                }
             }
@@ -319,7 +319,7 @@
    .container-services {
       margin-top: 37px;
 
-      /*fix*/
+      
       .card-mover {
          width: 80%;
 
@@ -336,16 +336,16 @@
          .card {
             padding: 40px 50px;
 
-            /*fix*/
+            
             .main-title {
                // blocco top
                margin-bottom: 23px;
 
-               /*fix*/
+               
                img {
                   // icona
                   margin-top: 3px;
-                  /*fix*/
+                  
                }
 
                h2 {
@@ -356,17 +356,17 @@
             .sidetext {
                flex-wrap: wrap;
 
-               /*fix*/
+               
                img {
                   width: 100%;
-                  /*fix*/
+                  
                }
 
                .text {
                   margin-left: 0;
-                  /*fix*/
+                  
                   margin-top: 30px;
-                  /*fix*/
+                  
                }
             }
          }
@@ -378,7 +378,7 @@
    .container-services {
       margin-top: 30px;
 
-      /*fix*/
+      
       .card-mover {
          width: 90%;
 
@@ -395,24 +395,24 @@
          .card {
             padding: 43px 44px;
 
-            /*fix*/
+            
             .main-title {
                // blocco top
                margin-bottom: 23px;
 
-               /*fix*/
+               
                img {
                   // icona
                   margin-top: 3px;
-                  /*fix*/
+                  
                   height: 30px;
-                  /*fix*/
+                  
                }
 
                h2 {
                   // titolo card
                   font-size: 37px;
-                  /*fix*/
+                  
                }
             }
 
@@ -453,38 +453,38 @@
          .card {
             padding: 33px 23px;
 
-            /*fix*/
+            
             .main-title {
                // blocco top
                margin-bottom: 20px;
 
-               /*fix*/
+               
                img {
                   // icona
                   margin-top: 1px;
-                  /*fix*/
+                  
                   height: 23px;
-                  /*fix*/
+                  
                }
 
                h2 {
                   // titolo card
                   font-size: 27px;
-                  /*fix*/
+                  
                }
             }
 
             .description {
                // primo paragrafo card
                font-size: 14px;
-               /*fix*/
+               
                line-height: $line-height_p_cardpage;
-               /*fix*/
+               
             }
 
             .sidetext {
                margin: 32px 0;
-               /*fix*/
+               
                flex-wrap: wrap;
 
                img {
@@ -498,9 +498,9 @@
                   p {
                      // paragrafo dx immagine
                      font-size: 14px;
-                     /*fix*/
+                     
                      line-height: $line-height_p_cardpage;
-                     /*fix*/
+                     
                      text-align: justify;
                   }
                }

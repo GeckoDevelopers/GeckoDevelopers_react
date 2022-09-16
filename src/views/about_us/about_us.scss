@@ -4,7 +4,7 @@
    background-color: $test;
    color: $green;
    padding: 100px 0 52px 0;
-   /*fix*/
+   
    position: relative; //per l'anchor link
    min-height: 100vh;
 
@@ -15,14 +15,14 @@
          align-items: center;
          margin-bottom: 36px;
 
-         /*fix*/
+         
          h2 {
             // scritta ABOUT US e margini
             min-width: 147px;
             font-size: $titoli_sezioni;
             letter-spacing: $letter-spacing;
             margin-right: 40px;
-            /*fix*/
+            
             color: $gray;
 
          }
@@ -37,24 +37,24 @@
          img {
             // 5 slash dx
             height: 21px;
-            /*fix*/
+            
             margin-left: 40px;
-            /*fix*/
+            
          }
       }
 
       p {
          // font sezione
          font-size: $paragrafi_sezioni;
-         /*fix*/
+         
          line-height: $line-height-paragrafi_ALL;
-         /*fix*/
+         
          // word-spacing per correggere gli spazi vuoti
          word-spacing: 2px;
-         /*fix*/
+         
          text-align: justify;
          margin-bottom: 42px;
-         /*fix*/
+         
          color: $gray;
 
       }
@@ -66,7 +66,7 @@
          background-color: $green;
          padding-bottom: 35px;
 
-         /*fix*/
+         
          img {
             width: 100%;
          }
@@ -78,7 +78,7 @@
    }
    color: $white;
    padding: 100px 0 32px 0;
-   /*fix*/
+   
    position: relative; //per l'anchor link
    overflow: hidden;
 
@@ -92,9 +92,9 @@
          .col-md-8 {
             // leva padding
             padding-left: 0;
-            /*fix*/
+            
             padding-right: 15px;
-            /*fix*/
+            
             width: calc(100vw/3*2 - 70px);
 
             .intestazione {
@@ -103,13 +103,13 @@
                align-items: center;
                margin-bottom: 42px;
 
-               /*fix*/
+               
                h2 {
                   // scritta SERVICES e margini
                   font-size: $titoli_sezioni;
                   letter-spacing: $letter-spacing;
                   margin-right: 40px;
-                  /*fix*/
+                  
                }
 
                hr {
@@ -122,22 +122,22 @@
                img {
                   // 5 slash dx
                   height: 21px;
-                  /*fix*/
+                  
                   margin-left: 40px;
-                  /*fix*/
+                  
                }
             }
 
             p {
                column-count: 2;
-               /*fix*/
+               
                column-gap: 40px;
-               /*fix*/
+               
                // font sezione
                font-size: $paragrafi_sezioni;
-               /*fix*/
+               
                line-height: 24px;
-               /*fix*/
+               
                text-align: justify;
                // margin-bottom: 36px;
             }
@@ -154,9 +154,9 @@
          p {
             // font sezione
             font-size: $paragrafi_sezioni_S;
-            /*fix*/
+            
             margin-bottom: 45px;
-            /*fix*/
+            
          }
       }
    }

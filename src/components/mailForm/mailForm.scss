@@ -4,7 +4,7 @@
   background-color: $green;
   color: $white;
   padding: 47px 0 0px 0;
-  /*fix*/
+  
   position: relative; //per l'anchor link
 
   .mailForm_overlay {
@@ -48,7 +48,7 @@
       align-items: center;
       margin-bottom: 44px;
 
-      /*fix*/
+      
       h2 {
         // scritta NEED MORE... e margini
         min-width: 625px;
@@ -68,9 +68,9 @@
       img {
         // 5 slash dx
         height: 21px;
-        /*fix*/
+        
         margin-left: 40px;
-        /*fix*/
+        
       }
     }
 
@@ -169,12 +169,12 @@
       .intestazione {
         h2 {
           margin-right: 3vw;
-          /*fix*/
+          
         }
 
         img {
           margin-left: 4.5vw;
-          /*fix*/
+          
         }
       }
 

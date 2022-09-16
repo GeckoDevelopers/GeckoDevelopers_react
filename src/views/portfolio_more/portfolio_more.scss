@@ -10,7 +10,7 @@
 
 	color: $white;
 	padding: 100px 0 32px 0;
-	/*fix*/
+	
 	position: relative; //per l'anchor link
 	overflow: hidden;
 
@@ -21,14 +21,14 @@
 			align-items: center;
 			margin-bottom: 36px;
 
-			/*fix*/
+			
 			h2 {
 				// scritta ABOUT US e margini
 				min-width: 147px;
 				font-size: $titoli_sezioni;
 				letter-spacing: $letter-spacing;
 				margin-right: 40px;
-				/*fix*/
+				
 				color: $white;
 			}
 
@@ -42,23 +42,23 @@
 			img {
 				// 5 slash dx
 				height: 21px;
-				/*fix*/
+				
 				margin-left: 40px;
-				/*fix*/
+				
 			}
 		}
 		p {
 			// font sezione
 			font-size: $paragrafi_sezioni;
-			/*fix*/
+			
 			line-height: $line-height-paragrafi_ALL;
-			/*fix*/
+			
 			// word-spacing per correggere gli spazi vuoti
 			word-spacing: 2px;
-			/*fix*/
+			
 			text-align: justify;
 			margin-bottom: 42px;
-			/*fix*/
+			
 			color: $white;
 		}
 		.riga {
@@ -77,19 +77,19 @@
 					// meno padding
 					padding-right: 8px;
 
-					/*fix*/
+					
 					p {
 						column-count: 2;
-						/*fix*/
+						
 						column-gap: 25px;
-						/*fix*/
+						
 						// font sezione
 						font-size: $paragrafi_sezioni_S;
-						/*fix*/
+						
 						line-height: 24px;
-						/*fix*/
+						
 						margin-bottom: 34px;
-						/*fix*/
+						
 					}
 				}
 			}
@@ -107,12 +107,12 @@
 				.col-md-8 {
 					// leva padding
 					padding-right: 0px;
-					/*fix*/
+					
 					width: 100%;
 
 					p {
 						column-count: 1;
-						/*fix*/
+						
 					}
 				}
 			}
@@ -127,7 +127,7 @@
 				.col-md-8 {
 					// leva padding
 					padding-right: 0px;
-					/*fix*/
+					
 				}
 			}
 		}

@@ -34,10 +34,8 @@ export default function Services() {
 
                   <p>
                      {t('services.paragrafo1')}
-                     <br />
-                     <br />
-                     {t('services.paragrafo2')}
                   </p>
+                  <span>Per scoprire tutti i nostri servizi clicca qui! {t('card_view_more')}</span>
                </div>
             </div>
             {/* <!-- seconda ROW --> */}

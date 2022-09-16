@@ -34,16 +34,12 @@ export default function ServiziMain() {
                      {t('servizi_mainpage.paragrafo2')}
                   </p>
                </div>
-            </div>
-
-            <div className="riga">
                 {cards_service.map((card, i) => {
                     // Return the element. Also pass key     
                     return (<ServiceCard key={card.id} data={card} />) 
                 })}
             </div>
          </div> 
-         
       </section>
    );
 };

@@ -7,7 +7,7 @@ export default function Services() {
    const { t } = useTranslation();
    
    var cardsService = t(`cards_service`, { returnObjects: true })
-   var neddedCards = [ "card_full", "card_design", "card_content_creation", "card_marketing"]
+   var neddedCards = [ "card_companies", "card_design", "card_marketing", "card_app"]
    var cardsService = cardsService.filter(card => {
      return neddedCards.includes(card.id);
    })
@@ -35,12 +35,10 @@ export default function Services() {
                   <p>
                      {t('services.paragrafo1')}
                   </p>
-                  <span>Per scoprire tutti i nostri servizi clicca qui! {t('card_view_more')}</span>
+                  <br />
+                  <p>{t('services_description')}<span><Link onClick={scrollUp} to="/servizi_mainpage">{t('services_link')}</Link></span></p>
                </div>
-            </div>
-            {/* <!-- seconda ROW --> */}
-            <div className="riga">
-               {cardsService.map((card, i) => {
+                {cardsService.map((card, i) => {
                     // Return the element. Also pass key     
                     return (<ServiceCard key={card.id} data={card} />) 
                 })}

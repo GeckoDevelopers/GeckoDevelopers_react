@@ -20,26 +20,21 @@ footer {
 		h2 {
 			font-family: $font-titolo;
 			font-size: 15px;
-			
 			margin-bottom: 15px;
-			
 		}
 
 		p {
 			font-size: 12px;
-			
 			line-height: 12px;
-			
 			margin: 5px;
-			
 		}
 
 		.social {
 			position: absolute;
 			top: 40%;
 			right: 15%;
-
 			a {
+                margin: 0 15px;
 				i {
 					color: $white;
 					cursor: pointer;

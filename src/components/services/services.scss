@@ -21,11 +21,9 @@
       .col-md-8 {
         // leva padding
         padding-left: 0;
-        
         padding-right: 15px;
-        
-        width: calc(100vw / 3 * 2 - 70px);
-
+        padding-bottom: 33px;
+        width: calc(100% / 3 * 2 - 1%);
         .intestazione {
           // margini titolo sezione
           justify-content: space-between;
@@ -72,10 +70,16 @@
         }
         span {
           // button card
-          padding-top: 0.8%;
-          padding-right: 3.7%;
-          padding-bottom: 0.8%;
-          color: $white;
+          padding-top: 0.4%;
+          padding-right: 1.5%;
+          padding-bottom: 0.4%;
+          padding-left: 1.4%;
+          color: $dark-green;
+          background-color: $white;
+          margin-left: 1.5%;
+          a {
+             font-size: 18px;
+          }
           
           
           /* z-index: 0; */
@@ -92,20 +96,13 @@
         .col-md-8 {
           // meno padding
           padding-right: 8px;
-
-          
           p {
             column-count: 2;
-            
             column-gap: 25px;
-            
             // font sezione
             font-size: $paragrafi_sezioni_S;
-            
             line-height: 24px;
-            
             margin-bottom: 34px;
-            
           }
         }
       }

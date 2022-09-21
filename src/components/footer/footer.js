@@ -14,8 +14,8 @@ export default function Footer() {
 				<h2>Gecko <br /> Devs</h2>
 				<div className="social">
 					<a href="https://www.linkedin.com/company/81849382/admin/" target="_blank"><i className="fab fa-linkedin fa-2x"></i></a>
-					<a href="https://www.facebook.com/people/Gecko-Developers/100082973539502/?ref=pages_you_manage" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>
-                    <a href="https://www.instagram.com/gecko_developers/" target="_blank"><i className="fab fa-facebook fa-2x"></i></a>
+					<a href="https://www.instagram.com/gecko_developers/" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.facebook.com/people/Gecko-Developers/100082973539502/?ref=pages_you_manage" target="_blank"><i className="fab fa-facebook fa-2x"></i></a>
 				</div>
 				<p>Gecko Developers brand and logo are trademarks of Gecko Developers S.r.l. © 2022.</p>
 			</div>

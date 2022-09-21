@@ -142,17 +142,20 @@
 
   "full": {
     "title": "pacchetto completo",
-    "paragrafo1": "Quando si crea una nuova attività o si sviluppa il proprio marchio, ci sono molti aspetti e attività da considerare. Avere una coerenza efficiente su tutti i canali e tutte le attività è fondamentale per affermare il tuo marchio.",
-    "paragrafo2": "Una pianificazione corretta insieme ad una strategia per ognuna delle tue interfacce con il pubblico ti aiuterà anche a mantenere un risultato positivo consentendo anche di prendere decisioni più rapide e permettendoti di avere soluzioni per situazioni non previste o difficili.",
-    "paragrafo3": "I nostri servizi per il Pacchetto Completo includono:",
-    "paragrafo4": [
-      "Creazione del tuo sito web",
-      "Design creativo",
-      "Supporto continuo",
-      "Creazione di contenuti",
-      "Attività di marketing e consulenza"
-    ],
-    "paragrafo5": {
+    "description": "Quando si crea una nuova attività o si sviluppa il proprio marchio, ci sono molti aspetti e attività da considerare. Avere una coerenza efficiente su tutti i canali e tutte le attività è fondamentale per affermare il tuo marchio.",
+    "subtitle": "Piani & strategie",
+    "paragrafo": "Una pianificazione corretta insieme ad una strategia per ognuna delle tue interfacce con il pubblico ti aiuterà anche a mantenere un risultato positivo consentendo anche di prendere decisioni più rapide e permettendoti di avere soluzioni per situazioni non previste o difficili.",
+    "list": {
+        "titlelist": "I nostri servizi per il Pacchetto Completo includono:",
+        "list": [
+            "Creazione del tuo sito web",
+            "Design creativo",
+            "Supporto continuo",
+            "Creazione di contenuti",
+            "Attività di marketing e consulenza"
+        ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     }

@@ -18,6 +18,8 @@ import Marketing from "./views/servizi/marketing";
 import ServiziMain from "./views/servizi_mainpage/servizi_mainpage";
 import AboutUs from "./views/about_us/about_us";
 
+import ServiceMainCard from "./components/serviceMainCard/serviceMainCard"
+
 import Portfoliomore from "./views/portfolio_more/portfolio_more";
 
 // import { render } from "react-dom";
@@ -25,7 +27,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // const rootElement = document.getElementById("root");
 
 ReactDOM.render(
-  <Suspense fallback={<div>Loading ~~~</div>}>
+    <Suspense fallback={<div>Loading ~~~</div>}>
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -40,6 +42,7 @@ ReactDOM.render(
         <Route path="/discover_more" element={<Portfoliomore />} />
         <Route path="/servizi_mainpage" element={<ServiziMain />} />
         <Route path="/about_us" element={<AboutUs />} />
+        <Route path="/test" element={<ServiceMainCard />} />
       </Routes>
       <Footer />
     </BrowserRouter>

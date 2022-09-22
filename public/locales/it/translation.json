@@ -142,12 +142,13 @@
 
   "full": {
     "title": "pacchetto completo",
+    "icon": "icon_full.png",
     "description": "Quando si crea una nuova attività o si sviluppa il proprio marchio, ci sono molti aspetti e attività da considerare. Avere una coerenza efficiente su tutti i canali e tutte le attività è fondamentale per affermare il tuo marchio.",
     "subtitle": "Piani & strategie",
-    "paragrafo": "Una pianificazione corretta insieme ad una strategia per ognuna delle tue interfacce con il pubblico ti aiuterà anche a mantenere un risultato positivo consentendo anche di prendere decisioni più rapide e permettendoti di avere soluzioni per situazioni non previste o difficili.",
+    "paragraph": "Una pianificazione corretta insieme ad una strategia per ognuna delle tue interfacce con il pubblico ti aiuterà anche a mantenere un risultato positivo consentendo anche di prendere decisioni più rapide e permettendoti di avere soluzioni per situazioni non previste o difficili.",
     "list": {
         "titlelist": "I nostri servizi per il Pacchetto Completo includono:",
-        "list": [
+        "bodylist": [
             "Creazione del tuo sito web",
             "Design creativo",
             "Supporto continuo",
@@ -158,124 +159,159 @@
     "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "full_gray"
   },
   "individuals": {
     "title": "sito web per piccole imprese e privati ",
-    "paragrafo1": "Avere un sito web online sta diventando uno dei modi più efficienti per mostrare chi sei, di cosa sei capace e può avere la funzione di portfolio online. Che tu sia un fotografo, un artista, un architetto, un designer, un musicista o un blogger è molto importante che il tuo contenuto arrivi a più persone possibili in modo chiaro e con un design accattivante al fine di esaltare l’immagine del tuo brand.",
-    "paragrafo2": "Mostrare il tuo contenuto attraverso un sito web aiuta ad aumentare la tua credibilità sul mercato apparendo più professionale ai tuoi clienti, fan, follower ed eventuali collaboratori.",
-    "paragrafo3": "Attraverso i nostri sviluppatori esperti ti offriamo una creazione di siti web con differenti livelli di interattività a seconda dei tuoi bisogni e necessità",
-    "paragrafo4": [
-      "siti vetrina a pagina singola",
-      "siti multi pagina",
-      "livelli base di interattività"
-    ],
-    "paragrafo5": {
+    "icon": "icon_individuals.png",
+    "description": "Avere un sito web online sta diventando uno dei modi più efficienti per mostrare chi sei, di cosa sei capace e può avere la funzione di portfolio online. Che tu sia un fotografo, un artista, un architetto, un designer, un musicista o un blogger è molto importante che il tuo contenuto arrivi a più persone possibili in modo chiaro e con un design accattivante al fine di esaltare l’immagine del tuo brand.",
+    "subtitle": "Piani & strategie",
+    "paragraph": "Mostrare il tuo contenuto attraverso un sito web aiuta ad aumentare la tua credibilità sul mercato apparendo più professionale ai tuoi clienti, fan, follower ed eventuali collaboratori.",
+    "list": {
+        "titlelist": "Attraverso i nostri sviluppatori esperti ti offriamo una creazione di siti web con differenti livelli di interattività a seconda dei tuoi bisogni e necessità",
+        "bodylist": [
+            "siti vetrina a pagina singola",
+            "siti multi pagina",
+            "livelli base di interattività"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "individuals_el_green"
   },
   "companies": {
-    "title": "Sito web per aziende",
-    "paragrafo1": "Se stai sviluppando una start-up, aprendo un'attività o rappresentando un'azienda già avviata, è cruciale avere un sito web che mostri chiaramente la tua identità e che ti connetta con il target di clientela a cui stai mirando in modo chiaro e professionale. Avere un sito web ti aiuta ad aumentare la tua credibilità, a comunicare informazioni, garantire una costante accessibilità, aumentare la clientela e  farti pubbl5icità.",
-    "paragrafo2":" Il tuo sito ha bisogno di essere semplice e facile da navigare, mantenendo informazioni precise e dettagliate a proposito della tua attività o azienda e promuovendo il tuo marchio",
-    "paragrafo3": "attraverso i nostri developers esperti ti offriamo la creazione di un sito web con molteplici livelli di interattività che possano al meglio coprire le esigenze e necessità della tua azienda o attività",
-    "paragrafo4": [
-      "siti complessi a pagina multipla",
-      "database",
-      "ecommerce",
-      "marketplace",
-      "alti livelli di interattività",
-      "pagamenti online"
-    ],
-    "paragrafo5": {
+    "title": "Sito web per aziende ",
+    "icon": "icon_companies.png",
+    "description": "Se stai sviluppando una start-up, aprendo un'attività o rappresentando un'azienda già avviata, è cruciale avere un sito web che mostri chiaramente la tua identità e che ti connetta con il target di clientela a cui stai mirando in modo chiaro e professionale. Avere un sito web ti aiuta ad aumentare la tua credibilità, a comunicare informazioni, garantire una costante accessibilità, aumentare la clientela e  farti pubbl5icità.",
+    "subtitle": "Piani & strategie",
+    "paragraph": "Il tuo sito ha bisogno di essere semplice e facile da navigare, mantenendo informazioni precise e dettagliate a proposito della tua attività o azienda e promuovendo il tuo marchio",
+    "list": {
+        "titlelist": "attraverso i nostri developers esperti ti offriamo la creazione di un sito web con molteplici livelli di interattività che possano al meglio coprire le esigenze e necessità della tua azienda o attività",
+        "bodylist": [
+            "siti complessi a pagina multipla",
+            "database",
+            "ecommerce",
+            "marketplace",
+            "alti livelli di interattività",
+            "pagamenti online"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "companies_green"
   },
   "design": {
-    "title": "creative design",
-    "paragrafo1": "Avere un’immagine precisa del tuo brand è importante per creare un impatto visivo, insieme ad aumentare la credibilità del tuo brand, stabilire un legame con i tuoi clienti e il tuo target e trasmettere il tuo messaggio in maniera efficiente.",
-    "paragrafo2": "I nostri servizi di Creative Design includono:",
-    "paragrafo3": "",
-    "paragrafo4": [
-      "Logo Design",
-      "Web Design",
-      "Sound Design",
-      "Creazione e montaggio video",
-      "Imagery",
-      "Motion graphics"
-    ],
-    "paragrafo5": {
+    "title": "creative design ",
+    "icon":"icon_creative.png",
+    "description": "Avere un’immagine precisa del tuo brand è importante per creare un impatto visivo, insieme ad aumentare la credibilità del tuo brand, stabilire un legame con i tuoi clienti e il tuo target e trasmettere il tuo messaggio in maniera efficiente.",
+    "subtitle": "Piani & strategie",
+    "paragraph": "qua manca il paragrafo",
+    "list": {
+        "titlelist": "I nostri servizi di Creative Design includono:",
+        "bodylist": [
+            "Logo Design",
+            "Web Design",
+            "Sound Design",
+            "Creazione e montaggio video",
+            "Imagery",
+            "Motion graphics"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "design_dk_green"
   },
   "support": {
-    "title": "Assistenza continua",
-    "paragrafo1": "Gestire un sito web non è un compito facile. Un sito Web deve essere mantenuto, aggiornato e monitorato regolarmente per assicurarsi che funzioni correttamente, che i contenuti siano aggiornati e che le pagine siano visualizzate correttamente. Eseguire campagne SEO, inserire “parole chiave” utili e chiare aumenterà anche le visite al tuo sito web, quindi ti metterà più in alto nei risultati dei motori di ricerca.",
-    "paragrafo2": "Ma avere solo il sito web potrebbe non essere sempre sufficiente per stabilire una buona presenza digitale che  potrebbe includere anche account di social media attivi che vengono mantenuti e utilizzati regolarmente. Molte aziende e imprenditori si sono già promossi e pubblicizzati sui social media, con molte altre che si aggiungono ogni giorno. Per molti tipi di industrie, una presenza sui social media non è più opzionale, ma sempre più una necessità.",
-    "paragrafo3": "I nostri servizi per l’assistenza continua includono:",
-    "paragrafo4": [
-      "Manutenzione e aggiornamento del tuo sito web",
-      "Classifica e analisi di Google",
-      "SEO (Search Engine Optimization) e SEM (Search Engine Marketing), gestione delle parole chiave",
-      "Creazione e gestione di account sui social media"
-    ],
-    "paragrafo5": {
+    "title": "Assistenza continua ",
+    "icon": "icon_support.png",
+    "description": "Gestire un sito web non è un compito facile. Un sito Web deve essere mantenuto, aggiornato e monitorato regolarmente per assicurarsi che funzioni correttamente, che i contenuti siano aggiornati e che le pagine siano visualizzate correttamente. Eseguire campagne SEO, inserire “parole chiave” utili e chiare aumenterà anche le visite al tuo sito web, quindi ti metterà più in alto nei risultati dei motori di ricerca.",
+    "subtitle": "Piani & strategie",
+    "paragraph": "Ma avere solo il sito web potrebbe non essere sempre sufficiente per stabilire una buona presenza digitale che  potrebbe includere anche account di social media attivi che vengono mantenuti e utilizzati regolarmente. Molte aziende e imprenditori si sono già promossi e pubblicizzati sui social media, con molte altre che si aggiungono ogni giorno. Per molti tipi di industrie, una presenza sui social media non è più opzionale, ma sempre più una necessità.",
+    "list": {
+        "titlelist": "I nostri servizi per l’assistenza continua includono:",
+        "bodylist": [
+            "Manutenzione e aggiornamento del tuo sito web",
+            "Classifica e analisi di Google",
+            "SEO (Search Engine Optimization) e SEM (Search Engine Marketing), gestione delle parole chiave",
+            "Creazione e gestione di account sui social media"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "continuous_yellow"
   },
-  "content": {
-    "title": "Creazione dei contenuti",
-    "paragrafo1": "Il contenuto è una delle parti essenziali fra gli strumenti a tua disposizione. Identificano il tuo marchio, chi sei, cosa offri, ti aiuta a connettere con il tuo pubblico, i fan, i clienti, i futuri collaboratori, oltre a promuovere te, il tuo marchio e la tua azienda.",
-    "paragrafo2": "Tramite i contenuti che si possono trovare sul tuo sito web e sulle tue piattaforme social hai la possibilità di consegnare il tuo messaggio all’utente. Creando contenuti coerenti, chiari e informativi, creerai un elenco di informazioni e dati sulle tue attività utili a trovare nuova clientela e pubblicizzarti nel modo migliore.",
-    "paragrafo3": "I nostri servizi per la creazione di contenuti includono: ",
-    "paragrafo4": [
-      "Creazione di contenuti per il tuo sito web ",
-      "Sviluppo di contenuti per i profili social",
-      "Consulenza e miglioramento nella creazione di contenuti"
-    ],
-    "paragrafo5": {
+  "contentcreation": {
+    "title": "Creazione dei contenuti ",
+    "icon":"icon_content.png",
+    "description": "Il contenuto è una delle parti essenziali fra gli strumenti a tua disposizione. Identificano il tuo marchio, chi sei, cosa offri, ti aiuta a connettere con il tuo pubblico, i fan, i clienti, i futuri collaboratori, oltre a promuovere te, il tuo marchio e la tua azienda.",
+    "subtitle": "Piani & strategie",
+    "paragraph": "Tramite i contenuti che si possono trovare sul tuo sito web e sulle tue piattaforme social hai la possibilità di consegnare il tuo messaggio all’utente. Creando contenuti coerenti, chiari e informativi, creerai un elenco di informazioni e dati sulle tue attività utili a trovare nuova clientela e pubblicizzarti nel modo migliore.",
+    "list": {
+        "titlelist": "I nostri servizi per la creazione di contenuti includono:",
+        "bodylist": [
+            "Creazione di contenuti per il tuo sito web ",
+            "Sviluppo di contenuti per i profili social",
+            "Consulenza e miglioramento nella creazione di contenuti"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "content_orange"
   },
   "marketing": {
-    "title": "marketing e consulenza",
-    "paragrafo1": "Stabilire strategie di marketing accurate e corrette è fondamentale per avere un giro di mercato solido che incrementerà le tue entrate e di conseguenza farà crescere la tua attività in qualunque ambito tu sia specializzato. Il marketing è il mezzo che ti permetterà di raggiungere la tua possibile futura clientela",
-    "paragrafo2": " Insieme alle strategie di marketing, anche un “Brand identity” è un aspetto cruciale in qualsiasi forma di business o azienda. Un'identità d’impresa unica e, soprattutto, ben pensata e consolidata può aiutarti a promuovere migliori relazioni con i tuoi clienti o il tuo pubblico di destinazione, in quanto può contribuire a fornire coerenza al tuo marchio, fungendo al tempo stesso da linee guida per le tue attività future.",
-    "paragrafo3": "I nostri servizi di di marketing e consulenza includono:",
-    "paragrafo4": [
-      "Strategie di marketing digitale e online",
-      "Strategie di marketing offline",
-      "Consulenza marketing",
-      "Misurazioni del ROI (Return on Investment)",
-      "Attivazione e monitoraggio della campagna di marketing",
-      "Realizzazione di campagne SEA (Search Engine Advertising)",
-      "Creazione di una brand identity"
-    ],
-    "paragrafo5": {
+    "title": "marketing e consulenza ",
+    "icon":"icon_marketing.png",
+    "description": "Stabilire strategie di marketing accurate e corrette è fondamentale per avere un giro di mercato solido che incrementerà le tue entrate e di conseguenza farà crescere la tua attività in qualunque ambito tu sia specializzato. Il marketing è il mezzo che ti permetterà di raggiungere la tua possibile futura clientela",
+    "subtitle": "Piani & strategie",
+    "paragraph": "Insieme alle strategie di marketing, anche un “Brand identity” è un aspetto cruciale in qualsiasi forma di business o azienda. Un'identità d’impresa unica e, soprattutto, ben pensata e consolidata può aiutarti a promuovere migliori relazioni con i tuoi clienti o il tuo pubblico di destinazione, in quanto può contribuire a fornire coerenza al tuo marchio, fungendo al tempo stesso da linee guida per le tue attività future.",
+    "list": {
+        "titlelist": "I nostri servizi di di marketing e consulenza includono:",
+        "bodylist": [
+            "Strategie di marketing digitale e online",
+            "Strategie di marketing offline",
+            "Consulenza marketing",
+            "Misurazioni del ROI (Return on Investment)",
+            "Attivazione e monitoraggio della campagna di marketing",
+            "Realizzazione di campagne SEA (Search Engine Advertising)",
+            "Creazione di una brand identity"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "marketing_red"
   },
 
   "app": {
-    "title": "creazione app",
-    "paragrafo1": "Un’applicazione per raggiungere in modo interattivo l’utente finale, che sia singola o legata a un sito web, è il modo migliore di gestire la visibilità interattiva legata al traffico di dati, informazioni e notifiche.",
-    "paragrafo2": "Una valutazione corretta di come e se usare un'applicazione per cellulari può essere la scelta strategica che fa la differenza. Un sito con un grande afflusso di persone che creano aree private, social o un marketplace possono trarre un grande vantaggio da un applicazione, al contrario di un'app sviluppata per la sola visualizzazione non ha un grande impatto strategico",
-    "paragrafo3": "La creazione di un App include:",
-    "paragrafo4": [
-      "Valutazione di fattibilità applicazione",
-      "creazione della app da zero",
-      "creazione di un app partendo dal sito"
-    ],
-    "paragrafo5": {
+    "title": "creazione app ",
+    "description": "Un’applicazione per raggiungere in modo interattivo l’utente finale, che sia singola o legata a un sito web, è il modo migliore di gestire la visibilità interattiva legata al traffico di dati, informazioni e notifiche.",
+    "subtitle": "Piani & strategie",
+    "paragraph": "Una valutazione corretta di come e se usare un'applicazione per cellulari può essere la scelta strategica che fa la differenza. Un sito con un grande afflusso di persone che creano aree private, social o un marketplace possono trarre un grande vantaggio da un applicazione, al contrario di un'app sviluppata per la sola visualizzazione non ha un grande impatto strategico",
+    "list": {
+        "titlelist": "La creazione di un App include:",
+        "bodylist": [
+            "Valutazione di fattibilità applicazione",
+            "creazione della app da zero",
+            "creazione di un app partendo dal sito"
+          ]
+    },
+    "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
-    }
+    },
+    "color": "companies_green"
   },
 
   "cards_portfolio": [

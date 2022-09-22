@@ -32,15 +32,15 @@ ReactDOM.render(
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/full" element={<Full />} />
-        <Route path="/individuals" element={<Individuals />} />
-        <Route path="/companies" element={<Companies />} />
-        <Route path="/design" element={<Design />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/content_creation" element={<ContentCreation />} />
-        <Route path="/marketing" element={<Marketing />} />
-        <Route path="/discover_more" element={<Portfoliomore />} />
+        <Route path="/full" element={<ServiceMainCard />} />
+        <Route path="/individuals" element={<ServiceMainCard />} />
+        <Route path="/companies" element={<ServiceMainCard />} />
+        <Route path="/design" element={<ServiceMainCard />} />
+        <Route path="/support" element={<ServiceMainCard />} />
+        <Route path="/marketing" element={<ServiceMainCard />} />
         <Route path="/servizi_mainpage" element={<ServiziMain />} />
+        <Route path="/discover_more" element={<ServiceMainCard />} />
+        <Route path="/contentcreation" element={<ServiceMainCard />} />
         <Route path="/about_us" element={<AboutUs />} />
         <Route path="/test" element={<ServiceMainCard />} />
       </Routes>

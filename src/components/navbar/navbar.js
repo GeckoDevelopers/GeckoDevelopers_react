@@ -216,7 +216,7 @@ export default function Navbar() {
                                             <hr />
                                             <li onClick={closeMenudaiLink}>
                                                 /
-                                                <Link onClick={scrollUp} to="/content_creation">
+                                                <Link onClick={scrollUp} to="/contentcreation">
                                                     {t("minimenuservizi.content")}
                                                 </Link>
                                             </li>

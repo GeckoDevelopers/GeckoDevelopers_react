@@ -1,0 +1,225 @@
+@import '../../../variabili.scss';
+
+
+#singleServiceCard {
+	width: 100%;
+	height: 328px;
+	background: rgba(0, 0, 0, 0);
+	position: relative;
+	margin-top: 0.3%;
+	
+	margin-bottom: 0.7%;
+
+	// &:hover {
+	//     margin-top: -10px;
+	//     margin-left: -10px;
+	// }
+	&:before {
+		position: absolute;
+		top: 10.5px;
+		left: 99.5%;
+		width: 100%;
+		height: 100%;
+		content: '';
+		transform: skewY(45deg);
+		transform-origin: 0 0;
+	}
+
+	&:after {
+		position: absolute;
+		top: 90%;
+		left: 16px;
+		width: 100%;
+		height: 150%;
+		content: '';
+		transform: skewX(45deg);
+		transform-origin: 0 0;
+	}
+
+	.carta_container {
+		width: 100%;
+		// altezza card
+		height: 297px;
+		
+		position: relative;
+
+		.carta {
+			--notchSize: 18px;
+			--null: 0px;
+			/* from https://css-tricks.com/notched-boxes/ */
+			clip-path:
+                /* Notched Boxes or Notched Module */ polygon(
+				0% var(--notchSize),
+				/* top left */ var(--null) 0%,
+				/* top left */ calc(100% - var(--notchSize)) 0%,
+				/* top right */ 100% var(--notchSize),
+				/* top right */ 100% calc(100% - var(--notchSize)),
+				/* bottom right */ calc(100% - var(--null)) 100%,
+				/* bottom right */ var(--notchSize) 100%,
+				/* bottom left */ 0% calc(100% - var(--notchSize)) /* bottom left */
+			);
+		}
+
+		a.carta {
+			// margini card
+			width: 100%;
+			height: 100%;
+			padding: 1.7vw 2.5vw;
+			position: absolute;
+			background-color: $white;
+			text-decoration: none;
+            display: flex;
+
+
+            img {
+                height: 100%;
+                margin-right: 10px;
+			}
+			/* z-index: 2000; */
+			.flex {
+				// ricorda è in commons.scss
+                flex-direction: column;
+				h3 {
+					font-family: $font-titolo;
+					font-size: $card_title;
+					line-height: $line-height-card;
+					margin-bottom: 5%;
+					
+				}
+                p {
+                    color: $gray;
+                    font-size: $card_paragraph;
+                    line-height: $line-height-card_paragraph;
+                    
+                    text-align: justify;
+                    
+                }
+			}
+            span {
+				// button card
+				padding-top: 0.8%;
+				padding-right: 3.7%;
+				padding-bottom: 0.8%;
+				padding-left: 4.7%;
+				color: $white;
+				position: absolute;
+				bottom: 2vw;
+				
+				right: 2.5vw;
+				
+				/* z-index: 0; */
+			}
+		}
+	}
+}
+#SingleServiceCard.full_gray:before,
+#SingleServiceCard.full_gray:after {
+	background: $gray;
+}
+
+#SingleServiceCard.full_gray,
+#SingleServiceCard.full_gray {
+	h3 {
+		color: $gray;
+	}
+
+	span {
+		background-color: $gray;
+	}
+}
+
+#SingleServiceCard.individuals_el_green:before,
+#SingleServiceCard.individuals_el_green:after {
+	background: $light-green;
+}
+
+#SingleServiceCard.individuals_el_green,
+#SingleServiceCard.individuals_el_green {
+	h3 {
+		color: $light-green;
+	}
+
+	span {
+		background-color: $light-green;
+	}
+}
+
+#SingleServiceCard.companies_green:before,
+#SingleServiceCard.companies_green:after {
+	background: $green;
+}
+
+#SingleServiceCard.companies_green,
+#SingleServiceCard.companies_green {
+	h3 {
+		color: $green;
+	}
+
+	span {
+		background-color: $green;
+	}
+}
+
+#SingleServiceCard.design_dk_green:before,
+#SingleServiceCard.design_dk_green:after {
+	background: $dark-green;
+}
+
+#SingleServiceCard.design_dk_green,
+#SingleServiceCard.design_dk_green {
+	h3 {
+		color: $dark-green;
+	}
+
+	span {
+		background-color: $dark-green;
+	}
+}
+
+#SingleServiceCard.continuous_yellow:before,
+#SingleServiceCard.continuous_yellow:after {
+	background: $yellow;
+}
+
+#SingleServiceCard.continuous_yellow,
+#SingleServiceCard.continuous_yellow {
+	h3 {
+		color: $yellow;
+	}
+
+	span {
+		background-color: $yellow;
+	}
+}
+
+#SingleServiceCard.content_orange:before,
+#SingleServiceCard.content_orange:after {
+	background: $orange;
+}
+
+#SingleServiceCard.content_orange,
+#SingleServiceCard.content_orange {
+	h3 {
+		color: $orange;
+	}
+
+	span {
+		background-color: $orange;
+	}
+}
+
+#SingleServiceCard.marketing_red:before,
+#SingleServiceCard.marketing_red:after {
+	background: $red;
+}
+
+#SingleServiceCard.marketing_red,
+#SingleServiceCard.marketing_red {
+	h3 {
+		color: $red;
+	}
+
+	span {
+		background-color: $red;
+	}
+}

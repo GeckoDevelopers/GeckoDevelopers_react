@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next'
 export default function Portfoliomore() {
 	const { t } = useTranslation()
 	var cards_portfolio = t(`cards_portfolio`, { returnObjects: true })
-	console.log(cards_portfolio)
 
 	return (
 		<section id="portfoliomore">

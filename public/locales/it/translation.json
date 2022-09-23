@@ -160,7 +160,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "full_gray"
+    "color": "full_gray",
+    "cards": []
   },
   "individuals": {
     "title": "sito web per piccole imprese e privati ",
@@ -180,7 +181,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "individuals_el_green"
+    "color": "individuals_el_green",
+    "cards": []
   },
   "companies": {
     "title": "Sito web per aziende ",
@@ -203,7 +205,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "companies_green"
+    "color": "companies_green",
+    "cards": []
   },
   "design": {
     "title": "creative design ",
@@ -226,7 +229,27 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "design_dk_green"
+    "color": "design_dk_green",
+    "cards": [
+        {
+            "title": "Carlo Livio Fotografia",
+            "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+            "image1": "user.webp",
+            "image2": "user.webp",
+            "image3": "user.webp",
+            "color": "marketing_red",
+            "link": "https://carlo-livio.netlify.app/"
+        },
+        {
+            "title": "Carlo Livio Fotografia",
+            "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+            "image1": "user.webp",
+            "image2": "user.webp",
+            "image3": "user.webp",
+            "color": "marketing_red",
+            "link": "https://carlo-livio.netlify.app/"
+        }
+    ]
   },
   "support": {
     "title": "Assistenza continua ",
@@ -247,7 +270,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "continuous_yellow"
+    "color": "continuous_yellow",
+    "cards": []
   },
   "contentcreation": {
     "title": "Creazione dei contenuti ",
@@ -267,7 +291,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "content_orange"
+    "color": "content_orange",
+    "cards": []
   },
   "marketing": {
     "title": "marketing e consulenza ",
@@ -291,7 +316,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "marketing_red"
+    "color": "marketing_red",
+    "cards": []
   },
 
   "app": {
@@ -311,7 +337,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "companies_green"
+    "color": "companies_green",
+    "cards": []
   },
 
   "cards_portfolio": [

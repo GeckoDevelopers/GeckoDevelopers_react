@@ -2,11 +2,15 @@ import './serviceMainCard.scss'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ServiceCard from '../cards/serviceCard/serviceCard'
+import SingleServiceCard from '../cards/singleServiceCard/singleServiceCard'
 
 export default function ServiceMainCard({ data }) {
 	const { t } = useTranslation()
 
+    
 	var url = window.location.href.split('/').pop()
+
+	var cards = t(`${url}.cards`, { returnObjects: true })
 
 	return (
 		<section id="serviceMainCard" className={`container-services ${t(`${url}.color`)}`}>
@@ -44,6 +48,13 @@ export default function ServiceMainCard({ data }) {
 						</a>
 					</p>
 				</div>
+			</div>
+
+            <div class="cards">
+            {(cards.length !== 0) ? cards.map((card, i) => {
+					// Return the element. Also pass key
+					return <SingleServiceCard key={card.id} data={card} />
+				}): ""}
 			</div>
 		</section>
 	)

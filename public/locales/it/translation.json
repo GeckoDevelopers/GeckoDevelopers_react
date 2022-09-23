@@ -163,6 +163,7 @@
     "color": "full_gray",
     "cards": []
   },
+
   "individuals": {
     "title": "sito web per piccole imprese e privati ",
     "icon": "icon_individuals.png",
@@ -184,10 +185,11 @@
     "color": "individuals_el_green",
     "cards": []
   },
+  
   "companies": {
     "title": "Sito web per aziende ",
     "icon": "icon_companies.png",
-    "description": "Se stai sviluppando una start-up, aprendo un'attività o rappresentando un'azienda già avviata, è cruciale avere un sito web che mostri chiaramente la tua identità e che ti connetta con il target di clientela a cui stai mirando in modo chiaro e professionale. Avere un sito web ti aiuta ad aumentare la tua credibilità, a comunicare informazioni, garantire una costante accessibilità, aumentare la clientela e  farti pubbl5icità.",
+    "description": "Se stai sviluppando una start-up, aprendo un'attività o rappresentando un'azienda già avviata, è cruciale avere un sito web che mostri chiaramente la tua identità e che ti connetta con il target di clientela a cui stai mirando in modo chiaro e professionale. Avere un sito web ti aiuta ad aumentare la tua credibilità, a comunicare informazioni, garantire una costante accessibilità, aumentare la clientela e  farti pubblicità.",
     "subtitle": "Piani & strategie",
     "paragraph": "Il tuo sito ha bisogno di essere semplice e facile da navigare, mantenendo informazioni precise e dettagliate a proposito della tua attività o azienda e promuovendo il tuo marchio",
     "list": {
@@ -208,19 +210,20 @@
     "color": "companies_green",
     "cards": []
   },
+
   "design": {
     "title": "creative design ",
     "icon":"icon_creative.png",
-    "description": "Avere un’immagine precisa del tuo brand è importante per creare un impatto visivo, insieme ad aumentare la credibilità del tuo brand, stabilire un legame con i tuoi clienti e il tuo target e trasmettere il tuo messaggio in maniera efficiente.",
+    "description": "Per quanto semplice possa sembrare, avere un professionista nel campo della grafica che si occupa dell’asset grafico, dal logo alla creazione di immagini o video, non solo dà coerenza e fascino grafico, ma può anche aumentare la credibilità del tuo brand e trasmette più efficientemente il tuo messaggio",
     "subtitle": "Piani & strategie",
-    "paragraph": "qua manca il paragrafo",
+    "paragraph": "qualsiasi azione online tu stia intraprendendo, dalla costruzione di un sito web alla creazione di un logo, pubblicità o contenuti social, avere un buon design è una delle parti fondamentali e che più colpiscono il cliente. Il Design è una parte essenziali per un grande progetto a lungo termine",
     "list": {
         "titlelist": "I nostri servizi di Creative Design includono:",
         "bodylist": [
-            "Logo Design",
+            "Design logo e marchio",
             "Web Design",
             "Sound Design",
-            "Creazione e montaggio video",
+            "Creazione, montaggio e modifiche video",
             "Imagery",
             "Motion graphics"
           ]
@@ -251,6 +254,7 @@
         }
     ]
   },
+
   "support": {
     "title": "Assistenza continua ",
     "icon": "icon_support.png",
@@ -273,6 +277,7 @@
     "color": "continuous_yellow",
     "cards": []
   },
+
   "contentcreation": {
     "title": "Creazione dei contenuti ",
     "icon":"icon_content.png",
@@ -294,6 +299,7 @@
     "color": "content_orange",
     "cards": []
   },
+  
   "marketing": {
     "title": "marketing e consulenza ",
     "icon":"icon_marketing.png",

@@ -162,7 +162,7 @@
     },
     "color": "full_gray"
   },
-    
+
   "individuals": {
     "title": "sito web per piccole imprese e privati ",
     "icon": "icon_individuals.png",
@@ -274,6 +274,7 @@
     },
     "color": "content_orange"
   },
+  
   "marketing": {
     "title": "marketing e consulenza ",
     "icon":"icon_marketing.png",

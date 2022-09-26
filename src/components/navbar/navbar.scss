@@ -187,7 +187,7 @@ nav {
 						}
 
 						ul {
-							width: 451px;
+							width: 160px;
 							padding: 15px;
 							background-color: $green;
 							color: $gray;
@@ -197,7 +197,7 @@ nav {
 							li {
 								// slash in dropdown services menù
 								font-size: 17px;
-								
+								text-transform: uppercase;
 								margin: 2.5px 0;
 
 								&:hover {

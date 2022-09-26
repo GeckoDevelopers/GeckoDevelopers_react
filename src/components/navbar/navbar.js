@@ -153,60 +153,6 @@ export default function Navbar() {
 													</li>
 												)
 											})}
-											{/* <hr />
-											<li onClick={closeMenudaiLink}>
-												/<Link to="/servizi_mainpage">{t('minimenuservizi.all')}</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/full">
-													{t('minimenuservizi.full')}
-												</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/individuals">
-													{t('minimenuservizi.indivisuals')}
-												</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/companies">
-													{t('minimenuservizi.companies')}
-												</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/design">
-													{t('minimenuservizi.design')}
-												</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/support">
-													{t('minimenuservizi.support')}
-												</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/contentcreation">
-													{t('minimenuservizi.content')}
-												</Link>
-											</li>
-											<hr />
-											<li onClick={closeMenudaiLink}>
-												/
-												<Link onClick={scrollUp} to="/marketing">
-													{t('minimenuservizi.marketing')}
-												</Link>
-											</li>
-											<hr /> */}
 										</ul>
 									</div>
 								</li>

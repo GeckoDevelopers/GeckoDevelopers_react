@@ -6,15 +6,15 @@
     "portfolio": "/ portfolio",
     "contacts": "/ contacts",
     "languages": {
-        "text": "/ English",
-        "image": "english.jpg"
+      "text": "/ English",
+      "image": "english.jpg"
     }
   },
   "languages": [
     {
-        "text": "/ Italiano",
-        "image": "italiano.jpg",
-        "link": "it"
+      "text": "/ Italiano",
+      "image": "italiano.jpg",
+      "link": "it"
     }
   ],
   "minimenuservizi": {
@@ -47,7 +47,7 @@
   "contact": {
     "title": "NEED MORE INFORMATION AND ESTIMATE?"
   },
-  
+
   "card_view_more": "View more...",
 
   "cards_service": [
@@ -108,7 +108,6 @@
       "link": "/marketing"
     }
   ],
-  
 
   "full": {
     "title": "FULL PACKAGE",
@@ -116,12 +115,12 @@
     "paragrafo2": "Properly planning and strategizing any activity and asset you create from the start will also help you maintain a stable positive outcome throughout your journey, while also helping you make faster decisions and adapt to difficult situations easier.",
     "paragrafo3": "Our services for Full Package include:",
     "paragrafo4": [
-        "Creazione del tuo sito web",
-        "Creative design",
-        "Assistenza garantita e continua",
-        "Creazione di contenuti",
-        "Attività di marketing e consulenza"    
-      ],
+      "Creazione del tuo sito web",
+      "Creative design",
+      "Assistenza garantita e continua",
+      "Creazione di contenuti",
+      "Attività di marketing e consulenza"
+    ],
     "paragrafo5": "For more information, get in touch with us!"
   },
   "individuals": {
@@ -145,7 +144,7 @@
     "paragrafo1": "As simple as it may sound, having professionally done visual assets, from your logo to a video or imagery, not only provides consistency and visual appeal, but can also boost up the credibility of your brand, establish meaningful relationships with your customers and target audience, as well as deliver your message across more efficiently.",
     "paragrafo2": "Our services for Creative Design include:",
     "paragrafo3": "",
-    "paragrafo4": "", 
+    "paragrafo4": "",
     "paragrafo5": "For more information, get in touch with us!"
   },
   "support": {
@@ -153,7 +152,7 @@
     "paragrafo1": "Handling a website is no easy task. A website needs to be maintained, updated and monitored regularly in order to make sure it is running smoothly, the website pages and the message is being delivered accurately and the assets included in the pages are used and functions properly. Running SEO campaigns, inserting useful and clear keywords will also increase the visits to your website, hence put you higher up in the list of search engine research results. But having a website might not always be enough to establish a digital presence.",
     "paragrafo2": "An active digital presence might also include active social media accounts that are maintained and used regularly. Many businesses and individual works are already being carried over to, promoted and celebrated on social media, with millions being added each day. For many types of industries, a social media presence is not anymore, a good-to-have but a must.",
     "paragrafo3": "Our services for Continuous Support include:",
-    "paragrafo4": "", 
+    "paragrafo4": "",
     "paragrafo5": "For more information, get in touch with us!"
   },
   "content": {

@@ -94,7 +94,8 @@
   "contact": {
     "title": "hai bisogno di piu informazioni e preventivi? contattaci!",
     "placeholderemail": "Gentilmente inserisci una email valida, sarai contattato li",
-    "placeholdermsg": "scrivi qui il tuo messaggio"
+    "placeholdermsg": "scrivi qui il tuo messaggio",
+    "emailsended": "L'email e' stata inviata con successo"
   },
 
   "card_view_more": "scopri...",

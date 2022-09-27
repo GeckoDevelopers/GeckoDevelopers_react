@@ -93,7 +93,8 @@
   },
   "contact": {
     "title": "hai bisogno di piu informazioni e preventivi? contattaci!",
-    "placeholder_email": "Gentilmente inserisci una email valida, sarai contattato li"
+    "placeholderemail": "Gentilmente inserisci una email valida, sarai contattato li",
+    "placeholdermsg": "scrivi qui il tuo messaggio"
   },
 
   "card_view_more": "scopri...",

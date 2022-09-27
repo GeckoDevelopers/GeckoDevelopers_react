@@ -45,7 +45,9 @@
     "title": "PORTFOLIO"
   },
   "contact": {
-    "title": "NEED MORE INFORMATION AND ESTIMATE?"
+    "title": "NEED MORE INFORMATION AND ESTIMATE?",
+    "placeholderemail": "Be sure that your email is writen right",
+    "placeholdermsg": ""
   },
 
   "card_view_more": "View more...",

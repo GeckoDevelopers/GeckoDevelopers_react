@@ -57,7 +57,7 @@ export default function MailForm() {
               <input
                 type="email"
                 name="email"
-                placeholder={t("contact.placeholder_email")}
+                placeholder={t("contact.placeholderemail")}
               />
             </div>
             <div className="input_label">
@@ -72,7 +72,7 @@ export default function MailForm() {
               rows="12"
               cols="12"
               name="message"
-              placeholder="Be sure that your email is writen right"
+              placeholder={t("contact.placeholdermsg")}
             ></textarea>
           </div>
 

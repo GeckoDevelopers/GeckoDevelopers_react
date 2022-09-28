@@ -258,7 +258,10 @@
       "link": "contattaci!"
     },
     "color": "companies_green",
-    "cards": []
+    "cards": [
+        "carlolivio",
+        "luigimasi"
+    ]
   },
 
   "design": {
@@ -283,26 +286,7 @@
       "link": "contattaci!"
     },
     "color": "design_dk_green",
-    "cards": [
-      {
-        "title": "Carlo Livio Fotografia",
-        "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
-        "image1": "user.webp",
-        "image2": "user.webp",
-        "image3": "user.webp",
-        "color": "marketing_red",
-        "link": "https://carlo-livio.netlify.app/"
-      },
-      {
-        "title": "Carlo Livio Fotografia",
-        "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
-        "image1": "user.webp",
-        "image2": "user.webp",
-        "image3": "user.webp",
-        "color": "marketing_red",
-        "link": "https://carlo-livio.netlify.app/"
-      }
-    ]
+    "cards": []
   },
 
   "support": {
@@ -399,6 +383,7 @@
 
   "cards_portfolio": [
     {
+      "id": "carlolivio",
       "title": "Carlo Livio Fotografia",
       "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
       "image1": "user.webp",
@@ -408,6 +393,7 @@
       "link": "https://carlo-livio.netlify.app/"
     },
     {
+      "id": "luigimasi",
       "title": "Luigi Masi Personal Trainer",
       "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
       "image1": "user.webp",

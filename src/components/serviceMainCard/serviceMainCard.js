@@ -10,7 +10,9 @@ export default function ServiceMainCard({ data }) {
     
 	var url = window.location.href.split('/').pop()
 
-	var cards = t(`${url}.cards`, { returnObjects: true })
+	// var cards = t(`${url}.cards`, { returnObjects: true })
+    var portfolioCards = t(`cards_portfolio`, { returnObjects: true }).filter(card => t(`${url}.cards`, { returnObjects: true }).includes(card.id ))
+
 
 	return (
 		<section id="serviceMainCard" className={`container-services ${t(`${url}.color`)}`}>
@@ -51,7 +53,7 @@ export default function ServiceMainCard({ data }) {
 			</div>
 
             <div class="cards">
-            {(cards.length !== 0) ? cards.map((card, i) => {
+            {(portfolioCards.length !== 0) ? portfolioCards.map((card, i) => {
 					// Return the element. Also pass key
 					return <SingleServiceCard key={card.id} data={card} />
 				}): ""}

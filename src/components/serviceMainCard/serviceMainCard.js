@@ -7,12 +7,13 @@ import SingleServiceCard from '../cards/singleServiceCard/singleServiceCard'
 export default function ServiceMainCard({ data }) {
 	const { t } = useTranslation()
 
-    
 	var url = window.location.href.split('/').pop()
 
-	// var cards = t(`${url}.cards`, { returnObjects: true })
-    var portfolioCards = t(`cards_portfolio`, { returnObjects: true }).filter(card => t(`${url}.cards`, { returnObjects: true }).includes(card.id ))
-
+	//traduzione della riga seguente: cicla cards_portfolio e seleziona le card da mostrare
+	//in base all'id delle cards dell singolo servizio
+    //ricordarsi di mettere un id univoco hai portfolio
+	var portfolioCards = t(`cards_portfolio`, { returnObjects: true })
+        .filter(card => t(`${url}.cards`, { returnObjects: true }).includes(card.id))
 
 	return (
 		<section id="serviceMainCard" className={`container-services ${t(`${url}.color`)}`}>
@@ -52,11 +53,13 @@ export default function ServiceMainCard({ data }) {
 				</div>
 			</div>
 
-            <div class="cards">
-            {(portfolioCards.length !== 0) ? portfolioCards.map((card, i) => {
-					// Return the element. Also pass key
-					return <SingleServiceCard key={card.id} data={card} />
-				}): ""}
+			<div class="cards">
+				{portfolioCards.length !== 0
+					? portfolioCards.map((card, i) => {
+							// Return the element. Also pass key
+							return <SingleServiceCard key={card.id} data={card} />
+					  })
+					: ''}
 			</div>
 		</section>
 	)

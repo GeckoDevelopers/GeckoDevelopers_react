@@ -67,7 +67,7 @@ export default function MailForm() {
 					<div className="sotto">
 						<div className="privacy">
 							<span>
-								By selecting you accept our Privacy Policy. We will not save any of your personal details, they will be used only for
+								By sending your email you accept our Privacy Policy. We will not save any of your personal details, they will be used only for
 								contact purposes.
 							</span>
 							<br />

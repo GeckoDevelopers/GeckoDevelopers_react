@@ -55,7 +55,7 @@
     },
     {
       "id": "marketing",
-      "title": "Marketing Activities & Consultancy",
+      "title": "Marketing e consulenza",
       "link": "/marketing"
     },
     {
@@ -83,21 +83,21 @@
     "title": "Chi siamo",
     "subtitle": "Siamo un gruppo di professionisti che si sono uniti per costruire un ambiente lavorativo ottimale basato sulla qualità dell’ambiente lavorativo stesso e sulla qualità dei nostri prodotti. Il nostro obiettivo è diventare un vero e proprio punto di riferimento per aziende, professionisti e privati, per una visibilità completa su Internet e molto altro! Vogliamo crescere e siamo alla ricerca di talenti come programmatori senior, sviluppatori di app, personale addetto al marketing e, anche se non dovremmo ancora parlarne, forse a lungo termine anche per lo sviluppo di videogiochi. Se desideri conoscere la nostra realtà non esitare a contattarci sulla nostra email qui sotto e ad inviarci il tuo curriculum!"
   },
-  "portfolio": {
-    "title": "portfolio",
-    "subtitle": "Alcuni dei nostri lavori"
-  },
   "services": {
     "title": "Servizi",
     "paragrafo1": "Operiamo in vari campi e con vari servizi. Questi sono alcuni dei nostri servizi più richiesti, scelti fra la nostra gamma di offerte al dettaglio che variano in molti campi fino alla videoludica."
-  },
-  "contact": {
-    "title": "hai bisogno di piu informazioni e preventivi? contattaci!",
-    "placeholderemail": "Gentilmente inserisci una email valida, sarai contattato li",
-    "placeholdermsg": "scrivi qui il tuo messaggio",
-    "emailsended": "L'email e' stata inviata con successo"
-  },
-
+    },
+    "contact": {
+        "title": "hai bisogno di piu informazioni e preventivi? contattaci!",
+        "placeholderemail": "Gentilmente inserisci una email valida, sarai contattato li",
+        "placeholdermsg": "scrivi qui il tuo messaggio",
+        "emailsended": "L'email e' stata inviata con successo"
+    },
+    "portfolio": {
+        "title": "portfolio",
+        "subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
+    },
+    
   "card_view_more": "scopri...",
   "services_description": "Per scoprire tutti i nostri servizi",
   "services_link": "Clicca qui!",
@@ -123,7 +123,7 @@
       "id": "card_companies",
       "title": "Sito web per aziende",
       "paragrafo": "Crea un sito web per il tuo business o la tua azienda che risponda alle tue esigenze",
-      "color": "companies_green",
+      "color": "content_orange",
       "icon": "./img/icon_companies.png",
       "link": "/companies"
     },
@@ -147,7 +147,7 @@
       "id": "card_content_creation",
       "title": "Creazione dei contenuti",
       "paragrafo": "Crea contenuti descrittivi e strategici necessari per te, per il tuo marchio o la tua attività grazie all’aiuto dei nostri collaboratori",
-      "color": "content_orange",
+      "color": "companies_green",
       "icon": "./img/icon_content.png",
       "link": "/content_creation"
     },
@@ -233,7 +233,10 @@
       "link": "contattaci!"
     },
     "color": "individuals_el_green",
-    "cards": []
+    "cards": [
+        "carlolivio",
+        "luigimasi"
+    ]
   },
 
   "companies": {
@@ -257,11 +260,8 @@
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "companies_green",
-    "cards": [
-        "carlolivio",
-        "luigimasi"
-    ]
+    "color": "content_orange",
+    "cards": []
   },
 
   "design": {
@@ -323,14 +323,15 @@
       "bodylist": [
         "Creazione di contenuti per il tuo sito web ",
         "Sviluppo di contenuti per i profili social",
-        "Consulenza e miglioramento nella creazione di contenuti"
+        "Consulenza e miglioramento nella creazione di contenuti",
+        "Copywriting"
       ]
     },
     "contact": {
       "pre": "Per maggiori informazioni, ",
       "link": "contattaci!"
     },
-    "color": "content_orange",
+    "color": "companies_green",
     "cards": []
   },
 
@@ -385,7 +386,7 @@
     {
       "id": "carlolivio",
       "title": "Carlo Livio Fotografia",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+      "paragrafo": "La fotografia e la passione si uniscono all'immaginazione e alla quiete rurale del passato in quella che è un'interpretazione luminosa della realtà",
       "image1": "user.webp",
       "image2": "user.webp",
       "image3": "user.webp",
@@ -395,7 +396,7 @@
     {
       "id": "luigimasi",
       "title": "Luigi Masi Personal Trainer",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+      "paragrafo": "Un personal trainer in grado di massimizzare quella che è la prestazione e la capacità fisica di base. La sua palestra è situata nel bacino di Napoli, guarda il sito per ulteriori info!",
       "image1": "user.webp",
       "image2": "user.webp",
       "image3": "user.webp",
@@ -407,15 +408,45 @@
   "cards_abaut_us": [
     {
       "title": "Fabio Parisi",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+      "paragrafo": "placeholder descrizione",
+      "image": "user.webp",
+      "color": "companies_green"
+    },
+    {
+      "title": "Francesco Livio",
+      "paragrafo": "placeholder descrizione",
+      "image": "user.webp",
+      "color": "content_orange"
+    },
+    {
+      "title": "Claudio carchietti",
+      "paragrafo": "placeholder descrizione",
+      "image": "user.webp",
+      "color": "continuous_yellow"
+    },
+    {
+      "title": "Andrea 'il Barba'",
+      "paragrafo": "placeholder descrizione",
+      "image": "user.webp",
+      "color": "design_dk_green"
+    },
+    {
+      "title": "Andrea Gori",
+      "paragrafo": "placeholder descrizione",
+      "image": "user.webp",
+      "color": "full_gray"
+    },
+    {
+      "title": "Fiorella",
+      "paragrafo": "placeholder descrizione",
       "image": "user.webp",
       "color": "marketing_red"
     },
     {
-      "title": "Francesco Livio",
-      "paragrafo": "Delineare attività di marketing e campagne online e offline ti aiuta a promuovere meglio il tuo brand o la tua attività e a generare maggiori entrate",
+      "title": "Il Grande Fratello",
+      "paragrafo": "placeholder descrizione",
       "image": "user.webp",
-      "color": "marketing_red"
+      "color": "design_dk_green"
     }
   ]
 }

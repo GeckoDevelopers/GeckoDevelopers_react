@@ -1,7 +1,7 @@
 @import "./src/variabili.scss";
 
 .jumbo {
-  height: 60vh;
+  // height: 60vh;
   background-image: url("../../../public/img/jumbo_img.webp");
   background-size: cover;
   background-position: center;
@@ -74,6 +74,7 @@
 
       h3 {
         font-size: $paragrafi_sezioni;
+        margin-bottom: 50px;
         
       }
     }

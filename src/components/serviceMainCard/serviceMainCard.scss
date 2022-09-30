@@ -1,0 +1,481 @@
+@import './src/variabili.scss';
+
+// GENERAL CODE
+#serviceMainCard {
+	width: 100%;
+	min-height: calc(100vh - 71px - 100px);
+	margin-top: 65px;
+	padding: 80px 0;
+	display: flex;
+    flex-direction: column;
+	background-color: $gray;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+	.card-mover {
+		color: $gray;
+		width: 60%;
+		position: relative;
+
+		&:before {
+			position: absolute;
+            top: 15px;
+            left: 98%;
+			width: 100%;
+			height: 100%;
+			content: '';
+			transform: skewY(45deg);
+			transform-origin: 0 0;
+		}
+
+		&:after {
+			position: absolute;
+			top: 98%;
+			left: 14px;
+			width: 100%;
+			height: 150%;
+			content: '';
+			transform: skewX(45deg);
+			transform-origin: 0 0;
+		}
+
+		.card {
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			--notchSize: 30px;
+			/* from https://css-tricks.com/notched-boxes/ */
+			clip-path:
+             /* Notched Boxes or Notched Module */ polygon(
+				0% var(--notchSize),
+				/* top left */ var(--notchSize) 0%,
+				/* top left */ calc(100% - var(--notchSize)) 0%,
+				/* top right */ 100% var(--notchSize),
+				/* top right */ 100% calc(100% - var(--notchSize)),
+				/* bottom right */ calc(100% - var(--notchSize)) 100%,
+				/* bottom right */ var(--notchSize) 100%,
+				/* bottom left */ 0% calc(100% - var(--notchSize)) /* bottom left */
+			);
+			background-color: $white;
+			position: relative;
+			/* z-index: 999; */
+			padding: 60px 69px;
+
+			.main-title {
+				// blocco top
+				margin-bottom: 28px;
+
+				img {
+					// icona
+					margin-top: 2px;
+
+					height: 34px;
+
+					margin-right: 12px;
+				}
+
+				h2 {
+					// titolo card
+					font-family: $font-titolo;
+					font-size: $titoli_cardpage;
+
+					line-height: $line-height_t_cardpage;
+
+					text-transform: uppercase;
+				}
+			}
+
+			.description {
+				// primo paragrafo card
+				font-size: $paragrafi_cardpage;
+
+				line-height: $line-height_p_cardpage;
+
+				text-align: justify;
+				margin: 0;
+			}
+
+			.sidetext {
+				margin: 40px 0;
+
+				img {
+					object-fit: cover;
+
+					// // striscia sotto immagine (non usata)
+					width: 100%;
+					margin-top: 0px;
+					// background-color: #5CC69E;
+					// padding-bottom: 35px;
+				}
+
+				.text {
+					width: 100%;
+					margin: 0 0 auto 6.5%;
+
+					hr {
+						width: 100%;
+						// background-color: #5CC69E; // cambia colore
+						height: 1.5px;
+						margin-top: 4px;
+						margin-right: 0px;
+						margin-bottom: 28px;
+						margin-left: 0px;
+					}
+
+					h2 {
+						font-family: $font-body;
+						font-weight: normal;
+						font-size: $titoli_sezioni;
+						letter-spacing: $letter-spacing;
+						text-transform: uppercase;
+						margin-bottom: 24px;
+					}
+
+					p {
+						// paragrafo dx immagine
+						font-size: $paragrafi_cardpage;
+
+						line-height: $line-height_p_cardpage;
+
+						text-align: justify;
+					}
+				}
+			}
+
+			p {
+				margin: 0;
+			}
+
+			ul,
+			.ul {
+				margin-top: 5px;
+				margin-right: 0px;
+				margin-bottom: 30px;
+				margin-left: 0px;
+
+				li {
+					i {
+						margin-right: 5px;
+					}
+				}
+			}
+
+			p {
+				a {
+					text-decoration: underline;
+				}
+
+				#get-touch.companies_green {
+					color: $green;
+				}
+
+				#get-touch.content_orange {
+					color: $orange;
+				}
+
+				#get-touch.design_dk_green {
+					color: $dark-green;
+				}
+
+				#get-touch.full_gray {
+					color: $gray;
+				}
+
+				#get-touch.individuals_el_green {
+					color: $light-green;
+				}
+
+				#get-touch.marketing_red {
+					color: $red;
+				}
+
+				#get-touch.continuous_yellow {
+					color: $yellow;
+				}
+			}
+		}
+	}
+    .cards{
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+
+#serviceMainCard.full_gray {
+	background: $red;
+
+	.card-mover.full_gray:before,
+	.card-mover.full_gray:after {
+		background: $gray;
+	}
+}
+
+#serviceMainCard.individuals_el_green {
+	hr {
+		background-color: $light-green;
+	}
+
+	h2 {
+		color: $light-green;
+	}
+
+	.card-mover.individuals_el_green:before,
+	.card-mover.individuals_el_green:after {
+		background: $light-green;
+	}
+}
+
+#serviceMainCard.companies_green {
+	hr {
+		background-color: $green;
+	}
+
+	h2 {
+		color: $green;
+	}
+
+	.card-mover.companies_green:before,
+	.card-mover.companies_green:after {
+		background: $green;
+	}
+}
+
+#serviceMainCard.design_dk_green {
+	hr {
+		background-color: $dark-green;
+	}
+
+	h2 {
+		color: $dark-green;
+	}
+
+	.card-mover.design_dk_green:before,
+	.card-mover.design_dk_green:after {
+		background: $dark-green;
+	}
+}
+
+#serviceMainCard.continuous_yellow {
+	hr {
+		background-color: $yellow;
+	}
+
+	h2 {
+		color: $yellow;
+	}
+
+	.card-mover.continuous_yellow:before,
+	.card-mover.continuous_yellow:after {
+		background: $yellow;
+	}
+}
+
+#serviceMainCard.content_orange {
+	hr {
+		background-color: $orange;
+	}
+
+	h2 {
+		color: $orange;
+	}
+
+	.card-mover.content_orange:before,
+	.card-mover.content_orange:after {
+		background: $orange;
+	}
+}
+
+#serviceMainCard.marketing_red {
+	hr {
+		background-color: $red;
+	}
+
+	h2 {
+		color: $red;
+	}
+
+	.card-mover.marketing_red:before,
+	.card-mover.marketing_red:after {
+		background: $red;
+	}
+}
+
+
+@media all and (max-width: 1100px) {
+	#serviceMainCard {
+		margin-top: 37px;
+
+		.card-mover {
+			width: 80%;
+
+			&::before {
+				top: 11px;
+				left: 97%;
+			}
+
+			&::after {
+				top: 98%;
+				left: 11px;
+			}
+
+			.card {
+				padding: 40px 50px;
+
+				.main-title {
+					// blocco top
+					margin-bottom: 23px;
+
+					img {
+						// icona
+						margin-top: 3px;
+					}
+
+					h2 {
+						// titolo card
+					}
+				}
+
+				.sidetext {
+					flex-wrap: wrap;
+
+					img {
+						width: 100%;
+					}
+
+					.text {
+						margin-left: 0;
+
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	#serviceMainCard {
+		margin-top: 30px;
+
+		.card-mover {
+			width: 90%;
+
+			&::before {
+				top: 12px;
+				left: 96%;
+			}
+
+			&::after {
+				top: 98%;
+				left: 10px;
+			}
+
+			.card {
+				padding: 43px 44px;
+
+				.main-title {
+					// blocco top
+					margin-bottom: 23px;
+
+					img {
+						// icona
+						margin-top: 3px;
+
+						height: 30px;
+					}
+
+					h2 {
+						// titolo card
+						font-size: 37px;
+					}
+				}
+
+				.sidetext {
+					flex-wrap: wrap;
+
+					img {
+						width: 100%;
+					}
+
+					.text {
+						margin-left: 0;
+						margin-top: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 480px) {
+	#serviceMainCard {
+		margin-top: 15px;
+
+		.card-mover {
+			width: 90%;
+
+			&::before {
+				top: 15px;
+				left: 96%;
+			}
+
+			&::after {
+				top: 98%;
+				left: 13px;
+			}
+
+			.card {
+				padding: 33px 23px;
+
+				.main-title {
+					// blocco top
+					margin-bottom: 20px;
+
+					img {
+						// icona
+						margin-top: 1px;
+
+						height: 23px;
+					}
+
+					h2 {
+						// titolo card
+						font-size: 27px;
+					}
+				}
+
+				.description {
+					// primo paragrafo card
+					font-size: 14px;
+
+					line-height: $line-height_p_cardpage;
+				}
+
+				.sidetext {
+					margin: 32px 0;
+
+					flex-wrap: wrap;
+
+					img {
+						width: 100%;
+					}
+
+					.text {
+						margin-left: 0;
+						margin-top: 30px;
+
+						p {
+							// paragrafo dx immagine
+							font-size: 14px;
+
+							line-height: $line-height_p_cardpage;
+
+							text-align: justify;
+						}
+					}
+				}
+			}
+		}
+	}
+}

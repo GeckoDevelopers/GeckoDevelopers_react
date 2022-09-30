@@ -14,7 +14,7 @@ export default function ServiceCard({data}) {
 	// var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi
 	return (
 
-        <section className={`trasparente ${data.color}`}>
+        <section id="serviceCard" className={`${data.color}`}>
             <div className="carta_container">
                 <Link onClick={scrollUp} className="carta" to={`${data.link}`}>
                     <div className="flex">

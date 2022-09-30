@@ -1,8 +1,8 @@
-import './portfolioCard.scss'
+import './singleServiceCard.scss'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-export default function PortfolioCard({ data }) {
+export default function SingleServiceCard({ data }) {
 	const { t } = useTranslation()
 
 	const location = useLocation()
@@ -12,7 +12,7 @@ export default function PortfolioCard({ data }) {
 	}
 	// var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi
 	return (
-		<section id="portfolioCard" className={`${data.color}`}>
+		<section id="singleServiceCard" className={`${data.color}`}>
 			<div className="carta_container">
 				<a target="_blank" href={`${data.link}`} className="carta">
 					<img src={`./img/portrait/${data.image1}`} alt="" />

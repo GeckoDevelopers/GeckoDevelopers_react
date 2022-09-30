@@ -24,7 +24,7 @@
    list-style: none;
    // font bottoni e altro
    font-size: 14px;
-   /*fix*/
+   
    text-decoration: none;
    cursor: default;
    font-family: $font-body;
@@ -122,21 +122,21 @@ ul {
 @media all and (max-width: 1024px) {
    .container-custom {
       width: 90%;
-      /*fix*/
+      
    }
 }
 
 @media all and (max-width: 768px) {
    .container-custom {
       width: 88%;
-      /*fix*/
+      
    }
 }
 
 @media all and (max-width: 480px) {
    .container-custom {
       width: 82%;
-      /*fix*/
+      
    }
 }
 

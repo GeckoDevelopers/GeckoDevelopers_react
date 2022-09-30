@@ -28,22 +28,18 @@ export default function ServiziMain() {
                   </div>
 
                   <p>
-                     {t('services.paragrafo1')}
+                     {t('servizi_mainpage.paragrafo1')}
                      <br />
                      <br />
-                     {t('services.paragrafo2')}
+                     {t('servizi_mainpage.paragrafo2')}
                   </p>
                </div>
-            </div>
-
-            <div className="riga">
                 {cards_service.map((card, i) => {
                     // Return the element. Also pass key     
                     return (<ServiceCard key={card.id} data={card} />) 
                 })}
             </div>
          </div> 
-         
       </section>
    );
 };

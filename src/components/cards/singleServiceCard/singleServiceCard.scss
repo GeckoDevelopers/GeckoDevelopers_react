@@ -1,6 +1,7 @@
 @import '../../../variabili.scss';
 
-#portfolioCard {
+
+#singleServiceCard {
 	width: 100%;
 	height: 328px;
 	background: rgba(0, 0, 0, 0);
@@ -9,7 +10,6 @@
 	
 	margin-bottom: 0.7%;
 
-	
 	// &:hover {
 	//     margin-top: -10px;
 	//     margin-left: -10px;
@@ -112,13 +112,13 @@
 		}
 	}
 }
-#portfolioCard.full_gray:before,
-#portfolioCard.full_gray:after {
+#SingleServiceCard.full_gray:before,
+#SingleServiceCard.full_gray:after {
 	background: $gray;
 }
 
-#portfolioCard.full_gray,
-#portfolioCard.full_gray {
+#SingleServiceCard.full_gray,
+#SingleServiceCard.full_gray {
 	h3 {
 		color: $gray;
 	}
@@ -128,13 +128,13 @@
 	}
 }
 
-#portfolioCard.individuals_el_green:before,
-#portfolioCard.individuals_el_green:after {
+#SingleServiceCard.individuals_el_green:before,
+#SingleServiceCard.individuals_el_green:after {
 	background: $light-green;
 }
 
-#portfolioCard.individuals_el_green,
-#portfolioCard.individuals_el_green {
+#SingleServiceCard.individuals_el_green,
+#SingleServiceCard.individuals_el_green {
 	h3 {
 		color: $light-green;
 	}
@@ -144,13 +144,13 @@
 	}
 }
 
-#portfolioCard.companies_green:before,
-#portfolioCard.companies_green:after {
+#SingleServiceCard.companies_green:before,
+#SingleServiceCard.companies_green:after {
 	background: $green;
 }
 
-#portfolioCard.companies_green,
-#portfolioCard.companies_green {
+#SingleServiceCard.companies_green,
+#SingleServiceCard.companies_green {
 	h3 {
 		color: $green;
 	}
@@ -160,13 +160,13 @@
 	}
 }
 
-#portfolioCard.design_dk_green:before,
-#portfolioCard.design_dk_green:after {
+#SingleServiceCard.design_dk_green:before,
+#SingleServiceCard.design_dk_green:after {
 	background: $dark-green;
 }
 
-#portfolioCard.design_dk_green,
-#portfolioCard.design_dk_green {
+#SingleServiceCard.design_dk_green,
+#SingleServiceCard.design_dk_green {
 	h3 {
 		color: $dark-green;
 	}
@@ -176,13 +176,13 @@
 	}
 }
 
-#portfolioCard.continuous_yellow:before,
-#portfolioCard.continuous_yellow:after {
+#SingleServiceCard.continuous_yellow:before,
+#SingleServiceCard.continuous_yellow:after {
 	background: $yellow;
 }
 
-#portfolioCard.continuous_yellow,
-#portfolioCard.continuous_yellow {
+#SingleServiceCard.continuous_yellow,
+#SingleServiceCard.continuous_yellow {
 	h3 {
 		color: $yellow;
 	}
@@ -192,13 +192,13 @@
 	}
 }
 
-#portfolioCard.content_orange:before,
-#portfolioCard.content_orange:after {
+#SingleServiceCard.content_orange:before,
+#SingleServiceCard.content_orange:after {
 	background: $orange;
 }
 
-#portfolioCard.content_orange,
-#portfolioCard.content_orange {
+#SingleServiceCard.content_orange,
+#SingleServiceCard.content_orange {
 	h3 {
 		color: $orange;
 	}
@@ -208,13 +208,13 @@
 	}
 }
 
-#portfolioCard.marketing_red:before,
-#portfolioCard.marketing_red:after {
+#SingleServiceCard.marketing_red:before,
+#SingleServiceCard.marketing_red:after {
 	background: $red;
 }
 
-#portfolioCard.marketing_red,
-#portfolioCard.marketing_red {
+#SingleServiceCard.marketing_red,
+#SingleServiceCard.marketing_red {
 	h3 {
 		color: $red;
 	}

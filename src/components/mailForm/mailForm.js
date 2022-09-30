@@ -46,38 +46,38 @@ export default function MailForm() {
 				<form ref={form} onSubmit={sendMail}>
 					<div className="sinistra">
 						<div className="input_label">
-							<label htmlFor="fname">Name</label>
+							<label htmlFor="fname">{t('contact.inputs.name')}</label>
 							<input type="text" name="nome" />
 						</div>
 						<div className="input_label">
-							<label htmlFor="email">E-mail</label>
+							<label htmlFor="email">{t('contact.inputs.email')}</label>
 							<input type="email" name="email" placeholder={t('contact.placeholderemail')} />
 						</div>
 						<div className="input_label">
-							<label htmlFor="subject">Subject</label>
+							<label htmlFor="subject">{t('contact.inputs.subject')}</label>
 							<input type="text" name="oggetto" />
 						</div>
 					</div>
 
 					<div className="corpo-email">
-						<label htmlFor="subject">Message</label>
+						<label htmlFor="subject">{t('contact.inputs.message')}</label>
 						<textarea rows="12" cols="12" name="message" placeholder={t('contact.placeholdermsg')}></textarea>
 					</div>
 
 					<div className="sotto">
 						<div className="privacy">
-							<span>
-								By sending your email you accept our Privacy Policy. We will not save any of your personal details, they will be used only for
-								contact purposes.
-							</span>
+							<span>{t('contact.privacy')}</span>
 							<br />
 						</div>
-						<input type="submit" value="Send" />
+						<input type="submit" value={t('contact.send')} />
 					</div>
 				</form>
 				<h2 className="email-sended">{emailSended ? `${t('contact.emailsended')}` : ''}</h2>
 				<p className="more-contacts">
-					You can also find us here: <span>info@geckodevelopers.com</span>
+                    {t('contact.findushere')}
+                    <span>
+                        info@geckodevelopers.com
+                    </span>
 				</p>
 			</div>
 

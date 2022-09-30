@@ -87,15 +87,24 @@
         "title": "SERVICES",
         "paragrafo1": "Gecko Developers is able to offer a wide variety of services to help you realize your dream website. From the initial design, to creating content, to your digital presence, Gecko Developers can work with you from the beginning, and continue to work with you along the way to make sure everything is being run smoothly, and the way you desired. You are free to choose any or multiple services from our offerings that better suit your needs."
     },
-    "contact": {
-        "title": "NEED MORE INFORMATION AND ESTIMATE?",
-        "placeholderemail": "Kindly enter valid email, you will be contacted there",
-        "placeholdermsg": "Write your message here",
-        "emailsended": "The e-mail was send succesfully"
-    },
     "portfolio": {
         "title": "PORTFOLIO",
         "subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
+    },
+    "contact": {
+        "title": "NEED MORE INFORMATION AND ESTIMATE?",
+        "inputs": {
+            "name": "Name",
+            "email": "E-mail",
+            "subject": "Subject",
+            "message": "Message"
+        },
+        "placeholderemail": "Kindly enter valid email, you will be contacted there",
+        "placeholdermsg": "Write your message here",
+        "privacy": "By sending your email you accept our Privacy Policy. We will not save any of your personal details, they will be used only for contact purposes.",
+        "send": "Send",
+        "emailsended": "The e-mail was send succesfully",
+        "findushere": "You can also find us here: "
     },
 
   "card_view_more": "View more...",

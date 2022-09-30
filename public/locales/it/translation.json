@@ -83,19 +83,28 @@
     "title": "Chi siamo",
     "subtitle": "Siamo un gruppo di professionisti che si sono uniti per costruire un ambiente lavorativo ottimale basato sulla qualità dell’ambiente lavorativo stesso e sulla qualità dei nostri prodotti. Il nostro obiettivo è diventare un vero e proprio punto di riferimento per aziende, professionisti e privati, per una visibilità completa su Internet e molto altro! Vogliamo crescere e siamo alla ricerca di talenti come programmatori senior, sviluppatori di app, personale addetto al marketing e, anche se non dovremmo ancora parlarne, forse a lungo termine anche per lo sviluppo di videogiochi. Se desideri conoscere la nostra realtà non esitare a contattarci sulla nostra email qui sotto e ad inviarci il tuo curriculum!"
   },
-  "services": {
-    "title": "Servizi",
-    "paragrafo1": "Operiamo in vari campi e con vari servizi. Questi sono alcuni dei nostri servizi più richiesti, scelti fra la nostra gamma di offerte al dettaglio che variano in molti campi fino alla videoludica."
-    },
-    "contact": {
-        "title": "hai bisogno di piu informazioni e preventivi? contattaci!",
-        "placeholderemail": "Gentilmente inserisci una email valida, sarai contattato li",
-        "placeholdermsg": "scrivi qui il tuo messaggio",
-        "emailsended": "L'email e' stata inviata con successo"
+    "services": {
+        "title": "Servizi",
+        "paragrafo1": "Operiamo in vari campi e con vari servizi. Questi sono alcuni dei nostri servizi più richiesti, scelti fra la nostra gamma di offerte al dettaglio che variano in molti campi fino alla videoludica."
     },
     "portfolio": {
         "title": "portfolio",
         "subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
+    },
+    "contact": {
+        "title": "vuoi piu informazioni e preventivi? scrivici!",
+        "inputs": {
+                "name": "Nome",
+                "email": "E-mail",
+                "subject": "Oggetto",
+                "messagge": "Messaggio"
+            },
+        "placeholderemail": "Gentilmente inserisci una email valida, sarai contattato li",
+        "placeholdermsg": "scrivi qui il tuo messaggio",
+        "privacy": "Inviando la tua mail accetti la nostra Privacy Policy. Non salveremo nessun tuo dato, l'email fornita sarà unicamente usata ai fini della risposta",
+        "send": "Invia",
+        "emailsended": "L'email e' stata inviata con successo",
+        "findushere": "Ci puoi anche trovare qui: "
     },
     
   "card_view_more": "scopri...",

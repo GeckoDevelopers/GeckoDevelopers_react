@@ -12,9 +12,11 @@ export default function MailForm() {
 
 	function sendMail(e) {
 		setEmailSended(true)
-        
+
 		e.preventDefault()
-		emailjs.sendForm('gmail', 'template_zjmrdij', form.current, 's2f0n7Fyg964jaMFu').then(
+		emailjs
+			.sendForm('gmail', 'template_zjmrdij', form.current, 's2f0n7Fyg964jaMFu')
+			.then
 			// result => {
 			// 	console.log(result.text)
 			// 	document.getElementsByClassName('mailForm_overlay')[0].innerHTML = '<p><i className="fas fa-check"></i> Mail Sent</p>'
@@ -29,7 +31,7 @@ export default function MailForm() {
 			// 	document.getElementsByClassName('mailForm_overlay')[0].innerHTML =
 			// 		'<p><i className="far fa-times">Something goed wrong try to check the email</i></p>'
 			// }
-		)
+			()
 		e.target.reset()
 	}
 
@@ -74,10 +76,8 @@ export default function MailForm() {
 				</form>
 				<h2 className="email-sended">{emailSended ? `${t('contact.emailsended')}` : ''}</h2>
 				<p className="more-contacts">
-                    {t('contact.findushere')}
-                    <span>
-                        info@geckodevelopers.com
-                    </span>
+					{t('contact.findushere')}
+					<span>info@geckodevelopers.com</span>
 				</p>
 			</div>
 

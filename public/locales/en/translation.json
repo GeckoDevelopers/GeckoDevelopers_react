@@ -1,460 +1,449 @@
 {
-  "navbar": {
-    "home": "/ home",
-    "about_us": "/ about us",
-    "services": "/ services",
-    "portfolio": "/ portfolio",
-    "contacts": "/ contacts",
-    "languages": {
-      "text": "/ English",
-      "image": "english.jpg"
-    }
-  },
-  "languages": [
-    {
-      "text": "/ Italiano",
-      "image": "italiano.jpg",
-      "link": "it"
-    }
-  ],
-  "minimenuservizi": [
-    {
-      "id": "all",
-      "title": "All Services",
-      "link": "/servizi_mainpage"
-    },
-    {
-      "id": "full",
-      "title": "Full Package",
-      "link": "/full"
-    },
-    {
-      "id": "indivisuals",
-      "title": "Website for Individuals",
-      "link": "/individuals"
-    },
-    {
-      "id": "companies",
-      "title": "Website for Companies",
-      "link": "/companies"
-    },
-    {
-      "id": "design",
-      "title": "Creative Design",
-      "link": "/design"
-    },
-    {
-      "id": "support",
-      "title": "Continuous Support",
-      "link": "/support"
-    },
-    {
-      "id": "content",
-      "title": "Content Creation",
-      "link": "/contentcreation"
-    },
-    {
-      "id": "marketing",
-      "title": "Marketing Activities & Consultancy",
-      "link": "/marketing"
-    },
-    {
-      "id": "socialmediamanagement",
-      "title": "social media management",
-      "link": "/social_media_management"
-    },
-    {
-      "id": "creationapp",
-      "title": "smartphone app",
-      "link": "/creation_app"
-    },
-    {
-      "id": "videogames",
-      "title": "Videoludica",
-      "link": "/videoludica"
-    }
-    ],
-    "jumbo": {
-        "title1": "A COMPANY FOR ALL YOUR NEEDS",
-        "title2": "TO REALIZE YOUR DREAMS",
-        "subtitle": "Founded by a group of individuals with various skills, we provide expertise in multiple areas in order to help you achieve the result you imagine for your website or business."
-    },
-    "about": {
-        "title": "ABOUT US",
-        "subtitle": "We are a newborn group of professionals that went together to build a workplace based on a good work environment and quality of our products. Our goal is to become a fully fledged one point stop for companies, professionals and individuals, for complete visibility on the internet and much more! We want to grow and are looking for talents like senior programmers, app developers, marketing related personnel and, even if we shouldn't talk about that yet, maybe in the long term some indie games development too. If you wish to know our reality feel free to contact us on ours email below and send your resume"
-    },
-    "services": {
-        "title": "SERVICES",
-        "paragrafo1": "Gecko Developers is able to offer a wide variety of services to help you realize your dream website. From the initial design, to creating content, to your digital presence, Gecko Developers can work with you from the beginning, and continue to work with you along the way to make sure everything is being run smoothly, and the way you desired. You are free to choose any or multiple services from our offerings that better suit your needs."
-    },
-    "portfolio": {
-        "title": "PORTFOLIO",
-        "subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
-    },
-    "contact": {
-        "title": "NEED MORE INFORMATION AND ESTIMATE?",
-        "inputs": {
-            "name": "Name",
-            "email": "E-mail",
-            "subject": "Subject",
-            "message": "Message"
-        },
-        "placeholderemail": "Kindly enter valid email, you will be contacted there",
-        "placeholdermsg": "Write your message here",
-        "privacy": "By sending your email you accept our Privacy Policy. We will not save any of your personal details, they will be used only for contact purposes.",
-        "send": "Send",
-        "emailsended": "The e-mail was send succesfully",
-        "findushere": "You can also find us here: "
-    },
+	"navbar": {
+		"home": "/ home",
+		"about_us": "/ about us",
+		"services": "/ services",
+		"portfolio": "/ portfolio",
+		"contacts": "/ contacts",
+		"languages": {
+			"text": "/ English",
+			"image": "english.jpg"
+		}
+	},
+	"languages": [
+		{
+			"text": "/ Italiano",
+			"image": "italiano.jpg",
+			"link": "it"
+		}
+	],
+	"minimenuservizi": [
+		{
+			"id": "all",
+			"title": "All Services",
+			"link": "/servizi_mainpage"
+		},
+		{
+			"id": "full",
+			"title": "Full Package",
+			"link": "/full"
+		},
+		{
+			"id": "indivisuals",
+			"title": "Website for Individuals",
+			"link": "/individuals"
+		},
+		{
+			"id": "companies",
+			"title": "Website for Companies",
+			"link": "/companies"
+		},
+		{
+			"id": "design",
+			"title": "Creative Design",
+			"link": "/design"
+		},
+		{
+			"id": "support",
+			"title": "Continuous Support",
+			"link": "/support"
+		},
+		{
+			"id": "content",
+			"title": "Content Creation",
+			"link": "/contentcreation"
+		},
+		{
+			"id": "marketing",
+			"title": "Marketing Activities & Consultancy",
+			"link": "/marketing"
+		},
+		{
+			"id": "socialmediamanagement",
+			"title": "social media management",
+			"link": "/social_media_management"
+		},
+		{
+			"id": "creationapp",
+			"title": "smartphone app",
+			"link": "/creation_app"
+		},
+		{
+			"id": "videogames",
+			"title": "Videoludica",
+			"link": "/videoludica"
+		}
+	],
+	"jumbo": {
+		"title1": "A COMPANY FOR ALL YOUR NEEDS",
+		"title2": "TO REALIZE YOUR DREAMS",
+		"subtitle": "Founded by a group of individuals with various skills, we provide expertise in multiple areas in order to help you achieve the result you imagine for your website or business."
+	},
+	"about": {
+		"title": "ABOUT US",
+		"subtitle": "We are a newborn group of professionals that went together to build a workplace based on a good work environment and quality of our products. Our goal is to become a fully fledged one point stop for companies, professionals and individuals, for complete visibility on the internet and much more! We want to grow and are looking for talents like senior programmers, app developers, marketing related personnel and, even if we shouldn't talk about that yet, maybe in the long term some indie games development too. If you wish to know our reality feel free to contact us on ours email below and send your resume"
+	},
+	"services": {
+		"title": "SERVICES",
+		"paragrafo1": "Gecko Developers is able to offer a wide variety of services to help you realize your dream website. From the initial design, to creating content, to your digital presence, Gecko Developers can work with you from the beginning, and continue to work with you along the way to make sure everything is being run smoothly, and the way you desired. You are free to choose any or multiple services from our offerings that better suit your needs."
+	},
+	"portfolio": {
+		"title": "PORTFOLIO",
+		"subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
+	},
+	"contact": {
+		"title": "NEED MORE INFORMATION AND ESTIMATE?",
+		"inputs": {
+			"name": "Name",
+			"email": "E-mail",
+			"subject": "Subject",
+			"message": "Message"
+		},
+		"placeholderemail": "Kindly enter valid email, you will be contacted there",
+		"placeholdermsg": "Write your message here",
+		"privacy": "By sending your email you accept our Privacy Policy. We will not save any of your personal details, they will be used only for contact purposes.",
+		"send": "Send",
+		"emailsended": "The e-mail was send succesfully",
+		"findushere": "You can also find us here: "
+	},
 
-  "card_view_more": "View more...",
-  "services_description": "Per scoprire tutti i nostri servizi",
-  "services_link": "Clicca qui!",
+	"card_view_more": "View more...",
+	"services_description": "Per scoprire tutti i nostri servizi",
+	"services_link": "Clicca qui!",
 
-  "cards_service": [
-    {
-      "id": "card_full",
-      "title": "FULL PACKAGE",
-      "paragrafo": "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise.",
-      "color": "full_gray",
-      "icon": "./img/icon_full.png",
-      "link": "/full"
-    },
-    {
-      "id": "card_individuals",
-      "title": "WEBSITE FOR INDIVIDUALS",
-      "paragrafo": "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility.",
-      "color": "individuals_el_green",
-      "icon": "./img/icon_individuals.png",
-      "link": "/individuals"
-    },
-    {
-      "id": "card_companies",
-      "title": "WEBSITE FOR COMPANIES",
-      "paragrafo": "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers.",
-      "color": "content_orange",
-      "icon": "./img/icon_companies.png",
-      "link": "/companies"
-    },
-    {
-      "id": "card_design",
-      "title": "CREATIVE DESIGN",
-      "paragrafo": "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team.",
-      "color": "design_dk_green",
-      "icon": "./img/icon_creative.png",
-      "link": "/design"
-    },
-    {
-      "id": "card_support",
-      "title": "CONTINUOUS SUPPORT",
-      "paragrafo": "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly.",
-      "color": "continuous_yellow",
-      "icon": "./img/icon_support.png",
-      "link": "/support"
-    },
-    {
-      "id": "card_content_creation",
-      "title": "CONTENT CREATION",
-      "paragrafo": "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts.",
-      "color": "companies_green",
-      "icon": "./img/icon_content.png",
-      "link": "/content_creation"
-    },
-    {
-      "id": "card_marketing",
-      "title": "MARKETING ACTIVITIES AND CONSULTANCY",
-      "paragrafo": "Constructing necessary marketing activities, campaigns, both online and offline, to better promote your brand or your business to your audience and customers, help you generate leads and revenue, with the help of our expert marketers and strategists.",
-      "color": "marketing_red",
-      "icon": "./img/icon_marketing.png",
-      "link": "/marketing"
-    },
-    {
-      "id": "card_app",
-      "title": "creazione app",
-      "paragrafo": "Oggi tutto passa per il telefono e avere un'applicazione può essere uno strumento utile nell’essere un passo avanti nell’assistenza al cliente",
-      "color": "full_gray",
-      "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
-      "link": "/broke"
-    },
-    {
-      "id": "card_games",
-      "title": "ideificio giochi",
-      "paragrafo": "lorem ipsum dolor faucere eficere dicit",
-      "color": "individuals_el_green",
-      "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
-      "link": "/broke"
-    },
-    {
-      "id": "card_socialmedia",
-      "title": "social media management",
-      "paragrafo": "lorem ipsum dolor faucere eficere dicit",
-      "color": "design_dk_green",
-      "icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
-      "link": "/broke"
-    }
-  ],
+	"cards_service": [
+		{
+			"id": "card_full",
+			"title": "FULL PACKAGE",
+			"paragrafo": "From the design to the logo and your brand and website, to content creation and strategical communications, making sure every asset is created to your needs, together with our expertise.",
+			"color": "full_gray",
+			"icon": "./img/icon_full.png",
+			"link": "/full"
+		},
+		{
+			"id": "card_individuals",
+			"title": "WEBSITE FOR INDIVIDUALS",
+			"paragrafo": "Creating a website for you or your brand the way you want, to help you gain a foothold on internet visibility.",
+			"color": "individuals_el_green",
+			"icon": "./img/icon_individuals.png",
+			"link": "/individuals"
+		},
+		{
+			"id": "card_companies",
+			"title": "WEBSITE FOR COMPANIES",
+			"paragrafo": "Creating the website for your business or company that fits to the best of your or your industry’s needs, together with our developers.",
+			"color": "content_orange",
+			"icon": "./img/icon_companies.png",
+			"link": "/companies"
+		},
+		{
+			"id": "card_design",
+			"title": "CREATIVE DESIGN",
+			"paragrafo": "Designing your logo, brand image, website, as well as graphics and sound branding the way you wish, together with our Design & Creative Team.",
+			"color": "design_dk_green",
+			"icon": "./img/icon_creative.png",
+			"link": "/design"
+		},
+		{
+			"id": "card_support",
+			"title": "CONTINUOUS SUPPORT",
+			"paragrafo": "Making sure the website is updated, run smoothly, and maintained on a regular basis, as well as creating your, your brand’s or your business’ presence online through social media channels and content, maintained and managed regularly.",
+			"color": "continuous_yellow",
+			"icon": "./img/icon_support.png",
+			"link": "/support"
+		},
+		{
+			"id": "card_content_creation",
+			"title": "CONTENT CREATION",
+			"paragrafo": "Creating the necessary strategic content for you, your brand or your business in your industry together with our experts.",
+			"color": "companies_green",
+			"icon": "./img/icon_content.png",
+			"link": "/content_creation"
+		},
+		{
+			"id": "card_marketing",
+			"title": "MARKETING ACTIVITIES AND CONSULTANCY",
+			"paragrafo": "Constructing necessary marketing activities, campaigns, both online and offline, to better promote your brand or your business to your audience and customers, help you generate leads and revenue, with the help of our expert marketers and strategists.",
+			"color": "marketing_red",
+			"icon": "./img/icon_marketing.png",
+			"link": "/marketing"
+		},
+		{
+			"id": "card_app",
+			"title": "creazione app",
+			"paragrafo": "Oggi tutto passa per il telefono e avere un'applicazione può essere uno strumento utile nell’essere un passo avanti nell’assistenza al cliente",
+			"color": "full_gray",
+			"icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+			"link": "/broke"
+		},
+		{
+			"id": "card_games",
+			"title": "ideificio giochi",
+			"paragrafo": "lorem ipsum dolor faucere eficere dicit",
+			"color": "individuals_el_green",
+			"icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+			"link": "/broke"
+		},
+		{
+			"id": "card_socialmedia",
+			"title": "social media management",
+			"paragrafo": "lorem ipsum dolor faucere eficere dicit",
+			"color": "design_dk_green",
+			"icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+			"link": "/broke"
+		}
+	],
 
-  "servizi_mainpage": {
-    "paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua presenza digitale, Gecko Developers ti accompagna in ogni fase del percorso. Il nostro compito? Assicurarci che tutto proceda senza intoppi e nel modo in cui desideri.",
-    "paragrafo2": "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze."
-  },
+	"servizi_mainpage": {
+		"paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua presenza digitale, Gecko Developers ti accompagna in ogni fase del percorso. Il nostro compito? Assicurarci che tutto proceda senza intoppi e nel modo in cui desideri.",
+		"paragrafo2": "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze."
+	},
 
-  "full": {
-    "title": "pacchetto completo",
-    "icon": "icon_full.png",
-    "description": "Quando si crea una nuova attività o si sviluppa il proprio marchio, ci sono molti aspetti e attività da considerare. Avere una coerenza efficiente su tutti i canali e tutte le attività è fondamentale per affermare il tuo marchio.",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Una pianificazione corretta insieme ad una strategia per ognuna delle tue interfacce con il pubblico ti aiuterà anche a mantenere un risultato positivo consentendo anche di prendere decisioni più rapide e permettendoti di avere soluzioni per situazioni non previste o difficili.",
-    "list": {
-      "titlelist": "I nostri servizi per il Pacchetto Completo includono:",
-      "bodylist": [
-        "Creazione del tuo sito web",
-        "Design creativo",
-        "Supporto continuo",
-        "Creazione di contenuti",
-        "Attività di marketing e consulenza"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "full_gray",
-    "cards": []
-  },
+	"full": {
+		"title": "pacchetto completo",
+		"icon": "icon_full.png",
+		"description": "Quando si crea una nuova attività o si sviluppa il proprio marchio, ci sono molti aspetti e attività da considerare. Avere una coerenza efficiente su tutti i canali e tutte le attività è fondamentale per affermare il tuo marchio.",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Una pianificazione corretta insieme ad una strategia per ognuna delle tue interfacce con il pubblico ti aiuterà anche a mantenere un risultato positivo consentendo anche di prendere decisioni più rapide e permettendoti di avere soluzioni per situazioni non previste o difficili.",
+		"list": {
+			"titlelist": "I nostri servizi per il Pacchetto Completo includono:",
+			"bodylist": [
+				"Creazione del tuo sito web",
+				"Design creativo",
+				"Supporto continuo",
+				"Creazione di contenuti",
+				"Attività di marketing e consulenza"
+			]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "full_gray",
+		"cards": []
+	},
 
-  "individuals": {
-    "title": "sito web per piccole imprese e privati ",
-    "icon": "icon_individuals.png",
-    "description": "Avere un sito web online sta diventando uno dei modi più efficienti per mostrare chi sei, di cosa sei capace e può avere la funzione di portfolio online. Che tu sia un fotografo, un artista, un architetto, un designer, un musicista o un blogger è molto importante che il tuo contenuto arrivi a più persone possibili in modo chiaro e con un design accattivante al fine di esaltare l’immagine del tuo brand.",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Mostrare il tuo contenuto attraverso un sito web aiuta ad aumentare la tua credibilità sul mercato apparendo più professionale ai tuoi clienti, fan, follower ed eventuali collaboratori.",
-    "list": {
-      "titlelist": "Attraverso i nostri sviluppatori esperti ti offriamo una creazione di siti web con differenti livelli di interattività a seconda dei tuoi bisogni e necessità",
-      "bodylist": [
-        "siti vetrina a pagina singola",
-        "siti multi pagina",
-        "livelli base di interattività"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "individuals_el_green",
-    "cards": [
-        "carlolivio",
-        "luigimasi"
-    ]
-  },
+	"individuals": {
+		"title": "sito web per piccole imprese e privati ",
+		"icon": "icon_individuals.png",
+		"description": "Avere un sito web online sta diventando uno dei modi più efficienti per mostrare chi sei, di cosa sei capace e può avere la funzione di portfolio online. Che tu sia un fotografo, un artista, un architetto, un designer, un musicista o un blogger è molto importante che il tuo contenuto arrivi a più persone possibili in modo chiaro e con un design accattivante al fine di esaltare l’immagine del tuo brand.",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Mostrare il tuo contenuto attraverso un sito web aiuta ad aumentare la tua credibilità sul mercato apparendo più professionale ai tuoi clienti, fan, follower ed eventuali collaboratori.",
+		"list": {
+			"titlelist": "Attraverso i nostri sviluppatori esperti ti offriamo una creazione di siti web con differenti livelli di interattività a seconda dei tuoi bisogni e necessità",
+			"bodylist": ["siti vetrina a pagina singola", "siti multi pagina", "livelli base di interattività"]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "individuals_el_green",
+		"cards": ["carlolivio", "luigimasi"]
+	},
 
-  "companies": {
-    "title": "Sito web per aziende ",
-    "icon": "icon_companies.png",
-    "description": "Se stai sviluppando una start-up, aprendo un'attività o rappresentando un'azienda già avviata, è cruciale avere un sito web che mostri chiaramente la tua identità e che ti connetta con il target di clientela a cui stai mirando in modo chiaro e professionale. Avere un sito web ti aiuta ad aumentare la tua credibilità, a comunicare informazioni, garantire una costante accessibilità, aumentare la clientela e  farti pubblicità.",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Il tuo sito ha bisogno di essere semplice e facile da navigare, mantenendo informazioni precise e dettagliate a proposito della tua attività o azienda e promuovendo il tuo marchio",
-    "list": {
-      "titlelist": "attraverso i nostri developers esperti ti offriamo la creazione di un sito web con molteplici livelli di interattività che possano al meglio coprire le esigenze e necessità della tua azienda o attività",
-      "bodylist": [
-        "siti complessi a pagina multipla",
-        "database",
-        "ecommerce",
-        "marketplace",
-        "alti livelli di interattività",
-        "pagamenti online"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "companies_green",
-    "cards": []
-  },
+	"companies": {
+		"title": "Sito web per aziende ",
+		"icon": "icon_companies.png",
+		"description": "Se stai sviluppando una start-up, aprendo un'attività o rappresentando un'azienda già avviata, è cruciale avere un sito web che mostri chiaramente la tua identità e che ti connetta con il target di clientela a cui stai mirando in modo chiaro e professionale. Avere un sito web ti aiuta ad aumentare la tua credibilità, a comunicare informazioni, garantire una costante accessibilità, aumentare la clientela e  farti pubblicità.",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Il tuo sito ha bisogno di essere semplice e facile da navigare, mantenendo informazioni precise e dettagliate a proposito della tua attività o azienda e promuovendo il tuo marchio",
+		"list": {
+			"titlelist": "attraverso i nostri developers esperti ti offriamo la creazione di un sito web con molteplici livelli di interattività che possano al meglio coprire le esigenze e necessità della tua azienda o attività",
+			"bodylist": [
+				"siti complessi a pagina multipla",
+				"database",
+				"ecommerce",
+				"marketplace",
+				"alti livelli di interattività",
+				"pagamenti online"
+			]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "companies_green",
+		"cards": []
+	},
 
-  "design": {
-    "title": "creative design ",
-    "icon": "icon_creative.png",
-    "description": "Per quanto semplice possa sembrare, avere un professionista nel campo della grafica che si occupa dell’asset grafico, dal logo alla creazione di immagini o video, non solo dà coerenza e fascino grafico, ma può anche aumentare la credibilità del tuo brand e trasmette più efficientemente il tuo messaggio",
-    "subtitle": "Piani & strategie",
-    "paragraph": "qualsiasi azione online tu stia intraprendendo, dalla costruzione di un sito web alla creazione di un logo, pubblicità o contenuti social, avere un buon design è una delle parti fondamentali e che più colpiscono il cliente. Il Design è una parte essenziali per un grande progetto a lungo termine",
-    "list": {
-      "titlelist": "I nostri servizi di Creative Design includono:",
-      "bodylist": [
-        "Design logo e marchio",
-        "Web Design",
-        "Sound Design",
-        "Creazione, montaggio e modifiche video",
-        "Imagery",
-        "Motion graphics"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "design_dk_green",
-    "cards": []
-  },
+	"design": {
+		"title": "creative design ",
+		"icon": "icon_creative.png",
+		"description": "Per quanto semplice possa sembrare, avere un professionista nel campo della grafica che si occupa dell’asset grafico, dal logo alla creazione di immagini o video, non solo dà coerenza e fascino grafico, ma può anche aumentare la credibilità del tuo brand e trasmette più efficientemente il tuo messaggio",
+		"subtitle": "Piani & strategie",
+		"paragraph": "qualsiasi azione online tu stia intraprendendo, dalla costruzione di un sito web alla creazione di un logo, pubblicità o contenuti social, avere un buon design è una delle parti fondamentali e che più colpiscono il cliente. Il Design è una parte essenziali per un grande progetto a lungo termine",
+		"list": {
+			"titlelist": "I nostri servizi di Creative Design includono:",
+			"bodylist": [
+				"Design logo e marchio",
+				"Web Design",
+				"Sound Design",
+				"Creazione, montaggio e modifiche video",
+				"Imagery",
+				"Motion graphics"
+			]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "design_dk_green",
+		"cards": []
+	},
 
-  "support": {
-    "title": "Assistenza continua ",
-    "icon": "icon_support.png",
-    "description": "Gestire un sito web non è un compito facile. Un sito Web deve essere mantenuto, aggiornato e monitorato regolarmente per assicurarsi che funzioni correttamente, che i contenuti siano aggiornati e che le pagine siano visualizzate correttamente. Eseguire campagne SEO, inserire “parole chiave” utili e chiare aumenterà anche le visite al tuo sito web, quindi ti metterà più in alto nei risultati dei motori di ricerca.",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Ma avere solo il sito web potrebbe non essere sempre sufficiente per stabilire una buona presenza digitale che  potrebbe includere anche account di social media attivi che vengono mantenuti e utilizzati regolarmente. Molte aziende e imprenditori si sono già promossi e pubblicizzati sui social media, con molte altre che si aggiungono ogni giorno. Per molti tipi di industrie, una presenza sui social media non è più opzionale, ma sempre più una necessità.",
-    "list": {
-      "titlelist": "I nostri servizi per l’assistenza continua includono:",
-      "bodylist": [
-        "Manutenzione e aggiornamento del tuo sito web",
-        "Classifica e analisi di Google",
-        "SEO (Search Engine Optimization) e SEM (Search Engine Marketing), gestione delle parole chiave",
-        "Creazione e gestione di account sui social media"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "continuous_yellow",
-    "cards": []
-  },
+	"support": {
+		"title": "Assistenza continua ",
+		"icon": "icon_support.png",
+		"description": "Gestire un sito web non è un compito facile. Un sito Web deve essere mantenuto, aggiornato e monitorato regolarmente per assicurarsi che funzioni correttamente, che i contenuti siano aggiornati e che le pagine siano visualizzate correttamente. Eseguire campagne SEO, inserire “parole chiave” utili e chiare aumenterà anche le visite al tuo sito web, quindi ti metterà più in alto nei risultati dei motori di ricerca.",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Ma avere solo il sito web potrebbe non essere sempre sufficiente per stabilire una buona presenza digitale che  potrebbe includere anche account di social media attivi che vengono mantenuti e utilizzati regolarmente. Molte aziende e imprenditori si sono già promossi e pubblicizzati sui social media, con molte altre che si aggiungono ogni giorno. Per molti tipi di industrie, una presenza sui social media non è più opzionale, ma sempre più una necessità.",
+		"list": {
+			"titlelist": "I nostri servizi per l’assistenza continua includono:",
+			"bodylist": [
+				"Manutenzione e aggiornamento del tuo sito web",
+				"Classifica e analisi di Google",
+				"SEO (Search Engine Optimization) e SEM (Search Engine Marketing), gestione delle parole chiave",
+				"Creazione e gestione di account sui social media"
+			]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "continuous_yellow",
+		"cards": []
+	},
 
-  "contentcreation": {
-    "title": "Creazione dei contenuti ",
-    "icon": "icon_content.png",
-    "description": "Il contenuto è una delle parti essenziali fra gli strumenti a tua disposizione. Identificano il tuo marchio, chi sei, cosa offri, ti aiuta a connettere con il tuo pubblico, i fan, i clienti, i futuri collaboratori, oltre a promuovere te, il tuo marchio e la tua azienda.",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Tramite i contenuti che si possono trovare sul tuo sito web e sulle tue piattaforme social hai la possibilità di consegnare il tuo messaggio all’utente. Creando contenuti coerenti, chiari e informativi, creerai un elenco di informazioni e dati sulle tue attività utili a trovare nuova clientela e pubblicizzarti nel modo migliore.",
-    "list": {
-      "titlelist": "I nostri servizi per la creazione di contenuti includono:",
-      "bodylist": [
-        "Creazione di contenuti per il tuo sito web ",
-        "Sviluppo di contenuti per i profili social",
-        "Consulenza e miglioramento nella creazione di contenuti",
-        "Copywriting"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "content_orange",
-    "cards": []
-  },
+	"contentcreation": {
+		"title": "Creazione dei contenuti ",
+		"icon": "icon_content.png",
+		"description": "Il contenuto è una delle parti essenziali fra gli strumenti a tua disposizione. Identificano il tuo marchio, chi sei, cosa offri, ti aiuta a connettere con il tuo pubblico, i fan, i clienti, i futuri collaboratori, oltre a promuovere te, il tuo marchio e la tua azienda.",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Tramite i contenuti che si possono trovare sul tuo sito web e sulle tue piattaforme social hai la possibilità di consegnare il tuo messaggio all’utente. Creando contenuti coerenti, chiari e informativi, creerai un elenco di informazioni e dati sulle tue attività utili a trovare nuova clientela e pubblicizzarti nel modo migliore.",
+		"list": {
+			"titlelist": "I nostri servizi per la creazione di contenuti includono:",
+			"bodylist": [
+				"Creazione di contenuti per il tuo sito web ",
+				"Sviluppo di contenuti per i profili social",
+				"Consulenza e miglioramento nella creazione di contenuti",
+				"Copywriting"
+			]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "content_orange",
+		"cards": []
+	},
 
-  "marketing": {
-    "title": "marketing e consulenza ",
-    "icon": "icon_marketing.png",
-    "description": "Stabilire strategie di marketing accurate e corrette è fondamentale per avere un giro di mercato solido che incrementerà le tue entrate e di conseguenza farà crescere la tua attività in qualunque ambito tu sia specializzato. Il marketing è il mezzo che ti permetterà di raggiungere la tua possibile futura clientela",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Insieme alle strategie di marketing, anche un “Brand identity” è un aspetto cruciale in qualsiasi forma di business o azienda. Un'identità d’impresa unica e, soprattutto, ben pensata e consolidata può aiutarti a promuovere migliori relazioni con i tuoi clienti o il tuo pubblico di destinazione, in quanto può contribuire a fornire coerenza al tuo marchio, fungendo al tempo stesso da linee guida per le tue attività future.",
-    "list": {
-      "titlelist": "I nostri servizi di di marketing e consulenza includono:",
-      "bodylist": [
-        "Strategie di marketing digitale e online",
-        "Strategie di marketing offline",
-        "Consulenza marketing",
-        "Misurazioni del ROI (Return on Investment)",
-        "Attivazione e monitoraggio della campagna di marketing",
-        "Realizzazione di campagne SEA (Search Engine Advertising)",
-        "Creazione di una brand identity"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "marketing_red",
-    "cards": []
-  },
+	"marketing": {
+		"title": "marketing e consulenza ",
+		"icon": "icon_marketing.png",
+		"description": "Stabilire strategie di marketing accurate e corrette è fondamentale per avere un giro di mercato solido che incrementerà le tue entrate e di conseguenza farà crescere la tua attività in qualunque ambito tu sia specializzato. Il marketing è il mezzo che ti permetterà di raggiungere la tua possibile futura clientela",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Insieme alle strategie di marketing, anche un “Brand identity” è un aspetto cruciale in qualsiasi forma di business o azienda. Un'identità d’impresa unica e, soprattutto, ben pensata e consolidata può aiutarti a promuovere migliori relazioni con i tuoi clienti o il tuo pubblico di destinazione, in quanto può contribuire a fornire coerenza al tuo marchio, fungendo al tempo stesso da linee guida per le tue attività future.",
+		"list": {
+			"titlelist": "I nostri servizi di di marketing e consulenza includono:",
+			"bodylist": [
+				"Strategie di marketing digitale e online",
+				"Strategie di marketing offline",
+				"Consulenza marketing",
+				"Misurazioni del ROI (Return on Investment)",
+				"Attivazione e monitoraggio della campagna di marketing",
+				"Realizzazione di campagne SEA (Search Engine Advertising)",
+				"Creazione di una brand identity"
+			]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "marketing_red",
+		"cards": []
+	},
 
-  "app": {
-    "title": "creazione app ",
-    "description": "Un’applicazione per raggiungere in modo interattivo l’utente finale, che sia singola o legata a un sito web, è il modo migliore di gestire la visibilità interattiva legata al traffico di dati, informazioni e notifiche.",
-    "subtitle": "Piani & strategie",
-    "paragraph": "Una valutazione corretta di come e se usare un'applicazione per cellulari può essere la scelta strategica che fa la differenza. Un sito con un grande afflusso di persone che creano aree private, social o un marketplace possono trarre un grande vantaggio da un applicazione, al contrario di un'app sviluppata per la sola visualizzazione non ha un grande impatto strategico",
-    "list": {
-      "titlelist": "La creazione di un App include:",
-      "bodylist": [
-        "Valutazione di fattibilità applicazione",
-        "creazione della app da zero",
-        "creazione di un app partendo dal sito"
-      ]
-    },
-    "contact": {
-      "pre": "Per maggiori informazioni, ",
-      "link": "contattaci!"
-    },
-    "color": "companies_green",
-    "cards": []
-  },
-  "cards_portfolio": [
-    {
-      "id": "carlolivio",
-      "title": "Carlo Livio Fotografia",
-      "paragrafo": "La fotografia e la passione si uniscono all'immaginazione e alla quiete rurale del passato in quella che è un'interpretazione luminosa della realtà",
-      "image1": "user.webp",
-      "image2": "user.webp",
-      "image3": "user.webp",
-      "color": "marketing_red",
-      "link": "https://carlo-livio.netlify.app/"
-    },
-    {
-      "id": "luigimasi",
-      "title": "Luigi Masi Personal Trainer",
-      "paragrafo": "Un personal trainer in grado di massimizzare quella che è la prestazione e la capacità fisica di base. La sua palestra è situata nel bacino di Napoli, guarda il sito per ulteriori info!",
-      "image1": "user.webp",
-      "image2": "user.webp",
-      "image3": "user.webp",
-      "color": "marketing_red",
-      "link": "https://luigimasi.netlify.app/"
-    }
-  ],
+	"app": {
+		"title": "creazione app ",
+		"description": "Un’applicazione per raggiungere in modo interattivo l’utente finale, che sia singola o legata a un sito web, è il modo migliore di gestire la visibilità interattiva legata al traffico di dati, informazioni e notifiche.",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Una valutazione corretta di come e se usare un'applicazione per cellulari può essere la scelta strategica che fa la differenza. Un sito con un grande afflusso di persone che creano aree private, social o un marketplace possono trarre un grande vantaggio da un applicazione, al contrario di un'app sviluppata per la sola visualizzazione non ha un grande impatto strategico",
+		"list": {
+			"titlelist": "La creazione di un App include:",
+			"bodylist": ["Valutazione di fattibilità applicazione", "creazione della app da zero", "creazione di un app partendo dal sito"]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "companies_green",
+		"cards": []
+	},
+	"cards_portfolio": [
+		{
+			"id": "carlolivio",
+			"title": "Carlo Livio Fotografia",
+			"paragrafo": "La fotografia e la passione si uniscono all'immaginazione e alla quiete rurale del passato in quella che è un'interpretazione luminosa della realtà",
+			"image1": "user.webp",
+			"image2": "user.webp",
+			"image3": "user.webp",
+			"color": "marketing_red",
+			"link": "https://carlo-livio.netlify.app/"
+		},
+		{
+			"id": "luigimasi",
+			"title": "Luigi Masi Personal Trainer",
+			"paragrafo": "Un personal trainer in grado di massimizzare quella che è la prestazione e la capacità fisica di base. La sua palestra è situata nel bacino di Napoli, guarda il sito per ulteriori info!",
+			"image1": "user.webp",
+			"image2": "user.webp",
+			"image3": "user.webp",
+			"color": "marketing_red",
+			"link": "https://luigimasi.netlify.app/"
+		}
+	],
 
-  "cards_abaut_us": [
-    {
-      "title": "Fabio Parisi",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "companies_green"
-    },
-    {
-      "title": "Francesco Livio",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "content_orange"
-    },
-    {
-      "title": "Claudio carchietti",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "continuous_yellow"
-    },
-    {
-      "title": "Andrea 'il Barba'",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "design_dk_green"
-    },
-    {
-      "title": "Andrea Gori",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "full_gray"
-    },
-    {
-      "title": "Fiorella",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "marketing_red"
-    },
-    {
-      "title": "Il Grande Fratello",
-      "paragrafo": "placeholder descrizione",
-      "image": "user.webp",
-      "color": "design_dk_green"
-    }
-  ]
+	"cards_abaut_us": [
+		{
+			"title": "Fabio Parisi",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "companies_green"
+		},
+		{
+			"title": "Francesco Livio",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "content_orange"
+		},
+		{
+			"title": "Claudio carchietti",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "continuous_yellow"
+		},
+		{
+			"title": "Andrea 'il Barba'",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "design_dk_green"
+		},
+		{
+			"title": "Andrea Gori",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "full_gray"
+		},
+		{
+			"title": "Fiorella",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "marketing_red"
+		},
+		{
+			"title": "Il Grande Fratello",
+			"paragrafo": "placeholder descrizione",
+			"image": "user.webp",
+			"color": "design_dk_green"
+		}
+	]
 }

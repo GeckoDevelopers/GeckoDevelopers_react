@@ -173,7 +173,7 @@
 			"title": "creazione app",
 			"paragrafo": "Oggi tutto passa per il telefono e avere un'applicazione può essere uno strumento utile nell’essere un passo avanti nell’assistenza al cliente",
 			"color": "full_gray",
-			"icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+			"icon": "services icon",
 			"link": "/broke"
 		},
 		{
@@ -181,7 +181,7 @@
 			"title": "ideificio giochi",
 			"paragrafo": "lorem ipsum dolor faucere eficere dicit",
 			"color": "individuals_el_green",
-			"icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+			"icon": "services icon",
 			"link": "/broke"
 		},
 		{
@@ -189,7 +189,7 @@
 			"title": "social media management",
 			"paragrafo": "lorem ipsum dolor faucere eficere dicit",
 			"color": "design_dk_green",
-			"icon": "pippo si fa le pippe... e qui ci sta il dubbio...",
+			"icon": "services icon",
 			"link": "/broke"
 		}
 	],

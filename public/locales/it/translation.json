@@ -178,8 +178,8 @@
 		},
 		{
 			"id": "card_games",
-			"title": "ideificio giochi",
-			"paragrafo": "lorem ipsum dolor faucere eficere dicit",
+			"title": "Videoludica",
+			"paragrafo": "Come passione portiamo avanti quella per i videogiochi, che siano semplici o complessi",
 			"color": "individuals_el_green",
 			"icon": "services icon",
 			"link": "/broke"
@@ -187,7 +187,7 @@
 		{
 			"id": "card_socialmedia",
 			"title": "social media management",
-			"paragrafo": "lorem ipsum dolor faucere eficere dicit",
+			"paragrafo": "Se un sito è il porto, il social media non può che essere il faro nella notte",
 			"color": "design_dk_green",
 			"icon": "services icon",
 			"link": "/broke"
@@ -363,14 +363,54 @@
 		"cards": []
 	},
 
+    "socialmedia": {
+		"title": "social media management",
+		"description": "Se un sito è il porto, il social media non può che essere il faro nella notte che sia per fare pubblicità o raggiungere velocemente i tuoi follower con le ultime news un social è il mezzo ideale per trasmettere offerte, promozioni e accattivare followers e potenziali clienti avere un social significa avere la possibilità di prendere grande visione online",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Dalla creazione del profilo alla sua manutenzione e la creazione e pianificazione dei suoi post sarete seguiti dai nostri esperti",
+		"list": {
+			"titlelist": "Il social management include:",
+			"bodylist": [
+                "creazione account dei vari social media",
+                "gestione e pubblicazione post",
+                "controllo dei messaggi",
+                "risposte a commenti e menzioni",
+                "interazioni con i followers"
+            ]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "companies_green",
+		"cards": []
+	},
+
 	"app": {
-		"title": "creazione app ",
+		"title": "creazione app",
 		"description": "Un’applicazione per raggiungere in modo interattivo l’utente finale, che sia singola o legata a un sito web, è il modo migliore di gestire la visibilità interattiva legata al traffico di dati, informazioni e notifiche.",
 		"subtitle": "Piani & strategie",
 		"paragraph": "Una valutazione corretta di come e se usare un'applicazione per cellulari può essere la scelta strategica che fa la differenza. Un sito con un grande afflusso di persone che creano aree private, social o un marketplace possono trarre un grande vantaggio da un applicazione, al contrario di un'app sviluppata per la sola visualizzazione non ha un grande impatto strategico",
 		"list": {
 			"titlelist": "La creazione di un App include:",
 			"bodylist": ["Valutazione di fattibilità applicazione", "creazione della app da zero", "creazione di un app partendo dal sito"]
+		},
+		"contact": {
+			"pre": "Per maggiori informazioni, ",
+			"link": "contattaci!"
+		},
+		"color": "companies_green",
+		"cards": []
+	},
+
+    "videoludica": {
+		"title": "creazione app",
+		"description": "Nella nostra sezione di videoludica ci occupiamo di quella che è l’ideazione, creazione e sviluppo di un videogioco, che sia per fare dei test o per divertirsi o per studiare un nuovo linguaggio e in futuro per sviluppare idee per giochi creati da noi. Questo è un nostro progetto che è attualmente in sviluppo per nostra passione",
+		"subtitle": "Piani & strategie",
+		"paragraph": "Attualmente alla scoperta di unity stiamo esplorando come mettere in pratica idee che abbiamo alla ricerca di quello che è un nostro divertimento",
+		"list": {
+			"titlelist": "non abbiamo servizi disponibili per la videoludica al momento, ma solo un insieme dei nostri progetti",
+			"bodylist": ["RTS medievali", "RTS fantesy", "spazio e tecnologia", "GDR"]
 		},
 		"contact": {
 			"pre": "Per maggiori informazioni, ",

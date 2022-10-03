@@ -91,10 +91,6 @@
     "services_description": "Per scoprire tutti i nostri servizi",
 	"services_link": "Clicca qui!",
 
-	"portfolio": {
-		"title": "portfolio",
-		"subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
-	},
 	"contact": {
 		"title": "vuoi piu informazioni e preventivi? scrivici!",
 		"inputs": {
@@ -416,7 +412,12 @@
 		"paragraph": "Attualmente alla scoperta di unity stiamo esplorando come mettere in pratica idee che abbiamo alla ricerca di quello che è un nostro divertimento",
 		"list": {
 			"titlelist": "non abbiamo servizi disponibili per la videoludica al momento, ma solo un insieme dei nostri progetti",
-			"bodylist": ["RTS medievali", "RTS fantesy", "spazio e tecnologia", "GDR"]
+			"bodylist": [
+                "RTS medievali", 
+                "RTS fantesy", 
+                "spazio e tecnologia", 
+                "GDR"
+            ]
 		},
 		"contact": {
 			"pre": "Per maggiori informazioni, ",
@@ -426,6 +427,10 @@
 		"cards": []
 	},
 
+    "portfolio": {
+		"title": "portfolio",
+		"subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
+	},
 	"cards_portfolio": [
 		{
 			"id": "carlolivio",

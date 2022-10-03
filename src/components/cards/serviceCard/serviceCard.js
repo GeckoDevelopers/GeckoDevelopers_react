@@ -18,7 +18,7 @@ export default function ServiceCard({data}) {
             <div className="carta_container">
                 <Link onClick={scrollUp} className="carta" to={`${data.link}`}>
                     <div className="flex">
-                        <img src={`${data.icon}`} alt="" />
+                        <img draggable="false" src={`${data.icon}`} alt="" />
                         <h3>{data.title}</h3>
                     </div>
                     <p>{data.paragrafo}</p>

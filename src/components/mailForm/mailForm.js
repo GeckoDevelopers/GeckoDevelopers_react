@@ -42,7 +42,7 @@ export default function MailForm() {
 				<div className="intestazione flex">
 					<h2>{t('contact.title')}</h2>
 					<hr />
-					<img src="./img/similmenu-white.svg" alt="" />
+					<img draggable="false" src="./img/similmenu-white.svg" alt="" />
 				</div>
 
 				<form ref={form} onSubmit={sendMail}>

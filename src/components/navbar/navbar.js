@@ -96,11 +96,11 @@ export default function Navbar() {
 						<div className="logo">
 							{location.pathname === '/' ? (
 								<a href="#home">
-									<img src="img/gecko-nav-v2.png" alt="" />
+									<img draggable="false" src="img/gecko-nav-v2.png" alt="" />
 								</a>
 							) : (
 								<Link to="/" className="carta">
-									<img src="img/gecko-nav-v2.png" alt="" />
+									<img draggable="false" src="img/gecko-nav-v2.png" alt="" />
 								</Link>
 							)}
 						</div>
@@ -111,7 +111,7 @@ export default function Navbar() {
 								<li className="nowrap" onClick={animazioneTendinaLanguages}>
 									<span id="languagesMenu">
 										{t('navbar.languages.text')}
-										<img className="flag" src={`./img/flags/${t('navbar.languages.image')}`} alt="" />
+										<img draggable="false" className="flag" src={`./img/flags/${t('navbar.languages.image')}`} alt="" />
 										<i id="caret-languages" className="fas fa-angle-down"></i>
 									</span>
 									<div className="dropdown-languages">
@@ -122,7 +122,7 @@ export default function Navbar() {
 												return (
 													<li onClick={() => changeLanguages(`${language.link}`)}>
 														{language.text}
-														<img className="flag" src={`./img/flags/${language.image}`} alt="" />
+														<img draggable="false" className="flag" src={`./img/flags/${language.image}`} alt="" />
 													</li>
 												)
 											})}

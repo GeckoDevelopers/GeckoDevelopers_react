@@ -14,7 +14,7 @@ export default function Portfoliomore() {
 				<div className="intestazione flex">
 					<h2>{t('portfolio.title')}</h2>
 					<hr />
-					<img src="./img/similmenu-green.svg" alt="" />
+					<img draggable="false" src="./img/similmenu-green.svg" alt="" />
 				</div>
 
 				<p>{t('portfolio.subtitle')}</p>

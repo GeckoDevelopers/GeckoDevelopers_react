@@ -22,7 +22,7 @@ export default function Portfolio({ slides }) {
 	// display del carosello
 	var image = [
 		<p className="img_description">{datas[imageId]?.text}</p>,
-		<img alt="immagine mancante" className="carosello" src={datas[imageId]?.image} />
+		<img draggable="false" alt="immagine mancante" className="carosello" src={datas[imageId]?.image} />
 	]
 
 	//#region funzioni
@@ -62,7 +62,7 @@ export default function Portfolio({ slides }) {
 				<div className="intestazione flex">
 					<h2>{t('portfolio.title')}</h2>
 					<hr />
-					<img src="./img/similmenu-green.svg" alt="" />
+					<img draggable="false" src="./img/similmenu-green.svg" alt="" />
 				</div>
 
 				<div className="slider">

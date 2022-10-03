@@ -29,7 +29,7 @@ export default function Services() {
                   <div className="intestazione flex">
                      <h2>{t('services.title')}</h2>
                      <hr />
-                     <img src="./img/similmenu-white.svg" alt="style" />
+                     <img draggable="false" src="./img/similmenu-white.svg" alt="style" />
                   </div>
 
                   <p>

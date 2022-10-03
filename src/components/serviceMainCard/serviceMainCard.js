@@ -20,12 +20,12 @@ export default function ServiceMainCard({ data }) {
 			<div className={`card-mover ${t(`${url}.color`)}`}>
 				<div className="card">
 					<div className="flex main-title">
-						<img src={`./img/${t(`${url}.icon`)}`} alt="" />
+						<img draggable="false" src={`./img/${t(`${url}.icon`)}`} alt="" />
 						<h2>{t(`${url}.title`)}</h2>
 					</div>
 					<p className="description">{t(`${url}.description`)}</p>
 					<div className="sidetext flex">
-						<img src="./img/img-services_content.webp" alt="" />
+						<img draggable="false" src="./img/img-services_content.webp" alt="" />
 						<div className="text">
 							<hr />
 							<h2>{t(`${url}.subtitle`)}</h2>

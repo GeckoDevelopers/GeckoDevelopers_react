@@ -12,7 +12,7 @@ export default function AboutUsCard({ data }) {
 		<section id="aboutUsCard" className={`${data.color}`}>
 			<div className="carta_container">
 				<div className="carta">
-					<img src={`./img/portrait/${data.image}`} alt="" />
+					<img draggable="false" src={`./img/portrait/${data.image}`} alt="" />
 					<div className="flex">
 						<h3>{data.title}</h3>
 						<p>{data.paragrafo}</p>

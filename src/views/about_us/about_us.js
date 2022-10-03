@@ -14,14 +14,14 @@ export default function AboutUs() {
 				<div className="intestazione flex">
 					<h2>{t('about.title')}</h2>
 					<hr />
-					<img src="./img/similmenu-green.svg" alt="" />
+					<img draggable="false" src="./img/similmenu-green.svg" alt="" />
 				</div>
 
 				<p>{t('about.subtitle')}</p>
 
 				<div className="cards">
-					<img className="imgdesk" src="./img/img-about_us.webp" alt="" />
-					<img className="imgmobile" src="./img/about_us-large.webp" alt="" />
+					<img draggable="false" className="imgdesk" src="./img/img-about_us.webp" alt="" />
+					<img draggable="false" className="imgmobile" src="./img/about_us-large.webp" alt="" />
 				</div>
 			</div>
 

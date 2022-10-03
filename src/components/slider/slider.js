@@ -16,7 +16,7 @@ export default function Slider({ data }) {
    // display del carosello
    var image = [
       <p className="img_description">{datas[imageId]?.text}</p>,
-      <img alt="immagine mancante" className="carosello" src={datas[imageId]?.image} />
+      <img draggable="false" alt="immagine mancante" className="carosello" src={datas[imageId]?.image} />
    ]
 
    //#region funzioni

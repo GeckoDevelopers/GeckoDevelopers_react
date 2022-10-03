@@ -15,9 +15,9 @@ export default function PortfolioCard({ data }) {
 		<section id="portfolioCard" className={`${data.color}`}>
 			<div className="carta_container">
 				<a target="_blank" href={`${data.link}`} className="carta">
-					<img src={`./img/portrait/${data.image1}`} alt="" />
-					<img src={`./img/portrait/${data.image2}`} alt="" />
-					<img src={`./img/portrait/${data.image3}`} alt="" />
+					<img draggable="false" src={`./img/portrait/${data.image1}`} alt="" />
+					<img draggable="false" src={`./img/portrait/${data.image2}`} alt="" />
+					<img draggable="false" src={`./img/portrait/${data.image3}`} alt="" />
 					<div className="flex">
 						<h3>{data.title}</h3>
 						<p>{data.paragrafo}</p>

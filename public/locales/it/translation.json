@@ -66,7 +66,7 @@
 		{
 			"id": "creationapp",
 			"title": "creazione app",
-			"link": "/creation_app"
+			"link": "/app"
 		},
 		{
 			"id": "videoludica",
@@ -173,7 +173,7 @@
 			"paragrafo": "Oggi tutto passa per il telefono e avere un'applicazione può essere uno strumento utile nell’essere un passo avanti nell’assistenza al cliente",
 			"color": "full_gray",
 			"icon": "services icon",
-			"link": "/creation_app"
+			"link": "/app"
 		},
 		{
 			"id": "card_games",
@@ -366,8 +366,9 @@
 		"cards": []
 	},
 
-	"socialmedia": {
+	"social_media_management": {
 		"title": "social media management",
+        "icon": "",
 		"description": "Se un sito è il porto, il social media non può che essere il faro nella notte che sia per fare pubblicità o raggiungere velocemente i tuoi follower con le ultime news un social è il mezzo ideale per trasmettere offerte, promozioni e accattivare followers e potenziali clienti avere un social significa avere la possibilità di prendere grande visione online",
 		"subtitle": "Piani & strategie",
 		"paragraph": "Dalla creazione del profilo alla sua manutenzione e la creazione e pianificazione dei suoi post sarete seguiti dai nostri esperti",
@@ -391,6 +392,7 @@
 
 	"app": {
 		"title": "creazione app",
+        "icon": "",
 		"description": "Un’applicazione per raggiungere in modo interattivo l’utente finale, che sia singola o legata a un sito web, è il modo migliore di gestire la visibilità interattiva legata al traffico di dati, informazioni e notifiche.",
 		"subtitle": "Piani & strategie",
 		"paragraph": "Una valutazione corretta di come e se usare un'applicazione per cellulari può essere la scelta strategica che fa la differenza. Un sito con un grande afflusso di persone che creano aree private, social o un marketplace possono trarre un grande vantaggio da un applicazione, al contrario di un'app sviluppata per la sola visualizzazione non ha un grande impatto strategico",
@@ -408,6 +410,7 @@
 
 	"videoludica": {
 		"title": "Videoludica",
+        "icon": "",
 		"description": "Nella nostra sezione di videoludica ci occupiamo di quella che è l’ideazione, creazione e sviluppo di un videogioco, che sia per fare dei test o per divertirsi o per studiare un nuovo linguaggio e in futuro per sviluppare idee per giochi creati da noi. Questo è un nostro progetto che è attualmente in sviluppo per nostra passione",
 		"subtitle": "Piani & strategie",
 		"paragraph": "Attualmente alla scoperta di unity stiamo esplorando come mettere in pratica idee che abbiamo alla ricerca di quello che è un nostro divertimento",

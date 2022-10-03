@@ -37,7 +37,7 @@ ReactDOM.render(
 				<Route path="/about_us" element={<AboutUs />} />
 				<Route path="/test" element={<ServiceMainCard />} />
 				<Route path="/videoludica" element={<ServiceMainCard />} />
-				<Route path="/creation_app" element={<ServiceMainCard />} />
+				<Route path="/app" element={<ServiceMainCard />} />
 				<Route path="/social_media_management" element={<ServiceMainCard />} />
 			</Routes>
 			<Footer />

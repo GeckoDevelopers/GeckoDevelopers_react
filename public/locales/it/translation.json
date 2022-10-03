@@ -83,10 +83,14 @@
 		"title": "Chi siamo",
 		"subtitle": "Siamo un gruppo di professionisti che si sono uniti per costruire un ambiente lavorativo ottimale basato sulla qualità dell’ambiente lavorativo stesso e sulla qualità dei nostri prodotti. Il nostro obiettivo è diventare un vero e proprio punto di riferimento per aziende, professionisti e privati, per una visibilità completa su Internet e molto altro! Vogliamo crescere e siamo alla ricerca di talenti come programmatori senior, sviluppatori di app, personale addetto al marketing e, anche se non dovremmo ancora parlarne, forse a lungo termine anche per lo sviluppo di videogiochi. Se desideri conoscere la nostra realtà non esitare a contattarci sulla nostra email qui sotto e ad inviarci il tuo curriculum!"
 	},
+
 	"services": {
 		"title": "Servizi",
 		"paragrafo1": "Operiamo in vari campi e con vari servizi. Questi sono alcuni dei nostri servizi più richiesti, scelti fra la nostra gamma di offerte al dettaglio che variano in molti campi fino alla videoludica."
 	},
+    "services_description": "Per scoprire tutti i nostri servizi",
+	"services_link": "Clicca qui!",
+
 	"portfolio": {
 		"title": "portfolio",
 		"subtitle": "Di seguito troverete alcuni nostri lavori, svolti dal nostro staff, così potrete avere un’idea del range delle possibilità del nostro lavoro e di quello che potreste ottenere per il vostro sito"
@@ -108,8 +112,6 @@
 	},
 
 	"card_view_more": "scopri...",
-	"services_description": "Per scoprire tutti i nostri servizi",
-	"services_link": "Clicca qui!",
 
 	"cards_service": [
 		{
@@ -195,8 +197,8 @@
 	],
 
 	"servizi_mainpage": {
-		"paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua presenza digitale, Gecko Developers ti accompagna in ogni fase del percorso. Il nostro compito? Assicurarci che tutto proceda senza intoppi e nel modo in cui desideri.",
-		"paragrafo2": "Scegli uno o più dei nostri servizi, trova l’offerta che più si adatta alle tue esigenze."
+		"paragrafo1": "Gecko Developers ti offre un’ampia gamma di servizi che ti aiuteranno a realizzare un sito web che risponda alle tue esigenze. Il design iniziale, la creazione di contenuti, lo sviluppo della tua identità digitale, Gecko Developers ti accompagna in ogni fase del percorso.",
+		"paragrafo2": "Molti dei nostri servizi sono fruibili singolarmente ma anche interconnessi fra di loro in modo da trovare l’opzione migliore per le vostre esigenze. Scegli la combinazione migliore per te e iniziamo il lavoro!"
 	},
 
 	"full": {
@@ -231,7 +233,11 @@
 		"paragraph": "Mostrare il tuo contenuto attraverso un sito web aiuta ad aumentare la tua credibilità sul mercato apparendo più professionale ai tuoi clienti, fan, follower ed eventuali collaboratori.",
 		"list": {
 			"titlelist": "Attraverso i nostri sviluppatori esperti ti offriamo una creazione di siti web con differenti livelli di interattività a seconda dei tuoi bisogni e necessità",
-			"bodylist": ["siti vetrina a pagina singola", "siti multi pagina", "livelli base di interattività"]
+			"bodylist": [
+                "siti vetrina a pagina singola",
+                "siti multi pagina",
+                "livelli base di interattività"
+            ]
 		},
 		"contact": {
 			"pre": "Per maggiori informazioni, ",

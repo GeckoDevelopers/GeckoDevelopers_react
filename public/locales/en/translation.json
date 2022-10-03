@@ -95,6 +95,7 @@
 		"title": "NEED MORE INFORMATION AND ESTIMATE?",
 		"inputs": {
 			"name": "Name",
+            "namevalidation": "3 characters minimum",
 			"email": "E-mail",
 			"subject": "Subject",
 			"message": "Message"

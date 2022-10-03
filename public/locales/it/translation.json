@@ -99,6 +99,7 @@
 		"title": "vuoi piu informazioni e preventivi? scrivici!",
 		"inputs": {
 			"name": "Nome",
+            "namevalidation": "Minimo 3 caratteri",
 			"email": "E-mail",
 			"subject": "Oggetto",
 			"messagge": "Messaggio"

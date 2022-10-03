@@ -49,21 +49,21 @@ export default function MailForm() {
 					<div className="sinistra">
 						<div className="input_label">
 							<label htmlFor="fname">{t('contact.inputs.name')}</label>
-							<input type="text" name="nome" />
+							<input type="text" name="nome" required pattern=".{3,}" title={t('contact.inputs.namevalidation')} />
 						</div>
 						<div className="input_label">
 							<label htmlFor="email">{t('contact.inputs.email')}</label>
-							<input type="email" name="email" placeholder={t('contact.placeholderemail')} />
+							<input type="email" name="email" placeholder={t('contact.placeholderemail')} required />
 						</div>
 						<div className="input_label">
 							<label htmlFor="subject">{t('contact.inputs.subject')}</label>
-							<input type="text" name="oggetto" />
+							<input type="text" name="oggetto" required />
 						</div>
 					</div>
 
 					<div className="corpo-email">
 						<label htmlFor="subject">{t('contact.inputs.message')}</label>
-						<textarea rows="12" cols="12" name="message" placeholder={t('contact.placeholdermsg')}></textarea>
+						<textarea rows="12" cols="12" name="message" placeholder={t('contact.placeholdermsg')} required></textarea>
 					</div>
 
 					<div className="sotto">

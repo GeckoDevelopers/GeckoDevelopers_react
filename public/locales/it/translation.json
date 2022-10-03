@@ -174,7 +174,7 @@
 			"paragrafo": "Oggi tutto passa per il telefono e avere un'applicazione può essere uno strumento utile nell’essere un passo avanti nell’assistenza al cliente",
 			"color": "full_gray",
 			"icon": "services icon",
-			"link": "/broke"
+			"link": "/creation_app"
 		},
 		{
 			"id": "card_games",
@@ -182,7 +182,7 @@
 			"paragrafo": "Come passione portiamo avanti quella per i videogiochi, che siano semplici o complessi",
 			"color": "individuals_el_green",
 			"icon": "services icon",
-			"link": "/broke"
+			"link": "/videoludica"
 		},
 		{
 			"id": "card_socialmedia",
@@ -190,7 +190,7 @@
 			"paragrafo": "Se un sito è il porto, il social media non può che essere il faro nella notte",
 			"color": "design_dk_green",
 			"icon": "services icon",
-			"link": "/broke"
+			"link": "/social_media_management"
 		}
 	],
 
@@ -363,7 +363,7 @@
 		"cards": []
 	},
 
-    "socialmedia": {
+	"socialmedia": {
 		"title": "social media management",
 		"description": "Se un sito è il porto, il social media non può che essere il faro nella notte che sia per fare pubblicità o raggiungere velocemente i tuoi follower con le ultime news un social è il mezzo ideale per trasmettere offerte, promozioni e accattivare followers e potenziali clienti avere un social significa avere la possibilità di prendere grande visione online",
 		"subtitle": "Piani & strategie",
@@ -371,12 +371,12 @@
 		"list": {
 			"titlelist": "Il social management include:",
 			"bodylist": [
-                "creazione account dei vari social media",
-                "gestione e pubblicazione post",
-                "controllo dei messaggi",
-                "risposte a commenti e menzioni",
-                "interazioni con i followers"
-            ]
+				"creazione account dei vari social media",
+				"gestione e pubblicazione post",
+				"controllo dei messaggi",
+				"risposte a commenti e menzioni",
+				"interazioni con i followers"
+			]
 		},
 		"contact": {
 			"pre": "Per maggiori informazioni, ",
@@ -403,8 +403,8 @@
 		"cards": []
 	},
 
-    "videoludica": {
-		"title": "creazione app",
+	"videoludica": {
+		"title": "Videoludica",
 		"description": "Nella nostra sezione di videoludica ci occupiamo di quella che è l’ideazione, creazione e sviluppo di un videogioco, che sia per fare dei test o per divertirsi o per studiare un nuovo linguaggio e in futuro per sviluppare idee per giochi creati da noi. Questo è un nostro progetto che è attualmente in sviluppo per nostra passione",
 		"subtitle": "Piani & strategie",
 		"paragraph": "Attualmente alla scoperta di unity stiamo esplorando come mettere in pratica idee che abbiamo alla ricerca di quello che è un nostro divertimento",

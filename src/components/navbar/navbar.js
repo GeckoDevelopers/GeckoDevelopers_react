@@ -120,7 +120,7 @@ export default function Navbar() {
 											{t('languages', { returnObjects: true }).map((language, i) => {
 												// Return the element. Also pass key
 												return (
-													<li onClick={() => changeLanguages(`${language.link}`)}>
+													<li onClick={() => changeLanguages(`${language.link}`)} key={i}>
 														{language.text}
 														<img draggable="false" className="flag" src={`./img/flags/${language.image}`} alt="" />
 													</li>
@@ -148,7 +148,7 @@ export default function Navbar() {
 											{t('minimenuservizi', { returnObjects: true }).map((card, i) => {
 												// Return the element. Also pass key
 												return (
-													<li onClick={closeMenudaiLink}>
+													<li onClick={closeMenudaiLink} key={i}>
 														/<Link to={card.link}>{card.title}</Link>
 													</li>
 												)

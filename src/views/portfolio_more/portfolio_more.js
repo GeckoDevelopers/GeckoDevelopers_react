@@ -22,7 +22,7 @@ export default function Portfoliomore() {
 				<div className="riga">
 					{cards_portfolio.map((card, i) => {
 						// Return the element. Also pass key
-						return <PortfolioCard key={card.id} data={card} />
+						return <PortfolioCard key={i} data={card} />
 					})}
 				</div>
 			</div>

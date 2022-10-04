@@ -37,7 +37,7 @@ export default function ServiceMainCard({ data }) {
 						{t(`${url}.list.bodylist`, { returnObjects: true }).map((e, i) => {
 							// Return the element. Also pass key
 							return (
-								<li>
+								<li key={i}>
 									<i className="fas fa-caret-right"></i>
 									{e}
 								</li>
@@ -53,11 +53,11 @@ export default function ServiceMainCard({ data }) {
 				</div>
 			</div>
 
-			<div class="cards">
+			<div className="cards">
 				{portfolioCards.length !== 0
 					? portfolioCards.map((card, i) => {
 							// Return the element. Also pass key
-							return <SingleServiceCard key={card.id} data={card} />
+							return <SingleServiceCard key={i} data={card} />
 					  })
 					: ''}
 			</div>

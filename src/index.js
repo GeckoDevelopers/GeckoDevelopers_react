@@ -17,7 +17,6 @@ import Portfoliomore from './views/portfolio_more/portfolio_more'
 
 // import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// const rootElement = document.getElementById("root");
 
 ReactDOM.render(
 	<Suspense fallback={<div>Loading ~~~</div>}>

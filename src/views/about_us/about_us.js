@@ -29,7 +29,7 @@ export default function AboutUs() {
 				<div className="riga">
 					{cards_abaut_us.map((card, i) => {
 						// Return the element. Also pass key
-						return <AboutUsCard key={card.id} data={card} />
+						return <AboutUsCard key={i} data={card} />
 					})}
 				</div>
 			</div>

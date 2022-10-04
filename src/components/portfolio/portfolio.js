@@ -16,7 +16,7 @@ export default function Portfolio({ slides }) {
 	// dots fra version
 	var dots = [];
 	for (let i = 0; i < datas.length; i++) {
-		dots.push(<div className={(imageId === i) ? "active dot" : "dot"} onClick={() => setImageById(i)}></div>);
+		dots.push(<div className={(imageId === i) ? "active dot" : "dot"} onClick={() => setImageById(i)} key={i}></div>);
 	}
 
 	// display del carosello

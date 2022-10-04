@@ -7,34 +7,32 @@ import SingleServiceCard from '../cards/singleServiceCard/singleServiceCard'
 export default function ServiceMainCard({ data }) {
 	const { t } = useTranslation()
 
-	var url = window.location.href.split('/').pop()
-
 	//traduzione della riga seguente: cicla cards_portfolio e seleziona le card da mostrare
 	//in base all'id delle cards dell singolo servizio
     //ricordarsi di mettere un id univoco hai portfolio
 	var portfolioCards = t(`cards_portfolio`, { returnObjects: true })
-        .filter(card => t(`${url}.cards`, { returnObjects: true }).includes(card.id))
+        .filter(card => data.cards.includes(card.id))
 
 	return (
-		<section id="serviceMainCard" className={`container-services ${t(`${url}.color`)}`}>
-			<div className={`card-mover ${t(`${url}.color`)}`}>
+		<section id="serviceMainCard" className={`container-services ${data.color}`}>
+			<div className={`card-mover ${data.color}`}>
 				<div className="card">
 					<div className="flex main-title">
-						<img draggable="false" src={`./img/${t(`${url}.icon`)}`} alt="" />
-						<h2>{t(`${url}.title`)}</h2>
+						<img draggable="false" src={`./img/${data.icon}`} alt="" />
+						<h2>{data.title}</h2>
 					</div>
-					<p className="description">{t(`${url}.description`)}</p>
+					<p className="description">{data.description}</p>
 					<div className="sidetext flex">
 						<img draggable="false" src="./img/img-services_content.webp" alt="" />
 						<div className="text">
 							<hr />
-							<h2>{t(`${url}.subtitle`)}</h2>
-							<p>{t(`${url}.paragraph`)}</p>
+							<h2>{data.subtitle}</h2>
+							<p>{data.paragraph}</p>
 						</div>
 					</div>
-					<p>{t(`${url}.list.titlelist`, { returnObjects: true })}</p>
+					<p>{data.list.titlelist}</p>
 					<ul>
-						{t(`${url}.list.bodylist`, { returnObjects: true }).map((e, i) => {
+						{data.list.bodylist.map((e, i) => {
 							// Return the element. Also pass key
 							return (
 								<li key={i}>
@@ -45,9 +43,9 @@ export default function ServiceMainCard({ data }) {
 						})}
 					</ul>
 					<p>
-						{t(`${url}.contact.pre`)}
-						<a id="get-touch" className={`${t(`${url}.color`)}`} href="./#contacts">
-							{t(`${url}.contact.link`)}
+						{data.contact.pre}
+						<a id="get-touch" className={`${data.color}`} href="./#contacts">
+							{data.contact.link}
 						</a>
 					</p>
 				</div>

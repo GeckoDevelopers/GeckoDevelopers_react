@@ -71,7 +71,7 @@ export default function MailForm() {
 							<span>{t('contact.privacy')}</span>
 							<br />
 						</div>
-						<input type="submit" value={t('contact.send')} />
+						<button>{t('contact.send')}</button>
 					</div>
 				</form>
 				<h2 className="email-sended">{emailSended ? `${t('contact.emailsended')}` : ''}</h2>

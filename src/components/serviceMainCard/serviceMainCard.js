@@ -9,9 +9,8 @@ export default function ServiceMainCard({ data }) {
 
 	//traduzione della riga seguente: cicla cards_portfolio e seleziona le card da mostrare
 	//in base all'id delle cards dell singolo servizio
-    //ricordarsi di mettere un id univoco hai portfolio
-	var portfolioCards = t(`cards_portfolio`, { returnObjects: true })
-        .filter(card => data.cards.includes(card.id))
+	//ricordarsi di mettere un id univoco hai portfolio
+	var portfolioCards = t(`cards_portfolio`, { returnObjects: true }).filter(card => data.cards.includes(card.id))
 
 	return (
 		<section id="serviceMainCard" className={`container-services ${data.color}`}>

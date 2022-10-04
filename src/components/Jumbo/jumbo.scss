@@ -1,187 +1,182 @@
-@import "./src/variabili.scss";
+@import './src/variabili.scss';
 
 .jumbo {
-  // height: 60vh;
-  background-image: url("../../../public/img/jumbo_img.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+	// height: 60vh;
+	background-image: url('../../../public/img/jumbo_img.webp');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
-  .container-custom {
-    // justify-content: center;
-    margin-top: 23vh;
-    
-    flex-direction: column;
-    color: $white;
+	.container-custom {
+		// justify-content: center;
+		height: 400px;
+		justify-content: center;
+		margin-top: 100px;
+		flex-direction: column;
+		color: $white;
 
-    .jumbo-title {
-      h1 {
-        // width: 80%; 
-        font-family: $font-titolo;
-        font-size: $titolo_jumbo;
-        letter-spacing: $title-spacing;
-      }
-    }
+		.jumbo-title {
+			h1 {
+				// width: 80%;
+				font-family: $font-titolo;
+				font-size: $titolo_jumbo;
+				letter-spacing: $title-spacing;
+			}
+		}
 
-    .divider {
-      width: 50%;
-      height: 2.2px;
-      
-      margin: 22px 0;
-      
-      display: flex;
+		.divider {
+			width: 50%;
+			height: 2.2px;
 
-      div {
-        width: calc(100% / 8);
-        height: 100%;
-      }
+			margin: 22px 0;
 
-      .red {
-        background-color: $red;
-      }
+			display: flex;
 
-      .orange {
-        background-color: $orange;
-      }
+			div {
+				width: calc(100% / 8);
+				height: 100%;
+			}
 
-      .yellow {
-        background-color: $yellow;
-      }
+			.red {
+				background-color: $red;
+			}
 
-      .white {
-        background-color: $white;
-      }
+			.orange {
+				background-color: $orange;
+			}
 
-      .light-green {
-        background-color: $light-green;
-      }
+			.yellow {
+				background-color: $yellow;
+			}
 
-      .green {
-        background-color: $green;
-      }
+			.white {
+				background-color: $white;
+			}
 
-      .dark-green {
-        background-color: $dark-green;
-      }
+			.light-green {
+				background-color: $light-green;
+			}
 
-      .gray {
-        background-color: $gray;
-      }
-    }
+			.green {
+				background-color: $green;
+			}
 
-    .jumbo-subtitle {
-      width: 50%;
+			.dark-green {
+				background-color: $dark-green;
+			}
 
-      h3 {
-        font-size: $paragrafi_sezioni;
-        margin-bottom: 50px;
-        
-      }
-    }
-  }
+			.gray {
+				background-color: $gray;
+			}
+		}
+
+		.jumbo-subtitle {
+			width: 50%;
+
+			h3 {
+				font-size: $paragrafi_sezioni;
+				margin-bottom: 50px;
+			}
+		}
+	}
 }
 
 @media all and (max-width: 1024px) {
-  .jumbo {
-    .container-custom {
-      .jumbo-title {
-        h1 {
-          font-size: 43px;
-          
-        }
-      }
+	.jumbo {
+		.container-custom {
+			.jumbo-title {
+				h1 {
+					font-size: 43px;
+				}
+			}
 
-      .divider {
-        width: 60%;
-        margin: 30px 0;
-      }
+			.divider {
+				width: 60%;
+				margin: 30px 0;
+			}
 
-      .jumbo-subtitle {
-        width: 60%;
+			.jumbo-subtitle {
+				width: 60%;
 
-        h3 {
-          font-size: $paragrafi_sezioni_S;
-          
-        }
-      }
-    }
-  }
+				h3 {
+					font-size: $paragrafi_sezioni_S;
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 920px) {
-  .jumbo {
-    .container-custom {
-      margin-top: 21vh;
+	.jumbo {
+		.container-custom {
+			height: 500px;
+			margin-top: 100px;
 
-      
-      .jumbo-title {
-        h1 {
-          width: 90%;
-          
-          font-size: 40px;
-          
-        }
-      }
+			.jumbo-title {
+				h1 {
+					width: 90%;
 
-      .divider {
-        width: 70%;
-        margin: 30px 0;
-      }
+					font-size: 40px;
+				}
+			}
 
-      .jumbo-subtitle {
-        width: 70%;
-      }
-    }
-  }
+			.divider {
+				width: 70%;
+				margin: 30px 0;
+			}
+
+			.jumbo-subtitle {
+				width: 70%;
+			}
+		}
+	}
 }
 
 @media all and (max-width: 576px) {
-  .jumbo {
-    .container-custom {
-      margin-top: 18vh;
+	.jumbo {
+		.container-custom {
+			height: 500px;
+			margin-top: 100px;
 
-      
-      .jumbo-title {
-        h1 {
-          width: 95%;
-          
-          font-size: 36px;
-          
-        }
-      }
+			.jumbo-title {
+				h1 {
+					width: 95%;
 
-      .divider {
-        width: 80%;
-        margin: 30px 0;
-      }
+					font-size: 36px;
+				}
+			}
 
-      .jumbo-subtitle {
-        width: 85%;
-        
-      }
-    }
-  }
+			.divider {
+				width: 80%;
+				margin: 30px 0;
+			}
+
+			.jumbo-subtitle {
+				width: 85%;
+			}
+		}
+	}
 }
 
 @media all and (max-width: 450px) {
-  .jumbo {
-    .container-custom {
-      .jumbo-title {
-        h1 {
-          width: 100%;
-          
-          font-size: 33px;
-        }
-      }
+	.jumbo {
+		.container-custom {
+			.jumbo-title {
+				h1 {
+					width: 100%;
 
-      .divider {
-        width: 98%;
-        margin: 20px auto;
-      }
+					font-size: 33px;
+				}
+			}
 
-      .jumbo-subtitle {
-        width: 100%;
-      }
-    }
-  }
+			.divider {
+				width: 98%;
+				margin: 20px auto;
+			}
+
+			.jumbo-subtitle {
+				width: 100%;
+			}
+		}
+	}
 }

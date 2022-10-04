@@ -1,142 +1,134 @@
-@import "./src/variabili.scss";
+@import './src/variabili.scss';
 
 #servizi_main {
-  background-color: $green;
-  color: $white;
-  padding: 100px 0 32px 0;
-  
-  position: relative; //per l'anchor link
-  overflow: hidden;
+	background-color: $green;
+	color: $white;
+	padding: 100px 0 32px 0;
 
-  .container-custom {
-    .riga {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+	position: relative; //per l'anchor link
+	overflow: hidden;
 
-      .col-md-8 {
-        // leva padding
-        padding-left: 0;
-        
-        padding-right: 15px;
-        
-        width: calc(100% / 3 * 2 - 1%);
+	.container-custom {
+		.riga {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
 
-        .intestazione {
-          // margini titolo sezione
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 42px;
+			.col-md-8 {
+				// leva padding
+				padding-left: 0;
 
-          
-          h2 {
-            // scritta SERVICES e margini
-            font-size: $titoli_sezioni;
-            letter-spacing: $letter-spacing;
-            margin-right: 40px;
-            
-          }
+				padding-right: 15px;
 
-          hr {
-            // line
-            width: 100%;
-            background-color: $white;
-            margin: 0;
-          }
+				width: calc(100% / 3 * 2 - 1%);
 
-          img {
-            // 5 slash dx
-            height: 21px;
-            
-            margin-left: 40px;
-            
-          }
-        }
+				.intestazione {
+					// margini titolo sezione
+					justify-content: space-between;
+					align-items: center;
+					margin-bottom: 42px;
 
-        p {
-          column-count: 2;
-          
-          column-gap: 40px;
-          
-          // font sezione
-          font-size: $paragrafi_sezioni;
-          line-height: 24px;
-          text-align: justify;
-          // margin-bottom: 36px;
-        }
-      }
-    }
-  }
+					h2 {
+						// scritta SERVICES e margini
+						font-size: $titoli_sezioni;
+						letter-spacing: $letter-spacing;
+						margin-right: 40px;
+					}
+
+					hr {
+						// line
+						width: 100%;
+						background-color: $white;
+						margin: 0;
+					}
+
+					img {
+						// 5 slash dx
+						height: 21px;
+
+						margin-left: 40px;
+					}
+				}
+
+				p {
+					column-count: 2;
+
+					column-gap: 40px;
+
+					// font sezione
+					font-size: $paragrafi_sezioni;
+					line-height: 24px;
+					// margin-bottom: 36px;
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 1024px) {
-  #services {
-    .container-custom {
-      .riga {
-        .col-md-8 {
-          // meno padding
-          padding-right: 8px;
+	#services {
+		.container-custom {
+			.riga {
+				.col-md-8 {
+					// meno padding
+					padding-right: 8px;
 
-          
-          p {
-            column-count: 2;
-            
-            column-gap: 25px;
-            
-            // font sezione
-            font-size: $paragrafi_sezioni_S;
-            
-            line-height: 24px;
-            
-            margin-bottom: 34px;
-            
-          }
-        }
-      }
-    }
-  }
+					p {
+						column-count: 2;
+
+						column-gap: 25px;
+
+						// font sezione
+						font-size: $paragrafi_sezioni_S;
+
+						line-height: 24px;
+
+						margin-bottom: 34px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 767px) {
-  // ERRORE!!! sistemato da cani da me
-  #services {
-    .container-custom {
-      .riga {
-        flex-wrap: wrap;
+	// ERRORE!!! sistemato da cani da me
+	#services {
+		.container-custom {
+			.riga {
+				flex-wrap: wrap;
 
-        .col-md-8 {
-          // leva padding
-          padding-right: 0px;
-          
-          width: 100%;
+				.col-md-8 {
+					// leva padding
+					padding-right: 0px;
 
-          p {
-            column-count: 1;
-            
-          }
-        }
-      }
-    }
-  }
+					width: 100%;
+
+					p {
+						column-count: 1;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media all and (max-width: 480px) {
-  #services {
-    .container-custom {
-      .riga {
-        .col-md-8 {
-          // leva padding
-          padding-right: 0px;
-          
-        }
-      }
-    }
-  }
+	#services {
+		.container-custom {
+			.riga {
+				.col-md-8 {
+					// leva padding
+					padding-right: 0px;
+				}
+			}
+		}
+	}
 }
 
 //uppercare dei box
 .flex h3 {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 //uppercare dei box

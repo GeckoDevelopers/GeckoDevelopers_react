@@ -151,3 +151,155 @@
 		}
 	}
 }
+
+// #services {
+// 	background-color: $green;
+// 	color: $white;
+// 	padding: 47px 0 32px 0;
+
+// 	position: relative; //per l'anchor link
+// 	overflow: hidden;
+
+// 	h2 {
+// 		text-transform: uppercase;
+// 	}
+
+// 	.container-custom {
+// 		.riga {
+// 			display: flex;
+// 			flex-wrap: wrap;
+// 			justify-content: space-between;
+
+// 			.col-md-8 {
+// 				// leva padding
+// 				padding-left: 0;
+// 				padding-right: 15px;
+// 				padding-bottom: 33px;
+// 				width: calc(100% / 3 * 2 - 1%);
+// 				.intestazione {
+// 					// margini titolo sezione
+// 					justify-content: space-between;
+// 					align-items: center;
+// 					margin-bottom: 42px;
+
+// 					h2 {
+// 						// scritta SERVICES e margini
+// 						font-size: $titoli_sezioni;
+// 						letter-spacing: $letter-spacing;
+// 						margin-right: 40px;
+// 					}
+
+// 					hr {
+// 						// line
+// 						width: 100%;
+// 						background-color: $white;
+// 						margin: 0;
+// 					}
+
+// 					img {
+// 						// 5 slash dx
+// 						height: 21px;
+
+// 						margin-left: 40px;
+// 					}
+// 				}
+
+// 				p {
+// 					/*  column-count: 2;
+
+//           column-gap: 40px; */
+
+// 					// font sezione
+// 					font-size: $paragrafi_sezioni;
+
+// 					line-height: 24px;
+
+// 					// margin-bottom: 36px;
+// 				}
+// 				span {
+// 					// button card
+// 					padding-top: 0.4%;
+// 					padding-right: 1.5%;
+// 					padding-bottom: 0.4%;
+// 					padding-left: 1.4%;
+// 					color: $dark-green;
+// 					background-color: $white;
+// 					margin-left: 1.5%;
+// 					a {
+// 						font-size: 18px;
+// 					}
+
+// 					/* z-index: 0; */
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.line_break {
+// 		display: none;
+// 	}
+// }
+
+// @media all and (max-width: 1024px) {
+// 	#services {
+// 		.container-custom {
+// 			.riga {
+// 				.col-md-8 {
+// 					// meno padding
+// 					padding-right: 8px;
+
+// 					p {
+// 						column-count: 2;
+// 						column-gap: 25px;
+// 						// font sezione
+// 						font-size: $paragrafi_sezioni_S;
+// 						line-height: 24px;
+// 						margin-bottom: 34px;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+// @media all and (max-width: 767px) {
+// 	// ERRORE!!! sistemato da cani da me
+// 	#services {
+// 		.container-custom {
+// 			.riga {
+// 				flex-wrap: wrap;
+
+// 				.col-md-8 {
+// 					// leva padding
+// 					padding-right: 0px;
+
+// 					width: 100% !important;
+
+// 					p {
+// 						column-count: 1 !important;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.line_break {
+// 			display: block;
+// 		}
+// 	}
+// }
+
+// @media all and (max-width: 480px) {
+// 	#services {
+// 		.container-custom {
+// 			.riga {
+// 				.col-md-8 {
+// 					// leva padding
+// 					padding-right: 0px !important;
+// 					width: 100% !important;
+// 					margin-bottom: 40px;
+// 				}
+// 			}
+// 		}
+// 		.line_break {
+// 			display: block;
+// 		}
+// 	}
+// }

@@ -65,7 +65,7 @@ export default function MailForm() {
 						<label htmlFor="subject">{t('contact.inputs.message')}</label>
 						<textarea rows="12" cols="12" name="message" placeholder={t('contact.placeholdermsg')} required></textarea>
 					</div>
-
+					<h2 className="email-sended">{emailSended ? `${t('contact.emailsended')}` : ''}</h2>
 					<div className="sotto">
 						<div className="privacy">
 							<span>{t('contact.privacy')}</span>
@@ -74,7 +74,7 @@ export default function MailForm() {
 						<button>{t('contact.send')}</button>
 					</div>
 				</form>
-				<h2 className="email-sended">{emailSended ? `${t('contact.emailsended')}` : ''}</h2>
+				
 				<p className="more-contacts">
 					{t('contact.findushere')}
 					<span>info@geckodevelopers.com</span>

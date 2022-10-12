@@ -34,12 +34,12 @@ export default function Services() {
 						<br />
 						<p>
 							{t('services_description')}
+						</p>
 							<span>
 								<Link onClick={scrollUp} to="/servizi_mainpage">
 									{t('services_link')}
 								</Link>
 							</span>
-						</p>
 					</div>
 					{cardsService.map((card, i) => {
 						// Return the element. Also pass key

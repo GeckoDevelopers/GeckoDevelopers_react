@@ -135,8 +135,7 @@
                 .privacy {
                     display: flex;
                     flex-wrap: nowrap;
-                    margin-top: 13px;
-                    margin-bottom: 22px;
+                    margin-bottom: 10px;
                 }
 
                 button {
@@ -153,6 +152,8 @@
 
         .email-sended {
             margin-top: 15px;
+            color: $gray;
+            padding: 12px;
         }
 
         .more-contacts {

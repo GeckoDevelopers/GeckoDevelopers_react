@@ -6,6 +6,7 @@ export default function Footer() {
 	const { t } = useTranslation();
 
 	const location = useLocation();
+	
 
 	// var classeee = location.pathname === "/" ? "grigiastro" : "verdastro" // funziona anche cosi
 	return (

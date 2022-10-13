@@ -108,12 +108,17 @@
 	}
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
 	// ERRORE!!! sistemato da cani da me
 	#servizi_main {
 		.container-custom {
+			
 			.riga {
 				flex-wrap: wrap;
+
+				#serviceCard{
+					width: 48%;
+				}
 
 				.col-md-8 {
 					// leva padding
@@ -137,6 +142,9 @@
 	#servizi_main {
 		.container-custom {
 			.riga {
+				#serviceCard{
+					width: 100%;
+				}
 				.col-md-8 {
 					// leva padding
 					padding-right: 0px !important;
@@ -264,7 +272,7 @@
 // 	}
 // }
 
-// @media all and (max-width: 767px) {
+// @media all and (max-width: 768px) {
 // 	// ERRORE!!! sistemato da cani da me
 // 	#services {
 // 		.container-custom {

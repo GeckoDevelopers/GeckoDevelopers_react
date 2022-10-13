@@ -12,6 +12,13 @@ export default function ServiceMainCard({ data }) {
 	//ricordarsi di mettere un id univoco hai portfolio
 	var portfolioCards = t(`cards_portfolio`, { returnObjects: true }).filter(card => data.cards.includes(card.id))
 
+
+
+
+//VIEW DEI SERVIZI SINGOLI
+
+
+
 	return (
 		<section id="serviceMainCard" className={`container-services ${data.color}`}>
 			<div className={`card-mover ${data.color}`}>
